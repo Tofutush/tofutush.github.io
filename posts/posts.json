@@ -1,5 +1,5 @@
 {
     "layout": "layout.liquid",
     "tags": ["posts"],
-    "permalink": "post/{{ title | slugify }}"
+    "permalink": "posts/{{ title | slugify }}.html"
 }
