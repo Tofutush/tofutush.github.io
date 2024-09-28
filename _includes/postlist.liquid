@@ -1,0 +1,13 @@
+<ol class="postlist" reversed>
+	{% assign postsReversed = collections.posts | reverse %}
+	{% for p in postsReversed %}
+		{% if numToDisplay == 0 or numToDisplay and forloop.index < numToDisplay %}
+			<li>
+				<div>
+					<a href="{{ p.url }}">{{ p.data.title }}</a>
+					<div>{{ p.data.date }}</div>
+				</div>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
