@@ -5,7 +5,7 @@
 			<li>
 				<div>
 					<a href="{{ p.url }}">{{ p.data.title }}</a>
-					<div>{{ p.data.date }}</div>
+					<div>{{ p.data.date | formatDate }}</div>
 				</div>
 			</li>
 		{% endif %}

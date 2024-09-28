@@ -1,4 +1,5 @@
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(feedPlugin, {
@@ -20,10 +21,7 @@ module.exports = function (eleventyConfig) {
 	});
 	eleventyConfig.addPassthroughCopy('style.css');
 	eleventyConfig.addPassthroughCopy('fonts');
-	eleventyConfig.addFilter('fuckyou', arr => {
-		for(a of arr) {
-			console.log(a.data.title);
-		}
-		return arr.reverse();
+	eleventyConfig.addFilter('formatDate', date => {
+		return DateTime.fromJSDate(date).toISODate();
 	});
 };
