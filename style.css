@@ -99,6 +99,16 @@ p {
 	text-align: justify;
 }
 
+ul {
+	list-style: disc;
+	padding-inline-start: 2em;
+}
+
+ul li {
+	line-height: 1.5;
+	margin: .5em 0;
+}
+
 #main .footnote-ref {
 	vertical-align: baseline;
 }
