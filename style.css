@@ -167,6 +167,15 @@ ul li {
 	display: block;
 }
 
+p:has(.katex-display) {
+	text-indent: 0;
+}
+
+.katex {
+	font-size: 1em !important;
+	user-select: none;
+}
+
 #theme-toggle-wrap {
 	display: flex;
 	justify-content: center;

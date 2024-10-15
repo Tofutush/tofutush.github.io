@@ -1,5 +1,8 @@
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownItKatex = require("markdown-it-katex");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(feedPlugin, {
@@ -19,6 +22,11 @@ module.exports = function (eleventyConfig) {
 			}
 		}
 	});
+	eleventyConfig.setLibrary("md", markdownIt({
+		html: true,
+		breaks: true,
+		linkify: true
+	}).use(markdownItFootnote).use(markdownItKatex, { "throwOnError": false, "errorColor": " #cc0000" }));
 	eleventyConfig.addPassthroughCopy('style.css');
 	eleventyConfig.addPassthroughCopy('fonts');
 	eleventyConfig.addFilter('formatDate', date => {
