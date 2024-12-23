@@ -1,10 +1,10 @@
 ---
 title: About me
 date: 2024-09-24
-edited: 2024-09-29
+edited: 2024-12-23
 ---
 
-Hi. Tofutush here.
+Hi. Tofutush here. Or Sirocco, whichever name you know me by.
 
 IDK why I started a blog. I'm not a writer. But I just figured I wanted to do something about this site.
 

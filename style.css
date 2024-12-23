@@ -20,10 +20,15 @@
 	src: url(/fonts/Platypi-Italic.ttf);
 }
 
+@font-face {
+    font-family: lxgw;
+    src: url(/fonts/LXGWWenKai-Regular.ttf);
+}
+
 body {
 	background-color: var(--bg);
 	color: var(--text);
-	font-family: Crimson Pro, 宋体;
+	font-family: Crimson Pro, lxgw;
 	font-size: 28px;
 	margin: 0;
 }
@@ -40,6 +45,11 @@ body.light {
 	--text: #121212;
 	--link: #e56b6f;
 	--header: #83254f;
+}
+
+hr {
+    border: 2px solid #fff8;
+    margin: 2em 0;
 }
 
 #header {
@@ -80,7 +90,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Platypi;
+	font-family: Platypi, lxgw;
 }
 
 h1 {
