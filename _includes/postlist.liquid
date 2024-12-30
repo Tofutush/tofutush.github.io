@@ -5,7 +5,7 @@
 			<li>
 				<div>
 					<a href="{{ p.url }}">{{ p.data.title }}</a>
-					<div>{{ p.data.date | formatDate }}</div>
+					<div>Posted: {{ p.data.date | formatDate }}{% if p.data.edited %} | Edited: {{ p.data.edited | formatDate }}{% endif %}</div>
 				</div>
 			</li>
 		{% endif %}
