@@ -1,4 +1,4 @@
-<ol class="postlist" reversed>
+<ol class="postList" reversed>
 	{% assign postsReversed = collections.posts | reverse %}
 	{% for p in postsReversed %}
 		{% if numToDisplay == 0 or numToDisplay and forloop.index < numToDisplay %}
