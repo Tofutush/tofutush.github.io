@@ -3,8 +3,11 @@ const { DateTime } = require("luxon");
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItKatex = require("markdown-it-katex");
 const markdownIt = require("markdown-it");
+const pinyin = require('chinese-to-pinyin');
 
 module.exports = function (eleventyConfig) {
+	const slug = s => pinyin(s.toString().trim().toLowerCase(), { removeTone: true, keepRest: true }).replace(/ /g, '-').replace(/[-]+/g, '-').replace(/[^\w-]+/g, '');
+	eleventyConfig.addFilter('slug', slug);
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/feed.xml",
