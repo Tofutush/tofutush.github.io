@@ -21,8 +21,8 @@
 }
 
 @font-face {
-    font-family: lxgw;
-    src: url(/fonts/LXGWWenKai-Regular.ttf);
+	font-family: lxgw;
+	src: url(/fonts/LXGWWenKai-Regular.ttf);
 }
 
 body {
@@ -48,8 +48,8 @@ body.light {
 }
 
 hr {
-    border: 2px solid #fff8;
-    margin: 2em 0;
+	border: 2px solid #fff8;
+	margin: 2em 0;
 }
 
 #header {
@@ -124,16 +124,16 @@ ul li {
 	vertical-align: baseline;
 }
 
-.postlist li div {
+.postList li div {
 	display: flex;
 	flex-direction: column;
 }
 
-.postlist li div a {
+.postList li div a {
 	font-size: 120%;
 }
 
-.postlist li div div {
+.postList li div div {
 	opacity: .5;
 }
 
