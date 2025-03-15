@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
 	<title>Resurrecting Old Ideas and Magic Academies</title>
 </head>
-<body class="dark">
+<body class="light">
 	<div id="header">
 		<div class="nav">
 			<div class="dpdn">
@@ -71,16 +71,18 @@
 	<script>
 		(function () {
 			let lightDark = parseInt(localStorage.getItem('light-dark'));
-			if (lightDark) {
-				document.body.classList.toggle('light');
-				document.body.classList.toggle('dark');
-			}
+			if (lightDark === 0) document.body.className = 'light';
+			else document.body.className = 'dark';
 			let toggle = document.querySelector('#theme-toggle');
 			toggle.addEventListener('click', e => {
-				document.body.classList.toggle('light');
-				document.body.classList.toggle('dark');
-				if (lightDark) lightDark = 0;
-				else lightDark = 1;
+				if (lightDark === 0) {
+					lightDark = 1;
+					document.body.className = 'dark';
+				}
+				else {
+					lightDark = 0;
+					document.body.className = 'light';
+				}
 				localStorage.setItem('light-dark', lightDark);
 			});
 		})();
