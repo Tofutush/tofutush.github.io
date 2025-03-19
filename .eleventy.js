@@ -6,6 +6,7 @@ const markdownIt = require("markdown-it");
 const pinyin = require('chinese-to-pinyin');
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.setQuietMode(true);
 	const slug = s => pinyin(s.toString().trim().toLowerCase(), { removeTone: true, keepRest: true }).replace(/ /g, '-').replace(/[-]+/g, '-').replace(/[^\w-]+/g, '');
 	eleventyConfig.addFilter('slug', slug);
 	eleventyConfig.addPlugin(feedPlugin, {
