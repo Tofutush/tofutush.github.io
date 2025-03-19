@@ -58,3 +58,7 @@ But I decided to move. There was an empty spot in a dorm full of my friends, so 
 There were a lot of physical problems in that dorm. The door can't be closed properly and water keeps leaking out from mysterious places. But I am *happy*. I am with my friends! I started looking forward to each night, instead of dreading them.
 
 So, if you'll excuse me sounding like a sloppy old cartoon moral narrator: sometimes we get in situations that make us uncomfortable and we just go with it, thinking we could handle it. Maybe its annoying dormmates, or maybe it could be a relationship we no longer wanna be in, etc. Move the hell out. There's got to be somewhere we can move to!
+
+---
+
+Wow, my longest post yet, a vent post. Venting sure is the muse of inspiration!
