@@ -31,25 +31,24 @@ body {
 	font-family: Crimson Pro, lxgw;
 	font-size: 28px;
 	margin: 0;
+	--header: #83254f;
 }
 
 body.dark {
 	--bg: #121212;
 	--text: #fff9f2;
 	--link: #ffd8a8;
-	--header: #83254f;
 }
 
 body.light {
 	--bg: #fff9f2;
 	--text: #121212;
 	--link: #e56b6f;
-	--header: #83254f;
 }
 
 hr {
-	border: 2px solid #fff8;
-	margin: 2em 0;
+	border: 1px solid var(--text);
+	margin: 2em;
 }
 
 #header {
