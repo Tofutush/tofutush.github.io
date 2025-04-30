@@ -1,0 +1,5 @@
+.metadata-container {
+    background-color: var(--ribbon-background);
+    padding: 1em;
+    border-radius: var(--radius-l);
+}

@@ -1,0 +1,9 @@
+.cm-quote,
+.markdown-preview-view blockquote {
+    font-style: italic;
+}
+
+.cm-quote.cm-em,
+.markdown-preview-view blockquote em {
+    font-style: normal;
+}

@@ -1,0 +1,20 @@
+{
+  "accentColor": "#e56b6f",
+  "baseFontSize": 24,
+  "enabledCssSnippets": [
+    "folder tree",
+    "justify",
+    "line height",
+    "icon ratio",
+    "titlebar background",
+    "font weight",
+    "properties",
+    "word count",
+    "blockquote"
+  ],
+  "interfaceFontFamily": "DIN Round Pro",
+  "textFontFamily": "Crimson Pro,Lexend,Courier Prime,霞鹜文楷,霞鹜漫黑",
+  "cssTheme": "",
+  "theme": "moonstone",
+  "monospaceFontFamily": "JetBrains Mono,微软雅黑"
+}

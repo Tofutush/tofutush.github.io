@@ -1,0 +1,5 @@
+.novel-word-count--active .nav-files-container .nav-file-title::after,
+.novel-word-count--active .nav-files-container .nav-folder-title::after {
+    position: absolute;
+    right: 4px;
+}
