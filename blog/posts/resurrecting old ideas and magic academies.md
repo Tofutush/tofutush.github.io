@@ -5,7 +5,7 @@ date: 2024-09-29
 
 *(This is a post from Cohost, reposted here.)*
 
-I had an idea in middle school of a comic featuring people who naturally look like Homestuck god-tiers who are attending to a school on a mountain. It was never finished -- hardly even started -- but if I don't talk about it here it's going to die in my head forever.
+I had an idea in middle school of a comic featuring people who naturally look like Homestuck god-tiers who are attending to a school on a mountain. It was never finished — hardly even started — but if I don't talk about it here it's going to die in my head forever.
 
 So, it's been a while and I've forgotten most stuff, and the original notebook I drew the thing on was probably lost after we moved, but here:
 
