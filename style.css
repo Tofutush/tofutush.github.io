@@ -185,6 +185,22 @@ p:has(.katex-display) {
 	user-select: none;
 }
 
+.prev-next {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1em;
+
+	& p {
+		text-indent: 0;
+	}
+
+	& a {
+		display: flex;
+		align-items: center;
+	}
+}
+
 #theme-toggle-wrap {
 	display: flex;
 	justify-content: center;
