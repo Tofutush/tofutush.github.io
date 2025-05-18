@@ -3,18 +3,15 @@ layout: layout.liquid
 ---
 <h1>{{ title }}</h1>
 <div class="date">
-    <div>Posted: {{ date | formatDate }}</div>
-    {% if edited %}<div>Last edited: {{ edited | formatDate }}</div>{% endif %}
+    <p>Posted: {{ date | formatDate }}</p>
+    {% if edited %}<p>Edited: {{ edited | formatDate }}</p>{% endif %}
 </div>
 {{ content }}
-<div class="date">
-    <div><a href="/">Home</a></div>
-</div>
 <hr/>
 {% assign prev = collections.posts | getPreviousCollectionItem %}
 {% assign next = collections.posts | getNextCollectionItem %}
 <div class="prev-next">
     {% if prev %}<p><a href="{{ prev.url }}">&lt;- P</a></p>{% endif %}
-    <div></div>
+    <p><a href="/">Home</a></p>
     {% if next %}<p><a href="{{ next.url }}">N -&gt;</a></p>{% endif %}
 </div>
