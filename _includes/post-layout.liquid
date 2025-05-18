@@ -8,8 +8,8 @@ layout: layout.liquid
 </div>
 {{ content }}
 <hr/>
-{% assign prev = collections.posts | getPreviousCollectionItem %}
-{% assign next = collections.posts | getNextCollectionItem %}
+{% assign prev = collections.posts | sortPosts | reverse | getPreviousCollectionItem %}
+{% assign next = collections.posts | sortPosts | reverse | getNextCollectionItem %}
 <div class="prev-next">
     {% if prev %}<p><a href="{{ prev.url }}">&lt;- P</a></p>{% endif %}
     <p><a href="/">Home</a></p>
