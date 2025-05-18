@@ -3,14 +3,18 @@ layout: layout.liquid
 title: Home
 ---
 
-<h1>Latest posts</h1>
+<h1>Blog, i guess</h1>
 
-{% include 'postlist', numToDisplay: 5 %}
+<ol class="postList" reversed>
+	{% assign postsReversed = collections.posts | reverse %}
+	{% for p in postsReversed %}
+		<li>
+			<div>
+				<a href="{{ p.url }}">{{ p.data.title }}</a>
+				<div>Posted: {{ p.data.date | formatDate }}{% if p.data.edited %} | Edited: {{ p.data.edited | formatDate }}{% endif %}</div>
+			</div>
+		</li>
+	{% endfor %}
+</ol>
 
-<a href="/archive/">See all.</a>
-
-<ul class="links">
-	<li><a href="szpugaozhiyuantianbao">深圳中考普通高中志愿填报建议戳这里！</a></li>
-	<li><a href="Forty-Donuts">Read Forty Donuts!</a></li>
-	<li><a href="The-Iron-Ragdoll">Read The Iron Ragdoll!</a></li>
-</ul>
+<p><a href="/The-Iron-Ragdoll">The Iron Ragdoll</a>, my paracosm!</p>
