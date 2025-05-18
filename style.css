@@ -48,7 +48,8 @@ body.light {
 
 hr {
 	border: 1px solid var(--text);
-	margin: 2em;
+	margin: 2em 0;
+	opacity: .3;
 }
 
 #header {
