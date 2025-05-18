@@ -48,7 +48,8 @@ body.light {
 
 hr {
 	border: 1px solid var(--text);
-	margin: 2em;
+	margin: 2em 0;
+	opacity: .3;
 }
 
 #header {
@@ -147,33 +148,6 @@ ul li {
 .date {
 	margin: 1em 0;
 	opacity: .5;
-}
-
-.dpdn {
-	display: inline-block;
-}
-
-.dpdn>a {
-	cursor: default;
-}
-
-.dpdn-ul {
-	background-color: var(--header);
-	display: none;
-	margin: 0;
-	padding: 10px;
-	position: absolute;
-	z-index: 999;
-	left: 0;
-}
-
-.dpdn-ul a {
-	display: block;
-	padding: 10px 0 !important;
-}
-
-.dpdn:hover .dpdn-ul {
-	display: block;
 }
 
 p:has(.katex-display) {
