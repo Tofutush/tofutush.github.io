@@ -36,4 +36,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('formatDate', date => {
 		return DateTime.fromJSDate(date).toISODate();
 	});
+	eleventyConfig.addFilter('sortPosts', arr => {
+		return arr.sort((a, b) => {
+			const dateA = a.edited || a.date;
+			const dateB = b.edited || b.date;
+			return dateB - dateA;
+		})
+	});
 };

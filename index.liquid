@@ -6,12 +6,12 @@ title: Home
 <h1>Blog, i guess</h1>
 
 <ol class="postList" reversed>
-	{% assign postsReversed = collections.posts | reverse %}
-	{% for p in postsReversed %}
+	{% assign posts = collections.posts | sortPosts %}
+	{% for p in posts %}
 		<li>
 			<div>
 				<a href="{{ p.url }}">{{ p.data.title }}</a>
-				<div>Posted: {{ p.data.date | formatDate }}{% if p.data.edited %} | Edited: {{ p.data.edited | formatDate }}{% endif %}</div>
+				<div>{% if p.data.edited %}{{ p.data.edited | formatDate }}{% else %}{{ p.data.date | formatDate }}{% endif %}</div>
 			</div>
 		</li>
 	{% endfor %}
