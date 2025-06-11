@@ -10,13 +10,7 @@ title: Home
 		<li>
 			<div>
 				<a href="{{ p.url }}">{{ p.data.title }}</a>
-				<div>
-					{{ if p.data.edited }}
-						{{ p.data.edited |> formatDate }}
-					{{ else }}
-						{{ p.data.date |> formatDate }}
-					{{ /if }}
-				</div>
+				<div>{{ p.data.edited || p.data.date |> formatDate }}</div>
 			</div>
 		</li>
 	{{ /for }}
