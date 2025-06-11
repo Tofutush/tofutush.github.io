@@ -4,11 +4,14 @@ import markdownItFootnote from "markdown-it-footnote";
 import markdownItKatex from "markdown-it-katex";
 import markdownIt from "markdown-it";
 import pinyin from "chinese-to-pinyin";
+import { VentoPlugin } from "eleventy-plugin-vento";
 
 export default function (eleventyConfig) {
 	eleventyConfig.setQuietMode(true);
-	const slug = s => pinyin(s.toString().trim().toLowerCase(), { removeTone: true, keepRest: true }).replace(/ /g, '-').replace(/[-]+/g, '-').replace(/[^\w-]+/g, '');
-	eleventyConfig.addFilter('slug', slug);
+
+	// copies
+	eleventyConfig.addPassthroughCopy('style.css');
+	eleventyConfig.addPassthroughCopy('fonts');
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/feed.xml",
@@ -26,13 +29,17 @@ export default function (eleventyConfig) {
 			}
 		}
 	});
+
+	// mdit
 	eleventyConfig.setLibrary("md", markdownIt({
 		html: true,
 		breaks: true,
 		linkify: true
 	}).use(markdownItFootnote).use(markdownItKatex, { "throwOnError": false, "errorColor": " #cc0000" }));
-	eleventyConfig.addPassthroughCopy('style.css');
-	eleventyConfig.addPassthroughCopy('fonts');
+
+	// filters
+	const slug = s => pinyin(s.toString().trim().toLowerCase(), { removeTone: true, keepRest: true }).replace(/ /g, '-').replace(/[-]+/g, '-').replace(/[^\w-]+/g, '');
+	eleventyConfig.addFilter('slug', slug);
 	eleventyConfig.addFilter('formatDate', date => {
 		return DateTime.fromJSDate(date).toISODate();
 	});
@@ -43,4 +50,7 @@ export default function (eleventyConfig) {
 			return dateB - dateA;
 		})
 	});
+
+	// vento
+	eleventyConfig.addPlugin(VentoPlugin);
 };
