@@ -1,11 +1,11 @@
-const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
-const { DateTime } = require("luxon");
-const markdownItFootnote = require("markdown-it-footnote");
-const markdownItKatex = require("markdown-it-katex");
-const markdownIt = require("markdown-it");
-const pinyin = require('chinese-to-pinyin');
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import { DateTime } from "luxon";
+import markdownItFootnote from "markdown-it-footnote";
+import markdownItKatex from "markdown-it-katex";
+import markdownIt from "markdown-it";
+import pinyin from "chinese-to-pinyin";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
 	eleventyConfig.setQuietMode(true);
 	const slug = s => pinyin(s.toString().trim().toLowerCase(), { removeTone: true, keepRest: true }).replace(/ /g, '-').replace(/[-]+/g, '-').replace(/[^\w-]+/g, '');
 	eleventyConfig.addFilter('slug', slug);
