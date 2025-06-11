@@ -10,24 +10,6 @@
     <name>Tofutush</name>
   </author>
   <entry>
-    <title>About me</title>
-    <link href="https://tofutush.github.io/posts/about-me.html" />
-    <updated>2024-09-24T00:00:00Z</updated>
-    <id>https://tofutush.github.io/posts/about-me.html</id>
-    <content type="html">&lt;p&gt;Hi. Tofutush here. Or Sirocco, whichever name you know me by.&lt;/p&gt;
-&lt;p&gt;IDK why I started a blog. I&#39;m not a writer. But I just figured I wanted to do something about this site.&lt;/p&gt;
-&lt;p&gt;Yeesh I ran out of things to say pretty quickly. How about I tell you about my name, Tofutush. It&#39;s a silly name from Captain Underpants. Wow how old am I.&lt;/p&gt;
-&lt;p&gt;I like comics and my OCs. Look at them &lt;a href=&quot;https://tofutush.github.io/The-Iron-Ragdoll&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I gotta put a link to every site I&#39;m on. Not a lot, mind you.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://toyhou.se/Tofutush&quot;&gt;Toyhouse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://artfight.net/~Tofutush&quot;&gt;Artfight&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Discord (tofutush)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I used to go on Cohost. But then it shut down. This site&#39;s color scheme is taken from there.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Second Post</title>
     <link href="https://tofutush.github.io/posts/second-post.html" />
     <updated>2024-09-26T00:00:00Z</updated>
@@ -82,6 +64,24 @@
 </content>
   </entry>
   <entry>
+    <title>About me</title>
+    <link href="https://tofutush.github.io/posts/about-me.html" />
+    <updated>2024-09-24T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/about-me.html</id>
+    <content type="html">&lt;p&gt;Hi. Tofutush here. Or Sirocco, whichever name you know me by.&lt;/p&gt;
+&lt;p&gt;IDK why I started a blog. I&#39;m not a writer. But I just figured I wanted to do something about this site.&lt;/p&gt;
+&lt;p&gt;Yeesh I ran out of things to say pretty quickly. How about I tell you about my name, Tofutush. It&#39;s a silly name from Captain Underpants. Wow how old am I.&lt;/p&gt;
+&lt;p&gt;I like comics and my OCs. Look at them &lt;a href=&quot;https://tofutush.github.io/The-Iron-Ragdoll&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I gotta put a link to every site I&#39;m on. Not a lot, mind you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://toyhou.se/Tofutush&quot;&gt;Toyhouse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://artfight.net/~Tofutush&quot;&gt;Artfight&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Discord (tofutush)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used to go on Cohost. But then it shut down. This site&#39;s color scheme is taken from there.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Chinese Culture Revolves Around Stupid Puns</title>
     <link href="https://tofutush.github.io/posts/chinese-culture-revolves-around-stupid-puns.html" />
     <updated>2024-12-30T00:00:00Z</updated>
@@ -118,19 +118,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Counterfeit Monkey is Amazing</title>
-    <link href="https://tofutush.github.io/posts/counterfeit-monkey-is-amazing.html" />
-    <updated>2024-12-30T00:00:00Z</updated>
-    <id>https://tofutush.github.io/posts/counterfeit-monkey-is-amazing.html</id>
-    <content type="html">&lt;p&gt;Uh to start it off, Counterfeit Monkey is an interactive fiction by Emily Short. It&#39;s a great game. I can&#39;t finish it without hints but it&#39;s a great game.&lt;/p&gt;
-&lt;p&gt;I&#39;ve started playing it a second time and hoping I won&#39;t need to use as many hints now that I&#39;m more familiar with the format.&lt;/p&gt;
-&lt;p&gt;I&#39;m definitely gonna write something more than this later. And another one on Spider and Web.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Update 2025-04-25&lt;/p&gt;
-&lt;p&gt;I still need hints.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -223,6 +210,19 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Counterfeit Monkey is Amazing</title>
+    <link href="https://tofutush.github.io/posts/counterfeit-monkey-is-amazing.html" />
+    <updated>2024-12-30T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/counterfeit-monkey-is-amazing.html</id>
+    <content type="html">&lt;p&gt;Uh to start it off, Counterfeit Monkey is an interactive fiction by Emily Short. It&#39;s a great game. I can&#39;t finish it without hints but it&#39;s a great game.&lt;/p&gt;
+&lt;p&gt;I&#39;ve started playing it a second time and hoping I won&#39;t need to use as many hints now that I&#39;m more familiar with the format.&lt;/p&gt;
+&lt;p&gt;I&#39;m definitely gonna write something more than this later. And another one on Spider and Web.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Update 2025-04-25&lt;/p&gt;
+&lt;p&gt;I still need hints.&lt;/p&gt;
 </content>
   </entry>
   <entry>
