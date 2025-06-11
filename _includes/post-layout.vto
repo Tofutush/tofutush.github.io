@@ -1,0 +1,17 @@
+---
+layout: layout.vto
+---
+<h1>{{ title }}</h1>
+<div class="date">
+    <p>Posted: {{ date |> formatDate }}</p>
+    {{ if edited }}<p>Edited: {{ edited |> formatDate }}</p>{{ /if }}
+</div>
+{{ content }}
+<hr/>
+{{ set prev = collections.posts |> sortPosts |> reverse |> getPreviousCollectionItem }}
+{{ set next = collections.posts |> sortPosts |> reverse |> getNextCollectionItem }}
+<div class="prev-next">
+    {{ if prev }}<p><a href="{{ prev.url }}">&lt;- P</a></p>{{ /if }}
+    <p><a href="/">Home</a></p>
+    {{ if next }}<p><a href="{{ next.url }}">N -&gt;</a></p>{{ /if }}
+</div>
