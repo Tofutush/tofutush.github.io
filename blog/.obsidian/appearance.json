@@ -15,6 +15,7 @@
   "interfaceFontFamily": "DIN Round Pro",
   "textFontFamily": "Crimson Pro,Lexend,Courier Prime,霞鹜文楷,霞鹜漫黑",
   "cssTheme": "",
-  "theme": "moonstone",
-  "monospaceFontFamily": "JetBrains Mono,微软雅黑"
+  "theme": "obsidian",
+  "monospaceFontFamily": "JetBrains Mono,微软雅黑",
+  "showRibbon": false
 }
