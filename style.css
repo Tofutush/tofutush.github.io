@@ -29,7 +29,7 @@ body {
 	background-color: var(--bg);
 	color: var(--text);
 	font-family: Crimson Pro, lxgw;
-	font-size: 28px;
+	font-size: clamp(1.25rem, 0.625rem + 2vw, 1.75rem);
 	margin: 0;
 	--header: #83254f;
 }
@@ -94,7 +94,7 @@ h6 {
 }
 
 h1 {
-	font-size: clamp(32px, 5vw, 48px);
+	font-size: clamp(2rem, 0.75rem + 4vw, 3rem);
 }
 
 #main {
@@ -115,8 +115,7 @@ ul {
 	padding-inline-start: 2em;
 }
 
-ul li {
-	line-height: 1.5;
+li {
 	margin: .5em 0;
 }
 
@@ -173,6 +172,11 @@ p:has(.katex-display) {
 		display: flex;
 		align-items: center;
 	}
+}
+
+::selection {
+	color: #fff9f2;
+	background-color: var(--header);
 }
 
 #theme-toggle-wrap {
