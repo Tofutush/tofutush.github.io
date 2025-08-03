@@ -38,7 +38,7 @@ It's not really limited to old ones. People make new ones all the time too. I re
 So anyways that concludes this stupid little post about puns.
 
 [^1]: Why do I say "*stupid* puns"? Because all puns are ontologically stupid. No matter how clever the pun is it's still stupid.
-[^2]: Techinally 正月 (zheng1 yue4), the first month on the Chinese calendar. But whatever. The fault lies in you weird people making up silly names for months. Imagine being a month named "May." I'd just unalive myself.
+[^2]: Technically 正月 (zheng1 yue4), the first month on the Chinese calendar. But whatever. The fault lies in you weird people making up silly names for months. Imagine being a month named "May." I'd just unalive myself.
 [^3]: But they happily cut their nails. Don't your nails also come from your parents? Hypocrites. Have I ever told you Confucian culture was ontologically hypocritical? Now I have.
 [^4]: People dying ain't funny.
 [^5]: What is it with nephews and uncles all over the place.
