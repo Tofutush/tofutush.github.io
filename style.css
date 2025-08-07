@@ -34,16 +34,20 @@ body {
 	--header: #83254f;
 }
 
-body.dark {
-	--bg: #121212;
-	--text: #fff9f2;
-	--link: #ffd8a8;
+@media (prefers-color-scheme: dark) {
+	body {
+		--bg: #121212;
+		--text: #fff9f2;
+		--link: #ffd8a8;
+	}
 }
 
-body.light {
-	--bg: #fff9f2;
-	--text: #121212;
-	--link: #e56b6f;
+@media (prefers-color-scheme: light) {
+	body {
+		--bg: #fff9f2;
+		--text: #121212;
+		--link: #e56b6f;
+	}
 }
 
 hr {
@@ -177,62 +181,6 @@ p:has(.katex-display) {
 ::selection {
 	color: #fff9f2;
 	background-color: var(--header);
-}
-
-#theme-toggle-wrap {
-	display: flex;
-	justify-content: center;
-}
-
-#theme-toggle {
-	background-color: var(--link);
-	border-radius: 999px;
-	cursor: pointer;
-	height: 36px;
-	padding: 4px;
-	position: relative;
-	transition: all .3s;
-	width: 72px;
-}
-
-#button {
-	align-items: center;
-	background-color: var(--bg);
-	border-radius: 999px;
-	display: flex;
-	height: 36px;
-	justify-content: center;
-	position: relative;
-	transition: all .3s;
-	width: 36px;
-}
-
-body.light #button {
-	left: 0px;
-}
-
-body.dark #button {
-	left: 36px;
-}
-
-#button svg {
-	stroke: var(--text);
-}
-
-body.dark #button svg:first-child {
-	display: none;
-}
-
-body.light #button svg:first-child {
-	display: block;
-}
-
-body.dark #button svg:last-child {
-	display: block;
-}
-
-body.light #button svg:last-child {
-	display: none;
 }
 
 @media only screen and (max-width: 480px) {
