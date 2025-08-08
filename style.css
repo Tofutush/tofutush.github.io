@@ -130,6 +130,7 @@ li {
 .postList li div {
 	display: flex;
 	flex-direction: column;
+	width: fit-content;
 }
 
 .postList li div a {
