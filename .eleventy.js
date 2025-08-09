@@ -1,11 +1,12 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
-import { DateTime } from "luxon";
-import markdownItFootnote from "markdown-it-footnote";
-import markdownItKatex from "markdown-it-katex";
-import markdownIt from "markdown-it";
 import pinyin from "chinese-to-pinyin";
 import { VentoPlugin } from "eleventy-plugin-vento";
+import { DateTime } from "luxon";
+import markdownIt from "markdown-it";
 import markdownItAnchor from 'markdown-it-anchor';
+import markdownItExternalLinks from "markdown-it-external-links";
+import markdownItFootnote from "markdown-it-footnote";
+import markdownItKatex from "markdown-it-katex";
 import markdownItTableOfContents from "markdown-it-table-of-contents";
 
 export default function (eleventyConfig) {
@@ -51,6 +52,8 @@ export default function (eleventyConfig) {
 		transformContainerClose: () => {
 			return '</details>';
 		}
+	}).use(markdownItExternalLinks, {
+		externalTarget: '_blank'
 	}));
 
 	// filters
