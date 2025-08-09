@@ -63,19 +63,15 @@ hr {
 	justify-content: space-between;
 	align-items: center;
 	user-select: none;
-}
 
-#header a {
-	color: #fff9f2;
-}
+	& a {
+		color: #fff9f2;
+	}
 
-#header .nav {
-	display: flex;
-	gap: 2rem;
-}
-
-p {
-	text-indent: 2em;
+	& .nav {
+		display: flex;
+		gap: 2rem;
+	}
 }
 
 a,
@@ -88,6 +84,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+.external-link::after {
+	content: '☍';
+}
+
 h1,
 h2,
 h3,
@@ -95,6 +95,7 @@ h4,
 h5,
 h6 {
 	font-family: Platypi, lxgw;
+	line-height: 1.5;
 }
 
 h1 {
@@ -112,11 +113,22 @@ p {
 	hyphens: auto;
 	margin: .5em 0;
 	text-align: justify;
+	text-indent: 2em;
+}
+
+details {
+	margin: 1em 0 1em 1em;
+
+	&>summary {
+		cursor: pointer;
+		line-height: 1.5;
+	}
 }
 
 ul {
 	list-style: disc;
 	padding-inline-start: 2em;
+	line-height: 1.5;
 }
 
 li {
