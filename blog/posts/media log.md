@@ -3,6 +3,8 @@ title: Media Log
 date: 2025-08-08
 ---
 
+[[toc]]
+
 I will log the media I enjoyed here. Things from the past will be added gradually. No rating because I like them all; I won't log the things I hate (maybe for another post? LMAO I don't want to be more petty than I already am.)
 
 ## Games

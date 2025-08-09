@@ -3,6 +3,8 @@ title: Weird dreams I had
 date: 2025-04-21
 ---
 
+[[toc]]
+
 I don't remember dreams that much, nor am I a lucid dreamer or something. But occasionally I remember a dream, and I write it down quickly. Here are some of them. They're usually really weird, so be warned.
 
 ## 1
