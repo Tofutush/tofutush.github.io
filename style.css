@@ -1,23 +1,16 @@
 @font-face {
-	font-family: Crimson Pro;
-	src: url(/fonts/CrimsonPro.ttf);
+	font-family: Lexend;
+	src: local(Lexend), url(/fonts/Lexend.ttf);
 }
 
 @font-face {
-	font-family: Crimson Pro;
-	font-style: italic;
-	src: url(/fonts/CrimsonPro-Italic.ttf);
+	font-family: troika;
+	src: local(Troika), url(/fonts/troika.otf);
 }
 
 @font-face {
-	font-family: Platypi;
-	src: url(/fonts/Platypi.ttf);
-}
-
-@font-face {
-	font-family: Platypi;
-	font-style: italic;
-	src: url(/fonts/Platypi-Italic.ttf);
+	font-family: lxgw-marker;
+	src: url(/fonts/LXGWMarkerGothic-Regular.ttf);
 }
 
 @font-face {
@@ -28,7 +21,7 @@
 body {
 	background-color: var(--bg);
 	color: var(--text);
-	font-family: Crimson Pro, lxgw;
+	font-family: Lexend, lxgw;
 	font-size: clamp(1.25rem, 0.625rem + 2vw, 1.75rem);
 	margin: 0;
 	--header: #83254f;
@@ -94,7 +87,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Platypi, lxgw;
+	font-family: troika, lxgw-marker;
+	letter-spacing: 3px;
 	line-height: 1.5;
 }
 
@@ -109,7 +103,7 @@ h1 {
 }
 
 p {
-	line-height: 1.5;
+	line-height: 2;
 	hyphens: auto;
 	margin: .5em 0;
 	text-align: justify;
