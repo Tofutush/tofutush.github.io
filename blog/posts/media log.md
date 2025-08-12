@@ -1,7 +1,7 @@
 ---
 title: Media Log
 date: 2025-08-08
-edited: 2025-08-09
+edited: 2025-08-13
 ---
 
 [[toc]]
@@ -24,25 +24,7 @@ Similarly, I've also enjoyed *Dog Man* and *Cat Kid Comic Club*. When I feel lik
 
 - Date: I forgot when from but still reading.
 
-GOAT, need I say more?
-
-Read books:
-
-- *Call for the Dead*
-- *A Murder of Quality*
-- *The Spy Who Came in from the Cold*
-- *The Looking Glass War*
-- *A Small Town in Germany*
-- *Tinker, Tailor, Soldier, Spy*
-- *The Honourable Schoolboy*
-- *Smiley's People*
-- *The Little Drummer Girl*
-
-Reading: *A Perfect Spy*
-
-## Other espionage books?
-
-My list is too messy ugh, I think maybe I should make a separate post or maybe only list the authors who wrote a whole bunch? Regardless it would probably be a good while before I'd actually finish all of le Carré's books…
+GOAT, need I say more? You can read more about espionage books in this previous [post](/posts/see-reading-john-le-carr-paid-off/).
 
 ## Comics
 
@@ -80,14 +62,20 @@ Classic "we're trapped in a mansion because there's a storm outside and why are 
 - Link: [Steam (collection)](https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/)
 - Date: A long, long time ago
 
-Choose-your-own-adventure game where failing is even more fun than succeeding. I was playing those old Flash games on 4399 since elementary school. The Henry Stickmin Collection, released a lot later, was also great; though some routes in Completing the Mission weren't as fun and felt rushed. My favorite game is Fleeing the Complex, favorite route Presumed Dead, favorite track Complex Waltz.
+See: [Game: Henry Stickmin](/posts/game-henry-stickmin/).
 
-What I loved about this game in terms of CYOA was that it doesn't feature useless choices like "go left or go right?" The closest example I can think of was in the Triple Threat route in Completing the Mission with "Henry's plan," "Ellie's plan," and "Charles's plan." But that is based on the fact that we already know enough about the characters at this point; and especially with Charles's great track record of coming up with perfect plans we can get a sense of what each character would do, so it wasn't a blind random choice.
+### Framed Collection
 
-Neither does it feature choices that changes an NPC's stats like their affection towards you or anything — like come on that's an RPG thing; what's it doing in my beloved CYOA?? I hate character stat management, let alone NPC stats.
+- Link: [Steam](https://store.steampowered.com/app/322450/FRAMED_Collection/)
+- Date: 2025-08-13
 
-Neither does it feature binary "do this or don't do this?" choices unless in branching points like whether to rescue Ellie in Fleeing the Complex, and even then both these choices lead to their own endings. Most of the choices is not *what* you want to do, but rather *how* do you do this thing you definitely want to do. With a clear goal in mind, you choose your method of achieving it, with one success and the rest being failures.
+Another great permutations game. (I played another one before but can't remember its name for the time being.) You are to rearrange comic panels to help the main character escape. Features great visual storytelling too. This collection contains both the first and second game.
 
-The outcome of each choice is clearly all well-thought out. Fail scenes are funny and I'd argue an even more important part of the game than the plot itself — which is really childish (the government hiring some random outlaw to take down in exchange for freedom a gangster group flying a giant aircraft in the country's airspace? They're flying in your airspace just get the military to blast them into smithereens already), though not as much considering the developer made most of them when he was really young IIRC.
+### UNREAL LIFE
 
-So yeah, great game. This is the greatest plan~~
+- Link: [Steam](https://store.steampowered.com/app/1335560/UNREAL_LIFE/)
+- Date: Somewhere summer 2025
+
+Why do I always run into games with teacher-student relationships in it?
+
+But regardless, this is a really good game. You have to play it to feel it. It's kind of about imagination as an escape from reality. Also, you don't really *have* to see it as a teacher-student relationship so it's still pretty bearable.
