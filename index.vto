@@ -3,17 +3,20 @@ layout: layout.vto
 title: Home
 ---
 
-<h1>Blog, i guess</h1>
+<h1>Blog</h1>
 
 <ol class="postList" reversed>
 	{{ for p of collections.posts |> sortPosts }}
-		<li>
-			<div>
-				<a href="{{ p.url }}">{{ p.data.title }}</a>
-				<div>{{ p.data.edited || p.data.date |> formatDate }}</div>
-			</div>
-		</li>
+		<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
 	{{ /for }}
 </ol>
+
+<h1>Pages</h1>
+
+<ul class="postList">
+	{{ for p of collections.pages }}
+		<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
+	{{ /for }}
+</ul>
 
 <p><a href="/The-Iron-Ragdoll">The Iron Ragdoll</a>, my paracosm!</p>

@@ -1,6 +1,5 @@
 ---
 title: Media Log
-date: 2025-08-08
 edited: 2025-08-13
 ---
 
