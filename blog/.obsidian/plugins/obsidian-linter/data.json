@@ -148,7 +148,7 @@
       "enabled": true,
       "single-quote-enabled": true,
       "single-quote-style": "''",
-      "double-quote-enabled": true,
+      "double-quote-enabled": false,
       "double-quote-style": "\"\""
     },
     "remove-consecutive-list-markers": {

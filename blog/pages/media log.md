@@ -5,7 +5,12 @@ edited: 2025-08-13
 
 [[toc]]
 
-I will log the media I enjoyed here. Things from the past will be added gradually. Fanworks will be listed beneath the work itself. No rating because I like them all; I won't log the things I hate (maybe for another post? LMAO I don't want to be more petty than I already am.)
+I will log the media I enjoyed here.
+
+- Things from the past will be added gradually.
+- Fanworks will be listed beneath the work itself.
+- Longer entries will have their own blog post linked.
+- No rating because I like them all; I won't log the things I hate (maybe for another post? LMAO I don't want to be more petty than I already am.)
 
 ## Books
 
@@ -78,3 +83,15 @@ Another great permutations game. (I played another one before but can't remember
 Why do I always run into games with teacher-student relationships in it?
 
 But regardless, this is a really good game. You have to play it to feel it. It's kind of about imagination as an escape from reality. Also, you don't really *have* to see it as a teacher-student relationship so it's still pretty bearable.
+
+### 三相奇谈 (Threefold Recital)
+
+- Link: [Steam](https://store.steampowered.com/app/3084280/Threefold_Recital/)
+
+Amazing game. You can hear the pennies jingling in the dev team's impoverished pockets but you can also feel them pouring their hearts out in this.
+
+For the poor part, the game definitely doesn't *look* like some amazing production; they've even used a shitton of free assets as evident in the credits section. But it legit has some amazing plot. (It's also the highest-rated Chinese Steam game in 2024 at 98% positive.)
+
+To not spoiler things: it's about three furries, a Daoist fox, a Buddhist wolf, and an artist snake. There are three chapters dedicated to each of them as they solve some sort of mystery. In the last two chapters, the three come together and solve a bigger mystery.
+
+Cute furries, beloved main characters as well as side characters, and stunning plot. Seriously, go play it. Hope no wolves barge in on you in the toilet.
