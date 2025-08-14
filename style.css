@@ -156,20 +156,6 @@ li {
 	vertical-align: baseline;
 }
 
-.postList li div {
-	display: flex;
-	flex-direction: column;
-	width: fit-content;
-}
-
-.postList li div a {
-	font-size: 120%;
-}
-
-.postList li div div {
-	opacity: .5;
-}
-
 .footnotes-list {
 	font-size: smaller;
 }
@@ -220,7 +206,8 @@ p:has(.katex-display) {
 		text-indent: 0;
 	}
 
-	ul {
-		padding-inline-start: 1em;
+	ul,
+	ol {
+		padding-inline-start: 2em;
 	}
 }

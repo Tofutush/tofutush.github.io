@@ -5,7 +5,7 @@ title: Home
 
 <h1>Blog</h1>
 
-<ol class="postList" reversed>
+<ol reversed>
 	{{ for p of collections.posts |> sortPosts }}
 		<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
 	{{ /for }}
@@ -13,7 +13,7 @@ title: Home
 
 <h1>Pages</h1>
 
-<ul class="postList">
+<ul>
 	{{ for p of collections.pages }}
 		<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
 	{{ /for }}
