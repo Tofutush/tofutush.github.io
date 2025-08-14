@@ -6,7 +6,8 @@
     "/[gG][aA][lL][lL][eE][rR][yY]/"
   ],
   "promptDelete": false,
-  "alwaysUpdateLinks": false,
+  "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
-  "readableLineLength": true
+  "readableLineLength": true,
+  "attachmentFolderPath": "img"
 }

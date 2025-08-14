@@ -16,6 +16,7 @@ export default function (eleventyConfig) {
 	// copies
 	eleventyConfig.addPassthroughCopy('style.css');
 	eleventyConfig.addPassthroughCopy('fonts');
+	eleventyConfig.addPassthroughCopy({ "blog/img": "img" });
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/feed.xml",
