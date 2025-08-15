@@ -1,6 +1,6 @@
 ---
 title: "Travel blog: Summer 2025"
-date: 2025-08-14
+date: 2025-08-15
 ---
 
 I traveled a bit during the summer, yet never wrote about any of it out of procrastination. I'm doing all of it together here.
@@ -59,21 +59,53 @@ We went back to Kunming for the plane back home. The last night's stay was prett
 
 ## Xinjiang
 
-I've always wanted to go to Xinjiang. My travel philosophy is that scenery can all be seen online, and only food goes into your stomach and becomes truly yours.
+I've always wanted to go to Xinjiang. My travel philosophy is that scenery can all be seen online, and only food goes into your stomach and becomes truly yours. I had noodles, naan, baked buns, big plate chicken, and meat pies. 10/10.
 
 A friend of my mom's happened to have planned a trip with her sister, and my mom and I tagged along.
 
 ### Urumqi
 
-We rendezvoused at Urumqi, and went to the Grand Bazaar that night to eat whatever we come across. I just had a baked bun and spent the entire trip blowing at it because it was too hot.
+We rendezvoused at Urumqi. Since my mom and I arrived a lot earlier than the others, the guide took us to a local kebab place he knew. The kebab was nice; they served free milk tea the way eastern restaurants served free barley tea. *Real* milk tea, mind you, not whatever abomination modern bubble tea is. It was way too salty for me. After the others had arrived, we went to the Grand Bazaar that night to eat whatever we come across. I just had a baked bun and spent the entire trip blowing at it because it was too hot.
+
+The next day, we went to Tianshan Heaven Lake. Out of the six of us, three didn't like taking photos and the other three loved it, so us three were always way ahead of the other three. I had some naan while waiting for them. Chewing it too hard hurts your jaw.
 
 ### Altay
 
-We stayed at Hemu, a Tuva village.
+Xinjiang is one of those travel places where you spend more time on the road than actually touring. We went all the way to Burqin to the Rainbow Beach. It was made that way because all sorts of metals somehow got to the surface of the rocks. Red for iron, green for copper, stuff like that. My mom complained that the picture I took of her made her look too ugly. But that's just how she looks.
+
+We stayed at Jiadengyu, a sort of crossroads to Kanas and Hemu that everyone who visits these places have to stay in. We saw a llama. It feels really nice, I wish you were there to pet it.
+
+<img src="/img/travel summer 2025 llama.png"/>
+
+It can also loaf.
+
+<img src="/img/travel summer 2025 llama loaf.png"/>
+
+At a restaurant we also saw a litter of Jianzhou cats playing with each other. Their mom had abandoned them, according to the restaurant owner.
+
+<img src="/img/travel summer 2025 cats.png"/>
+
+One of them even flipped its belly at me. By the time we finished eating and got out, they got tired and got into a heap.
+
+<img src="/img/travel summer 2025 cats tired.png"/>
+
+### Ili
+
+We then went south. We passed through the "devil city," which was nothing but heat and rocks and was pretty boring. We also passed through Karamay, and you can smell the sulfur from inside the car.
+
+In Jinghe county, we had some meat pies at a place called "Running Meat Pies." It was great. 10/10.
+
+We got to Sayram Lake and drove around it. I saw a ladybug spread its wings.
+
+<img src="/img/travel summer 2025 ladybug.png"/>
+
+The next day, we got to Narati. My period came and I spent the day in bed while they rode horses. Well fuck me in particular.
+
+From there we went on Duku Highway. There are a lot of groundhogs to the side. They had big butts. Sometimes they stand up and fight each other.
 
 ### Urumqi again
 
-The journey's almost at an end. The guide took us to a local restaurant. You can tell it's really local when most of the waiters barely speak Mandarin. When I asked him to make the big plate chicken not spicy, he stared at me like I was an idiot for a while (maybe something like "big plate chicken not spicy? Why don't I give you ice cream not cold?") and when the chicken was served it was still spicy. And then there are a couple of dancers dancing around the place. Do Uyghurs just have to watch people dance to stomach their food or something? Did the restaurant hire them specifically just to dance? Or they're all just waiters taking dancing shifts?
+The journey's almost at an end. The guide took us to a local restaurant. You can tell it's really local when most of the waiters barely speak Mandarin. When I asked him to make the big plate chicken not spicy, he stared at me like I was an idiot for a while (maybe something like "big plate chicken not spicy? Why don't I give you ice cream not cold?" or maybe he just didn't understand me) and when the chicken was served it was still spicy. And then there are a couple of dancers dancing around the place. Do Uyghurs just have to watch people dance to stomach their food or something? Did the restaurant hire them specifically just to dance? Or they're all just waiters taking dancing shifts?
 
 The next day we visited Xinjiang Museum, but exhibits 1 - 6 were all closed and we didn't get to see the dried corpse it was famous for. And then home we went. I *have* to go to southern Xinjiang one day; I'd really like to visit Kashgar.
 
@@ -81,6 +113,6 @@ The next day we visited Xinjiang Museum, but exhibits 1 - 6 were all closed and 
 
 We were going to my mom's hometown to visit some relatives before I leave. On the way there we chose a 21-hour train ride. You need to go through double security at the train station now if your train passes through Beijing, even though we were supposed to get off before then. We played card games. Dad won all but two rounds (which I won) because he could actually calculate what cards we had left based on what we had played.
 
-At Fucheng, one of my mom's friends lent us her house to stay in and her car to go places. I ate too much at my little aunt's and had a stomachache. Later, we went to Langfang, to my third aunt's. We had some great lamb hotpot. I finished Type Help over there.
+At Fucheng, one of my mom's friends lent us her house to stay in and her car to go places. I ate too much at my little aunt's (she made me two big pots of dumplings) and had a stomachache. Later, we went to Langfang, to my third aunt's. We had some great lamb hotpot. I finished Type Help over there.
 
 [^1]: I can't believe I'm calling a child cute, but here we go.
