@@ -99,6 +99,8 @@ We got to Sayram Lake and drove around it. I saw a ladybug spread its wings.
 
 <img src="/img/travel summer 2025 ladybug.png"/>
 
+At some nearby horse ranch we saw a Kazakh kid fluidly climb up a horse. He wasn't even tall enough; he had to park the horse near a fence and step onto the fence. Bro couldn't have been older than eight.
+
 The next day, we got to Narati. My period came and I spent the day in bed while they rode horses. Well fuck me in particular.
 
 From there we went on Duku Highway. There are a lot of groundhogs to the side. They had big butts. Sometimes they stand up and fight each other.
@@ -107,7 +109,7 @@ From there we went on Duku Highway. There are a lot of groundhogs to the side. T
 
 The journey's almost at an end. The guide took us to a local restaurant. You can tell it's really local when most of the waiters barely speak Mandarin. When I asked him to make the big plate chicken not spicy, he stared at me like I was an idiot for a while (maybe something like "big plate chicken not spicy? Why don't I give you ice cream not cold?" or maybe he just didn't understand me) and when the chicken was served it was still spicy. And then there are a couple of dancers dancing around the place. Do Uyghurs just have to watch people dance to stomach their food or something? Did the restaurant hire them specifically just to dance? Or they're all just waiters taking dancing shifts?
 
-The next day we visited Xinjiang Museum, but exhibits 1 - 6 were all closed and we didn't get to see the dried corpse it was famous for. And then home we went. I *have* to go to southern Xinjiang one day; I'd really like to visit Kashgar.
+The next day we visited Xinjiang Museum, but exhibits 1 - 6 were all closed and we didn't get to see the dried corpse it was famous for. And then home we went. I *have* to go to southern Xinjiang one day; I'd really like to visit Kashgar, and also have big plate chicken and meat pies again.
 
 ## Hebei
 
