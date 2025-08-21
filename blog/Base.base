@@ -22,6 +22,9 @@ views:
     order:
       - file.name
       - title
+    columnSize:
+      file.name: 178
+      note.title: 262
   - type: table
     name: Pages
     filters:
@@ -32,3 +35,13 @@ views:
       - file.name
       - title
       - edited
+  - type: cards
+    name: Images
+    filters:
+      and:
+        - file.ext == "png"
+    order:
+      - file.basename
+    cardSize: 220
+    image: file.file
+    imageAspectRatio: 1
