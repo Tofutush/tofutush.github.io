@@ -1,6 +1,6 @@
 ---
 title: Media Log
-edited: 2025-08-13
+edited: 2025-08-21
 ---
 
 [[toc]]
@@ -51,6 +51,16 @@ Probably the only MSPFA comic I actually finished?
 - Date: Can't remember
 
 Ship them all. All the beta trolls. SHIP. THEM. ALL.
+
+## Movies
+
+I see people putting year next to movie titles, and while IDK why, I did it too. Textbook definition of bandwagon.
+
+### Dying to Survive (2018)
+
+- Date: Rewatched it 2025-08-21
+
+Really good movie about someone smuggling a life-saving medicine which is too expensive to buy legally.
 
 ## Games
 

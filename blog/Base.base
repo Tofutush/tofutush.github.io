@@ -1,0 +1,34 @@
+views:
+  - type: table
+    name: Published
+    filters:
+      and:
+        - file.folder == "posts"
+        - file.ext == "md"
+    order:
+      - file.name
+      - title
+      - date
+      - edited
+    columnSize:
+      file.name: 194
+      note.title: 232
+      note.date: 112
+  - type: table
+    name: Drafts
+    filters:
+      and:
+        - file.folder == "drafts"
+    order:
+      - file.name
+      - title
+  - type: table
+    name: Pages
+    filters:
+      and:
+        - file.folder == "pages"
+        - file.ext == "md"
+    order:
+      - file.name
+      - title
+      - edited
