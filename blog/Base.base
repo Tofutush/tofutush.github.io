@@ -10,10 +10,13 @@ views:
       - title
       - date
       - edited
+    sort:
+      - property: date
+        direction: DESC
     columnSize:
       file.name: 194
       note.title: 232
-      note.date: 112
+      note.date: 137
   - type: table
     name: Drafts
     filters:
