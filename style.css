@@ -173,6 +173,7 @@ li {
 .date {
 	margin: 1em 0;
 	opacity: .5;
+	font-family: 'Courier New', Consolas, monospace;
 	font-size: var(--font-size-small);
 }
 
