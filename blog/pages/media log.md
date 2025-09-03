@@ -76,7 +76,7 @@ Classic "we're trapped in a mansion because there's a storm outside and why are 
 - Link: [Steam (collection)](https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/)
 - Date: A long, long time ago
 
-See: [Game: Henry Stickmin](/posts/game-henry-stickmin/).
+See: [Game: Henry Stickmin](/posts/2025-08-13/).
 
 ### Framed Collection
 
