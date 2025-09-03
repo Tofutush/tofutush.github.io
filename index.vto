@@ -3,16 +3,20 @@ layout: layout.vto
 title: Home
 ---
 
-<h1>Blog</h1>
-
-{{ for p of collections.posts |> sortPosts }}
-	<p><span class="date">{{ p.data.date |> formatDate }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></p>
-{{ /for }}
-
 <h1>Pages</h1>
+<div class="grid">
+	{{ for p of collections.pages }}
+		<span class="date">{{ p.data.edited |> formatDate }}</span>
+		<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
+	{{ /for }}
+</div>
 
-{{ for p of collections.pages }}
-	<p><span class="date">{{ p.data.edited |> formatDate }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></p>
-{{ /for }}
+<h1>Blog</h1>
+<div class="grid">
+	{{ for p of collections.posts |> sortPosts }}
+		<span class="date">{{ p.data.date |> formatDate }}</span>
+		<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
+	{{ /for }}
+</div>
 
 <p><a href="/The-Iron-Ragdoll">The Iron Ragdoll</a>, my paracosm!</p>
