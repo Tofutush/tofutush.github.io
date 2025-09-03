@@ -6,7 +6,7 @@ title: Home
 <h1>Blog</h1>
 
 {{ for p of collections.posts |> sortPosts }}
-	<p><span class="date">{{ p.data.edited || p.data.date |> formatDate }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></p>
+	<p><span class="date">{{ p.data.date |> formatDate }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></p>
 {{ /for }}
 
 <h1>Pages</h1>

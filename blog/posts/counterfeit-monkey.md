@@ -1,7 +1,6 @@
 ---
 title: Counterfeit Monkey is Amazing
 date: 2024-12-30
-edited: 2025-04-25
 ---
 
 Uh to start it off, Counterfeit Monkey is an interactive fiction by Emily Short. It's a great game. I can't finish it without hints but it's a great game.

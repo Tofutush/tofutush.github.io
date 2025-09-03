@@ -4,7 +4,6 @@ layout: layout.vto
 <h1>{{ title }}</h1>
 <div class="date">
     <p>Posted: {{ date |> formatDate }}</p>
-    {{ if edited }}<p>Edited: {{ edited |> formatDate }}</p>{{ /if }}
 </div>
 {{ content }}
 <hr/>

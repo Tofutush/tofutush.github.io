@@ -65,9 +65,7 @@ export default function (eleventyConfig) {
 	});
 	eleventyConfig.addFilter('sortPosts', arr => {
 		return arr.sort((a, b) => {
-			const dateA = a.data.edited || a.data.date;
-			const dateB = b.data.edited || b.data.date;
-			return dateB - dateA;
+			return b.data.date - a.data.date;
 		})
 	});
 
