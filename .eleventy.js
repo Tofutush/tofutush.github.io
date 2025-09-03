@@ -8,6 +8,7 @@ import markdownItExternalLinks from "markdown-it-external-links";
 import markdownItFootnote from "markdown-it-footnote";
 import markdownItKatex from "markdown-it-katex";
 import markdownItTableOfContents from "markdown-it-table-of-contents";
+import markdownItTaskLists from 'markdown-it-task-lists';
 
 export default function (eleventyConfig) {
 	eleventyConfig.setQuietMode(true);
@@ -55,7 +56,7 @@ export default function (eleventyConfig) {
 		}
 	}).use(markdownItExternalLinks, {
 		externalTarget: '_blank'
-	}));
+	}).use(markdownItTaskLists));
 
 	// filters
 	eleventyConfig.addFilter('slug', slug);
