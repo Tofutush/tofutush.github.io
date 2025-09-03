@@ -1,6 +1,6 @@
 ---
 title: Thanos Snap
-date: "2024-10-15"
+date: 2024-10-15
 ---
 
 *Or, Achilles chases the turtle but genocide instead.*

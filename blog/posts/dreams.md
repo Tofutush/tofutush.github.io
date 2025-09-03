@@ -1,6 +1,6 @@
 ---
 title: Weird dreams I had
-date: "2025-04-21"
+date: 2025-04-21
 ---
 
 [[toc]]

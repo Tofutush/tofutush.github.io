@@ -1,6 +1,6 @@
 ---
 title: I'm departing for the US
-date: "2025-08-28"
+date: 2025-08-28
 ---
 
 It wasn't until when I was buying plane tickets and changing the default "round-trip" to "one-way," that it occurred to me: I was leaving for good. It would be four whole years before I'd get back again. (Unless I graduate early LMAO.)

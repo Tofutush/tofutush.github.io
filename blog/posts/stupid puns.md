@@ -1,6 +1,6 @@
 ---
 title: Chinese Culture Revolves Around Stupid Puns
-date: "2024-12-30"
+date: 2024-12-30
 ---
 
 I was thinking recently about how Chinese culture kind of revolves around stupid puns[^1].

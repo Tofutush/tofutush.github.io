@@ -1,6 +1,6 @@
 ---
 title: Resurrecting Old Ideas and Magic Academies
-date: "2024-09-29"
+date: 2024-09-29
 ---
 
 *(This is a post from Cohost, reposted here.)*
