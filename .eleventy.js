@@ -61,7 +61,7 @@ export default function (eleventyConfig) {
 	// filters
 	eleventyConfig.addFilter('slug', slug);
 	eleventyConfig.addFilter('formatDate', date => {
-		return DateTime.fromJSDate(date).toISODate();
+		return DateTime.fromJSDate(date, 'UTC').toISODate();
 	});
 	eleventyConfig.addFilter('sortPosts', arr => {
 		return arr.sort((a, b) => {
