@@ -1,6 +1,6 @@
 ---
 title: Ethnicity or whatever
-date: 2025-08-03
+date: "2025-08-03"
 ---
 
 I've seen a lot of people (or maybe not a lot and I'm just overreacting) mix up ethnicity (民族) and place of origin (籍贯) when it comes to Chinese people, when these two things are entirely separate concepts. And well I want to ramble about it now.

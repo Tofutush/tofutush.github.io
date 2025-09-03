@@ -6,6 +6,7 @@
     "time": "text",
     "sds": "multitext",
     "myTags": "multitext",
-    "permalink": "checkbox"
+    "permalink": "checkbox",
+    "date": "text"
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: See, reading John le Carré paid off
-date: 2025-05-19
+date: "2025-05-19"
 ---
 *Or, my journey in espionage book land thus far.*
 

@@ -1,6 +1,6 @@
 ---
 title: Dormmate drama
-date: 2025-03-19
+date: "2025-03-19"
 ---
 
 *(Warning: this post is a little vent-y)*
