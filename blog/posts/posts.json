@@ -1,5 +1,5 @@
 {
     "layout": "post-layout.vto",
     "tags": "posts",
-    "permalink": "posts/{{ title | slug }}.html"
+    "permalink": "posts/{{ written |> formatDate }}.html"
 }

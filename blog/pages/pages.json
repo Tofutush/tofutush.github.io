@@ -1,5 +1,5 @@
 {
     "layout": "page-layout.vto",
     "tags": "pages",
-    "permalink": "pages/{{ title | slug }}.html"
+    "permalink": "pages/{{ title |> slug }}.html"
 }

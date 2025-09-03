@@ -71,4 +71,9 @@ export default function (eleventyConfig) {
 
 	// vento
 	eleventyConfig.addPlugin(VentoPlugin);
+
+	return {
+		markdownTemplateEngine: 'vto',
+		htmlTemplateEngine: 'vto'
+	}
 };
