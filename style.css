@@ -173,7 +173,7 @@ li {
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	gap: 1em;
+	gap: .5em;
 
 	&>* {
 		line-height: 2;
