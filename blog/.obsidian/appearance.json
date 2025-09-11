@@ -1,6 +1,6 @@
 {
   "accentColor": "#e56b6f",
-  "baseFontSize": 24,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "folder tree",
     "justify",
@@ -13,7 +13,7 @@
     "blockquote"
   ],
   "interfaceFontFamily": "DIN Round Pro",
-  "textFontFamily": "Crimson Pro,Lexend,Courier Prime,霞鹜文楷,霞鹜漫黑",
+  "textFontFamily": "Courier Prime,霞鹜文楷,霞鹜漫黑",
   "cssTheme": "",
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrains Mono,微软雅黑",
