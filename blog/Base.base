@@ -24,6 +24,7 @@ views:
     order:
       - file.name
       - title
+      - ideas
     columnSize:
       file.name: 178
       note.title: 262
