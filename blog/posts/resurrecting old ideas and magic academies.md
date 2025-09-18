@@ -1,5 +1,5 @@
 ---
-title: Resurrecting Old Ideas and Magic Academies
+title: Resurrecting old ideas and magic academies
 date: 2024-09-29
 ---
 

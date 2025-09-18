@@ -1,5 +1,5 @@
 ---
-title: Thanos Snap
+title: Thanos snap
 date: 2024-10-15
 ---
 

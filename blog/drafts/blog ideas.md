@@ -1,5 +1,5 @@
 ---
 ideas:
-  - from dogs to cats
   - accessibility
+  - hillslope arc
 ---

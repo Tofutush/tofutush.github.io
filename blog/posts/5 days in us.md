@@ -1,5 +1,5 @@
 ---
-title: Five Days in the US
+title: Five days in the US
 date: 2025-08-31
 ---
 

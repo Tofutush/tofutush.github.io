@@ -1,5 +1,5 @@
 ---
-title: "Travel blog: Summer 2025"
+title: "Travel blog: summer 2025"
 date: 2025-08-15
 ---
 

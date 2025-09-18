@@ -1,5 +1,5 @@
 ---
-title: A Way-Too-Late Silkworm Diary
+title: A way-too-late silkworm diary
 date: 2025-09-16
 ---
 

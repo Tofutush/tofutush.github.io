@@ -1,5 +1,5 @@
 ---
-title: Chinese Chemistry
+title: Chinese chemistry
 date: 2025-09-14
 ---
 

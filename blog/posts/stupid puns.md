@@ -1,5 +1,5 @@
 ---
-title: Chinese Culture Revolves Around Stupid Puns
+title: Chinese culture revolves around stupid puns
 date: 2024-12-30
 ---
 

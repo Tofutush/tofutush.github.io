@@ -1,5 +1,5 @@
 ---
-title: One Week of College
+title: One week of college
 date: 2025-09-06
 ---
 

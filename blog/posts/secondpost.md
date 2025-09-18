@@ -1,5 +1,5 @@
 ---
-title: Second Post
+title: Second post
 date: 2024-09-26
 ---
 
