@@ -1,5 +1,5 @@
 ---
-title: I used to like dogs but now I like cats more.
+title: I used to like dogs but now I like cats more
 date: 2025-09-19
 ---
 
