@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Pages
+    filters:
+      and:
+        - file.folder == "pages"
+        - file.ext == "md"
+    order:
+      - file.name
+      - title
+      - edited

@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Drafts
+    filters:
+      and:
+        - file.folder == "drafts"
+    order:
+      - file.name
+      - title
+    columnSize:
+      file.name: 178
+      note.title: 262

@@ -5,7 +5,7 @@
   "fuzzyMatch": true,
   "minFuzzyMatchScore": 0.5,
   "matchingWithoutEmoji": true,
-  "treatAccentDiacriticsAsAlphabeticCharacters": false,
+  "treatAccentDiacriticsAsAlphabeticCharacters": true,
   "treatUnderscoreAsPartOfWord": false,
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 1,

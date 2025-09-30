@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Published
+    filters:
+      and:
+        - file.folder == "posts"
+        - file.ext == "md"
+    order:
+      - file.name
+      - title
+      - date
+    sort:
+      - property: date
+        direction: DESC
+    columnSize:
+      file.name: 139
+      note.title: 351
+      note.date: 137
