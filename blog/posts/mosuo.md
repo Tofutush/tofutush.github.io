@@ -1,5 +1,5 @@
 ---
-title: Mosuo Legends
+title: "Translation: Mosuo Legends"
 date: 2025-07-16
 ---
 
