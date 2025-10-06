@@ -15,13 +15,5 @@
       "key": "N"
     }
   ],
-  "file-explorer:new-file": [],
-  "obsidian-linter:lint-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ]
+  "file-explorer:new-file": []
 }
