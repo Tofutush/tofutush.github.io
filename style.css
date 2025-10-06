@@ -158,6 +158,15 @@ li {
 	margin: .5em 0;
 }
 
+code {
+	font-family: 'Courier New', Consolas, monospace;
+}
+
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
+	background-color: #222 !important;
+}
+
 #main .footnote-ref {
 	vertical-align: baseline;
 }
