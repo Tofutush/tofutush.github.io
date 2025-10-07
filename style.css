@@ -159,7 +159,14 @@ li {
 }
 
 code {
-	font-family: 'Courier New', Consolas, monospace;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	hyphens: none;
+}
+
+:not(pre)>code {
+	background-color: #222;
+	padding: .2em;
+	border-radius: 4px;
 }
 
 :not(pre)>code[class*="language-"],
