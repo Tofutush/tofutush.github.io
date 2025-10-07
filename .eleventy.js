@@ -53,7 +53,7 @@ export default function (eleventyConfig) {
 	}).use(markdownItTableOfContents, {
 		includeLevel: [2, 3, 4],
 		transformContainerOpen: () => {
-			return '<details><summary>Contents</summary>';
+			return '<details open><summary>Contents</summary>';
 		},
 		transformContainerClose: () => {
 			return '</details>';

@@ -1,5 +1,6 @@
 ---
 title: "Site doc: characters popping up when hovered"
+date: 2025-10-07
 ---
 
 Out of boredom I'm going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone's use case is exactly the same, so always make sure you know what a code is doing before copying!
@@ -46,23 +47,25 @@ In the grid, I made 10 `<a>`s that are the cards you see. Inside each `<a>` ther
 
 I put the character art as background images on the `<div>`s. Here are the pictures:
 
-<img src="/img/sparky pop.png"/>
+![sparky pop](../img/sparky%20pop.png)
 
-<img src="/img/cosmo pop.png"/>
+![cosmo pop](../img/cosmo%20pop.png)
 
-<img src="/img/tephra pop.png"/>
+![tephra pop](../img/tephra%20pop.png)
 
-<img src="/img/goose pop.png"/>
+![goose pop](../img/goose%20pop.png)
 
-<img src="/img/pumpkin pop.png"/>
+![pumpkin pop](../img/pumpkin%20pop.png)
 
-<img src="/img/buttercup pop.png"/>
+![buttercup pop](../img/buttercup%20pop.png)
 
-<img src="/img/melody pop.png"/>
+![melody pop](../img/melody%20pop.png)
 
-<img src="/img/qibli pop.png"/>
+![alaska pop](../img/alaska%20pop.png)
 
-<img src="/img/guillotine pop.png"/>
+![qibli pop](../img/qibli%20pop.png)
+
+![guillotine pop](../img/guillotine%20pop.png)
 
 They are the same size as the cards on a 1920px screen. Sparky and Buttercup are bigger because their cards are bigger.
 
@@ -77,7 +80,7 @@ The base code for background placement looked like this.
 }
 ```
 
-`image-rendering: pixelated` stops the browser from blurring pixel art. `background-position: center` centers the background horizontally, and the `calc(var(--font-size) * 3)` after it lowers it vertically by a certain amount. You see why I included the font size later.
+`image-rendering: pixelated` stops the browser from blurring pixel art. `background-position: center` centers the background horizontally, and the `calc(var(--font-size) * 3)` after it lowers it vertically by a certain amount. You see why I included the font size [in a later section](#responsiveness).
 
 For the big cards, I lowered them further by 10px for some reason. It took tweaking and trying.
 
@@ -93,11 +96,11 @@ For the big cards, there was a problem. There was a little gap between the botto
 
 ## Animation
 
-The good old `transition`. In Chrome DevTools, there is a handy little bezier curve — just click the little symbol next to a `cubic-bezier(…)` CSS function. Here's mine.
+The good old `transition`. In Chrome DevTools, there is a handy little bezier curve tool — just click the little symbol next to a `cubic-bezier(…)` CSS function. Here's mine.
 
-<img src="/img/popup bezier.png">
+![popup bezier](../img/popup%20bezier.png)
 
-You can see that my animation makes them go overboard a little before returning back to the target value.
+You can see that my animation makes them go overboard a little before returning back to the target value. This is what made them bounce.
 
 ```css
 .card {
@@ -113,7 +116,7 @@ The value of the variable is this: `clamp(16px, 0.75rem + 0.8vw, 24px)`.
 
 It's called "fluid typography," meaning font size changing with screen size. It grows on bigger screens and shrinks on smaller ones!
 
-The `clamp` function would output the minimum value (16px) when the middle value (`0.75rem + 0.8vw`) is smaller than that; and the maximum (24px) when the middle value is larger than that. Otherwise, it takes on the middle value; and with `vw` (viewport width), the middle value changes with screen width.
+The `clamp` function clamps the middle value (`0.75rem + 0.8vw`) between a minimum (16px) and a maximum (24px); and with `vw` (viewport width), the middle value changes with screen width.
 
 I didn't write the damn thing myself; it looks horrifying. I used a nice tool [here](https://clamp.font-size.app/).
 

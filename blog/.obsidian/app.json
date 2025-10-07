@@ -7,7 +7,7 @@
   ],
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "readableLineLength": true,
   "attachmentFolderPath": "img"
 }
