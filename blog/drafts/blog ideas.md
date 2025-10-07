@@ -2,6 +2,14 @@
 
 - accessibility
 - hillslope arc
+- site doc
+	- rel graph
+	- table sorting
+	- theme toggle
+	- tag pages
+	- "related files" under characters
+	- breadcrumbs
+	- dialog system
 
 ![published](published.base)
 
