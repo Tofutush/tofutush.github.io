@@ -161,6 +161,7 @@ li {
 code {
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	hyphens: none;
+	color: #fff9f2;
 }
 
 :not(pre)>code {
