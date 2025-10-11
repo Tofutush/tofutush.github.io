@@ -25,7 +25,7 @@ If you go to the index page of my [TIR site](/The-Iron-Ragdoll/) you will find a
 }
 ```
 
-The `minmax(250px, 1fr)` means that once each individual column will be `1fr` (one fraction) wide, which means every column will be the same width. But if they're smaller than 250px in width, they will reduce the number of columns until they're bigger than 250px again. This makes the two columns collapse into one on smaller screens.
+The `minmax(250px, 1fr)` means that each individual column will be `1fr` (one fraction) wide, which means every column will be the same width. But if they're smaller than 250px in width, they will reduce the number of columns until they're bigger than 250px again. This makes the two columns collapse into one on smaller screens.
 
 The `auto-fill` bears no difference to its alternative, `auto-fit` here, but [this article](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) explains their differences well.
 
