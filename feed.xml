@@ -4,7 +4,7 @@
   <subtitle>Where I write stuff once in a blue moon</subtitle>
   <link href="https://tofutush.github.io/feed.xml" rel="self" />
   <link href="https://tofutush.github.io/" />
-  <updated>2025-10-07T00:00:00Z</updated>
+  <updated>2025-10-10T00:00:00Z</updated>
   <id>https://tofutush.github.io/</id>
   <author>
     <name>Tofutush</name>
@@ -638,7 +638,7 @@
 	&lt;span class=&quot;token property&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 2em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 2em 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;minmax(250px, 1fr)&lt;/code&gt; means that once each individual column will be &lt;code&gt;1fr&lt;/code&gt; (one fraction) wide, which means every column will be the same width. But if they&#39;re smaller than 250px in width, they will reduce the number of columns until they&#39;re bigger than 250px again. This makes the two columns collapse into one on smaller screens.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;minmax(250px, 1fr)&lt;/code&gt; means that each individual column will be &lt;code&gt;1fr&lt;/code&gt; (one fraction) wide, which means every column will be the same width. But if they&#39;re smaller than 250px in width, they will reduce the number of columns until they&#39;re bigger than 250px again. This makes the two columns collapse into one on smaller screens.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;auto-fill&lt;/code&gt; bears no difference to its alternative, &lt;code&gt;auto-fit&lt;/code&gt; here, but &lt;a href=&quot;https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;this article&lt;/a&gt; explains their differences well.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;grid-auto-rows&lt;/code&gt; makes sure each row is &lt;code&gt;1fr&lt;/code&gt; no matter how many rows there are.&lt;/p&gt;
 &lt;p&gt;Two of the cards, &amp;quot;Characters&amp;quot; and &amp;quot;World,&amp;quot; are bigger than the rest. They simply have the &lt;code&gt;big&lt;/code&gt; class.&lt;/p&gt;
@@ -695,6 +695,18 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>生病</title>
+    <link href="https://tofutush.github.io/posts/2025-10-10.html" />
+    <updated>2025-10-10T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/2025-10-10.html</id>
+    <content type="html">&lt;p&gt;换季感冒了。周二早上起来就喉咙疼，喝点热水好了些就没吃药。要在国内早就蓝芩抗病毒哐哐灌了，但这边没得买。周三不出意外地还是疼，外加头疼得要命，早早睡了觉感觉好多了。周四买了 DayQuil 和 NyQuil，18 刀结果每盒里只有八片，感觉有点坑人。一粒药不小，吞完两粒胸口会闷好一阵子。NyQuil 说好的犯困呢？反正我不困。&lt;/p&gt;
+&lt;p&gt;周四晚上嗓子就开始哑了。本来就是那种很正常的哑，感觉清一清喉咙就好了，但是清了也没用。这真是我第一次这样，也不知道怎么办，话还是照样说，还乐呵呵地录了些“现在的年轻人呐，不讲武德”的录音，觉得声音像老年人，很好笑。然后周五起来就说不出话了。&lt;/p&gt;
+&lt;p&gt;也不是说不出。说还是能说的，就是很费劲，不如不说。喉咙还是吞咽的时候疼，但说话时再费劲喉咙也不会有特别的感觉。就是出来的声音哑。要是周四没硬说这么多话还会这样吗？但我说话时是真的感觉不到一点难受，就是哑。&lt;/p&gt;
+&lt;p&gt;要是在国内早跑社康去了。可能第一天吃点消炎药，或者第二天做个雾化，就不会这样了。跑了校医一趟，测了测血压，温度计塞嘴里没发烧，称了称体重是涨回来了；做了个核酸，不是新冠。那好，结论就是你回去多喝水多休息，几天后就好了。&lt;/p&gt;
+&lt;p&gt;那我现在能咋办，硬撑着呗。反正放假，朋友都回家了，我也没人说话。&lt;/p&gt;
 </content>
   </entry>
 </feed>
