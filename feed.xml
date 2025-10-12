@@ -4,7 +4,7 @@
   <subtitle>Where I write stuff once in a blue moon</subtitle>
   <link href="https://tofutush.github.io/feed.xml" rel="self" />
   <link href="https://tofutush.github.io/" />
-  <updated>2025-10-10T00:00:00Z</updated>
+  <updated>2025-10-12T00:00:00Z</updated>
   <id>https://tofutush.github.io/</id>
   <author>
     <name>Tofutush</name>
@@ -707,6 +707,182 @@
 &lt;p&gt;也不是说不出。说还是能说的，就是很费劲，不如不说。喉咙还是吞咽的时候疼，但说话时再费劲喉咙也不会有特别的感觉。就是出来的声音哑。要是周四没硬说这么多话还会这样吗？但我说话时是真的感觉不到一点难受，就是哑。&lt;/p&gt;
 &lt;p&gt;要是在国内早跑社康去了。可能第一天吃点消炎药，或者第二天做个雾化，就不会这样了。跑了校医一趟，测了测血压，温度计塞嘴里没发烧，称了称体重是涨回来了；做了个核酸，不是新冠。那好，结论就是你回去多喝水多休息，几天后就好了。&lt;/p&gt;
 &lt;p&gt;那我现在能咋办，硬撑着呗。反正放假，朋友都回家了，我也没人说话。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Site doc: Using Github to deploy a site made with 11ty to Neocities</title>
+    <link href="https://tofutush.github.io/posts/2025-10-12.html" />
+    <updated>2025-10-12T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/2025-10-12.html</id>
+    <content type="html">&lt;p&gt;Out of boredom I&#39;m going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone&#39;s use case is exactly the same, so always make sure you know what a code is doing before copying!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I have not clicked open the &amp;quot;edit site&amp;quot; button on Neocities in ages; I only open it when I want to check how much space I&#39;m using. Whenever I make an edit to my site, I just push the commit to the main branch and Github handles the rest. Here&#39;s how I did that.&lt;/p&gt;
+&lt;details open=&quot;&quot;&gt;&lt;summary&gt;Contents&lt;/summary&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12.html#git&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12.html#11ty&quot;&gt;11ty&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12.html#deploy-to-neocities-with-github-actions&quot;&gt;Deploy to Neocities with Github Actions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12.html#deploy-to-both-neocities-and-github-pages&quot;&gt;Deploy to both Neocities and Github Pages&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12.html#deploying-to-a-subdirectory&quot;&gt;Deploying to a subdirectory&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12.html#other-minor-stuff&quot;&gt;Other minor stuff&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/details&gt;
+&lt;h2 id=&quot;git&quot; tabindex=&quot;-1&quot;&gt;Git&lt;/h2&gt;
+&lt;p&gt;PetraPixel had made wonderfully-explained tutorials on a lot of these things already, so I recommend checking out their &lt;a href=&quot;https://petrapixel.neocities.org/coding/git-tutorial&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Git tutorial&lt;/a&gt;, &lt;a href=&quot;https://petrapixel.neocities.org/coding/npm-tutorial&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;NPM tutorial&lt;/a&gt;, and &lt;a href=&quot;https://petrapixel.neocities.org/coding/eleventy-tutorial&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;11ty tutorial&lt;/a&gt; before reading this!&lt;/p&gt;
+&lt;p&gt;Git is one of the most popular &lt;em&gt;version control systems&lt;/em&gt; nowadays. That means it&#39;s a tool for keeping track of older versions of your codebase so that if you screw up, you can revert back to an old version. Branches are also helpful. You can create a branch for a new part of your site, or perhaps a redesign, and if you screw up you just go back to the main branch and delete the new branch.&lt;/p&gt;
+&lt;p&gt;I also have Github Desktop downloaded, which is a GUI that makes things easier. This is back when I was in China and pushing and pulling took ages and I didn&#39;t know how to configure proxies (still don&#39;t). My VPN proxies all desktop applications automatically so it made things way faster. Now I won&#39;t be needing it since VSCode has a GUI for Git too and it&#39;s not as slow as before.&lt;/p&gt;
+&lt;h2 id=&quot;11ty&quot; tabindex=&quot;-1&quot;&gt;11ty&lt;/h2&gt;
+&lt;p&gt;11ty is a static site generator (SSG), meaning it takes a bunch of template files, fills in the templates, and outputs a bunch of HTML files for the browser to read.&lt;/p&gt;
+&lt;p&gt;Static site generators are great for bigger sites. Suppose I want the same header and footer on every page. I can copy / paste stuff, but what if I want to update the header? I&#39;d have to update everything! And don&#39;t even bring up iframes in front of me. They&#39;re like loading one page for the price of two. They&#39;re only good for embedding &lt;em&gt;another&lt;/em&gt; website in yours, like Youtube videos, guestbooks, etc.&lt;/p&gt;
+&lt;p&gt;I&#39;ve also recently learned about JavaScript custom elements (components), which could be worth checking out if you don&#39;t mind a lot of client-side JS and don&#39;t want to go all SSG. But SSGs still offer greater flexibility than simply components. With 11ty, you can&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a layout so you have the same header and footer in every page, as well as all the &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tags
+&lt;ul&gt;
+&lt;li&gt;Wrap a layout inside another layout for specific categories of pages that have their own shared sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Do pagination with data, which is how I made my character pages&lt;/li&gt;
+&lt;li&gt;Use data for literally anything, which is how I made many little games with the same character data file&lt;/li&gt;
+&lt;li&gt;Automatically convert all your images to a certain size and format&lt;/li&gt;
+&lt;li&gt;Use any templating language you want&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I started out I made my site with the Liquid templating language, but it&#39;s quite stupid to work with and now my site&#39;s too big for me to switch to something else. If I were to make a new site, I would use &lt;a href=&quot;https://vento.js.org/&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Vento&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Why yes, I am shilling for 11ty. If you don&#39;t use it yet, and you&#39;re thinking your site&#39;s starting to get disorganized… Scroll to the top and click on PetraPixel&#39;s tutorials!&lt;/p&gt;
+&lt;h2 id=&quot;deploy-to-neocities-with-github-actions&quot; tabindex=&quot;-1&quot;&gt;Deploy to Neocities with Github Actions&lt;/h2&gt;
+&lt;p&gt;This is the good part. Because sites generated by SSGs require a build step, that is, you need to run &lt;code&gt;npm run build&lt;/code&gt; and check in the &lt;code&gt;_site&lt;/code&gt; folder for the actual contents of the website, it means you can&#39;t directly dump your source code and expect the site to function. Github provides a great tool for you to run these build steps on their computers called Github Actions.&lt;/p&gt;
+&lt;p&gt;Before doing anything, you need to enable them in Github by going to Settings &amp;gt; Actions &amp;gt; General and checking &amp;quot;Allow all actions and reusable workflows.&amp;quot;&lt;/p&gt;
+&lt;p&gt;There are many things Github Actions are capable of which I don&#39;t know because I don&#39;t use them so I don&#39;t care. But each action is a &lt;code&gt;.yml&lt;/code&gt; file stored inside the &lt;code&gt;.github/workflows/&lt;/code&gt; folder of your repository.&lt;/p&gt;
+&lt;p&gt;Each action has a trigger, the thing that makes the action run. If you want the build to run every time you update the site, the most common trigger would be on push — whenever local changes are uploaded to the remote. You&#39;ll also want it to trigger only when it&#39;s pushed to the main branch too, or your test changes on a test branch can get published and you don&#39;t want that. So at the start of &lt;code&gt;build.yml&lt;/code&gt;, there&#39;s usually this:&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build Eleventy
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; main&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For me, I have a stupid birthday message system (which I may write about in the future) that requires one build per day to function, which this can do too! Just add another trigger that&#39;s a schedule, and schedule it to trigger once every midnight (UTC).&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build Eleventy
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; main
+  &lt;span class=&quot;token key atrule&quot;&gt;schedule&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;cron&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;0 0 * * *&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The weird &lt;code&gt;cron&lt;/code&gt; property is a code for time. I don&#39;t understand it either; I grabbed it from &lt;a href=&quot;https://crontab.guru/every-day-at-midnight&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before you start deploying your site to Neocities, you need to access its API. Go to Settings &amp;gt; Manage site settings &amp;gt; API, and generate an API key. Don&#39;t show this to anyone else! People can edit your site with this; that&#39;s the whole point. Go to your Github repository, click Settings &amp;gt; Secrets and variables &amp;gt; Actions. These are the secrets that Github Actions can use. Click &amp;quot;New repository secret,&amp;quot; name it &amp;quot;NEOCITIES_API_KEY,&amp;quot; and set its value to the API key you generated.&lt;/p&gt;
+&lt;p&gt;The rest is copy work. Here&#39;s how your file might look, if you&#39;re deploying to Neocities.&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build Eleventy
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; main
+  &lt;span class=&quot;token key atrule&quot;&gt;schedule&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;cron&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;0 0 * * *&#39;&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v3
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Use Node.js current
+        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/setup&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;node@v3
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;node-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; current
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Install dependencies &amp;amp; build
+        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+          npm ci
+          npm run build&lt;/span&gt;
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy to neocities
+        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; bcomnes/deploy&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;to&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;neocities@v3
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;api_token&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.NEOCITIES_API_KEY &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;cleanup&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;dist_dir&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; _site&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;cleanup: true&lt;/code&gt; deletes the files that are on Neocities but not in the &lt;code&gt;_site&lt;/code&gt; folder. Set this to true, or otherwise old files you&#39;ve deleted will still appear on your site!&lt;/p&gt;
+&lt;p&gt;There are three steps here. The first step makes the computer use Node.js. The second builds your 11ty site. Make sure you do have a script called &lt;code&gt;build&lt;/code&gt; in your &lt;code&gt;package.json&lt;/code&gt; file! If not, simply add this in:&lt;/p&gt;
+&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// the &quot;scripts&quot; object should already exist. If not then just add it too.&lt;/span&gt;
+	&lt;span class=&quot;token property&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;eleventy&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And the final step uploads everything in the &lt;code&gt;_site&lt;/code&gt; folder to Neocities.&lt;/p&gt;
+&lt;p&gt;It&#39;s important to not include any file that&#39;s not in the list of approved file formats, or the action fails!&lt;/p&gt;
+&lt;h2 id=&quot;deploy-to-both-neocities-and-github-pages&quot; tabindex=&quot;-1&quot;&gt;Deploy to both Neocities and Github Pages&lt;/h2&gt;
+&lt;p&gt;I have my site mirrored in both these places. I just need another step in my action file to deploy it to Github Pages.&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy
+  &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; peaceiris/actions&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;gh&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages@v3.8.0
+  &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;github_token&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.GITHUB_TOKEN &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;publish_dir&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; _site
+    &lt;span class=&quot;token key atrule&quot;&gt;publish_branch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; gh&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(The &lt;code&gt;GITHUB_TOKEN&lt;/code&gt; secret comes automatically.)&lt;/p&gt;
+&lt;p&gt;In Github, go to Settings &amp;gt; Pages and enable Github Pages deploying from the branch &lt;code&gt;gh-pages&lt;/code&gt;. You might need to let this action run (and fail) once first before being able to select that branch.&lt;/p&gt;
+&lt;h3 id=&quot;deploying-to-a-subdirectory&quot; tabindex=&quot;-1&quot;&gt;Deploying to a subdirectory&lt;/h3&gt;
+&lt;p&gt;But there&#39;s a problem! Unless your repository is named &lt;code&gt;tofutush.github.io&lt;/code&gt;, Github Pages will deploy the contents of this site to a subdirectory, &lt;code&gt;tofutush.github.io/The-Iron-Ragdoll&lt;/code&gt;. In this case, all of the absolute links in your site will break. You link &lt;code&gt;/&lt;/code&gt; in hopes that it will take you to the home page &lt;code&gt;tofutush.github.io/The-Iron-Ragdoll&lt;/code&gt;, but it would take you to &lt;code&gt;tofutush.github.io&lt;/code&gt; instead. How do we solve this problem without resorting to using relative links everywhere?&lt;/p&gt;
+&lt;p&gt;11ty already provides a solution. When running &lt;code&gt;eleventy&lt;/code&gt;, you can pass in a &lt;code&gt;pathprefix&lt;/code&gt; variable that&#39;s exactly what the &lt;code&gt;The-Iron-Ragdoll&lt;/code&gt; in the URL is. So if I run &lt;code&gt;eleventy --pathprefix=The-Iron-Ragdoll&lt;/code&gt;, 11ty will host your site in &lt;code&gt;localhost:8080/The-Iron-Ragdoll&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;And then, we need to transform every absolute URL into &lt;code&gt;/The-Iron-Ragdoll/&lt;/code&gt; too. The plugin comes straight with 11ty so you don&#39;t need to install it yourself.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; EleventyHtmlBasePlugin &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;@11ty/eleventy&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addPlugin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;EleventyHtmlBasePlugin&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(Add the &lt;code&gt;addPlugin&lt;/code&gt; line into your config function if it exists (which is most likely). Don&#39;t create another function!)&lt;/p&gt;
+&lt;p&gt;With that, you can make a new build script, one for Neocities and one for Github Pages.&lt;/p&gt;
+&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token property&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;eleventy --pathprefix=The-Iron-Ragdoll&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;token property&quot;&gt;&quot;buildneo&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;eleventy --output=_neocities&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;buildneo&lt;/code&gt; script changes the output directory from &lt;code&gt;_site&lt;/code&gt; to &lt;code&gt;_neocities&lt;/code&gt; so I don&#39;t override things.&lt;/p&gt;
+&lt;p&gt;This is my final action file.&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build Eleventy
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  push&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    branches&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; main
+  schedule&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;cron&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;0 0 * * *&#39;&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  build&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    runs&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+
+    steps&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v3
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Use Node.js current
+        uses&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/setup&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;node@v3
+        with&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          node&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token key atrule&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; current
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Install dependencies &amp;amp; build
+        run&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;
+          npm ci
+          npm run build
+          npm run buildneo
+          npm run copy
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy
+        uses&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; peaceiris/actions&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;gh&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages@v3.8.0
+        with&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          github_token&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.GITHUB_TOKEN &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          publish_dir&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; _site
+          publish_branch&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; gh&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy to neocities
+        uses&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; bcomnes/deploy&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;to&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;neocities@v3
+        with&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          api_token&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.NEOCITIES_API_KEY &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          cleanup&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+          dist_dir&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; _neocities&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(There is a line, &lt;code&gt;npm run copy&lt;/code&gt;, that copies my images from &lt;code&gt;_site/img&lt;/code&gt; to &lt;code&gt;_neocities/img&lt;/code&gt;. You probably don&#39;t need it!)&lt;/p&gt;
+&lt;p&gt;There we go. Don&#39;t we all love this automatic shit.&lt;/p&gt;
+&lt;h2 id=&quot;other-minor-stuff&quot; tabindex=&quot;-1&quot;&gt;Other minor stuff&lt;/h2&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setQuietMode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This gets rid of all the lines telling you which file had been written.&lt;/p&gt;
+&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;eleventy &lt;span class=&quot;token parameter variable&quot;&gt;--serve&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--incremental&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--pathprefix&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;The-Iron-Ragdoll&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is my serve script. The &lt;code&gt;--incremental&lt;/code&gt; flag makes sure that when I change a file, only that file will be updated, instead of the entire site.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token literal-property property&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token literal-property property&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;tir&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+		&lt;span class=&quot;token literal-property property&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;../_includes&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+		&lt;span class=&quot;token literal-property property&quot;&gt;layouts&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;../_layouts&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+		&lt;span class=&quot;token literal-property property&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;../_data&#39;&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;token literal-property property&quot;&gt;passthroughFileCopy&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the return object of my 11ty config function. &lt;code&gt;input: &#39;tir&#39;&lt;/code&gt; puts all my input files in the &lt;code&gt;tir&lt;/code&gt; folder instead of at the root folder, so I can open that folder in Obsidian and it won&#39;t have too many extra folders and files I don&#39;t want to see while editing my site. If you did that though, you &lt;em&gt;have&lt;/em&gt; to set &lt;code&gt;includes&lt;/code&gt;, &lt;code&gt;layouts&lt;/code&gt;, and &lt;code&gt;data&lt;/code&gt; to the parent directory, because 11ty will still be looking at them relative to &lt;code&gt;tir&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I also separated the layouts and include files because there were too many of them.&lt;/p&gt;
+&lt;p&gt;That&#39;s it, I think! I hope you find this helpful!&lt;/p&gt;
 </content>
   </entry>
 </feed>
