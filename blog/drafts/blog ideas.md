@@ -10,6 +10,7 @@
 	- "related files" under characters
 	- breadcrumbs
 	- dialog system
+	- bday system
 
 ![published](published.base)
 
