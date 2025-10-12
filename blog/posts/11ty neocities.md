@@ -148,6 +148,8 @@ But there's a problem! Unless your repository is named `tofutush.github.io`, Git
 And then, we need to transform every absolute URL into `/The-Iron-Ragdoll/` too. The plugin comes straight with 11ty so you don't need to install it yourself.
 
 ```js
+// .eleventy.js
+
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
