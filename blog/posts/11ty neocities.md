@@ -103,7 +103,7 @@ jobs:
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
-          api_token: ${{ secrets.NEOCITIES_API_KEY }}
+          api_token: ${{ echo }}{{ secrets.NEOCITIES_API_KEY }}{{ /echo }}
           cleanup: true
           dist_dir: _site
 ```
@@ -130,7 +130,7 @@ I have my site mirrored in both these places. I just need another step in my act
 - name: Deploy
   uses: peaceiris/actions-gh-pages@v3.8.0
   with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
+    github_token: ${{ echo }}{{ secrets.GITHUB_TOKEN }}{{ /echo }}
     publish_dir: _site
     publish_branch: gh-pages
 ```
@@ -200,14 +200,14 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ echo }}{{ secrets.GITHUB_TOKEN }}{{ /echo }}
           publish_dir: _site
           publish_branch: gh-pages
 
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
-          api_token: ${{ secrets.NEOCITIES_API_KEY }}
+          api_token: ${{ echo }}{{ secrets.NEOCITIES_API_KEY }}{{ /echo }}
           cleanup: true
           dist_dir: _neocities
 ```
