@@ -44,7 +44,7 @@ After determining what element your character lacks, it's time to make up for it
 For some quick examples, take these common ones:
 
 - Gold / metal: 鑫，怡，瑞，祥，铭
-	- Radicals: [忄](https://www.mdbg.net/chinese/dictionary?cdqrad=61), [王](https://www.mdbg.net/chinese/dictionary?cdqrad=96), [礻](https://www.mdbg.net/chinese/dictionary?cdqrad=113)
+	- Radicals: [钅](https://www.mdbg.net/chinese/dictionary?cdqrads=167), [忄](https://www.mdbg.net/chinese/dictionary?cdqrad=61), [王](https://www.mdbg.net/chinese/dictionary?cdqrad=96), [礻](https://www.mdbg.net/chinese/dictionary?cdqrad=113)
 - Wood: 森，林，菁，荣，楷
 	- Radicals: [木](https://www.mdbg.net/chinese/dictionary?cdqrad=75), [艹](https://www.mdbg.net/chinese/dictionary?cdqrad=140)
 - Water: 淼，涵，沐，潇，泽
