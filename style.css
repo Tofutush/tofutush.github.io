@@ -128,10 +128,6 @@ p {
 	text-indent: 2em;
 }
 
-[dir="rtl"] p {
-    text-align: right;
-}
-
 img {
 	width: -webkit-fill-available;
 	display: block;
@@ -244,6 +240,10 @@ p:has(.katex-display) {
 	p {
 		text-align: left;
 		text-indent: 0;
+	}
+
+	[dir="rtl"] p {
+	    text-align: right;
 	}
 
 	ul,
