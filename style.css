@@ -18,6 +18,11 @@
 	src: url(/fonts/LXGWWenKai-Regular.ttf);
 }
 
+@font-face {
+	font-family: noto sans arabic;
+	src: url(/fonts/NotoSansArabic-VariableFont_wdth\,wght.ttf);
+}
+
 body {
 	--font-size: clamp(16px, 0.75rem + 0.8vw, 24px);
 	--font-size-h1: calc(var(--font-size) * 1.8);
@@ -27,7 +32,7 @@ body {
 	--font-size-small: calc(var(--font-size) * 0.8);
 	background-color: var(--bg);
 	color: var(--text);
-	font-family: Lexend, lxgw;
+	font-family: Lexend, lxgw, noto sans arabic;
 	font-size: var(--font-size);
 	margin: 0;
 	--header: #83254f;
@@ -126,6 +131,10 @@ p {
 	margin: 1em 0;
 	text-align: justify;
 	text-indent: 2em;
+}
+
+[dir="rtl"] {
+	font-size: var(--font-size-h4);
 }
 
 img {
@@ -243,7 +252,7 @@ p:has(.katex-display) {
 	}
 
 	[dir="rtl"] p {
-	    text-align: right;
+		text-align: right;
 	}
 
 	ul,
