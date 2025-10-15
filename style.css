@@ -242,6 +242,10 @@ p:has(.katex-display) {
 		text-indent: 0;
 	}
 
+	[dir="rtl"] p {
+	    text-align: right;
+	}
+
 	ul,
 	ol {
 		padding-inline-start: 2em;
