@@ -146,7 +146,7 @@ pagination:
   size: 1
   alias: ch
   addAllPagesToCollections: true
-permalink: "characters/{{ ch.name | lowerCase }}/gallery/"
+permalink: "characters/{{ echo }}{{ ch.name | lowerCase }}{{ /echo }}/gallery/"
 ```
 
 On the characters' main pages, I also filtered for the first 10 images in their gallery, and linked to the subpage if they had more than 10 pieces. Wonderfully fully-automated big galleries. I love 'em.
