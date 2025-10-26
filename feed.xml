@@ -4,7 +4,7 @@
   <subtitle>Where I write stuff once in a blue moon</subtitle>
   <link href="https://tofutush.github.io/feed.xml" rel="self" />
   <link href="https://tofutush.github.io/" />
-  <updated>2025-10-18T00:00:00Z</updated>
+  <updated>2025-10-26T00:00:00Z</updated>
   <id>https://tofutush.github.io/</id>
   <author>
     <name>Tofutush</name>
@@ -1075,6 +1075,32 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
   addAllPagesToCollections&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
 &lt;span class=&quot;token key atrule&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;characters/{{ ch.name | lowerCase }}/gallery/&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;On the characters&#39; main pages, I also filtered for the first 10 images in their gallery, and linked to the subpage if they had more than 10 pieces. Wonderfully fully-automated big galleries. I love &#39;em.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sparky and I</title>
+    <link href="https://tofutush.github.io/posts/2025-10-26.html" />
+    <updated>2025-10-26T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/2025-10-26.html</id>
+    <content type="html">&lt;p&gt;It struck me how different Sparky is from myself. You know, usually people&#39;s main characters, let alone parames, would be a lot similar to themselves. But Sparky is different from me in every aspect.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sparky is strong. I don&#39;t get out of bed unless I have to.&lt;/li&gt;
+&lt;li&gt;Sparky grew up in a rich family but isn&#39;t spoiled at all; compare that to Willow. I grew up below-average, yet came out quite spoiled.&lt;/li&gt;
+&lt;li&gt;Sparky is determined, self-assured, and confident. She would not let anyone cast doubt on herself.&lt;/li&gt;
+&lt;li&gt;Sparky is outgoing.&lt;/li&gt;
+&lt;li&gt;Sparky is loud and obnoxious.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&#39;t know what caused her to be this way. It&#39;s not like she&#39;s someone I aspire to be (rich family apart) — she&#39;s quite an annoying bitch to be honest.&lt;/p&gt;
+&lt;p&gt;In fact, I don&#39;t even think Qibli, my literal self-insert, was that similar to myself. I wouldn&#39;t know what character is similar to myself — I think it&#39;s because I don&#39;t even know that much about myself. I&#39;ve never &amp;quot;related&amp;quot; to a fictional character before; I don&#39;t know how other people find them &amp;quot;relatable.&amp;quot; I&#39;ve only thought they were cute and therefore loved them, or thought they were badass and therefore admired them.&lt;/p&gt;
+&lt;p&gt;I used to think I&#39;m aro-ace due to me not understanding why shipping is so fun, but now that I think about it more, I feel like I just have an inability to form meaningful relationships&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-10-26.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;, whether it&#39;s real or fictional people. Like, I don&#39;t get personalities. I can&#39;t see when someone (real or fictional) is &amp;quot;out-of-character.&amp;quot; Twilight Sparkle doing the same jumpy thing as Pinkie Pie wouldn&#39;t have struck me as off. Back when I was doing Chinese reading comprehension for the high school entrance exam where they ask you about a character&#39;s characterization and stuff, I simply attributed it to me having awful reading comprehension. But now I wonder if there&#39;s really something deeply wrong with me.&lt;/p&gt;
+&lt;p&gt;But anyways it&#39;s lunch time.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Yes this is a Cards Against Humanity card LMAO… &lt;a href=&quot;https://tofutush.github.io/posts/2025-10-26.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </content>
   </entry>
 </feed>
