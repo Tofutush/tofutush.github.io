@@ -105,8 +105,8 @@ Some languages have their language name written in that language which is a tiny
 		- 重温
 - 活动
 	- ~~雷米特杯失窃案~~
-	- **绿湖噩梦**
-	- 行至摩卢旁卡
+	- ~~绿湖噩梦~~
+	- **行至摩卢旁卡**
 	- 复兴！乌卢鲁运动会
 	- 朔日手记
 	- 再见，来亚什基
