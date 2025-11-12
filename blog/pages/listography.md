@@ -50,6 +50,10 @@ Legend
 - North Korea (no I'm not joking)
 - Mexico
 - Cuba
+- The Baltics
+	- Lithuania
+	- Latvia
+	- Estonia
 
 ## Languages
 
