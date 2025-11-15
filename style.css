@@ -166,6 +166,11 @@ li {
 	margin: .5em 0;
 }
 
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: jetbrains !important;
+}
+
 code {
 	font-family: jetbrains, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	hyphens: none;
