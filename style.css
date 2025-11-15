@@ -4,16 +4,6 @@
 }
 
 @font-face {
-	font-family: troika;
-	src: local(Troika), url(/fonts/troika.otf);
-}
-
-@font-face {
-	font-family: lxgw-marker;
-	src: url(/fonts/LXGWMarkerGothic-Regular.ttf);
-}
-
-@font-face {
 	font-family: lxgw;
 	src: url(/fonts/LXGWWenKai-Regular.ttf);
 }
@@ -21,6 +11,17 @@
 @font-face {
 	font-family: noto sans arabic;
 	src: url(/fonts/NotoSansArabic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+	font-family: jetbrains;
+	src: local(Jetbrains Mono), url(/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: jetbrains;
+	font-style: italic;
+	src: local(Jetbrains Mono), url(/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf);
 }
 
 body {
@@ -98,8 +99,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: troika, lxgw-marker;
-	letter-spacing: 3px;
 	line-height: 1.5;
 }
 
@@ -167,8 +166,13 @@ li {
 	margin: .5em 0;
 }
 
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: jetbrains !important;
+}
+
 code {
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: jetbrains, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	hyphens: none;
 	color: #fff9f2;
 }
@@ -212,7 +216,7 @@ pre[class*="language-"] {
 
 .date {
 	opacity: .5;
-	font-family: 'Courier New', Consolas, monospace;
+	font-family: jetbrains, 'Courier New', Consolas, monospace;
 }
 
 p:has(.katex-display) {
