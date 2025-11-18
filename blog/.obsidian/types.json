@@ -3,10 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "time": "text",
-    "sds": "multitext",
-    "myTags": "multitext",
-    "permalink": "checkbox",
-    "ideas": "multitext"
+    "myTags": "multitext"
   }
 }
