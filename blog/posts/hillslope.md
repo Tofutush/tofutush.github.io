@@ -20,16 +20,22 @@ Here's a list of the original Hillslope residents.
 - Alaska: rustblood.
 - Ribbon: bronzeblood.
 - Potato: goldblood.
-- Guillotine: goldblood.
+- Guillotine: goldblood. Originally called Amulet.
 - Icicle: goldblood. This one didn't make it into Coastline Middle School, and had been a guy. She sat in my "misc" section for quite a while before I pulled her out for Sunflower's story.
 - Melody: oliveblood.
 - Starry: jadeblood. This one followed the exact same trajectory as Icicle, except she's canonically cisgender while Icicle is trans.
 - Tephra: tealblood.
 - Cosmo: ceruleanblood.
 - Tundra: purpleblood.
-- Dragonfly: I forgot what blood he had.
+- Dragonfly: I forgot what blood he had. Or he wasn't in the Homestuck version in the first place, since he doesn't have a 6-letter name. Yeah on second thought I definitely added him after turning this to TIR and before I scrapped the arc, to explain Sparky's strength now that she's not an indigoblood anymore.
 - Jerboa: I couldn't be sure whether he was originally in Hillslope.
+
+As you can see, they all had 6-letter names. Sparky was actually renamed from Lightningtail, one of my first OCs ever, with multiple forms and iterations; Sparky is merely troll Lightningtail.
 
 There are no sea-dwellers in this town, because obviously. I had a storyline where a violetblood I forgot the name of came here and was a bitch to everyone here, and Sparky got all smitten over her while combatting her internal bi-phobia LOL. I could never get the design of the violetblood pinned down so there it went.
 
 Project Boomerang was in the development soon after the transition from Homestuck fanventure to TIR happened, and the story for Jerboa was that he got sent to Hillslope after his parents disappeared. So that's technically the oldest story I have. And very consequentially, since old story = young me = bad writing, it's one of the least developed, since I still do not know yet who was even the perpetrator behind his parents' kidnapping and murder. But I feel this story would have lots of potential, and I am in love with its message: that technology cannot be truly neutral; especially cutting-edge ones, they're always politicized and scientists have to compromise some of their principals to actually do research and advance technology.
+
+The entire superpower system was created to justify Sparky's superstrength, which is such an integral part of her character. Cosmo's ceruleanblood mind-reading too.
+
+Homestuck *will* damn you for life.
