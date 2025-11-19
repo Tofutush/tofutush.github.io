@@ -9,6 +9,7 @@ views:
       - file.name
       - title
       - date
+      - draft
     sort:
       - property: date
         direction: DESC
@@ -16,3 +17,4 @@ views:
       file.name: 139
       note.title: 351
       note.date: 125
+      note.draft: 78
