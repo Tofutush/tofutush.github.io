@@ -1,7 +1,6 @@
 ![drafts](drafts.base)
 
 - accessibility
-- hillslope arc
 - site doc
 	- rel graph
 	- table sorting

@@ -76,6 +76,13 @@ export default function (eleventyConfig) {
 	// vento
 	eleventyConfig.addPlugin(VentoPlugin);
 
+	// drafts
+	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+			return false;
+		}
+	});
+
 	return {
 		markdownTemplateEngine: 'vto',
 		htmlTemplateEngine: 'vto'
