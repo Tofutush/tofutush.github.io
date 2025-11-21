@@ -5,3 +5,25 @@ date: 2025-11-19
 ---
 
 I started writing this on 2025-11-19, but I wanted to wait until it actually started snowing to publish it.
+
+I came from a place where it never snows. The only time it "snowed" was one really cold winter where the top of a really tall mountain got frosted.
+
+My mom, however, comes from the north. If we go back to her home for new year, I'd be able to see snow! (My dad's home, though still in the south, is north enough to snow a bit; but I hate it there so I don't care.)
+
+It started to snow on the train in the dark. I sat by the window looking at it until I got too tired and had to sleep.
+
+I loved stomping around in the snow and sliding on patches of the road that got frozen in ice. One time we tried building a snowman, but the snow was too powdery to make any sort of shape. From then on I've always wondered whether those round snowmen in cartoons were physically possible.
+
+Another time my cousin took me to a frozen river. We were walking on it, when we reached a patch where the ice was thinner. She asked me how heavy I was, and I didn't know. She said a lamb could walk over it without breaking the ice. So we went back, weighed a lamb, and weighed me. I was lighter than the lamb, so we went and walked over the ice. Thinking back, we shouldn't have bothered — my cousin was older, taller, and definitely heavier than me; if she knew she could walk over it, then certainly I could too.
+
+The beds in the north were this kind where it has a maze-like pattern underneath. You light a fire in the next room, and the heat gets directed under the bed and through the maze, ensuring the entire bed is warm. We'd all sleep on it, adults and kids, sharing a few big blankets. My cousin and I liked to crawl back and forth underneath the blankets and it would make the adults mad. When we waked up the next day, all the adults would've already been up and it would be cold.
+
+The last time I went, my cousin had a little brother who was a whiny bastard and he pooped on the bed once. I didn't even know how a 2-year-old with a tiny butt could crap something this big. My cousin picked it up with a couple of poker cards, so there goes the deck.
+
+There was an ice cream wholesale place in town. We'd buy a huge bag of ice cream that filled up the freezer in the dead of winter. I was only allowed to have one throughout the entire time. I didn't know why we even bought them in the first place.
+
+At one point my uncle (either the father of my cousin or another uncle; don't remember) was carrying me and pointing out constellations in the sky. That was the big dipper. That was Sagittarius. There were so many stars in the sky. There were more stars than there were the sky. I don't think I'm ever seeing anything like that again in my life. I liked sleeping outside too, but my mom had to stay out with me if I were to do it, and she didn't like it. We only slept outside for one night in my memory.
+
+There were cucumbers and melons in our yard. At one point the dogs had pups. One of them got itself stuck in the wall somehow but we managed to get it out and it survived.
+
+The floor was plain cement, but years later they put tiles on the floor with my mom's money and everyone liked it. They live more elsewhere than in that old house now though.

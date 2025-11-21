@@ -9,3 +9,5 @@ views:
       - file.name
       - title
       - edited
+    columnSize:
+      note.title: 167
