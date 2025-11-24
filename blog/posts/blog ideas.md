@@ -8,6 +8,6 @@ date: 0001-01-01
 	- rel graph
 	- table sorting
 
-![published](published.base)
+![published](../posts.base)
 
 ![pages](pages.base)

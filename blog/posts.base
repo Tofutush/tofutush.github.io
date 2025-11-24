@@ -1,6 +1,6 @@
 views:
   - type: table
-    name: Published
+    name: Posts
     filters:
       and:
         - file.folder == "posts"
@@ -16,5 +16,5 @@ views:
     columnSize:
       file.name: 139
       note.title: 351
-      note.date: 125
-      note.draft: 78
+      note.date: 133
+      note.draft: 70
