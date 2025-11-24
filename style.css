@@ -68,6 +68,9 @@ hr {
 	justify-content: space-between;
 	align-items: center;
 	user-select: none;
+	position: sticky;
+	top: 0;
+	z-index: 2;
 
 	& a {
 		color: #fff9f2;
@@ -153,10 +156,9 @@ details {
 
 ul {
 	list-style: disc;
-	padding-inline-start: 3em;
-	line-height: 2;
 }
 
+ul,
 ol {
 	padding-inline-start: 3em;
 	line-height: 2;
@@ -164,6 +166,10 @@ ol {
 
 li {
 	margin: .5em 0;
+}
+
+li::marker {
+	color: var(--link);
 }
 
 code[class*="language-"],
