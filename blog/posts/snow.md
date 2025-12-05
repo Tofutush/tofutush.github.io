@@ -1,7 +1,6 @@
 ---
 title: Snow!
-draft: true
-date: 2025-11-19
+date: 2025-12-05
 ---
 
 I started writing this on 2025-11-19, but I wanted to wait until it actually started snowing to publish it.
@@ -27,3 +26,9 @@ At one point my uncle (either the father of my cousin or another uncle; don't re
 There were cucumbers and melons in our yard. At one point the dogs had pups. One of them got itself stuck in the wall somehow but we managed to get it out and it survived.
 
 The floor was plain cement, but years later they put tiles on the floor with my mom's money and everyone liked it. They live more elsewhere than in that old house now though.
+
+2025-12-04: There was a thin later of frost on the grass.
+
+2025-12-05 Here it comes! Snow!
+
+I woke up at like eleven o'clock. Out the window I could see that the lawn nearby our dorm building was completely covered in white. And as I headed out to lunch, it's still snowing! Snowflakes are falling out of the sky just like that. I opened my mouth trying to let them fly on my tongue. I'm still a little weary about stepping on it, but once my boots arrive, just you wait!
