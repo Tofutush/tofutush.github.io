@@ -111,14 +111,17 @@ h1 {
 
 h2 {
 	font-size: var(--font-size-h2);
+	margin-top: 1.5em;
 }
 
 h3 {
 	font-size: var(--font-size-h3);
+	margin-top: 1.5em;
 }
 
 h4 {
 	font-size: var(--font-size-h4);
+	margin-top: 1.5em;
 }
 
 #main {
