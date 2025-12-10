@@ -2,7 +2,7 @@
 title: I think… In my opinion…
 date: 2025-10-01
 tags:
-  - ramble
+  - i-declare
 ---
 
 I feel like I often use too much of the phrases "in my opinion" or "I think" here. Which is stupid, because this is *my blog*. What do you think I write, if not my opinions? Literature reviews?

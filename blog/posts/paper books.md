@@ -2,7 +2,7 @@
 title: Paper books are just better until they aren't
 date: 2025-09-30
 tags:
-  - ramble
+  - i-declare
 ---
 
 Paper books are better. This sentiment is probably shared among a lot of people, but since it's *my* blog I'm talking about my personal experiences with paper, e-books, and reading in general here.
