@@ -10,7 +10,7 @@ Out of boredom I'm going to write about how I did some of the stuff I did on my 
 
 ---
 
-If you go to the index page of my [TIR site](https://tofutush.github.io/The-Iron-Ragdoll/characters/relationships/) you will find a grid of cards with characters drawn on them, that will pop up when you hover over them.
+If you go to the index page of my [TIR site](https://tofutush.github.io/The-Iron-Ragdoll/) you will find a grid of cards with characters drawn on them, that will pop up when you hover over them.
 
 [[toc]]
 
