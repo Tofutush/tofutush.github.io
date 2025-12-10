@@ -234,7 +234,16 @@ I also played a little trick. If the two relationships are the same, like friend
 
 ### Links
 
-It would be great if
+It would be great if clicking on a character takes us to their page! Simply append an `a`.
+
+```js
+bigG.append("g")
+	.selectAll("a")
+	.data(nodes)
+	.join("a")
+	.attr("xlink:href", d => `../${d.id.toLowerCase()}/`)
+	.attr("target", "_blank")
+```
 
 ### Pictures
 
@@ -250,7 +259,7 @@ Character thumbnails! Instead of boring circles, let's do pictures. This is easy
 	.attr("xlink:href", d => d.img)
 ```
 
-You only need one `data(nodes)` in there, so delete any redundancies.
+You only need one `data(nodes)` in there, so delete any redundancies. And if you added links in the step above, change `selectAll` to `append` so the image is wrapped in the link.
 
 Oh, now the pictures are crammed in the middle again! In the tick function, change `cx` and `cy` to `x` and `y`. I suppose this is because `cx` stands for "center x"? So it only works on circles. But now the point where the links meet are also visible. This is because the image's anchor is on the top-left, so you need to offset it by half its width and height to make it centered. I don't know how to dynamically compute the image's width and height from here, so I had to hard-code it, which is 20px.
 
