@@ -1,6 +1,8 @@
 ---
 title: Resurrecting old ideas and magic academies
 date: 2024-09-29
+tags:
+  - tir
 ---
 
 *(This is a post from Cohost, reposted here.)*

@@ -8,6 +8,7 @@ views:
     order:
       - file.name
       - title
+      - tags
       - date
       - draft
     sort:
@@ -15,6 +16,7 @@ views:
         direction: DESC
     columnSize:
       file.name: 139
-      note.title: 393
+      note.title: 240
+      note.tags: 157
       note.date: 116
       note.draft: -9

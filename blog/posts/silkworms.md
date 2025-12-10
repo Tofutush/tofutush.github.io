@@ -1,6 +1,8 @@
 ---
 title: A way-too-late silkworm diary
 date: 2025-09-16
+tags:
+  - diary
 ---
 
 In third grade we all had to keep a box of silkworms for Science class.

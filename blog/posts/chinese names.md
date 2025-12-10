@@ -1,6 +1,9 @@
 ---
 title: Guide to naming your Chinese OCs
 date: 2025-10-13
+tags:
+  - resource
+  - oc
 ---
 
 Want to name a Chinese OC? I've got you covered!

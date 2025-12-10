@@ -1,6 +1,8 @@
 ---
 title: Webmaster Questionnaire
 date: 2025-11-23
+tags:
+  - webmastery
 ---
 
 Inspired by [Asuraid](https://zhongvie.bearblog.dev/2025-11-22/)!

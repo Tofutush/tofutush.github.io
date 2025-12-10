@@ -1,6 +1,8 @@
 ---
 title: Dormmate drama
 date: 2025-03-19
+tags:
+  - diary
 ---
 
 *(Warning: this post is a little vent-y)*

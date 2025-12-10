@@ -1,6 +1,8 @@
 ---
 title: "Travel blog: summer 2025"
 date: 2025-08-15
+tags:
+  - diary
 ---
 
 I traveled a bit during the summer, yet never wrote about any of it out of procrastination. I'm doing all of it together here.

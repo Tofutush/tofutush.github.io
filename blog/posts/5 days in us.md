@@ -1,6 +1,8 @@
 ---
 title: Five days in the US
 date: 2025-08-31
+tags:
+  - diary
 ---
 
 It's been exhausting. I've been going to bed before midnight and sleeping until seven these days; and while that's certainly healthy, it also proves how tired I am.

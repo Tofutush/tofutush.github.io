@@ -1,6 +1,8 @@
 ---
 title: "Translation: Mosuo Legends"
 date: 2025-07-16
+tags:
+  - translation
 ---
 
 The Mosuo are a matriarchal society mostly residing in Sichuan and Yunnan, China. I liked their legend of creation a lot, so I made a translation of it.

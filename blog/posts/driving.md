@@ -1,6 +1,8 @@
 ---
 title: I'm learning to drive!
 date: 2025-03-09
+tags:
+  - diary
 ---
 
 Look I know I'm still owing the Counterfeit Monkey and Spider and Web posts, but I wanna talk about my first driving lesson right now.

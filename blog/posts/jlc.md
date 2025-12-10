@@ -1,6 +1,9 @@
 ---
 title: See, reading John le Carré paid off
 date: 2025-05-19
+tags:
+  - bookworming
+  - media
 ---
 *Or, my journey in espionage book land thus far.*
 

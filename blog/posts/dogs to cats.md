@@ -1,6 +1,8 @@
 ---
 title: I used to like dogs but now I like cats more
 date: 2025-09-19
+tags:
+  - ramble
 ---
 
 When I was little I was a huge dog person. I drew puppies all the time and could name breeds at a glance. I dreamed of keeping a husky.

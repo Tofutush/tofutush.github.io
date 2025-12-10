@@ -1,6 +1,9 @@
 ---
 title: Chinese chemistry
 date: 2025-09-14
+tags:
+  - ramble
+  - nerding
 ---
 
 *Note: I've only taken Chemistry for two years so inaccuracies may appear. I'm only accepting corrections in factual errors. I don't care if you have a different opinion.*

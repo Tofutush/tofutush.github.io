@@ -1,6 +1,8 @@
 ---
 title: Scrapped story arcs, or, how TIR developed
 date: 2025-11-17
+tags:
+  - tir
 ---
 
 The very first story of TIR is [Coastline Middle School Mysteries](https://tofutush.github.io/The-Iron-Ragdoll/stories/cms-mysteries/), but there was one before it called Hillslope Mysteries.

@@ -1,6 +1,8 @@
 ---
 title: Chinese culture revolves around stupid puns
 date: 2024-12-30
+tags:
+  - nerding
 ---
 
 I was thinking recently about how Chinese culture kind of revolves around stupid puns[^1].

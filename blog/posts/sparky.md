@@ -1,6 +1,8 @@
 ---
 title: Sparky and I
 date: 2025-10-26
+tags:
+  - tir
 ---
 
 It struck me how different Sparky is from myself. You know, usually people's main characters, let alone parames, would be a lot similar to themselves. But Sparky is different from me in every aspect.

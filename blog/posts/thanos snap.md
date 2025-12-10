@@ -1,6 +1,8 @@
 ---
 title: Thanos snap
 date: 2024-10-15
+tags:
+  - nerding
 ---
 
 *Or, Achilles chases the turtle but genocide instead.*

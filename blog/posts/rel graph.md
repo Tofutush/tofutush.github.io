@@ -2,6 +2,9 @@
 title: "Site doc: Relationships graph"
 date: 2025-12-08
 draft: true
+tags:
+  - site-doc
+  - webmastery
 ---
 
 Out of boredom I'm going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone's use case is exactly the same, so always make sure you know what a code is doing before copying!

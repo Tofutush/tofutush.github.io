@@ -1,6 +1,8 @@
 ---
 title: One week of college
 date: 2025-09-06
+tags:
+  - diary
 ---
 
 It's been a week. Well, I fucking hate college.

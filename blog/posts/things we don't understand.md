@@ -1,6 +1,8 @@
 ---
 title: On things we don't understand
 date: 2025-09-24
+tags:
+  - ramble
 ---
 
 I keep thinking back to when my mom and I were in Xinjiang, and we saw a bulletin board about the different types of wild animals local to the area, written in both Chinese and Uyghurche. My mom was all like, "these letters all look the same to me!" Even after I repeatedly told her "they look the same because you can't read them. They will look vastly different if you *can* read it. Conversely, all Chinese characters would look the same to someone who can't read Chinese." She then said, "well Chinese is really obvious, the characters are all different! But for this, all the letters are the same!"

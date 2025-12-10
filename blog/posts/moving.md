@@ -1,6 +1,8 @@
 ---
 title: An account of moving
 date: 2025-10-15
+tags:
+  - ramble
 ---
 
 I have not moved that much but I hate it. I guess I just hate any sort of change in my life.
