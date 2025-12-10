@@ -6,7 +6,7 @@ layout: layout.vto
     <div class="tags">
         {{ for t of tags.sort((a, b) => a.localeCompare(b)) }}
             {{ if t != "posts" }}
-                <a href="/tag/{{ t }}/">#{{ t }}</a>
+                <a href="/tag/{{ t }}">#{{ t }}</a>
             {{ /if }}
         {{ /for }}
     </div>
