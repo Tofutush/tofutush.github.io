@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"/>
+	<meta name="theme-color" content="#83254f">
+	<meta property="og:title" content="Site doc: Relationships graph">
+	<title>Site doc: Relationships graph</title>
+</head>
+<body>
+	<div id="header">
+		<div class="nav">
+			<a href="/">Home</a>
+			<a href="/feed.xml">Feed</a>
+			<a href="/The-Iron-Ragdoll/">TIR</a>
+		</div>
+	</div>
+	<div id="main">
+		<p class="date">2025-12-10</p>
+
+    <div class="tags">
+        
+            
+        
+            
+                <a href="/tag/site-doc/">#site-doc</a>
+            
+        
+            
+                <a href="/tag/webmastery/">#webmastery</a>
+            
+        
+    </div>
+
+<h1>Site doc: Relationships graph</h1>
+<p>Out of boredom I'm going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone's use case is exactly the same, so always make sure you know what a code is doing before copying!</p>
+<details open><summary>Contents</summary><ul><li><a href="#d3js">D3.js</a></li><li><a href="#forces">Forces</a></li><li><a href="#data-structure">Data structure</a></li><li><a href="#labels">Labels</a><ul><li><a href="#names">Names</a></li><li><a href="#relationships">Relationships</a></li></ul></li><li><a href="#nodes">Nodes</a><ul><li><a href="#links">Links</a></li><li><a href="#pictures">Pictures</a></li></ul></li><li><a href="#hover-effects">Hover effects</a></li><li><a href="#zooming">Zooming</a><ul><li><a href="#font-sizes">Font sizes</a></li></ul></li><li><a href="#changing-data">Changing data</a><ul><li><a href="#filtering-data">Filtering data</a></li></ul></li></ul></details>
+<hr>
+<p>I have a pretty fun <a href="https://tofutush.github.io/The-Iron-Ragdoll/characters/relationships/" class="external-link" target="_blank">relationships graph</a>, and I recently added the feature to focus on a single character and the relationships surrounding them. Here's how I did it.</p>
+<p>Inspiration taken a lot from Obsidian's graph view, though I don't know how Obsidian did theirs. I used <a href="https://d3js.org/" class="external-link" target="_blank">D3.js</a>, the industry standard for JavaScript data visualization. Now, D3 is still a mystery to me but at least I did what I did.</p>
+<h2 id="d3js" tabindex="-1">D3.js</h2>
+<p>I used the <a href="https://observablehq.com/@d3/disjoint-force-directed-graph/2" class="external-link" target="_blank">force-directed graph</a> example. There's already a bunch of code for you to copy there, hooray! You can try it out yourself a bit first! Note that the example gives its code wrapped inside a <code>chart = { … }</code>, which is I suppose something required in that specific environment, and won't work in a plain browser; and the line with <code>invalidation</code> on it will throw an error, so just remove it (the comment also says it doesn't matter so yeah).</p>
+<p>There is some starter code <a href="https://d3js.org/getting-started#d3-in-vanilla-html" class="external-link" target="_blank">here</a> — click the &quot;UMD + CDN&quot; tab, copy that, and replace the script with the one from the example. Keep the last line, <code>container.append(svg.node());</code> though.</p>
+<p>For the data, you can download it from the paper clip icon on the top-right. It gives you <code>graph.json</code>, though I like to rename it <code>graph.js</code>, add a <code>const data = </code> at the beginning, and include it in a script tag before the main script, because I'm a lazy ass who doesn't wanna deal with <code>json</code> files. What matters is that you can get the data into the <code>data</code> variable that the code can use. If you see a bunch of blue and orange dots you can drag around, then hooray!</p>
+<p>Looking at the code, you can see that it's quite easy to read. Like, what do you think —</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> svg <span class="token operator">=</span> d3<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token string">"svg"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"width"</span><span class="token punctuation">,</span> width<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"height"</span><span class="token punctuation">,</span> height<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"viewBox"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token operator">-</span>width <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token operator">-</span>height <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span> width<span class="token punctuation">,</span> height<span class="token punctuation">]</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"style"</span><span class="token punctuation">,</span> <span class="token string">"max-width: 100%; height: auto;"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>— this does? It sets attributes for the <code>svg</code> element. Change some of those numbers around and see how the graph changes.</p>
+<p>You might be wondering, what's all them dots before <code>attr</code> about? Well, that's something called &quot;function chaining.&quot; It's made possible by the people who wrote D3.js, where they put a return statement after every single function that was supposed to return <code>void</code>, and made it return the object itself instead.</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Possibly what this function looked like</span>
+<span class="token keyword">function</span> <span class="token function">attr</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// stuff</span>
+	<span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>This means that whenever you run the <code>attr</code> function, the object you're running it on — <code>svg</code> — is also the output. And this makes it so that you can immediately put a <code>.attr</code> right after to set another attribute. This enables you to write the code above, instead of —</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> svg <span class="token operator">=</span> d3<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token string">"svg"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+svg<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"width"</span><span class="token punctuation">,</span> width<span class="token punctuation">)</span><span class="token punctuation">;</span>
+svg<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"height"</span><span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+svg<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"viewBox"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token operator">-</span>width <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token operator">-</span>height <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">,</span> width<span class="token punctuation">,</span> height<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+svg<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"style"</span><span class="token punctuation">,</span> <span class="token string">"max-width: 100%; height: auto;"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>— this.</p>
+<p>Most functions in D3.js are all chainable, as you can see from the example code.</p>
+<h2 id="forces" tabindex="-1">Forces</h2>
+<p>Look at the part where it says:</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Create a simulation with several forces.</span>
+<span class="token keyword">const</span> simulation <span class="token operator">=</span> d3<span class="token punctuation">.</span><span class="token function">forceSimulation</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">force</span><span class="token punctuation">(</span><span class="token string">"link"</span><span class="token punctuation">,</span> d3<span class="token punctuation">.</span><span class="token function">forceLink</span><span class="token punctuation">(</span>links<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">force</span><span class="token punctuation">(</span><span class="token string">"charge"</span><span class="token punctuation">,</span> d3<span class="token punctuation">.</span><span class="token function">forceManyBody</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">force</span><span class="token punctuation">(</span><span class="token string">"x"</span><span class="token punctuation">,</span> d3<span class="token punctuation">.</span><span class="token function">forceX</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">force</span><span class="token punctuation">(</span><span class="token string">"y"</span><span class="token punctuation">,</span> d3<span class="token punctuation">.</span><span class="token function">forceY</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>This is where the physics stuff is happening. The &quot;link&quot; force pulls linked nodes together, the &quot;charge&quot; force makes all nodes repel each other, the &quot;x&quot; and &quot;y&quot; force both pull all nodes towards a certain x and y position.</p>
+<p>Here, the example is using all default values, which is fine, especially for the &quot;x&quot; and &quot;y&quot; forces, because they default to half the container's width and height — the center, which is exactly what we want.</p>
+<p>What we <em>can</em> change, however, is the distance of the &quot;link&quot; force and strength of the &quot;charge&quot; force. Simply chain a <code>strength()</code> and <code>distance()</code> function after it.</p>
+<pre class="language-js"><code class="language-js">d3<span class="token punctuation">.</span><span class="token function">forceLink</span><span class="token punctuation">(</span>links<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">distance</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">)</span>
+d3<span class="token punctuation">.</span><span class="token function">forceManyBody</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">strength</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">400</span><span class="token punctuation">)</span></code></pre>
+<p>The strength for this is negative because we're making them repel.</p>
+<p>You don't need to change anything yet, because the graph looks perfectly nice at this point! But if you change stuff about the nodes, like adding pictures and labels, you're gonna need to set their distance apart so they don't get mushed together.</p>
+<p>Also, you might have noticed the <code>.id(d =&gt; d.id)</code> function. This is because in D3's &quot;set&quot; functions, it can take a value or a function that evaluates a value. The latter case is there for when you need to calculate the value based on the node's data, which is why the specific node that's being acted on is passed in as a parameter, in this case <code>d</code>. The code above sets the ids of the link force to the ids of each node, respectively.</p>
+<p>You can also see this on <code>.attr(&quot;stroke-width&quot;, d =&gt; Math.sqrt(d.value))</code> and <code>.attr(&quot;fill&quot;, d =&gt; color(d.group))</code> too, as well as in the <code>simulation.on(&quot;tick&quot;)</code> function, where it is important.</p>
+<h2 id="data-structure" tabindex="-1">Data structure</h2>
+<p>The code requires two parts of data: nodes, and links. Every node needs a unique id, and every link requires a source and a target, whose values need to reference a node's id. So the bare minimum for a data file is this:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">{</span>
+	<span class="token literal-property property">nodes</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">"1"</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">"2"</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">]</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">links</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">source</span><span class="token operator">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">target</span><span class="token operator">:</span> <span class="token string">"2"</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>In the example, the nodes also had a &quot;group&quot; property, which determined their color. It's not necessary, but if you add it, you can reference it in a function.</p>
+<p>For me, I needed the following data: characters' names (which are ids since all my characters have different names), soul colors (can't do without!), and a thumbnail picture for nodes, and description of the relationship (e.g. &quot;mom,&quot; &quot;friend&quot;) for links. So my data looked like this:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token punctuation">{</span>
+	<span class="token literal-property property">ch</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">"Sparky"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">color</span><span class="token operator">:</span> <span class="token string">"#0cf"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">img</span><span class="token operator">:</span> <span class="token string">"/The-Iron-Ragdoll/img/gallery/MXoErqmXYg-200.webp"</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">"Amber"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">color</span><span class="token operator">:</span> <span class="token string">"#e15f19"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">img</span><span class="token operator">:</span> <span class="token string">"/The-Iron-Ragdoll/img/gallery/6hDpgFeaJ5-200.webp"</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token comment">// ...</span>
+	<span class="token punctuation">]</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">rel</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">source</span><span class="token operator">:</span> <span class="token string">"Sparky"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">target</span><span class="token operator">:</span> <span class="token string">"Amber"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">rel1</span><span class="token operator">:</span> <span class="token string">"daughter"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">rel2</span><span class="token operator">:</span> <span class="token string">"mother"</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>
+			<span class="token literal-property property">source</span><span class="token operator">:</span> <span class="token string">"Sparky"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">target</span><span class="token operator">:</span> <span class="token string">"Peacock"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">rel1</span><span class="token operator">:</span> <span class="token string">"stepdaughter"</span><span class="token punctuation">,</span>
+			<span class="token literal-property property">rel2</span><span class="token operator">:</span> <span class="token string">"stepfather"</span>
+		<span class="token punctuation">}</span>
+		<span class="token comment">// ...</span>
+		<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>They're named differently, <code>ch</code> and <code>rel</code> instead of <code>nodes</code> and <code>links</code>, but that's okay, just remember to change the code too.</p>
+<p>Of course, my lazy-ass would never write and maintain such a file by hand. I automate it by generating it with a Liquid template. In 11ty, you can set the permalink for a file to be of any filetype — so I made it a <code>.js</code> file!</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">permalink</span><span class="token punctuation">:</span> <span class="token string">"characters/relationships/data.js"</span></code></pre>
+<p>In this Liquid file, I loop through my existing characters and relationships data to get what I want. It's <code>.js</code> not only because that's easier to import than <code>.json</code>, but also <code>.json</code> is stricter about commas after the last element and all, and would be more of a hassle to generate.</p>
+<h2 id="labels" tabindex="-1">Labels</h2>
+<p>Now we got our data ready, it's time to show them on the screen!</p>
+<h3 id="names" tabindex="-1">Names</h3>
+<p>Referencing the example code and googling, adding text works like this.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> nodeLabel <span class="token operator">=</span> svg<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"g"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token string">"text"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">"text"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"text-anchor"</span><span class="token punctuation">,</span> <span class="token string">"middle"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'font-size'</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'font-weight'</span><span class="token punctuation">,</span> <span class="token string">'bold'</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"dy"</span><span class="token punctuation">,</span> <span class="token number">32</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"fill"</span><span class="token punctuation">,</span> <span class="token string">"var(--text)"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'opacity'</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">style</span><span class="token punctuation">(</span><span class="token string">'user-select'</span><span class="token punctuation">,</span> <span class="token string">'none'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>This code appends a &quot;g&quot; to our <code>svg</code>, selects all the &quot;text&quot; elements (even though there are no text elements yet? I don't know girl, the example wrote it like that too), gives them the nodes data to work off of, join &quot;text&quot; yeah that I don't really know either but I just know that these three lines adds a text element for each node we have. And then it's just style setting stuff. <code>.attr(&quot;dy&quot;, 32)</code> is the key, it pushes the text underneath by 32px so it doesn't overlap with the circles.</p>
+<p>Oh, no! All our names are in the middle (lowered by 32px)! How come? This is because we didn't update their positions in the tick function.</p>
+<p>Find <code>simulation.on(&quot;tick&quot;, () =&gt; {</code>. This is the function that updates stuff every frame. Add this in there:</p>
+<pre class="language-js"><code class="language-js">nodeLabel<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"x"</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>x<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"y"</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Yeeaaah, it's literally just &quot;set x to x, set y to y.&quot; I actually have no fucking idea how this works but it does.</p>
+<p>Another important thing is to make sure <code>nodeLabel</code>'s definition in <em>front</em> of <code>node</code>'s. This way, <code>node</code> comes last and is always layered at the top, so you can actually drag them without other stuff blocking your mouse input.</p>
+<h3 id="relationships" tabindex="-1">Relationships</h3>
+<p>Copy-catting code again, we can add labels onto the link lines.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> linkLabel1 <span class="token operator">=</span> svg<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"g"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token string">"text"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span>links<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">"text"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"text-anchor"</span><span class="token punctuation">,</span> <span class="token string">"middle"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"fill"</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>source<span class="token punctuation">.</span>color<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"font-size"</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'opacity'</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">style</span><span class="token punctuation">(</span><span class="token string">'user-select'</span><span class="token punctuation">,</span> <span class="token string">'none'</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>rel1<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>This is for the first relationship. The second relationship features the same code, just with <code>d.target.color</code> and <code>d.rel2</code> instead.</p>
+<p>Now, in the tick function this time, simply setting x to x and y to y doesn't work anymore for some fucking reason. So I just set it to halfway between the two nodes.</p>
+<pre class="language-js"><code class="language-js">linkLabel1<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"x"</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> <span class="token punctuation">(</span>d<span class="token punctuation">.</span>source<span class="token punctuation">.</span>x <span class="token operator">+</span> d<span class="token punctuation">.</span>target<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"y"</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> <span class="token punctuation">(</span>d<span class="token punctuation">.</span>source<span class="token punctuation">.</span>y <span class="token operator">+</span> d<span class="token punctuation">.</span>target<span class="token punctuation">.</span>y<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span> <span class="token operator">-</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>rel1 <span class="token operator">===</span> d<span class="token punctuation">.</span>rel2<span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token number">0</span> <span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>The important thing to note here is that here, it's obvious that the <code>links</code> data array had been mutated by D3. <code>d.source</code> used to be merely a string, but it's been turned into an object. The mutation happened right on your original data. This will come up later.</p>
+<p>I also played a little trick. If the two relationships are the same, like friend and friend, I make them overlap. Otherwise, there's a little bit of a vertical offset between them so people can actually see the text.</p>
+<h2 id="nodes" tabindex="-1">Nodes</h2>
+<h3 id="links" tabindex="-1">Links</h3>
+<p>It would be great if</p>
+<h3 id="pictures" tabindex="-1">Pictures</h3>
+<p>Character thumbnails! Instead of boring circles, let's do pictures. This is easy because SVG allows rendering bitmap images in the middle of them. Find the <code>node</code> constant, and replace the lines drawing the circle with adding an image instead.</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// ...</span>
+	<span class="token punctuation">.</span><span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token string">"image"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">"svg:image"</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'width'</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'height'</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"xlink:href"</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>img<span class="token punctuation">)</span></code></pre>
+<p>You only need one <code>data(nodes)</code> in there, so delete any redundancies.</p>
+<p>Oh, now the pictures are crammed in the middle again! In the tick function, change <code>cx</code> and <code>cy</code> to <code>x</code> and <code>y</code>. I suppose this is because <code>cx</code> stands for &quot;center x&quot;? So it only works on circles. But now the point where the links meet are also visible. This is because the image's anchor is on the top-left, so you need to offset it by half its width and height to make it centered. I don't know how to dynamically compute the image's width and height from here, so I had to hard-code it, which is 20px.</p>
+<pre class="language-js"><code class="language-js">node<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>x <span class="token operator">-</span> <span class="token number">20</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'y'</span><span class="token punctuation">,</span> <span class="token parameter">d</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>y <span class="token operator">-</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h2 id="hover-effects" tabindex="-1">Hover effects</h2>
+<p>Cool hover effects! Made with the event functions (similar to &quot;tick&quot;) <code>pointerover</code> and <code>pointerout</code>. Both of these functions have 2 arguments, <code>event</code> (which I never used, but can be helpful if you want to get the current mouse position) and <code>data</code>. Chain it to <code>node</code> because that's where you want the hover event to trigger.</p>
+<pre class="language-js"><code class="language-js"><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"pointerover"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e<span class="token punctuation">,</span> d</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// ...</span>
+<span class="token punctuation">}</span></code></pre>
+<p>It's a matter of finding which element the mouse is hovering over, and adjusting parameters accordingly. To find myself, simply do <code>d3.select(this)</code>. This is the node you're acting on.</p>
+<pre class="language-js"><code class="language-js">d3<span class="token punctuation">.</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">style</span><span class="token punctuation">(</span><span class="token string">'z-index'</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>This brings the image currently being hovered to the very front.</p>
+<p>To highlight related things, like the character's name and their relationships, we need to find them first, with a filter.</p>
+<pre class="language-js"><code class="language-js">nodeLabel<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token parameter">l</span> <span class="token operator">=></span> l <span class="token operator">===</span> d<span class="token punctuation">)</span></code></pre>
+<p>If <code>nodeLabel</code>'s data (which we assigned through the function <code>.data(nodes)</code>) matches this one, then we know it's the right one. We can make changes to it just like how we did above, but can't we do some transition animation?</p>
+<pre class="language-js"><code class="language-js">nodeLabel<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token parameter">l</span> <span class="token operator">=></span> l <span class="token operator">===</span> d<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">transition</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">ease</span><span class="token punctuation">(</span>d3<span class="token punctuation">.</span>easeCubicInOut<span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">duration</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'opacity'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'font-size'</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">style</span><span class="token punctuation">(</span><span class="token string">'z-index'</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'dy'</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>After calling <code>transition()</code>, you can set an ease method, and <a href="https://d3js.org/d3-ease" class="external-link" target="_blank">here</a>'s a list of them. I like cubic-in-out the best. Duration's in milliseconds. The stuff that's chained afterwards will be transitioned into during that time period.</p>
+<p>For the link labels, the filtering method should look for their source and target instead.</p>
+<pre class="language-js"><code class="language-js">linkLabel1<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token parameter">l</span> <span class="token operator">=></span> l<span class="token punctuation">.</span>source <span class="token operator">===</span> d<span class="token punctuation">)</span>
+	<span class="token comment">// ...</span>
+linkLabel2<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token parameter">l</span> <span class="token operator">=></span> l<span class="token punctuation">.</span>target <span class="token operator">===</span> d<span class="token punctuation">)</span>
+	<span class="token comment">// ...</span></code></pre>
+<p>And finally, for links, matching either source or target is fine.</p>
+<p>And then add a nearly-identical <code>pointerout</code> function that simply reverses any changes made in <code>pointerover</code>!</p>
+<h2 id="zooming" tabindex="-1">Zooming</h2>
+<p>The following two sections, zooming and changing data, would require a bit of a structure rework, but is complete avoidable if you don't want to do them.</p>
+<p>For zooming, all you need is a simple function call on <code>svg</code>. However, stuff gets funny so you need a wrapper. I called it, <code>bigG</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> bigG <span class="token operator">=</span> svg<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">'g'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>After that, change everything to be appended to <code>bigG</code> instead of <code>svg</code>. If you search the file, you should only come across 3 instances of <code>svg</code> now, at initialization, <code>bigG</code>'s initialization, and the final <code>svg.node()</code>.</p>
+<p>And then, chain this function call to <code>svg</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>d3<span class="token punctuation">.</span><span class="token function">zoom</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"zoom"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+		bigG<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"transform"</span><span class="token punctuation">,</span> event<span class="token punctuation">.</span>transform<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Hooray, now you can zoom and pan!</p>
+<h3 id="font-sizes" tabindex="-1">Font sizes</h3>
+<p>But hey, now the font sizes are also increasing as you zoom, but I don't want that, because when I zoom in it's because I want to see the jumbled text more clearly. How do we prevent that?</p>
+<p>The zoom function provides an <code>event</code> variable, which has an <code>event.transform.k</code>. That's the ratio of how much you've been zooming. Using that, we can set dynamic font sizes. Dividing the font size by <code>event.transform.k</code>, we can make them smaller as we zoom. This also entails replacing every hard-coded font size with variables. I have three of them, <code>font12</code>, <code>font16</code>, and <code>font20</code>, for different sizes. They're set to 12, 16, and 20 initially, but divided by <code>event.transform.k</code> on every zoom function call.</p>
+<h2 id="changing-data" tabindex="-1">Changing data</h2>
+<p>Here comes the new part that I did recently, which was changing your data in real time.</p>
+<p>It's actually kinda simple now that I look back. Basically, remember how we defined every single element group with <code>const</code>? Don't. Define them as <code>let</code>s at the top of the script, and of course remember to remove the <code>const</code>s that came later.</p>
+<p>And then, wrap all your rendering code in a big function called <code>updateGraph(data)</code>, or whatever you like, really. It should contain everything except <code>bigG</code>'s and <code>svg</code>'s initializations, all the way until the end of the tick function (which also goes in there). Basically, everything that has a reference to data, either <code>nodes</code> or <code>links</code>, should be changeable and shoved into the function.</p>
+<p>And then, near the top of <code>updateGraph</code>, get rid of everything inside <code>bigG</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span>bigG<span class="token punctuation">)</span> bigG<span class="token punctuation">.</span><span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token string">'*'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Every time you get some new data, call <code>updateGraph</code> with the new data, and a new graph will appear in place of the old one!</p>
+<p>As for filtering the data itself, that's pretty much another topic, but one thing to note is to not include links that link to non-existent nodes. I'll talk about my specific approach below.</p>
+<h3 id="filtering-data" tabindex="-1">Filtering data</h3>
+<p>Now, this is messy. It's a mess. There are too many loops. I tried logging some stuff in a loop once and apparently it was called more than <em>10 thousand</em> times. This is why if you drag the slider too often it lags.</p>
+<p>The <code>setFocus(ch, d)</code> function is called every time the focus character or the depth changes. If &quot;none&quot; is selected, then all characters are shown and the depth slider is disabled. Otherwise, filter out relationships with <code>ch</code> and <code>d</code>.</p>
+<p>The main <code>for</code> loop will run for <code>depth</code> times, and each run of the loop will add to the new characters array characters that have immediate links to the ones already in the list. So the convoluted statement in the loop states:</p>
+<ul>
+<li>Filter out the original character array (<code>data.ch</code>), finding characters that satisfying condition A.</li>
+<li>Condition A is: the character doesn't already exist in the new array (<code>chNew</code>), and condition B.</li>
+<li>Condition B is: for the current character, there exists a relationship that satisfies condition C.</li>
+<li>Condition C is: for the both sides of the relationship, <code>source</code> and <code>target</code>, one of them is the current character, and the other is a character that exists in <code>chNew</code>).</li>
+</ul>
+<p>On condition C was where I got stuck, because of the aforementioned link list mutation that D3 does behind my back. So originally where <code>r.target</code> was a string containing the target's id, it's now an object, and to get the id you have to write <code>r.target.id</code>.</p>
+<p>There is probably a way more efficient way to write this, but I'm too lazy to think right now.</p>
+<p>Now that we have our list of characters, just filter out the relationships where both sides are characters in <code>chNew</code>. And call <code>updateGraph</code> with the new data!</p>
+<hr>
+<p><a href="https://github.com/Tofutush/The-Iron-Ragdoll/blob/main/js/graph.js" class="external-link" target="_blank">Here</a> is my code for you to look at. It's a little different from what I presented here, some places are tidier and some are messier. It's still up to you to decide how your graph will look like!</p>
+
+<hr/>
+
+
+<div class="prev-next">
+    <p><a href="/posts/2025-12-09.html">&lt;==</a></p>
+    <p><a href="/">Home</a></p>
+    
+</div>
+
+	</div>
+</body>
