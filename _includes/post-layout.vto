@@ -1,8 +1,17 @@
 ---
 layout: layout.vto
 ---
+<p class="date">{{ date |> formatDate }}</p>
+{{ if tags.length > 1 }}
+    <div class="tags">
+        {{ for t of tags }}
+            {{ if t != "posts" }}
+                <a href="/tag/{{ t }}/">#{{ t }}</a>
+            {{ /if }}
+        {{ /for }}
+    </div>
+{{ /if }}
 <h1>{{ title }}</h1>
-<p class="date">Posted: {{ date |> formatDate }}
 {{ content }}
 <hr/>
 {{ set prev = collections.posts |> sortPosts |> reverse |> getPreviousCollectionItem }}

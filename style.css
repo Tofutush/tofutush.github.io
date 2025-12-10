@@ -225,7 +225,16 @@ pre[class*="language-"] {
 
 .date {
 	opacity: .5;
+	text-indent: 0;
 	font-family: jetbrains, 'Courier New', Consolas, monospace;
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	font-size: var(--font-size-small);
+	line-height: 2;
 }
 
 p:has(.katex-display) {

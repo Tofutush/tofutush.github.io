@@ -1,0 +1,20 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - pages
+    - posts
+    - all
+permalink: "/tag/{{ tag }}/"
+eleventyComputed:
+  title: "Tag: {{ tag }}"
+---
+<h1>Posts tagged: {{ tag }}</h1>
+<div class="grid">
+	{{ for p of collections[tag] |> sortPosts }}
+		<span class="date">{{ p.data.date |> formatDate }}</span>
+		<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
+	{{ /for }}
+</div>
