@@ -348,7 +348,7 @@ Hooray, now you can zoom and pan!
 
 But hey, now the font sizes are also increasing as you zoom, but I don't want that, because when I zoom in it's because I want to see the jumbled text more clearly. How do we prevent that?
 
-The zoom function provides an `event` variable, which has an `event.transform.k`. That's the ratio of how much you've been zooming. Using that, we can set dynamic font sizes. Dividing the font size by `event.transform.k`, we can make them smaller as we zoom. This also entails replacing every hard-coded font size with variables. I have three of them, `font12`, `font16`, and `font20`, for different sizes. They're set to 12, 16, and 20 initially, but divided by `event.transform.k` on every zoom function call.
+The zoom function provides an `event` variable, which has an `event.transform.k`. That's the ratio of how much you've been zooming. Using that, we can set dynamic font sizes. Dividing the font size by `event.transform.k`, we can make them smaller as we zoom. This also entails replacing every hard-coded font size with variables. I have three of them, `font12`, `font16`, and `font20`, for different sizes. They're set to 12, 16, and 20 initially, but divided by `event.transform.k` on every zoom function call. I also capped them at 12, 16, and 20 with `Math.min`, so they don't get larger when zooming out.
 
 ## Changing data
 
