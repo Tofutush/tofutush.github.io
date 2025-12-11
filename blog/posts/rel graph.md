@@ -376,12 +376,11 @@ The `setFocus(ch, d)` function is called every time the focus character or the d
 
 The main `for` loop will run for `depth` times, and each run of the loop will add to the new characters array characters that have immediate links to the ones already in the list. So the convoluted statement in the loop states:
 
-- Filter out the original character array (`data.ch`), finding characters that satisfying condition A.
-- Condition A is: the character doesn't already exist in the new array (`chNew`), and condition B.
-- Condition B is: for the current character, there exists a relationship that satisfies condition C.
-- Condition C is: for the both sides of the relationship, `source` and `target`, one of them is the current character, and the other is a character that exists in `chNew`).
+- Filter out the original character array (`data.ch`), finding characters that satisfy condition A.
+- Condition A is: the character doesn't already exist in the new array (`chNew`), and for this character, there exists a relationship that satisfies condition B.
+- Condition B is: for the both sides of the relationship, `source` and `target`, one of them is the current character, and the other is a character that exists in `chNew`).
 
-On condition C was where I got stuck, because of the aforementioned link list mutation that D3 does behind my back. So originally where `r.target` was a string containing the target's id, it's now an object, and to get the id you have to write `r.target.id`.
+On condition B was where I got stuck, because of the aforementioned link list mutation that D3 does behind my back. So originally where `r.target` was a string containing the target's id, it's now an object, and to get the id you have to write `r.target.id`.
 
 There is probably a way more efficient way to write this, but I'm too lazy to think right now.
 
@@ -389,4 +388,4 @@ Now that we have our list of characters, just filter out the relationships where
 
 ---
 
-[Here](https://github.com/Tofutush/The-Iron-Ragdoll/blob/main/js/graph.js) is my code for you to look at. It's a little different from what I presented here, some places are tidier and some are messier. It's still up to you to decide how your graph will look like!
+[Here](https://github.com/Tofutush/The-Iron-Ragdoll/blob/main/js/graph.js) is my code for you to look at. It's a little different from what I presented here, some places are tidier and some are messier, and there might be changes made after publishing this post. It's still up to you to decide how your graph will look like!
