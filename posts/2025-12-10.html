@@ -255,16 +255,15 @@ linkLabel2<span class="token punctuation">.</span><span class="token function">f
 <p>The <code>setFocus(ch, d)</code> function is called every time the focus character or the depth changes. If &quot;none&quot; is selected, then all characters are shown and the depth slider is disabled. Otherwise, filter out relationships with <code>ch</code> and <code>d</code>.</p>
 <p>The main <code>for</code> loop will run for <code>depth</code> times, and each run of the loop will add to the new characters array characters that have immediate links to the ones already in the list. So the convoluted statement in the loop states:</p>
 <ul>
-<li>Filter out the original character array (<code>data.ch</code>), finding characters that satisfying condition A.</li>
-<li>Condition A is: the character doesn't already exist in the new array (<code>chNew</code>), and condition B.</li>
-<li>Condition B is: for the current character, there exists a relationship that satisfies condition C.</li>
-<li>Condition C is: for the both sides of the relationship, <code>source</code> and <code>target</code>, one of them is the current character, and the other is a character that exists in <code>chNew</code>).</li>
+<li>Filter out the original character array (<code>data.ch</code>), finding characters that satisfy condition A.</li>
+<li>Condition A is: the character doesn't already exist in the new array (<code>chNew</code>), and for this character, there exists a relationship that satisfies condition B.</li>
+<li>Condition B is: for the both sides of the relationship, <code>source</code> and <code>target</code>, one of them is the current character, and the other is a character that exists in <code>chNew</code>).</li>
 </ul>
-<p>On condition C was where I got stuck, because of the aforementioned link list mutation that D3 does behind my back. So originally where <code>r.target</code> was a string containing the target's id, it's now an object, and to get the id you have to write <code>r.target.id</code>.</p>
+<p>On condition B was where I got stuck, because of the aforementioned link list mutation that D3 does behind my back. So originally where <code>r.target</code> was a string containing the target's id, it's now an object, and to get the id you have to write <code>r.target.id</code>.</p>
 <p>There is probably a way more efficient way to write this, but I'm too lazy to think right now.</p>
 <p>Now that we have our list of characters, just filter out the relationships where both sides are characters in <code>chNew</code>. And call <code>updateGraph</code> with the new data!</p>
 <hr>
-<p><a href="https://github.com/Tofutush/The-Iron-Ragdoll/blob/main/js/graph.js" class="external-link" target="_blank">Here</a> is my code for you to look at. It's a little different from what I presented here, some places are tidier and some are messier. It's still up to you to decide how your graph will look like!</p>
+<p><a href="https://github.com/Tofutush/The-Iron-Ragdoll/blob/main/js/graph.js" class="external-link" target="_blank">Here</a> is my code for you to look at. It's a little different from what I presented here, some places are tidier and some are messier, and there might be changes made after publishing this post. It's still up to you to decide how your graph will look like!</p>
 
 <hr/>
 
@@ -272,7 +271,7 @@ linkLabel2<span class="token punctuation">.</span><span class="token function">f
 <div class="prev-next">
     <p><a href="/posts/2025-12-09.html">&lt;==</a></p>
     <p><a href="/">Home</a></p>
-    
+    <p><a href="/posts/2025-12-11.html">==&gt;</a></p>
 </div>
 
 	</div>
