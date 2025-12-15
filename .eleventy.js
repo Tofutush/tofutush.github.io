@@ -17,6 +17,7 @@ export default function (eleventyConfig) {
 
 	// copies
 	eleventyConfig.addPassthroughCopy('style.css');
+	eleventyConfig.addPassthroughCopy('icon.ico');
 	eleventyConfig.addPassthroughCopy('fonts');
 	eleventyConfig.addPassthroughCopy({ "blog/img": "img" });
 
