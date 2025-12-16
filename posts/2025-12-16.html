@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/icon.ico"/>
+	<link rel="stylesheet" href="/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"/>
+	<meta name="theme-color" content="#83254f">
+	<meta property="og:title" content="Guide to making a website from your Obsidian vault with Quartz.">
+	<title>Guide to making a website from your Obsidian vault with Quartz.</title>
+</head>
+<body>
+	<div id="header">
+		<div class="nav">
+			<a href="/">Home</a>
+			<a href="/feed.xml">Feed</a>
+			<a href="/The-Iron-Ragdoll/">TIR</a>
+		</div>
+	</div>
+	<div id="main">
+		<p class="date">2025-12-16</p>
+
+    <div class="tags">
+        
+            
+        
+            
+                <a href="/tag/site-doc">#site-doc</a>
+            
+        
+            
+                <a href="/tag/webmastery">#webmastery</a>
+            
+        
+    </div>
+
+<h1>Guide to making a website from your Obsidian vault with Quartz.</h1>
+<p>Here's how to turn your Obsidian vault into a website with Quartz and Github Pages. Note that Obsidian has a paid &quot;publish&quot; feature that, if you can afford, could choose instead.</p>
+<p>What Quartz can do: folder tree, table of contents, backlinks, graph view, full-text search, page-preview hover. Customization, though too much customization would require knowledge of HTML and CSS.</p>
+<p>What Quartz cannot do: plugins like Dataview, import your CSS snippets (you'll have to do it yourself).</p>
+<p>There is a technical setup guide, along with a video guide, right on <a href="https://quartz.jzhao.xyz" class="external-link" target="_blank">Quartz's website</a> (which is itself built with Quartz so you can have a look at the default appearance), but that language may be hard to understand. If you don't have any troubles following that guide, then great! Otherwise, I will try to walk you through the steps.</p>
+<details open><summary>Contents</summary><ul><li><a href="#prerequisites">Prerequisites</a><ul><li><a href="#some-terms">Some terms</a></li></ul></li><li><a href="#content-structure">Content structure</a></li><li><a href="#getting-the-code">Getting the code</a></li><li><a href="#repo-settings">Repo settings</a><ul><li><a href="#getting-the-code-for-real">Getting the code for real</a></li></ul></li><li><a href="#setting-stuff-up">Setting stuff up</a></li><li><a href="#putting-your-vault-in">Putting your vault in</a><ul><li><a href="#ill-just-use-the-content-folder-like-expected">I'll just use the content folder like expected.</a></li><li><a href="#i-dont-want-to-rename-my-vault-content">I don't want to rename my vault &quot;content.&quot;</a></li></ul></li><li><a href="#try-it">Try it!</a></li><li><a href="#updating-the-site">Updating the site</a></li><li><a href="#customization">Customization</a><ul><li><a href="#custom-icon">Custom icon</a></li></ul></li></ul></details>
+<h2 id="prerequisites" tabindex="-1">Prerequisites</h2>
+<ul>
+<li>Obsidian, duh.</li>
+<li>A <a href="https://github.com/" class="external-link" target="_blank">Github</a> account.</li>
+<li>If you don't know what &quot;git&quot; is, had just created a Github account, etc., then <a href="https://desktop.github.com/download/" class="external-link" target="_blank">Github Desktop</a>. This is for transferring the stuff in your Obsidian vault, which is local to your computer to Github, over the internet. If you <em>are</em> familiar with this, then do whatever Git workflow you're most comfortable in.</li>
+<li>A text editor of your choice. Cannot be rich-text editors like Word; cannot be fucking Obsidian itself; could just be Notepad, or even Github's online editor itself. I recommend VSCode but that would be an overkill if you don't already do programming.</li>
+<li>If you'd like to preview the website on your own computer before releasing it for the whole wide world of web, <a href="https://nodejs.org/en/download" class="external-link" target="_blank">Node.js</a> (scroll down to &quot;get prebuilt node.js&quot;). But note that no one except you is gonna be staring at your site all the time (hopefully) so this is very optional.</li>
+</ul>
+<h3 id="some-terms" tabindex="-1">Some terms</h3>
+<ul>
+<li>Repo = repository</li>
+<li>Git is a version control system that makes repos and records how their code changed, so you can revert back when you fuck up.</li>
+<li>Github is a service that stores Git repos online. There are plenty of other services that do the same thing, but Github is what I'm most familiar with.</li>
+<li>Github Pages is a service that creates websites from Github repos if you want to. It's not the only way to make websites from Github repos, but it's the most convenient.</li>
+<li>Clear cache: instead of getting the same files over and over every time you visit a website, browsers will download these files and show them to you <em>as if</em> you're actually connecting to the internet. These downloaded files are called cache. Cache is your friend because it speeds things up, but sometimes the actual file had been updated but your browser is still showing you the cached version and that's annoying. Use <code>Ctrl + Shift + R</code> or <code>Ctrl + F5</code> to clear the cache and force the browser to get the new files over the internet.</li>
+</ul>
+<h2 id="content-structure" tabindex="-1">Content structure</h2>
+<p>Your vault <em>needs</em> an <code>index.md</code> at the very root. That's the only file you <em>have</em> to have, and it will be the homepage of your site. If you already have a homepage, for example, you can rename it <code>index.md</code>. Optionally, <code>index.md</code>s inside each folder can add content to the folder's page.</p>
+<p>Normally a file's title is just the file's filename, but Quartz will take the title property in the frontmatter of a file if it exists. Frontmatter in Obsidian is wrapped around <code>---</code>s at the very start of the file, like</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> <span class="token string">"Welcome to my paracosm!"</span>
+<span class="token punctuation">---</span></code></pre>
+<p>In fact, if you type three dashes at the start of the file, Obsidian now automatically adds a nice interface for you to edit frontmatter on.</p>
+<p><img src="../img/obsidian%20+%20quartz%20frontmatter.png" alt=""></p>
+<p>It's helpful to give a title to every <code>index.md</code>.</p>
+<h2 id="getting-the-code" tabindex="-1">Getting the code</h2>
+<p>Go to <a href="https://github.com/jackyzha0/quartz" class="external-link" target="_blank">https://github.com/jackyzha0/quartz</a> and click the &quot;Use this template&quot; button near the top-right. Click that, and then click &quot;Create a new repository.&quot;</p>
+<p>In the new page, name your repo something not horrendous. You have two choices here.</p>
+<ol>
+<li>Name it <code>[your username].github.io</code>. This way, the URL of your website will be <code>https://[your username].github.io</code>.</li>
+<li>Name it some other name. The website URL will be <code>https://[your username].github.io/[repo name]</code>. For example, my repo name is &quot;tdyww&quot; and my username is Tofutush, so my website is <a href="https://tofutush.github.io/tdyww" class="external-link" target="_blank">https://tofutush.github.io/tdyww</a>.</li>
+</ol>
+<p>Your choice. It can be changed later anyways, so it doesn't matter that much.</p>
+<p>You can add a description if you want. Finally, keep the repo public, because Github Pages only allows you to make websites from public repos unless you have the paid tier for some reason. If you're really adamant about keeping the repo private, you can potentially use Neocities instead, but that's a <a href="/posts/2025-10-12">whole 'nother tutorial</a>.</p>
+<h2 id="repo-settings" tabindex="-1">Repo settings</h2>
+<p>Now you're in your own repo instead of jackyzha0's (to check, see if your username is on the top-left). Go to &quot;settings&quot; tab found at the top. Click the &quot;Pages&quot; tab on the left, and in the &quot;Build and deployment&quot; section select &quot;Github Actions.&quot; This enables Github to make a website from your code.</p>
+<p><img src="../img/obsidian%20+%20quartz%20settings.png" alt=""></p>
+<p>(Look, a screenshot! Wow! Yours won't have the &quot;your site is live at&quot; right now though.)</p>
+<p>Then, click the &quot;Actions&quot; tab, and then click &quot;general&quot; in the dropdown. Scroll to the bottom to the &quot;Workflow permissions&quot; section and click &quot;Read and write permissions.&quot; This allows the script to automatically build the site.</p>
+<h3 id="getting-the-code-for-real" tabindex="-1">Getting the code for real</h3>
+<p>It's time to clone the code. Cloning is just downloading a copy of the code to your own computer, but maintaining a connection between your offline copy and Github's online copy. You need this because Obsidian runs offline.</p>
+<p>Click the &quot;code&quot; button near the top-right of the repository (make sure it's your copy, not the original jackyzha0's — the URL should have your username in it instead of jackyzha0). Click &quot;open with Github Desktop&quot; near the bottom. Github Desktop should open, and click &quot;choose&quot; to pick which folder the code is going into. You have to pick an empty folder. Later, we will be moving your Obsidian vault into this folder. And wait for the code to get downloaded!</p>
+<h2 id="setting-stuff-up" tabindex="-1">Setting stuff up</h2>
+<p>Open the folder and find the file <code>quartz.config.ts</code>. Here are some things you need to change.</p>
+<ul>
+<li><code>pageTitle</code>: this is the title that will be displayed at the top of every page. Change it to your paracosm's name! (Or anything, really.) Make sure it's not <em>super</em> long.</li>
+<li><code>pageTitleSuffix</code>: this is a bit of text that will be added to the end of every browser tab title. Useful to also make it your paracosm's name, though remember to add a separator in front. For example, if you set it to &quot; | tdyww&quot; then the browser tab will be named &quot;Characters | tdyww&quot; if you do this.</li>
+<li><code>locale</code>: language of the website. <code>en-US</code> would probably be good for most of you; I had it set to <code>zh-CN</code> for example.</li>
+<li><code>baseUrl</code>: set this to your website's URL, but without the <code>https://</code> or a slash at the end. Mine is <code>tofutush.github.io/tdyww</code>. Yours might either be <code>[username].github.io</code> or <code>[username].github.io/[repo name]</code>, depending on how you named your repo.</li>
+<li>I'll get into <code>theme</code> later.</li>
+</ul>
+<p>After making these changes, there is the possibility of making a mistake. If you're in a code editor like VSCode, it can probably tell you when there's a mistake, but if not, you can paste it into an online validator like <a href="https://www.typescriptlang.org/play" class="external-link" target="_blank">this</a>. (Ignore the &quot;Cannot find module&quot; errors though, since <em>they</em> don't have them but we do.)</p>
+<p>Also find the <code>.github/workflows</code> folder. Add a new file named <code>deploy.yml</code> and paste this code in.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy Quartz site to GitHub Pages
+ 
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">push</span><span class="token punctuation">:</span>
+    <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> v4
+ 
+<span class="token key atrule">permissions</span><span class="token punctuation">:</span>
+  <span class="token key atrule">contents</span><span class="token punctuation">:</span> read
+  <span class="token key atrule">pages</span><span class="token punctuation">:</span> write
+  <span class="token key atrule">id-token</span><span class="token punctuation">:</span> write
+ 
+<span class="token key atrule">concurrency</span><span class="token punctuation">:</span>
+  <span class="token key atrule">group</span><span class="token punctuation">:</span> <span class="token string">"pages"</span>
+  <span class="token key atrule">cancel-in-progress</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+ 
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">build</span><span class="token punctuation">:</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span><span class="token number">22.04</span>
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v4
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">fetch-depth</span><span class="token punctuation">:</span> <span class="token number">0</span> <span class="token comment"># Fetch all history for git info</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v4
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token number">22</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install Dependencies
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm ci
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Build Quartz
+        <span class="token key atrule">run</span><span class="token punctuation">:</span> npx quartz build
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Upload artifact
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/upload<span class="token punctuation">-</span>pages<span class="token punctuation">-</span>artifact@v3
+        <span class="token key atrule">with</span><span class="token punctuation">:</span>
+          <span class="token key atrule">path</span><span class="token punctuation">:</span> public
+ 
+  <span class="token key atrule">deploy</span><span class="token punctuation">:</span>
+    <span class="token key atrule">needs</span><span class="token punctuation">:</span> build
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token key atrule">name</span><span class="token punctuation">:</span> github<span class="token punctuation">-</span>pages
+      <span class="token key atrule">url</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> steps.deployment.outputs.page_url <span class="token punctuation">}</span><span class="token punctuation">}</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy to GitHub Pages
+        <span class="token key atrule">id</span><span class="token punctuation">:</span> deployment
+        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/deploy<span class="token punctuation">-</span>pages@v4</code></pre>
+<p>Don't change a thing here unless I tell you to.</p>
+<h2 id="putting-your-vault-in" tabindex="-1">Putting your vault in</h2>
+<p>Now it's time to move our Obsidian vault over. You have two choices here, since Quartz by default says you have to put your content inside the <code>content</code> folder.</p>
+<p>Now let's find the <code>content</code> folder first. There should be a single <code>.gitkeep</code> file in there. Delete the entire folder because I say so.</p>
+<p>Your two choices are:</p>
+<h3 id="ill-just-use-the-content-folder-like-expected" tabindex="-1">I'll just use the content folder like expected.</h3>
+<p>Rename your vault to <code>content</code> and drag it into where the folder I made you delete used to be. After this is done, your folder structure should be: vault files inside content folder inside the repo folder. For example, say my vault used to be <code>tdyww</code> and there's a <code>sparky.md</code> inside the <code>characters</code> folder. So <code>tdyww/characters/sparky.md</code>. Now it will be <code>my-repo-name/content/characters/sparky.md</code>. Don't get this wrong, or, well, obviously stuff are gonna go wrong.</p>
+<h3 id="i-dont-want-to-rename-my-vault-content" tabindex="-1">I don't want to rename my vault &quot;content.&quot;</h3>
+<p>Me neither. In this case, just drag the vault over. So <code>tdyww/characters/sparky.md</code> turns into <code>my-repo-name/tdyww/characters/sparky.md</code>.</p>
+<p>In this case, there's another setting you need to change. In the <code>deploy.yml</code> file, find the line that says <code>run: npx quartz build</code>. Add a <code>d=folder-name</code> to the end. Mine is <code>run: npx quartz build d=tdyww</code>.</p>
+<p>If there's a space, add double quotes around the space, like <code>d=&quot;td yww&quot;</code></p>
+<h2 id="try-it" tabindex="-1">Try it!</h2>
+<p>Open Github Desktop again. There should be a shitton of stuff in the sidebar. These are files that had been changed. At the bottom part of the sidebar, type a message stating what you changed, and press &quot;Commit to v4.&quot;</p>
+<p>Committing is like a special save. It saves the files in the repo, and Git remembers that <em>forever</em>.</p>
+<p>At the top, there's also a push button, probably saying &quot;Push origin.&quot; This uploads your local files to Github. Push now.</p>
+<p>You can commit multiple times and push them at once. Each push triggers our deploy script, and it will deploy a new version of the website.</p>
+<p>Go back to <a href="http://github.com" class="external-link" target="_blank">github.com</a> now. See how right above the files, there's your username and icon, along with the last commit message you wrote, and hopefully a brown dot there? A brown dot means our script is running. A bit later it would turn into a green checkmark. Then you can open your website and see what it looks like! If it's a red cross, then there's an error. Whoops.</p>
+<p>If it's this particular error, Quartz's website explained how to get rid of it.</p>
+<blockquote>
+<p>If you get an error about not being allowed to deploy to <code>github-pages</code> due to environment protection rules, make sure you remove any existing GitHub pages environments.</p>
+<p>You can do this by going to your Settings page on your GitHub fork and going to the Environments tab and pressing the trash icon. The GitHub action will recreate the environment for you correctly the next time you sync your Quartz.</p>
+</blockquote>
+<h2 id="updating-the-site" tabindex="-1">Updating the site</h2>
+<p>Just write in Obsidian as usual, and when you feel like you've written enough, go to Github Desktop, commit the files, and push! You may need to clear cache sometimes for changes to show up.</p>
+<h2 id="customization" tabindex="-1">Customization</h2>
+<p>In <code>quartz.config.ts</code>, there's a <code>theme</code> part that gives you basic customization. For fonts, any <a href="https://fonts.google.com" class="external-link" target="_blank">Google Font</a> works, just enter the name. You can also use a local font. For colors, secondary is the color of the links, and tertiary is the color when links are hovered over. The selection color is a semi-transparent version of tertiary. Highlight is the semi-transparent color behind each link. You can set it to complete transparent so no color shows behind links. Text highlight is the color of the highlight when you used Obsidian's highlight syntax <code>==content==</code>.</p>
+<h3 id="custom-icon" tabindex="-1">Custom icon</h3>
+<p>Right now, the browser tab icon is just Quartz's default. Find the folder <code>quartz/static</code>, and see the <code>icon.png</code> inside. Replace that with whatever you want, commit, and push. You may need to clear cache for the new icon to show.</p>
+
+<hr/>
+
+
+<div class="prev-next">
+    <p><a href="/posts/2025-12-15.html">&lt;==</a></p>
+    <p><a href="/">Home</a></p>
+    
+</div>
+
+	</div>
+</body>

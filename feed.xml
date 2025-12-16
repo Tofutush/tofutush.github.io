@@ -4,7 +4,7 @@
   <subtitle>Where I write stuff once in a blue moon</subtitle>
   <link href="https://tofutush.github.io/feed.xml" rel="self" />
   <link href="https://tofutush.github.io/" />
-  <updated>2025-12-15T00:00:00Z</updated>
+  <updated>2025-12-16T00:00:00Z</updated>
   <id>https://tofutush.github.io/</id>
   <author>
     <name>Tofutush</name>
@@ -1861,6 +1861,144 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;p&gt;而这又要说起我们伟大的 Notion 了，界面乍一看挺整洁的，但都是边距和圆角的功劳，字又小，又没啥个性化功能，切页面也得等半天，打开一页就压根不想写东西，最重要的是排版还是自己排，本质上没有内容样式分离。&lt;/p&gt;
 &lt;p&gt;而这又要说到我们伟大的 Obsidian 了，至今为止我是没找到过我更喜欢的写作软件。铁打洋娃娃中英文俩站现在都是 Obsidian 里写的了，打开 Obsidian 是写内容，打开 VSCode 是调样式。虽然每次新建仓库时都得重新下载插件和复制 CSS，但还是很棒，我喜欢。还有一点就是保存反馈。虽然 Obsidian 都是自动保存的，Ctrl + S 我怀疑没有任何用，但有一个自动排版插件（Linter）是有 Ctrl + S 启动的，而且排完了右上角有个小提示。这就让我这个保存控很满意，每次按保存后都有及时的反馈。而且本来乱七八糟的排版一下就变得十分规整本来就是超级爽的啊，我太可预测了。&lt;/p&gt;
 &lt;p&gt;写中文真是把我本来就贫瘠的中文表达能力又挖出来鞭尸。尤其是铁打洋娃娃这种，本来就是最贴近我心灵，最私人的东西，结果无法好好地用人话，用我自己的母语写出来，就让我很痛苦——尤其是用英文写时又很少有这种感觉。天天什么是什么的，什么什么了了了，写的时候就在尬，回头读时更尬。中文本来就具备及其言简意赅的能力，怎么到我这就变成一长坨呢。&lt;a href=&quot;https://tofutush.github.io/posts/2025-09-10&quot;&gt;怪来怪去&lt;/a&gt;最后还是只能怪阅读量，怪自己。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Guide to making a website from your Obsidian vault with Quartz.</title>
+    <link href="https://tofutush.github.io/posts/2025-12-16.html" />
+    <updated>2025-12-16T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/2025-12-16.html</id>
+    <content type="html">&lt;p&gt;Here&#39;s how to turn your Obsidian vault into a website with Quartz and Github Pages. Note that Obsidian has a paid &amp;quot;publish&amp;quot; feature that, if you can afford, could choose instead.&lt;/p&gt;
+&lt;p&gt;What Quartz can do: folder tree, table of contents, backlinks, graph view, full-text search, page-preview hover. Customization, though too much customization would require knowledge of HTML and CSS.&lt;/p&gt;
+&lt;p&gt;What Quartz cannot do: plugins like Dataview, import your CSS snippets (you&#39;ll have to do it yourself).&lt;/p&gt;
+&lt;p&gt;There is a technical setup guide, along with a video guide, right on &lt;a href=&quot;https://quartz.jzhao.xyz&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Quartz&#39;s website&lt;/a&gt; (which is itself built with Quartz so you can have a look at the default appearance), but that language may be hard to understand. If you don&#39;t have any troubles following that guide, then great! Otherwise, I will try to walk you through the steps.&lt;/p&gt;
+&lt;details open=&quot;&quot;&gt;&lt;summary&gt;Contents&lt;/summary&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#prerequisites&quot;&gt;Prerequisites&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#some-terms&quot;&gt;Some terms&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#content-structure&quot;&gt;Content structure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#getting-the-code&quot;&gt;Getting the code&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#repo-settings&quot;&gt;Repo settings&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#getting-the-code-for-real&quot;&gt;Getting the code for real&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#setting-stuff-up&quot;&gt;Setting stuff up&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#putting-your-vault-in&quot;&gt;Putting your vault in&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#ill-just-use-the-content-folder-like-expected&quot;&gt;I&#39;ll just use the content folder like expected.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#i-dont-want-to-rename-my-vault-content&quot;&gt;I don&#39;t want to rename my vault &amp;quot;content.&amp;quot;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#try-it&quot;&gt;Try it!&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#updating-the-site&quot;&gt;Updating the site&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#customization&quot;&gt;Customization&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tofutush.github.io/posts/2025-12-16.html#custom-icon&quot;&gt;Custom icon&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/details&gt;
+&lt;h2 id=&quot;prerequisites&quot; tabindex=&quot;-1&quot;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Obsidian, duh.&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&quot;https://github.com/&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; account.&lt;/li&gt;
+&lt;li&gt;If you don&#39;t know what &amp;quot;git&amp;quot; is, had just created a Github account, etc., then &lt;a href=&quot;https://desktop.github.com/download/&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Github Desktop&lt;/a&gt;. This is for transferring the stuff in your Obsidian vault, which is local to your computer to Github, over the internet. If you &lt;em&gt;are&lt;/em&gt; familiar with this, then do whatever Git workflow you&#39;re most comfortable in.&lt;/li&gt;
+&lt;li&gt;A text editor of your choice. Cannot be rich-text editors like Word; cannot be fucking Obsidian itself; could just be Notepad, or even Github&#39;s online editor itself. I recommend VSCode but that would be an overkill if you don&#39;t already do programming.&lt;/li&gt;
+&lt;li&gt;If you&#39;d like to preview the website on your own computer before releasing it for the whole wide world of web, &lt;a href=&quot;https://nodejs.org/en/download&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Node.js&lt;/a&gt; (scroll down to &amp;quot;get prebuilt node.js&amp;quot;). But note that no one except you is gonna be staring at your site all the time (hopefully) so this is very optional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;some-terms&quot; tabindex=&quot;-1&quot;&gt;Some terms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Repo = repository&lt;/li&gt;
+&lt;li&gt;Git is a version control system that makes repos and records how their code changed, so you can revert back when you fuck up.&lt;/li&gt;
+&lt;li&gt;Github is a service that stores Git repos online. There are plenty of other services that do the same thing, but Github is what I&#39;m most familiar with.&lt;/li&gt;
+&lt;li&gt;Github Pages is a service that creates websites from Github repos if you want to. It&#39;s not the only way to make websites from Github repos, but it&#39;s the most convenient.&lt;/li&gt;
+&lt;li&gt;Clear cache: instead of getting the same files over and over every time you visit a website, browsers will download these files and show them to you &lt;em&gt;as if&lt;/em&gt; you&#39;re actually connecting to the internet. These downloaded files are called cache. Cache is your friend because it speeds things up, but sometimes the actual file had been updated but your browser is still showing you the cached version and that&#39;s annoying. Use &lt;code&gt;Ctrl + Shift + R&lt;/code&gt; or &lt;code&gt;Ctrl + F5&lt;/code&gt; to clear the cache and force the browser to get the new files over the internet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;content-structure&quot; tabindex=&quot;-1&quot;&gt;Content structure&lt;/h2&gt;
+&lt;p&gt;Your vault &lt;em&gt;needs&lt;/em&gt; an &lt;code&gt;index.md&lt;/code&gt; at the very root. That&#39;s the only file you &lt;em&gt;have&lt;/em&gt; to have, and it will be the homepage of your site. If you already have a homepage, for example, you can rename it &lt;code&gt;index.md&lt;/code&gt;. Optionally, &lt;code&gt;index.md&lt;/code&gt;s inside each folder can add content to the folder&#39;s page.&lt;/p&gt;
+&lt;p&gt;Normally a file&#39;s title is just the file&#39;s filename, but Quartz will take the title property in the frontmatter of a file if it exists. Frontmatter in Obsidian is wrapped around &lt;code&gt;---&lt;/code&gt;s at the very start of the file, like&lt;/p&gt;
+&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Welcome to my paracosm!&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In fact, if you type three dashes at the start of the file, Obsidian now automatically adds a nice interface for you to edit frontmatter on.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://tofutush.github.io/img/obsidian%20+%20quartz%20frontmatter.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s helpful to give a title to every &lt;code&gt;index.md&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;getting-the-code&quot; tabindex=&quot;-1&quot;&gt;Getting the code&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href=&quot;https://github.com/jackyzha0/quartz&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;https://github.com/jackyzha0/quartz&lt;/a&gt; and click the &amp;quot;Use this template&amp;quot; button near the top-right. Click that, and then click &amp;quot;Create a new repository.&amp;quot;&lt;/p&gt;
+&lt;p&gt;In the new page, name your repo something not horrendous. You have two choices here.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Name it &lt;code&gt;[your username].github.io&lt;/code&gt;. This way, the URL of your website will be &lt;code&gt;https://[your username].github.io&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Name it some other name. The website URL will be &lt;code&gt;https://[your username].github.io/[repo name]&lt;/code&gt;. For example, my repo name is &amp;quot;tdyww&amp;quot; and my username is Tofutush, so my website is &lt;a href=&quot;https://tofutush.github.io/tdyww&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;https://tofutush.github.io/tdyww&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Your choice. It can be changed later anyways, so it doesn&#39;t matter that much.&lt;/p&gt;
+&lt;p&gt;You can add a description if you want. Finally, keep the repo public, because Github Pages only allows you to make websites from public repos unless you have the paid tier for some reason. If you&#39;re really adamant about keeping the repo private, you can potentially use Neocities instead, but that&#39;s a &lt;a href=&quot;https://tofutush.github.io/posts/2025-10-12&quot;&gt;whole &#39;nother tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;repo-settings&quot; tabindex=&quot;-1&quot;&gt;Repo settings&lt;/h2&gt;
+&lt;p&gt;Now you&#39;re in your own repo instead of jackyzha0&#39;s (to check, see if your username is on the top-left). Go to &amp;quot;settings&amp;quot; tab found at the top. Click the &amp;quot;Pages&amp;quot; tab on the left, and in the &amp;quot;Build and deployment&amp;quot; section select &amp;quot;Github Actions.&amp;quot; This enables Github to make a website from your code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://tofutush.github.io/img/obsidian%20+%20quartz%20settings.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;(Look, a screenshot! Wow! Yours won&#39;t have the &amp;quot;your site is live at&amp;quot; right now though.)&lt;/p&gt;
+&lt;p&gt;Then, click the &amp;quot;Actions&amp;quot; tab, and then click &amp;quot;general&amp;quot; in the dropdown. Scroll to the bottom to the &amp;quot;Workflow permissions&amp;quot; section and click &amp;quot;Read and write permissions.&amp;quot; This allows the script to automatically build the site.&lt;/p&gt;
+&lt;h3 id=&quot;getting-the-code-for-real&quot; tabindex=&quot;-1&quot;&gt;Getting the code for real&lt;/h3&gt;
+&lt;p&gt;It&#39;s time to clone the code. Cloning is just downloading a copy of the code to your own computer, but maintaining a connection between your offline copy and Github&#39;s online copy. You need this because Obsidian runs offline.&lt;/p&gt;
+&lt;p&gt;Click the &amp;quot;code&amp;quot; button near the top-right of the repository (make sure it&#39;s your copy, not the original jackyzha0&#39;s — the URL should have your username in it instead of jackyzha0). Click &amp;quot;open with Github Desktop&amp;quot; near the bottom. Github Desktop should open, and click &amp;quot;choose&amp;quot; to pick which folder the code is going into. You have to pick an empty folder. Later, we will be moving your Obsidian vault into this folder. And wait for the code to get downloaded!&lt;/p&gt;
+&lt;h2 id=&quot;setting-stuff-up&quot; tabindex=&quot;-1&quot;&gt;Setting stuff up&lt;/h2&gt;
+&lt;p&gt;Open the folder and find the file &lt;code&gt;quartz.config.ts&lt;/code&gt;. Here are some things you need to change.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pageTitle&lt;/code&gt;: this is the title that will be displayed at the top of every page. Change it to your paracosm&#39;s name! (Or anything, really.) Make sure it&#39;s not &lt;em&gt;super&lt;/em&gt; long.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pageTitleSuffix&lt;/code&gt;: this is a bit of text that will be added to the end of every browser tab title. Useful to also make it your paracosm&#39;s name, though remember to add a separator in front. For example, if you set it to &amp;quot; | tdyww&amp;quot; then the browser tab will be named &amp;quot;Characters | tdyww&amp;quot; if you do this.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;locale&lt;/code&gt;: language of the website. &lt;code&gt;en-US&lt;/code&gt; would probably be good for most of you; I had it set to &lt;code&gt;zh-CN&lt;/code&gt; for example.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;baseUrl&lt;/code&gt;: set this to your website&#39;s URL, but without the &lt;code&gt;https://&lt;/code&gt; or a slash at the end. Mine is &lt;code&gt;tofutush.github.io/tdyww&lt;/code&gt;. Yours might either be &lt;code&gt;[username].github.io&lt;/code&gt; or &lt;code&gt;[username].github.io/[repo name]&lt;/code&gt;, depending on how you named your repo.&lt;/li&gt;
+&lt;li&gt;I&#39;ll get into &lt;code&gt;theme&lt;/code&gt; later.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After making these changes, there is the possibility of making a mistake. If you&#39;re in a code editor like VSCode, it can probably tell you when there&#39;s a mistake, but if not, you can paste it into an online validator like &lt;a href=&quot;https://www.typescriptlang.org/play&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt;. (Ignore the &amp;quot;Cannot find module&amp;quot; errors though, since &lt;em&gt;they&lt;/em&gt; don&#39;t have them but we do.)&lt;/p&gt;
+&lt;p&gt;Also find the &lt;code&gt;.github/workflows&lt;/code&gt; folder. Add a new file named &lt;code&gt;deploy.yml&lt;/code&gt; and paste this code in.&lt;/p&gt;
+&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy Quartz site to GitHub Pages
+ 
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; v4
+ 
+&lt;span class=&quot;token key atrule&quot;&gt;permissions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; read
+  &lt;span class=&quot;token key atrule&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; write
+  &lt;span class=&quot;token key atrule&quot;&gt;id-token&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; write
+ 
+&lt;span class=&quot;token key atrule&quot;&gt;concurrency&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;pages&quot;&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;cancel-in-progress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+ 
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;22.04&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v4
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;fetch-depth&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Fetch all history for git info&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/setup&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;node@v4
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;node-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Install Dependencies
+        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; npm ci
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build Quartz
+        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; npx quartz build
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Upload artifact
+        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/upload&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;artifact@v3
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; public
+ 
+  &lt;span class=&quot;token key atrule&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;needs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; build
+    &lt;span class=&quot;token key atrule&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; github&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages
+      &lt;span class=&quot;token key atrule&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; steps.deployment.outputs.page_url &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy to GitHub Pages
+        &lt;span class=&quot;token key atrule&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; deployment
+        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/deploy&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages@v4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Don&#39;t change a thing here unless I tell you to.&lt;/p&gt;
+&lt;h2 id=&quot;putting-your-vault-in&quot; tabindex=&quot;-1&quot;&gt;Putting your vault in&lt;/h2&gt;
+&lt;p&gt;Now it&#39;s time to move our Obsidian vault over. You have two choices here, since Quartz by default says you have to put your content inside the &lt;code&gt;content&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;Now let&#39;s find the &lt;code&gt;content&lt;/code&gt; folder first. There should be a single &lt;code&gt;.gitkeep&lt;/code&gt; file in there. Delete the entire folder because I say so.&lt;/p&gt;
+&lt;p&gt;Your two choices are:&lt;/p&gt;
+&lt;h3 id=&quot;ill-just-use-the-content-folder-like-expected&quot; tabindex=&quot;-1&quot;&gt;I&#39;ll just use the content folder like expected.&lt;/h3&gt;
+&lt;p&gt;Rename your vault to &lt;code&gt;content&lt;/code&gt; and drag it into where the folder I made you delete used to be. After this is done, your folder structure should be: vault files inside content folder inside the repo folder. For example, say my vault used to be &lt;code&gt;tdyww&lt;/code&gt; and there&#39;s a &lt;code&gt;sparky.md&lt;/code&gt; inside the &lt;code&gt;characters&lt;/code&gt; folder. So &lt;code&gt;tdyww/characters/sparky.md&lt;/code&gt;. Now it will be &lt;code&gt;my-repo-name/content/characters/sparky.md&lt;/code&gt;. Don&#39;t get this wrong, or, well, obviously stuff are gonna go wrong.&lt;/p&gt;
+&lt;h3 id=&quot;i-dont-want-to-rename-my-vault-content&quot; tabindex=&quot;-1&quot;&gt;I don&#39;t want to rename my vault &amp;quot;content.&amp;quot;&lt;/h3&gt;
+&lt;p&gt;Me neither. In this case, just drag the vault over. So &lt;code&gt;tdyww/characters/sparky.md&lt;/code&gt; turns into &lt;code&gt;my-repo-name/tdyww/characters/sparky.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In this case, there&#39;s another setting you need to change. In the &lt;code&gt;deploy.yml&lt;/code&gt; file, find the line that says &lt;code&gt;run: npx quartz build&lt;/code&gt;. Add a &lt;code&gt;d=folder-name&lt;/code&gt; to the end. Mine is &lt;code&gt;run: npx quartz build d=tdyww&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If there&#39;s a space, add double quotes around the space, like &lt;code&gt;d=&amp;quot;td yww&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;try-it&quot; tabindex=&quot;-1&quot;&gt;Try it!&lt;/h2&gt;
+&lt;p&gt;Open Github Desktop again. There should be a shitton of stuff in the sidebar. These are files that had been changed. At the bottom part of the sidebar, type a message stating what you changed, and press &amp;quot;Commit to v4.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Committing is like a special save. It saves the files in the repo, and Git remembers that &lt;em&gt;forever&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;At the top, there&#39;s also a push button, probably saying &amp;quot;Push origin.&amp;quot; This uploads your local files to Github. Push now.&lt;/p&gt;
+&lt;p&gt;You can commit multiple times and push them at once. Each push triggers our deploy script, and it will deploy a new version of the website.&lt;/p&gt;
+&lt;p&gt;Go back to &lt;a href=&quot;http://github.com&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;github.com&lt;/a&gt; now. See how right above the files, there&#39;s your username and icon, along with the last commit message you wrote, and hopefully a brown dot there? A brown dot means our script is running. A bit later it would turn into a green checkmark. Then you can open your website and see what it looks like! If it&#39;s a red cross, then there&#39;s an error. Whoops.&lt;/p&gt;
+&lt;p&gt;If it&#39;s this particular error, Quartz&#39;s website explained how to get rid of it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you get an error about not being allowed to deploy to &lt;code&gt;github-pages&lt;/code&gt; due to environment protection rules, make sure you remove any existing GitHub pages environments.&lt;/p&gt;
+&lt;p&gt;You can do this by going to your Settings page on your GitHub fork and going to the Environments tab and pressing the trash icon. The GitHub action will recreate the environment for you correctly the next time you sync your Quartz.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;updating-the-site&quot; tabindex=&quot;-1&quot;&gt;Updating the site&lt;/h2&gt;
+&lt;p&gt;Just write in Obsidian as usual, and when you feel like you&#39;ve written enough, go to Github Desktop, commit the files, and push! You may need to clear cache sometimes for changes to show up.&lt;/p&gt;
+&lt;h2 id=&quot;customization&quot; tabindex=&quot;-1&quot;&gt;Customization&lt;/h2&gt;
+&lt;p&gt;In &lt;code&gt;quartz.config.ts&lt;/code&gt;, there&#39;s a &lt;code&gt;theme&lt;/code&gt; part that gives you basic customization. For fonts, any &lt;a href=&quot;https://fonts.google.com&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;Google Font&lt;/a&gt; works, just enter the name. You can also use a local font. For colors, secondary is the color of the links, and tertiary is the color when links are hovered over. The selection color is a semi-transparent version of tertiary. Highlight is the semi-transparent color behind each link. You can set it to complete transparent so no color shows behind links. Text highlight is the color of the highlight when you used Obsidian&#39;s highlight syntax &lt;code&gt;==content==&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;custom-icon&quot; tabindex=&quot;-1&quot;&gt;Custom icon&lt;/h3&gt;
+&lt;p&gt;Right now, the browser tab icon is just Quartz&#39;s default. Find the folder &lt;code&gt;quartz/static&lt;/code&gt;, and see the &lt;code&gt;icon.png&lt;/code&gt; inside. Replace that with whatever you want, commit, and push. You may need to clear cache for the new icon to show.&lt;/p&gt;
 </content>
   </entry>
 </feed>

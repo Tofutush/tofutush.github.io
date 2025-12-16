@@ -138,6 +138,13 @@ p {
 	text-indent: 2em;
 }
 
+blockquote {
+	margin: 1em 2em;
+	padding: 0 1.5em;
+	position: relative;
+	border-left: 4px solid var(--link);
+}
+
 [dir="rtl"] {
 	font-size: var(--font-size-h4);
 }
