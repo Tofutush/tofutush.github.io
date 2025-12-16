@@ -3,7 +3,7 @@ title: Guide to making a website from your Obsidian vault with Quartz.
 tags:
   - site-doc
   - webmastery
-date: 2025-12-15
+date: 2025-12-16
 draft: true
 ---
 
