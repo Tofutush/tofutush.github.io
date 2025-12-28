@@ -143,6 +143,10 @@ blockquote {
 	padding: 0 1.5em;
 	position: relative;
 	border-left: 4px solid var(--link);
+
+	&>p {
+		text-indent: 0;
+	}
 }
 
 [dir="rtl"] {
@@ -160,7 +164,7 @@ details {
 
 	&>summary {
 		cursor: pointer;
-		line-height: 1.5;
+		line-height: 2;
 	}
 }
 
