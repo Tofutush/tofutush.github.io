@@ -19,4 +19,5 @@ views:
       note.title: 240
       note.tags: 157
       note.date: 116
-      note.draft: -9
+      note.draft: 20
+      file.size: 70
