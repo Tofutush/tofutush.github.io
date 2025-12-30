@@ -30,13 +30,13 @@ Legend
 		- Shangri-la
 	- Xinjiang (11/10 if you ignore the aridness and the bugs and the horse poop)
 		- ~~North~~
-			- ~~Urumqi~~
+			- ~~Ürümchi~~
 			- ~~Altay~~
 			- ~~Ili~~
 		- South
-			- Kashgar
-			- Aksu
-			- Hotan
+			- Qeshqer
+			- Aqsu
+			- Xoten
 	- Inner Mongolia
 	- Tibet (better before I get old)
 	- Qinghai
@@ -107,6 +107,9 @@ Some languages have their language name written in that language which is a tiny
 	12. 行于漫漫长路上
 		- 首映
 		- 重温
+	13. 远征记
+		- 首映
+		- 重温
 - 活动
 	- ~~雷米特杯失窃案~~
 	- ~~绿湖噩梦~~
@@ -165,6 +168,8 @@ Some languages have their language name written in that language which is a tiny
 	- 野树莓·灵魂影映
 	- 告死鸟·冷铁
 	- 贝丽尔·命运的雨季
+	- 灰调蓝·无烧
+	- 玛尔纱·以骑士之名
 - 轶事
 	- 夏利·戏剧与戏剧
 	- 雾行者·奥利弗的故事
@@ -193,4 +198,5 @@ Some languages have their language name written in that language which is a tiny
 	- 坦南特·钻石游戏
 	- 讣告人·墓碑博物馆
 	- 玛蒂尔达·交接日
+	- 莫莉德尔·在高山下
 	- 深蓝什么时候交出柏林轶事！！
