@@ -1,0 +1,12 @@
+---
+layout: layout.vto
+title: Tags
+---
+<h1>Tags</h1>
+<ul>
+    {{ for t of Object.keys(collections) }}
+        {{ if t != 'pages' && t != 'posts' && t != 'all' }}
+            <li><a href="{{ t }}">{{ t }}</a> ({{ collections[t].length }})</li>
+        {{ /if }}
+    {{ /for }}
+</ul>
