@@ -1,5 +1,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import { spoiler } from '@mdit/plugin-spoiler';
 import pinyin from "chinese-to-pinyin";
 import { VentoPlugin } from "eleventy-plugin-vento";
 import { DateTime } from "luxon";
@@ -61,7 +62,7 @@ export default function (eleventyConfig) {
 		}
 	}).use(markdownItExternalLinks, {
 		externalTarget: '_blank'
-	}).use(markdownItTaskLists));
+	}).use(markdownItTaskLists).use(spoiler));
 
 	// filters
 	eleventyConfig.addFilter('slug', slug);
