@@ -257,6 +257,17 @@ p:has(.katex-display) {
 	user-select: none;
 }
 
+.spoiler {
+	background-color: var(--text);
+	transition: all .2s;
+	cursor: help;
+	border-radius: 4px;
+
+	&:focus {
+		background-color: transparent;
+	}
+}
+
 .prev-next {
 	display: flex;
 	flex-wrap: wrap;
