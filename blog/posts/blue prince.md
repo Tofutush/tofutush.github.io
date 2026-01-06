@@ -30,11 +30,11 @@ Come to think of it, if I !!filled back the Fountain, drained the Reservoir by 1
 
 Funny thing about that run was, I had an experiment that went like, "the next three times you open a chest, add 3 Aquariums to the draft pool." I ended up having a shitton of Aquariums in my house.
 
-The next day (today), I sat down, not as midnight thankfully, to get to Room 46 again. I drafted the !!Foundation!!, opened the Antechamber in !!the Great Hall — which is my favorite now since all you need to do is draft it with my 9999 dice and open all the doors!!, got to !!the Inner Sanctum!!, and reached Room 46! Long live modding!
+The next day (today), I sat down, not at midnight thankfully, to get to Room 46 again. I drafted the !!Foundation!!, opened the Antechamber in !!the Great Hall — which is my favorite now since all you need to do is draft it with my 9999 dice and open all the doors!!, got to !!the Inner Sanctum!!, and reached Room 46! Long live modding!
 
 Does modding take away the fun in a game? It happened before with Soul Knight for me, but quite the opposite this time, unlimited[^1] resources took away the frustration and allowed me to focus entirely on the puzzles and hidden secrets. And it doesn't even guarantee success, as evident in my midnight playthrough!
 
-Anyways, I've basically watched through all the gameplay on Youtube LOL, so I know what to do next. Neither being spoiled take away the fun in this game. It's still vastly different experiencing it through someone else's video than to actually be in the game yourself.
+Anyways, I've basically watched through all the gameplay on Youtube LOL, so I know what to do next. Neither does being spoiled take away the fun in this game. It's still vastly different experiencing it through someone else's video than to actually be in the game yourself.
 
 I've found out that I don't really like playing video games at all. Every time I don't get what I want, I get frustrated[^2]. I rage-quit Reverse 1999 for the same reason. The games I *do* like, like Henry Stickmin, was largely plot-focused, and basically only required clicking everywhere, and I still had to look at wikis to get all achievements. But well, I mean, games are supposed to be fun. If I don't get fun out of them, why am I still wasting my time then?
 
