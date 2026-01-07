@@ -74,6 +74,11 @@ export default function (eleventyConfig) {
 			return b.data.date - a.data.date;
 		})
 	});
+	eleventyConfig.addFilter('sortPages', arr => {
+		return arr.sort((a, b) => {
+			return b.data.edited - a.data.edited;
+		})
+	});
 
 	// vento
 	eleventyConfig.addPlugin(VentoPlugin);

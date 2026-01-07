@@ -5,7 +5,7 @@ title: Home
 
 <h1>Pages</h1>
 <div class="grid">
-	{{ for p of collections.pages }}
+	{{ for p of collections.pages |> sortPages }}
 		<span class="date">{{ p.data.edited |> formatDate }}</span>
 		<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
 	{{ /for }}
