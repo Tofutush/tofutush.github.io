@@ -125,7 +125,7 @@ edited: 2026-01-07
 		{{ if p.tags }}
 			<div class="post-tags">
 				{{ for t of p.tags }}
-					{{# <label for="{{ t }}">{{ t }}</label> #}}
+					<label for="{{ t }}">#{{ t }}</label>
 				{{ /for }}
 			</div>
 		{{ /if }}
