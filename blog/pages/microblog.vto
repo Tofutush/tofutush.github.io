@@ -116,7 +116,7 @@ edited: 2026-01-07
 		{{ /for }}
 	</div>
 </details>
-{{ for p of microblog }}
+{{ for p of microblog.sort((a, b) => b.date.localeCompare(a.date)) }}
 	<article class="post{{ for t of p.tags }} {{ t }}{{ /for }}">
 		<summary class="post-title">@Tofutush <span class="date">{{ p.date }}</span></summary>
 		<div class="content">
@@ -124,7 +124,7 @@ edited: 2026-01-07
 		</div>
 		{{ if p.tags }}
 			<div class="post-tags">
-				{{ for t of p.tags }}
+				{{ for t of p.tags.sort((a, b) => a.localeCompare(b)) }}
 					<label for="{{ t }}">#{{ t }}</label>
 				{{ /for }}
 			</div>
