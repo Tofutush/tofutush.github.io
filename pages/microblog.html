@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/icon.ico"/>
+	<link rel="stylesheet" href="/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"/>
+	<meta name="theme-color" content="#83254f">
+	<meta property="og:title" content="Microblog">
+	<title>Microblog</title>
+</head>
+<body>
+	<div id="header">
+		<div class="nav">
+			<a href="/">Home</a>
+			<a href="/tag/">Tags</a>
+			<a href="/feed.xml">Feed</a>
+			<a target="_blank" href="/The-Iron-Ragdoll/">TIR</a>
+		</div>
+	</div>
+	<main>
+		<h1>Microblog</h1>
+<div class="date">
+    <p>Last edited: 2026-01-07</p>
+</div>
+<style>
+	.post {
+		border: 4px solid var(--link);
+		border-radius: 1em;
+		overflow: hidden;
+		margin: 1em auto;
+		line-height: 2;
+		&>.post-title {
+			user-select: none;
+		}
+		&>.post-tags {
+			padding: .5em 1em;
+			border-top: 4px dashed var(--link);
+			user-select: none;
+		}
+		& p {
+			text-indent: 0;
+		}
+	}
+	summary {
+		padding: .5em 1em;
+		& .date {
+			float: right;
+		}
+	}
+	.content {
+		padding: 1em;
+		border-top: 4px dashed var(--link);
+		&>:first-child {
+			margin-top: 0;
+		}
+		&>:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.pinned {
+		border-color: var(--header);
+		&>.content {
+			border-color: var(--header);
+		}
+	}
+	@media (prefers-color-scheme: dark) {
+		.pinned {
+			background-color: #160c10;
+		}
+	}
+	@media (prefers-color-scheme: light) {
+		.pinned {
+			background-color: #eddcea;
+		}
+	}
+	dt,
+	dd {
+		margin: .5em 0;
+	}
+	dt {
+		font-weight: bold;
+		color: var(--header);
+	}
+	dd {
+		margin-left: 1em;
+	}
+	#statuscafe {
+		border: 4px solid var(--header);
+		width: fit-content;
+		padding: 1em;
+		margin: 1em auto;
+		border-radius: .7em;
+		line-height: 2;
+		&>#statuscafe-username {
+			margin-bottom: .5em;
+		}
+		&>#statuscafe-content {
+			text-align: center;
+			margin: .5em auto 0 auto;
+		}
+	}
+	label {
+		line-height: 2;
+		cursor: pointer;
+		&:hover,
+		&:has(input:checked) {
+			text-decoration: underline;
+		}
+	}
+	main article {
+		display: none;
+	}
+	main:has(#all:checked) article,
+	main:has(#harmony:checked) article[class~="harmony"],
+	main:has(#intro:checked) article[class~="intro"],
+	main:has(#meta:checked) article[class~="meta"],
+	main:has(#tir:checked) article[class~="tir"] {
+		display: block;
+	}
+</style>
+<details class="pinned post" open>
+	<summary>Status <span class="date">2026-01-07</span></summary>
+	<div class="content">
+		<dl>
+			<dt>Reading:</dt>
+			<dd>Jennifer Government — Max Barry</dd>
+			<dt>Playing</dt>
+			<dd>Blue Prince</dd>
+		</dl>
+		<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=tofutush" defer></script>
+	</div>
+</details>
+<details class="pinned post" open>
+	<summary>Tag filter</summary>
+	<div class="content">
+		<label><input type="radio" id="all" name="tag" checked />All</label>
+		
+			<label><input type="radio" id="harmony" name="tag" />#harmony</label>
+		
+			<label><input type="radio" id="intro" name="tag" />#intro</label>
+		
+			<label><input type="radio" id="meta" name="tag" />#meta</label>
+		
+			<label><input type="radio" id="tir" name="tag" />#tir</label>
+		
+	</div>
+</details>
+
+	<article class="post harmony tir">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-07</span></summary>
+		<div class="content">
+			<p>Cool new idea: Harmony, after getting the mission to collect incriminating evidence on her parents, thought that she would find none, because of course her parents aren't criminals! So she made shit up with the scanty stuff she had on them. And turns out they (at least Frosting) <em>did</em> get arrested for that and it broke her heart.</p>
+<p>How does it justify her eagerness to join the MSS alongside Sugarcane later though?</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="harmony">#harmony</label>
+				
+					<label for="tir">#tir</label>
+				
+			</div>
+		
+	</article>
+
+	<article class="post intro meta">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-07</span></summary>
+		<div class="content">
+			<p>Decided to start a microblog! Will post random stuff in here that are too short for posts. Usually I spit them into my <a href="https://discord.gg/XzdA5vKkb2" class="external-link" target="_blank">Discord server</a>, but maybe if I spit too much the Social Media Overlords will come after my ass, who knows. It would also be nice to keep an archive of ideas, so it's easier to reference them later!</p>
+<p>I foresee my future workflow being still spitting into Discord, but updating this here afterwards if I think it's worth saving.</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="intro">#intro</label>
+				
+					<label for="meta">#meta</label>
+				
+			</div>
+		
+	</article>
+
+<p style="text-align: center">Inspired by <a href="https://nomnomnami.com/templates/">Nomnomnami</a>!
+
+<hr />
+<p><a href="/">Home</a></p>
+
+	</main>
+</body>
