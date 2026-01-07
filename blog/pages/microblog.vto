@@ -15,6 +15,7 @@ edited: 2026-01-07
 		&>.post-tags {
 			padding: .5em 1em;
 			border-top: 4px dashed var(--link);
+			user-select: none;
 		}
 		& p {
 			text-indent: 0;
@@ -29,6 +30,12 @@ edited: 2026-01-07
 	.content {
 		padding: 1em;
 		border-top: 4px dashed var(--link);
+		&>:first-child {
+			margin-top: 0;
+		}
+		&>:last-child {
+			margin-bottom: 0;
+		}
 	}
 	.pinned {
 		border-color: var(--header);
@@ -97,17 +104,24 @@ edited: 2026-01-07
 	<summary>Tag filter</summary>
 	<div class="content">
 		<label><input type="radio" id="all" name="tag" checked />All</label>
-		<label><input type="radio" id="aa" name="tag" />aa</label>
+		{{ for t of mbTags }}
+			<label><input type="radio" id="{{ t }}" name="tag" />#{{ t }}</label>
+		{{ /for }}
 	</div>
 </details>
-<article class="post">
-	<summary class="post-title">@Tofutush <span class="date">2026-01-07</span></summary>
-	<div class="content">
-		<p>Hello, this is a test!</p>
-	</div>
-	<div class="post-tags">
-		<label for="aa">test</label>
-		<label for="all">test</label>
-	</div>
-</article>
+{{ for p of microblog }}
+	<article class="post">
+		<summary class="post-title">@Tofutush <span class="date">{{ p.date }}</span></summary>
+		<div class="content">
+			{{ p.content |> renderMD }}
+		</div>
+		{{ if p.tags }}
+			<div class="post-tags">
+				{{ for t of p.tags }}
+					<label for="{{ t }}">{{ t }}</label>
+				{{ /for }}
+			</div>
+		{{ /if }}
+	</article>
+{{ /for }}
 <p style="text-align: center">Inspired by <a href="https://nomnomnami.com/templates/">Nomnomnami</a>!

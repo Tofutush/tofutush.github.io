@@ -62,7 +62,7 @@ export default function (eleventyConfig) {
 		}
 	}).use(markdownItExternalLinks, {
 		externalTarget: '_blank'
-	}).use(markdownItTaskLists).use(spoiler));
+	}).use(spoiler));
 
 	// filters
 	eleventyConfig.addFilter('slug', slug);
@@ -78,6 +78,17 @@ export default function (eleventyConfig) {
 		return arr.sort((a, b) => {
 			return b.data.edited - a.data.edited;
 		})
+	});
+
+	const mdRender = new markdownIt({
+		html: true,
+		breaks: true,
+		linkify: true
+	}).use(markdownItExternalLinks, {
+		externalTarget: '_blank'
+	}).use(spoiler);
+	eleventyConfig.addFilter('renderMD', function (rawString) {
+		return mdRender.render(rawString);
 	});
 
 	// vento
