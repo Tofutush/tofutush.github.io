@@ -124,10 +124,14 @@ h4 {
 	margin-top: 1.5em;
 }
 
-#main {
+main {
 	margin: 1em auto;
 	max-width: 800px;
 	padding: 0 1em;
+
+	& .footnote-ref {
+		vertical-align: baseline;
+	}
 }
 
 p {
@@ -207,10 +211,6 @@ code {
 :not(pre)>code[class*="language-"],
 pre[class*="language-"] {
 	background-color: #222 !important;
-}
-
-#main .footnote-ref {
-	vertical-align: baseline;
 }
 
 .footnotes-list {

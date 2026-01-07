@@ -87,6 +87,13 @@ edited: 2026-01-07
 			text-decoration: underline;
 		}
 	}
+	main article {
+		display: none;
+	}
+	main:has(#all:checked) article{{ for t of mbTags }},
+	main:has(#{{ t }}:checked) article[class~="{{ t }}"]{{ /for }} {
+		display: block;
+	}
 </style>
 <details class="pinned post" open>
 	<summary>Status <span class="date">2026-01-07</span></summary>
@@ -110,7 +117,7 @@ edited: 2026-01-07
 	</div>
 </details>
 {{ for p of microblog }}
-	<article class="post">
+	<article class="post{{ for t of p.tags }} {{ t }}{{ /for }}">
 		<summary class="post-title">@Tofutush <span class="date">{{ p.date }}</span></summary>
 		<div class="content">
 			{{ p.content |> renderMD }}
@@ -118,7 +125,7 @@ edited: 2026-01-07
 		{{ if p.tags }}
 			<div class="post-tags">
 				{{ for t of p.tags }}
-					<label for="{{ t }}">{{ t }}</label>
+					{{# <label for="{{ t }}">{{ t }}</label> #}}
 				{{ /for }}
 			</div>
 		{{ /if }}
