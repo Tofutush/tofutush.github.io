@@ -1,5 +1,6 @@
 ---
 permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 date: 2026-01-07
@@ -28,6 +29,8 @@ date: 2026-01-07
 
 tags: intro, meta
 
-content: Decided to start a microblog! Will post random stuff in here that are too short for posts. Usually I spit them into my [Discord server](https://discord.gg/XzdA5vKkb2), but maybe if I spit too much the Social Media Overlords will come after my ass, who knows. It would also be nice to keep an archive of ideas, so it's easier to reference them later!
+content:
+
+Decided to start a microblog! Will post random stuff in here that are too short for posts. Usually I spit them into my [Discord server](https://discord.gg/XzdA5vKkb2), but maybe if I spit too much the Social Media Overlords will come after my ass, who knows. It would also be nice to keep an archive of ideas, so it's easier to reference them later!
 
 I foresee my future workflow being still spitting into Discord, but updating this here afterwards if I think it's worth saving.

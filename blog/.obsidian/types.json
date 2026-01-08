@@ -5,6 +5,7 @@
     "tags": "tags",
     "myTags": "multitext",
     "draft": "checkbox",
-    "permalink": "checkbox"
+    "permalink": "checkbox",
+    "eleventyExcludeFromCollections": "checkbox"
   }
 }
