@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-08
+
+tags: personal, complaining
+
+content:
+
+Why do I feel like my ability to learn and comprehend is eroding in real time… I just wanna make a simple Svelte project…
+
+---
+
 date: 2026-01-07
 
 tags: webdev, meta
