@@ -4,6 +4,16 @@ permalink: false
 
 date: 2026-01-07
 
+tags: webdev, meta
+
+content:
+
+Yay, I'm no longer writing posts in JSON! Now I can open up Obsidian and just write from there. Satisfying.
+
+---
+
+date: 2026-01-07
+
 tags: harmony, tir
 
 content:
