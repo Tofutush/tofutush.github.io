@@ -114,9 +114,11 @@
 		display: none;
 	}
 	main:has(#all:checked) article,
+	main:has(#complaining:checked) article[class~="complaining"],
 	main:has(#harmony:checked) article[class~="harmony"],
 	main:has(#intro:checked) article[class~="intro"],
 	main:has(#meta:checked) article[class~="meta"],
+	main:has(#personal:checked) article[class~="personal"],
 	main:has(#tir:checked) article[class~="tir"],
 	main:has(#webdev:checked) article[class~="webdev"] {
 		display: block;
@@ -139,11 +141,15 @@
 	<div class="content">
 		<label><input type="radio" id="all" name="tag" checked />All</label>
 		
+			<label><input type="radio" id="complaining" name="tag" />#complaining</label>
+		
 			<label><input type="radio" id="harmony" name="tag" />#harmony</label>
 		
 			<label><input type="radio" id="intro" name="tag" />#intro</label>
 		
 			<label><input type="radio" id="meta" name="tag" />#meta</label>
+		
+			<label><input type="radio" id="personal" name="tag" />#personal</label>
 		
 			<label><input type="radio" id="tir" name="tag" />#tir</label>
 		
@@ -151,6 +157,23 @@
 		
 	</div>
 </details>
+
+	<article class="post personal complaining">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-08</span></summary>
+		<div class="content">
+			<p>Why do I feel like my ability to learn and comprehend is eroding in real time… I just wanna make a simple Svelte project…</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="complaining">#complaining</label>
+				
+					<label for="personal">#personal</label>
+				
+			</div>
+		
+	</article>
 
 	<article class="post webdev meta">
 		<summary class="post-title">@Tofutush <span class="date">2026-01-07</span></summary>
