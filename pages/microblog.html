@@ -117,7 +117,8 @@
 	main:has(#harmony:checked) article[class~="harmony"],
 	main:has(#intro:checked) article[class~="intro"],
 	main:has(#meta:checked) article[class~="meta"],
-	main:has(#tir:checked) article[class~="tir"] {
+	main:has(#tir:checked) article[class~="tir"],
+	main:has(#webdev:checked) article[class~="webdev"] {
 		display: block;
 	}
 </style>
@@ -146,8 +147,27 @@
 		
 			<label><input type="radio" id="tir" name="tag" />#tir</label>
 		
+			<label><input type="radio" id="webdev" name="tag" />#webdev</label>
+		
 	</div>
 </details>
+
+	<article class="post webdev meta">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-07</span></summary>
+		<div class="content">
+			<p>Yay, I'm no longer writing posts in JSON! Now I can open up Obsidian and just write from there. Satisfying.</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="meta">#meta</label>
+				
+					<label for="webdev">#webdev</label>
+				
+			</div>
+		
+	</article>
 
 	<article class="post harmony tir">
 		<summary class="post-title">@Tofutush <span class="date">2026-01-07</span></summary>
