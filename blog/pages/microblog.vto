@@ -90,7 +90,7 @@ edited: 2026-01-07
 	main article {
 		display: none;
 	}
-	main:has(#all:checked) article{{ for t of mbTags }},
+	main:has(#all:checked) article{{ for t of microblog.tags }},
 	main:has(#{{ t }}:checked) article[class~="{{ t }}"]{{ /for }} {
 		display: block;
 	}
@@ -111,12 +111,12 @@ edited: 2026-01-07
 	<summary>Tag filter</summary>
 	<div class="content">
 		<label><input type="radio" id="all" name="tag" checked />All</label>
-		{{ for t of mbTags }}
+		{{ for t of microblog.tags }}
 			<label><input type="radio" id="{{ t }}" name="tag" />#{{ t }}</label>
 		{{ /for }}
 	</div>
 </details>
-{{ for p of microblog.sort((a, b) => b.date.localeCompare(a.date)) }}
+{{ for p of microblog.entries }}
 	<article class="post{{ for t of p.tags }} {{ t }}{{ /for }}">
 		<summary class="post-title">@Tofutush <span class="date">{{ p.date }}</span></summary>
 		<div class="content">

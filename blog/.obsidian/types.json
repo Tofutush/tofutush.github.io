@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "myTags": "multitext",
-    "draft": "checkbox"
+    "draft": "checkbox",
+    "permalink": "checkbox"
   }
 }
