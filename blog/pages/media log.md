@@ -1,6 +1,5 @@
 ---
 title: Media Log
-edited: 2025-08-21
 ---
 
 [[toc]]

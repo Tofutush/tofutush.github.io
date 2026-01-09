@@ -2,7 +2,7 @@
 title: I like collecting digital stuff, apparently.
 tags:
   - ramble
-date:
+date: 2026-01-09
 draft: true
 ---
 

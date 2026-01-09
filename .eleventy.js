@@ -66,19 +66,9 @@ export default function (eleventyConfig) {
 
 	// filters
 	eleventyConfig.addFilter('slug', slug);
-	eleventyConfig.addFilter('formatDate', date => {
-		return DateTime.fromJSDate(date, { zone: 'UTC' }).toISODate();
-	});
-	eleventyConfig.addFilter('sortPosts', arr => {
-		return arr.sort((a, b) => {
-			return b.data.date - a.data.date;
-		})
-	});
-	eleventyConfig.addFilter('sortPages', arr => {
-		return arr.sort((a, b) => {
-			return b.data.edited - a.data.edited;
-		})
-	});
+	eleventyConfig.addFilter('formatDate', date => DateTime.fromJSDate(date, { zone: 'UTC' }).toISODate());
+	eleventyConfig.addFilter('sortPosts', arr => arr.sort((a, b) => b.data.date - a.data.date));
+	eleventyConfig.addFilter('sortPages', arr => arr.sort((a, b) => a.data.title - b.data.title));
 
 	const mdRender = new markdownIt({
 		html: true,
