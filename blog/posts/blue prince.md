@@ -38,5 +38,10 @@ Anyways, I've basically watched through all the gameplay on Youtube LOL, so I kn
 
 I've found out that I don't really like playing video games at all. Every time I don't get what I want, I get frustrated[^2]. I rage-quit Reverse 1999 for the same reason. The games I *do* like, like Henry Stickmin, was largely plot-focused, and basically only required clicking everywhere, and I still had to look at wikis to get all achievements. But well, I mean, games are supposed to be fun. If I don't get fun out of them, why am I still wasting my time then?
 
+- **Did I like it?** Yes.
+- **Would I play it again?** If by "again" you mean completing it 100% and then going for a rerun, probably not.
+- **Would I grab a random stranger off the street and make them play it?** With mods, yes.
+- **If someone wants to play it, would I throw myself in like a human shield to protect them from harm?** No, but I'd recommend them mods.
+
 [^1]: It's not even unlimited — it just sets them all to 9999. Entering the Weight Room still reduces it to half, and the Ballroom set my gem count to 2.
 [^2]: What can I say, I'm just really spoiled.

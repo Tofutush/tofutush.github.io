@@ -5,6 +5,21 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-08
 
+tags: bookworming
+
+content:
+
+I came up with a media review framework:
+
+- **Did I like it?**
+- **Would I read / watch / play it again?**
+- **Would I grab a random stranger off the street and make them read / watch / play it?**
+- **If someone wants to read / watch / play it, would I throw myself in like a human shield to protect them from harm?**
+
+---
+
+date: 2026-01-08
+
 tags: personal, complaining
 
 content:

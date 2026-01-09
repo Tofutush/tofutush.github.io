@@ -17,3 +17,8 @@ Neither does it feature binary "do this or don't do this?" choices unless in bra
 The outcome of each choice is clearly all well-thought out. Fail scenes are funny and I'd argue an even more important part of the game than the plot itself — which is really childish (the government hiring some random outlaw to take down in exchange for freedom a gangster group flying a giant aircraft in the country's airspace? They're flying in your airspace just get the military to blast them into smithereens already), though not as much considering the developer made most of them when he was really young IIRC.
 
 So yeah, great game. This is the greatest plan~~
+
+- **Did I like it?** Yes.
+- **Would I play it again?** Yes.
+- **Would I grab a random stranger off the street and make them play it?** Yes.
+- **If someone wants to play it, would I throw myself in like a human shield to protect them from harm?** No.

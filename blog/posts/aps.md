@@ -23,3 +23,8 @@ And there's "you," Brotherhood. It's clear that letters with "you" that's clearl
 A lot of the messaging in not only this book but also many of his other books were a lot of "the Empire is no more, we just work for the Americans now!!" But the Americans always appear in some nearly comedic way. Like when an American says the word "gentlemen," the author spells it as "junnlemen." (It only happened twice but it's still kinda funny.)
 
 All in all *A Perfect Spy* is a really good read, although I wouldn't recommend it to anyone new to le Carré. Start with *The Spy Who Came in from the Cold* if you want to get into his works. I'd be reading *The Russia House* next.
+
+- **Did I like it?** Yes.
+- **Would I read it again?** Yes.
+- **Would I grab a random stranger off the street and make them read it?** No, unless they have a track record of reading long and boring books, and have read *The Spy Who Came In from the Cold* prior.
+- **If someone wants to read it, would I throw myself in like a human shield to protect them from harm?** No.

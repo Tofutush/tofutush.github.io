@@ -93,3 +93,8 @@ Finally, the henchwoman was literally named Dumbbell. This is certainly a choice
 Wow, two thousand words. Another time I broke the thousand mark was when complaining about my dormmate. Negativity demon, or negativity muse huh?
 
 I've still yet to decide whether to embrace negativity or reject it. Basically I'm asking, if something's bugging my mind, do I write about it here and let it out? Or do I write about something happier to distract myself? I mean, I did try that in the first place but it failed to distract me. Well. That would be something to ponder.
+
+- **Did I like it?** No.
+- **Would I read it again?** No.
+- **Would I grab a random stranger off the street and make them read it?** No.
+- **If someone wants to read it, would I throw myself in like a human shield to protect them from harm?** Yes.
