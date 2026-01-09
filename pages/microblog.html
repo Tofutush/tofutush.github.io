@@ -114,6 +114,7 @@
 		display: none;
 	}
 	main:has(#all:checked) article,
+	main:has(#bookworming:checked) article[class~="bookworming"],
 	main:has(#complaining:checked) article[class~="complaining"],
 	main:has(#harmony:checked) article[class~="harmony"],
 	main:has(#intro:checked) article[class~="intro"],
@@ -141,6 +142,8 @@
 	<div class="content">
 		<label><input type="radio" id="all" name="tag" checked />All</label>
 		
+			<label><input type="radio" id="bookworming" name="tag" />#bookworming</label>
+		
 			<label><input type="radio" id="complaining" name="tag" />#complaining</label>
 		
 			<label><input type="radio" id="harmony" name="tag" />#harmony</label>
@@ -157,6 +160,35 @@
 		
 	</div>
 </details>
+
+	<article class="post bookworming">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-08</span></summary>
+		<div class="content">
+			<p>I came up with a media review framework:</p>
+<ul>
+<li>
+<p><strong>Did I like it?</strong></p>
+</li>
+<li>
+<p><strong>Would I read / watch / play it again?</strong></p>
+</li>
+<li>
+<p><strong>Would I grab a random stranger off the street and make them read / watch / play it?</strong></p>
+</li>
+<li>
+<p><strong>If someone wants to read / watch / play it, would I throw myself in like a human shield to protect them from harm?</strong></p>
+</li>
+</ul>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="bookworming">#bookworming</label>
+				
+			</div>
+		
+	</article>
 
 	<article class="post personal complaining">
 		<summary class="post-title">@Tofutush <span class="date">2026-01-08</span></summary>
