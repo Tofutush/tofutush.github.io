@@ -13,6 +13,16 @@ I need to start writing down reasons why I rejected ideas. Because I keep gettin
 
 ---
 
+date: 2026-01-09
+
+tags: webdev
+
+content:
+
+The Blue Prince House Builder is coming along well! Sometimes, I wonder if anyone is actually going to like these sorts of silly projects. But who cares, if I enjoy the process of making it, and learned from it? But that always brings me to the more difficult question — did I truly learn anything from it? Svelte is still a mess to me, and I'm pretty sure it's horrible practice to pass a function down from `App` into `Directory` and finally into `RoomDir` where it's called. But well, I'm going to invoke sunk cost fallacy and say, I've come so far.
+
+---
+
 date: 2026-01-08
 
 tags: bookworming

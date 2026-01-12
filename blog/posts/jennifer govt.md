@@ -52,5 +52,10 @@ First of all, why are they named Hack and Buy? Just why?
 - role of government? looks like fbi
 	- processing name changes all day
 - europe, welfare states?
+- killing john and going to violets house? the first place id look
+- capitalism bad. thank you. what a bold new radical statement no one had said before.
+- Jennifers motivation. revealed later?
+- what about the 3rd world. im more interested. like im asking for the book to be something else now, but no, im not interested in the usa, im not interested in the book.
+- buy: hayley guilt vs alienation of labor
 
 [^1]: Personally, I would off myself if my school uniform had a huge McDonalds logo at the back.
