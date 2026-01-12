@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-12
+
+tags: personal
+
+content:
+
+I need to start writing down reasons why I rejected ideas. Because I keep getting the same ideas again and forgetting why they were scraped the first time I got them.
+
+---
+
 date: 2026-01-08
 
 tags: bookworming
