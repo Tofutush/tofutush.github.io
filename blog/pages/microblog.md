@@ -5,7 +5,29 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-12
 
-tags: tir, personal
+tags: meta
+
+content:
+
+Still cannot decide how to tag stuff to save my life… Took on a tag set more identical to the main blog.
+
+---
+
+date: 2026-01-12
+
+tags: tir, pumpkin, candlelight, paracosming, ramble
+
+content:
+
+But on a more positive note, Candlelight Back Home inspiration! So this one is a little interesting. It's based off of a bit of non-TIR-related paracosming I've been doing for a while (the entire plotline is, from its inception). And I've incorporated it into Candlelight's story. Now, I won't ever share this non-TIR-related paracosm with anyone else. But I'm actually sharing its content with you since I literally adapted its plotline here.
+
+To be honest, I'm not really happy that I'm paracosming more about this insane real-life AU than TIR lately. And I get all the stuff I used to get with TIR too, replaying nearly-identical scenes in my head over and over. And I don't like it. Because it's based off of real-life and really, really cringe. But I know I cannot stop the paracosm train, so I just adapt that stuff into TIR.
+
+---
+
+date: 2026-01-12
+
+tags: meta
 
 content:
 
@@ -15,7 +37,7 @@ Feeling awful at the Chinese site again… why does that thing always bring me t
 
 date: 2026-01-12
 
-tags: personal
+tags: ramble
 
 content:
 
@@ -50,7 +72,7 @@ I came up with a media review framework:
 
 date: 2026-01-08
 
-tags: personal, complaining
+tags: ramble
 
 content:
 
