@@ -112,11 +112,13 @@
 	}
 	main:has(#all:checked) article,
 	main:has(#bookworming:checked) article[class~="bookworming"],
-	main:has(#complaining:checked) article[class~="complaining"],
+	main:has(#candlelight:checked) article[class~="candlelight"],
 	main:has(#harmony:checked) article[class~="harmony"],
 	main:has(#intro:checked) article[class~="intro"],
 	main:has(#meta:checked) article[class~="meta"],
-	main:has(#personal:checked) article[class~="personal"],
+	main:has(#paracosming:checked) article[class~="paracosming"],
+	main:has(#pumpkin:checked) article[class~="pumpkin"],
+	main:has(#ramble:checked) article[class~="ramble"],
 	main:has(#tir:checked) article[class~="tir"],
 	main:has(#webdev:checked) article[class~="webdev"] {
 		display: block;
@@ -141,7 +143,7 @@
 		
 			<label><input type="radio" id="bookworming" name="tag" />#bookworming</label>
 		
-			<label><input type="radio" id="complaining" name="tag" />#complaining</label>
+			<label><input type="radio" id="candlelight" name="tag" />#candlelight</label>
 		
 			<label><input type="radio" id="harmony" name="tag" />#harmony</label>
 		
@@ -149,7 +151,11 @@
 		
 			<label><input type="radio" id="meta" name="tag" />#meta</label>
 		
-			<label><input type="radio" id="personal" name="tag" />#personal</label>
+			<label><input type="radio" id="paracosming" name="tag" />#paracosming</label>
+		
+			<label><input type="radio" id="pumpkin" name="tag" />#pumpkin</label>
+		
+			<label><input type="radio" id="ramble" name="tag" />#ramble</label>
 		
 			<label><input type="radio" id="tir" name="tag" />#tir</label>
 		
@@ -158,7 +164,46 @@
 	</div>
 </details>
 
-	<article class="post tir personal">
+	<article class="post meta">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-12</span></summary>
+		<div class="content">
+			<p>Still cannot decide how to tag stuff to save my life… Took on a tag set more identical to the main blog.</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="meta">#meta</label>
+				
+			</div>
+		
+	</article>
+
+	<article class="post tir pumpkin candlelight paracosming ramble">
+		<summary class="post-title">@Tofutush <span class="date">2026-01-12</span></summary>
+		<div class="content">
+			<p>But on a more positive note, Candlelight Back Home inspiration! So this one is a little interesting. It's based off of a bit of non-TIR-related paracosming I've been doing for a while (the entire plotline is, from its inception). And I've incorporated it into Candlelight's story. Now, I won't ever share this non-TIR-related paracosm with anyone else. But I'm actually sharing its content with you since I literally adapted its plotline here.</p>
+<p>To be honest, I'm not really happy that I'm paracosming more about this insane real-life AU than TIR lately. And I get all the stuff I used to get with TIR too, replaying nearly-identical scenes in my head over and over. And I don't like it. Because it's based off of real-life and really, really cringe. But I know I cannot stop the paracosm train, so I just adapt that stuff into TIR.</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="candlelight">#candlelight</label>
+				
+					<label for="paracosming">#paracosming</label>
+				
+					<label for="pumpkin">#pumpkin</label>
+				
+					<label for="ramble">#ramble</label>
+				
+					<label for="tir">#tir</label>
+				
+			</div>
+		
+	</article>
+
+	<article class="post meta">
 		<summary class="post-title">@Tofutush <span class="date">2026-01-12</span></summary>
 		<div class="content">
 			<p>Feeling awful at the Chinese site again… why does that thing always bring me the most agony. I need to accept that it would always be hell to maintain and would always be outdated and incomplete.</p>
@@ -167,15 +212,13 @@
 		
 			<div class="post-tags">
 				
-					<label for="personal">#personal</label>
-				
-					<label for="tir">#tir</label>
+					<label for="meta">#meta</label>
 				
 			</div>
 		
 	</article>
 
-	<article class="post personal">
+	<article class="post ramble">
 		<summary class="post-title">@Tofutush <span class="date">2026-01-12</span></summary>
 		<div class="content">
 			<p>I need to start writing down reasons why I rejected ideas. Because I keep getting the same ideas again and forgetting why they were scraped the first time I got them.</p>
@@ -184,7 +227,7 @@
 		
 			<div class="post-tags">
 				
-					<label for="personal">#personal</label>
+					<label for="ramble">#ramble</label>
 				
 			</div>
 		
@@ -234,7 +277,7 @@
 		
 	</article>
 
-	<article class="post personal complaining">
+	<article class="post ramble">
 		<summary class="post-title">@Tofutush <span class="date">2026-01-08</span></summary>
 		<div class="content">
 			<p>Why do I feel like my ability to learn and comprehend is eroding in real time… I just wanna make a simple Svelte project…</p>
@@ -243,9 +286,7 @@
 		
 			<div class="post-tags">
 				
-					<label for="complaining">#complaining</label>
-				
-					<label for="personal">#personal</label>
+					<label for="ramble">#ramble</label>
 				
 			</div>
 		
