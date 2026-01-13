@@ -5,6 +5,18 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-12
 
+tags: tir, pumpkin, halcyon
+
+content:
+
+Pumpkin be like: no one can find holes in a true cover story! Honey a true cover story is not a cover story. It's literally you. He's so not cut out for the secret world. Halcyon made the wrong choice, he wanted a doormat but got a, IDK, squeaky plank on the floor.
+
+Still thinking about how the WIS finds out "Curly" is Pumpkin and how they screw him over.
+
+---
+
+date: 2026-01-12
+
 tags: meta
 
 content:
