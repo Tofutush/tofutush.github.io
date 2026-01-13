@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-12
 
+tags: tir, personal
+
+content:
+
+Feeling awful at the Chinese site again… why does that thing always bring me the most agony. I need to accept that it would always be hell to maintain and would always be outdated and incomplete.
+
+---
+
+date: 2026-01-12
+
 tags: personal
 
 content:
