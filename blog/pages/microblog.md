@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-16
+
+tags: ramble
+
+content:
+
+I've grown more emotional as I've grown older, I think? I had watched through a lot of sad stuff as a kid and I never felt a thing, but now reading *Swim Bird*, a children's book inside a video game, drove me nearly to tears.
+
+---
+
 date: 2026-01-14
 
 tags: ramble
