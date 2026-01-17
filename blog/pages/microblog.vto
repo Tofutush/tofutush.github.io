@@ -15,6 +15,7 @@ title: Microblog
 			padding: .5em 1em;
 			border-top: 4px dashed var(--link);
 			user-select: none;
+			opacity: .5;
 		}
 		& p {
 			text-indent: 0;
@@ -115,8 +116,8 @@ title: Microblog
 		{{ /for }}
 	</div>
 </details>
-{{ for p of microblog.entries }}
-	<article class="post{{ for t of p.tags }} {{ t }}{{ /for }}">
+{{ for index, p of microblog.entries }}
+	<article class="post{{ for t of p.tags }} {{ t }}{{ /for }}" id="{{ microblog.entries.length - index }}">
 		<summary class="post-title">@Tofutush <span class="date">{{ p.date }}</span></summary>
 		<div class="content">
 			{{ p.content |> renderMD }}
