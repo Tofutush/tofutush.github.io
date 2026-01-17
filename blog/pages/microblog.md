@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-date 2026-01-17
+date: 2026-01-17
 
 tags: media, bookworming
 
