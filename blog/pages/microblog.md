@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date 2026-01-17
+
+tags: media, bookworming
+
+content:
+
+As much as I hate *Spy School*, the crown still has to go to *Mrs. Smith's Spy School for Girls*. Even *Spy School* can't manage to traumatize me 2 chapters in.
+
+---
+
 date: 2026-01-16
 
 tags: ramble
@@ -91,7 +101,7 @@ The Blue Prince House Builder is coming along well! Sometimes, I wonder if anyon
 
 date: 2026-01-08
 
-tags: bookworming
+tags: media
 
 content:
 
