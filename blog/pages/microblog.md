@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-17
 
+tags: media, cains-jawbone
+
+content:
+
+Found my old (not that old) Cain's Jawbone notes… The urge to pick it back up…
+
+---
+
+date: 2026-01-17
+
 tags: media, bookworming
 
 content:
