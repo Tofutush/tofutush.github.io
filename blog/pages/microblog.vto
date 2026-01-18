@@ -87,6 +87,10 @@ title: Microblog
 			text-decoration: underline;
 		}
 	}
+	.permalink {
+		color: var(--text) !important;
+		float: right;
+	}
 	main article {
 		display: none;
 	}
@@ -127,6 +131,7 @@ title: Microblog
 				{{ for t of p.tags.sort((a, b) => a.localeCompare(b)) }}
 					<label for="{{ t }}">#{{ t }}</label>
 				{{ /for }}
+				<a class="permalink" href="#{{ microblog.entries.length - index }}">(Link)</a>
 			</div>
 		{{ /if }}
 	</article>
