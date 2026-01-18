@@ -82,6 +82,10 @@ hr {
 	}
 }
 
+[id] {
+	scroll-margin-top: 3em;
+}
+
 a,
 a:visited {
 	color: var(--link);
