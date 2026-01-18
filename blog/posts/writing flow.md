@@ -1,5 +1,5 @@
 ---
-title: 于是又回到了 Obsidian。
+title: 于是又回到了 Obsidian
 tags:
   - 中文
   - ramble

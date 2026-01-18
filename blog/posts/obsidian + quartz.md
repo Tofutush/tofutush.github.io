@@ -1,5 +1,5 @@
 ---
-title: Guide to making a website from your Obsidian vault with Quartz.
+title: Guide to making a website from your Obsidian vault with Quartz
 tags:
   - site-doc
   - webmastery

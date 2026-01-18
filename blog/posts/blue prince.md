@@ -1,5 +1,5 @@
 ---
-title: Blue Prince is a great game.
+title: Blue Prince is a great game
 tags:
   - playing
   - media

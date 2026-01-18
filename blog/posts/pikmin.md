@@ -1,5 +1,5 @@
 ---
-title: Pikmin Bloom players are evil.
+title: Pikmin Bloom players are evil
 tags:
   - nerding
 date: 2025-12-14

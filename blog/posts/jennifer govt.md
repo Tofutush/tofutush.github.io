@@ -7,6 +7,10 @@ date: 2026-01-07
 draft: true
 ---
 
+[[toc]]
+
+## Previously…
+
 Funny way how I found out this book existed. I found this game online called [NationStates](https://www.nationstates.net/) which is basically a country simulator. So I created Bauhinia, or attempted to but the name was fucking taken by some tasteless stranger! But it was going to expire soon, so I made Bauhinia after it did.
 
 And then I got too overwhelmed by stuff that I didn't know what buttons to click, and left it at that. Today, I logged on again, found that Bauhinia was long gone because I hadn't logged in for so long, but I could restore it, so I did.
@@ -39,9 +43,11 @@ Here's the recent events list:
 
 But alright, none of that was actually on topic. I might log in every year or so just to hog Bauhinia's name though. The thing is, the developer of the game, Max Barry, also wrote books, and they looked quite interesting, so I added them to my booklist where they promptly collected digital dust for about 1 year 90 days. But recently I decided to go ahead with one of them to see: do I let the *other* books continue to collect digital dust, or do I get rid of them?
 
+## The actual review
+
 So I started to read *Jennifer Government*. Its premise is that, this is an ultra-Capitalist USA society, and people take on the last names of their employers. So we have Hack Nike, Billy Bechtel, people like that. Kids are apparently named after the school they attend, like Hayley McDonalds[^1], because all schools were funded by private companies too. Unemployed people, and I assume babies, have no last name. And Jennifer Government, as you can guess, works for the government. And these people get in trouble as their lives intertwine and stuff. It was a solid and promising premise, and what caught my attention in the first place.
 
-I've always thought I wasn't good enough of a writer to review books, but like. I'm doing it because I actually felt like I have something to say. So yeah, I'm saying them. Obviously, **spoiler alert**, though there's still blacked-out text.
+I've always thought I wasn't good enough of a writer to review books, but like. I'm doing it because I actually felt like I have something to say. So yeah, I'm saying them. Obviously, **spoiler alert**. There are many things I want to talk about so no blacked-out text this time.
 
 First of all, why are they named Hack and Buy? Just why?
 
@@ -57,5 +63,14 @@ First of all, why are they named Hack and Buy? Just why?
 - Jennifers motivation. revealed later?
 - what about the 3rd world. im more interested. like im asking for the book to be something else now, but no, im not interested in the usa, im not interested in the book.
 - buy: hayley guilt vs alienation of labor
+- i like how johns story and violets story meet at the shell takeover, very my cup of tea and pretty much the standard of ensemble-cast-ish stuff
+- extremely stupid violet computer plan
+	- youd think theyd brief the police more rather than "throw a freaked-out violet into the computer room and expect her to do magic"
+- john wtf why are you sticking your neck out for shell
+	- why are nike and pepsi at the takeover in the first place
+	- why would john be so worked up over two companies that have nothing to do with him. ok theyre from us alliance and team advantage respectively but like give him a thought process here
+		- attacking shell is attacking us alliance, attacking us alliance is attacking nike, attacking nike is attacking ME! like that
+		- john isnt the most sane guy in the world but thats still a little past my suspension of disbelief
+		- why could he go straight to exxonmobils executive floor. youd think you need to swipe a card to press the button or whatever. in a world where corporations reign supreme youd think the corporations would, be, yknow, a little supreme-reigning, yet they allow random people to crash a car into their hq and ride straight up and kill their ceo
 
 [^1]: Personally, I would off myself if my school uniform had a huge McDonalds logo at the back.

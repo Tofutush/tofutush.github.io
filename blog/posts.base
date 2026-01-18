@@ -15,9 +15,8 @@ views:
       - property: date
         direction: DESC
     columnSize:
-      file.name: 139
-      note.title: 240
-      note.tags: 157
+      file.name: 27
+      note.title: 477
+      note.tags: 251
       note.date: 116
       note.draft: 20
-      file.size: 70

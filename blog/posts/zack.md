@@ -1,5 +1,5 @@
 ---
-title: Zachary Ying and the Dragon Emperor sucks.
+title: Zachary Ying and the Dragon Emperor sucks
 tags:
   - bookworming
   - media

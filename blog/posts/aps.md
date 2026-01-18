@@ -1,5 +1,5 @@
 ---
-title: A Perfect Spy is great.
+title: A Perfect Spy is great
 date: 2025-12-09
 tags:
   - media

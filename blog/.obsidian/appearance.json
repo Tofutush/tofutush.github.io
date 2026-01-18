@@ -12,8 +12,8 @@
     "word count",
     "blockquote"
   ],
-  "interfaceFontFamily": "DIN Round Pro",
-  "textFontFamily": "Lexend,霞鹜文楷,霞鹜漫黑",
+  "interfaceFontFamily": "DIN Round Pro,霞鹜文楷",
+  "textFontFamily": "Lexend,霞鹜文楷",
   "cssTheme": "",
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrains Mono,微软雅黑",
