@@ -4,7 +4,7 @@
   <subtitle>Where I write stuff once in a blue moon</subtitle>
   <link href="https://tofutush.github.io/feed.xml" rel="self" />
   <link href="https://tofutush.github.io/" />
-  <updated>2026-01-05T00:00:00Z</updated>
+  <updated>2026-01-17T00:00:00Z</updated>
   <id>https://tofutush.github.io/</id>
   <author>
     <name>Tofutush</name>
@@ -213,6 +213,11 @@
 &lt;p&gt;You might say, &amp;quot;why are you so preoccupied with tiny details? You&#39;re missing the point of the book!&amp;quot; What&#39;s the point of the book? The message? You can condense it into a single slogan, &amp;quot;totalitarianism bad.&amp;quot; You can write an essay. But this is a book. You&#39;re trying to craft a world that looks real. The world needs believable details to make it feel lived-in. This does not look real. The author described Winston&#39;s daily life pretty much, but for the vast majority of the people, the proles, we hardly get anything from &lt;em&gt;their&lt;/em&gt; perspective aside from Winston&#39;s own remarks, which, although can be taken as the author passing true information to us through him, paints them as collectively stupid and irrelevant. This is the farthest thing from a believable world. I cannot imagine anything similar happening in real life. So what&#39;s the point of warning us away from it?&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Winston is &lt;em&gt;not&lt;/em&gt; likeable at all. He is a real fucking loser who fantasizes about beating and raping women. I can&#39;t root for him against the regime like that.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;They are too evenly matched, and their natural defences are too formidable. Eurasia is protected by its vast land spaces. Oceania by the width of the Atlantic and the Pacific, Eastasia by the fecundity and industriousness of its inhabitants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Just gonna throw this quote word-for-word here. Came from the book-within-a-book. &amp;quot;The 3 countries are evenly matched in their natural defenses. Eurasia has vast lands. Oceania has wide oceans. Eastasia works really hard and breeds like rabbits.&amp;quot;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Room 101. The most horrible place. Where they torture you into complete submission for real. Where they… dump a cageful of rats on your face. Look, I know it&#39;s supposed to be your worst fear. But imagine a grown-ass man whose greatest fear, the thing he fears more than anything else, more than fear itself, more than losing Julia… is… rats. Winston can&#39;t be real. Let&#39;s laugh at him. Call it the two-min humiliation.&lt;/p&gt;
 &lt;p&gt;Say &lt;em&gt;my&lt;/em&gt; worst fear is, uh… eldritch horror. Or missing out. FOMO. What are they gonna do to me?&lt;/p&gt;
@@ -1581,7 +1586,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 </content>
   </entry>
   <entry>
-    <title>A Perfect Spy is great.</title>
+    <title>A Perfect Spy is great</title>
     <link href="https://tofutush.github.io/posts/2025-12-09.html" />
     <updated>2025-12-09T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2025-12-09.html</id>
@@ -1852,7 +1857,7 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 </content>
   </entry>
   <entry>
-    <title>Pikmin Bloom players are evil.</title>
+    <title>Pikmin Bloom players are evil</title>
     <link href="https://tofutush.github.io/posts/2025-12-14.html" />
     <updated>2025-12-14T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2025-12-14.html</id>
@@ -1869,7 +1874,7 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 </content>
   </entry>
   <entry>
-    <title>于是又回到了 Obsidian。</title>
+    <title>于是又回到了 Obsidian</title>
     <link href="https://tofutush.github.io/posts/2025-12-15.html" />
     <updated>2025-12-15T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2025-12-15.html</id>
@@ -1882,7 +1887,7 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 </content>
   </entry>
   <entry>
-    <title>Guide to making a website from your Obsidian vault with Quartz.</title>
+    <title>Guide to making a website from your Obsidian vault with Quartz</title>
     <link href="https://tofutush.github.io/posts/2025-12-16.html" />
     <updated>2025-12-16T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2025-12-16.html</id>
@@ -2036,7 +2041,7 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 </content>
   </entry>
   <entry>
-    <title>Zachary Ying and the Dragon Emperor sucks.</title>
+    <title>Zachary Ying and the Dragon Emperor sucks</title>
     <link href="https://tofutush.github.io/posts/2025-12-29.html" />
     <updated>2025-12-29T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2025-12-29.html</id>
@@ -2095,7 +2100,7 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 </content>
   </entry>
   <entry>
-    <title>2025 Recap.</title>
+    <title>2025 Recap</title>
     <link href="https://tofutush.github.io/posts/2025-12-31.html" />
     <updated>2025-12-31T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2025-12-31.html</id>
@@ -2148,7 +2153,7 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 </content>
   </entry>
   <entry>
-    <title>Blue Prince is a great game.</title>
+    <title>Blue Prince is a great game</title>
     <link href="https://tofutush.github.io/posts/2026-01-05.html" />
     <updated>2026-01-05T00:00:00Z</updated>
     <id>https://tofutush.github.io/posts/2026-01-05.html</id>
@@ -2183,6 +2188,23 @@ linkLabel2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Self inserts?</title>
+    <link href="https://tofutush.github.io/posts/2026-01-17.html" />
+    <updated>2026-01-17T00:00:00Z</updated>
+    <id>https://tofutush.github.io/posts/2026-01-17.html</id>
+    <content type="html">&lt;p&gt;I&#39;ve often seen this trope online about &amp;quot;self-insert Mary Sues.&amp;quot; Basically the idea is that everyone had a self-insert OC who is a huge Mary Sue. And while it&#39;s entertaining, I did not have that sort of thing at all. My self-inserts were all punching bags.&lt;/p&gt;
+&lt;p&gt;Well, I could only think of two self-inserts that I had. The self-insert of the previous paracosm I had back in middle school which I will dub &lt;em&gt;Previous Paracosm&lt;/em&gt;, and Qibli from &lt;em&gt;TIR&lt;/em&gt;. (I&#39;ve also randomly decided to italicize every media title mention because I&#39;m not using these pretty Markdown features enough.)&lt;/p&gt;
+&lt;p&gt;These two self-inserts were essentially the same. &lt;em&gt;Previous Paracosm&lt;/em&gt; self-insert was always the one to get hurt in absurd situations. For example, the characters would jump down from a trapdoor in the ceiling, and everyone else would stick the landing but only my self-insert would land flat on her face. And maybe Lightningtail would throw something with her tail, and it would hit my self-insert&#39;s stomach.&lt;/p&gt;
+&lt;p&gt;For Qibli I&#39;ve made her way more badass and Mary-Sue-y than she started out, but hey, give me a chance at self-indulgence too! But in the beginning, she was literally just &lt;em&gt;Previous Paracosm&lt;/em&gt; self-insert ported over. She had magic, sure, but having magic isn&#39;t really some envied thing in Bauhinia. And she was the punching bag, the certified chicken, the first one to pee her pants after being dragged into shenanigans by Sparky.&lt;/p&gt;
+&lt;p&gt;A lot of points where Qibli had actual agency was conceived of a lot later, when I had admittedly gotten a little tired of Sparky. Like in &lt;em&gt;Sparky Turns Into a Dragon&lt;/em&gt;, it was Qibli who orchestrated the whole fiasco. And that was a pretty recent story (despite being so early in the plot).&lt;/p&gt;
+&lt;p&gt;Even when I made Qibli a murder, arms-dealer, and outlaw, her ultimate fate still ended up being strapped to a machine, spending the rest of her life being drained of her blood over and over, with her only mental refuge being Tadlet Kingdom.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Tofutush/The-Iron-Ragdoll/refs/heads/main/img/gallery/2025/qibli%20sunflower%20virgin.png&quot; alt=&quot;Qibli: I&#39;m gonna die a virgin! Sunflower: So? I ALREADY died a virgin!&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(This scene is now outdated, as I decided Sunflower would not continue to exist after all. Sure love it when I void my own artwork!)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So yeah, this is just a funny thing I observed. I mean, I certainly don&#39;t have a lack of Mary Sues. Kismet is definitely one, but Sparky the protagonist, and Lightningtail the protagonist of &lt;em&gt;Previous Paracosm&lt;/em&gt;, both pretty much count. They&#39;re both parames too; I experience the paracosm through their eyes a lot. I just never put the roles of &amp;quot;the Mary Sue through whose eyes I experience the world&amp;quot; and &amp;quot;my self-insert&amp;quot; into the same character. There were other examples of this too, like I had a &lt;em&gt;Wings of Fire&lt;/em&gt; OC who was a NightWing, SeaWing, and RainWing hybrid whose scales were lava-lamp-looking, glowing white bubbles against a black background, that I never figured out how to actually draw. She assassinated all the characters I didn&#39;t like. Definitely a wish-fulfillment Mary Sue, but I never thought of her as a self-insert. Also I forgot her name. The &lt;em&gt;My Little Pony&lt;/em&gt; version of Lightningtail was like that too; still not a self-insert.&lt;/p&gt;
+&lt;p&gt;My self-insert&#39;s role was always the punching bag, getting tortured for laughs. Gee, I wonder what that says about me? I like getting hurt?? If it&#39;s getting hit by a campus bus non-lethally then I&#39;m all for it. Or maybe I saw Hergé&#39;s statement of &amp;quot;women slipping on a banana peel just isn&#39;t as funny as men slipping on a banana peel&amp;quot; and took it personally. Analyzing the meta of my paracosm(s) sure is a quick way to get an identity crisis.&lt;/p&gt;
 </content>
   </entry>
 </feed>
