@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-19
+
+tags: 中文, 维语
+
+content:
+
+就像个小笨蛋似的天天抄课文……
+
+---
+
 date: 2026-01-17
 
 tags: media, cains-jawbone
