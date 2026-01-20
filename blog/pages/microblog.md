@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-20
+
+tags: tir, sparky
+
+content:
+
+Sparky would get paid in all Starcorp shares, zero real money. But she sells it all immediately after she gets them.
+
+---
+
 date: 2026-01-19
 
 tags: 中文, 维语
