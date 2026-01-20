@@ -14,6 +14,7 @@ I will log the media I enjoyed here. Only titles so the page doesn't get too mes
 ## Books
 
 - John le Carré ([post](/posts/2025-05-19), [post for A Perfect Spy](/posts/2025-12-09))
+- Cain's Jawbone by Torquemada
 
 ## Comics
 
