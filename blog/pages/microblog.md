@@ -9,7 +9,7 @@ tags: tir, sparky
 
 content:
 
-Sparky would get paid in all Starcorp shares, zero real money. But she sells it all immediately after she gets them.
+Sparky would get paid in Starcorp shares, zero real money. But she sells it all immediately after she gets them.
 
 ---
 
