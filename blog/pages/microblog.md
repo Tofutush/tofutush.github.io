@@ -9,6 +9,16 @@ tags: tir, sparky
 
 content:
 
+Instead of pouring leftovers in the trash, Sparky's family throws it in Sparky's mouth.
+
+---
+
+date: 2026-01-20
+
+tags: tir, sparky
+
+content:
+
 Sparky would get paid in Starcorp shares, zero real money. But she sells it all immediately after she gets them.
 
 ---
