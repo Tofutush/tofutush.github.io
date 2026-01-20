@@ -8,7 +8,7 @@ date: 2026-01-05
 
 **(Slight spoilers for Blue Prince ahead! I'm trying out some spoiler code though so hopefully you'll see blacked out text.)**
 
-A friend recommended me the game [Blue Prince](https://www.blueprincegame.com/) during the summer, and of course I had to try it. After like 10 minutes in, I was horrified. Like what the fuck.
+A friend recommended me the game [Blue Prince]([https://www.blueprincegame.com/](https://store.steampowered.com/app/1569580/Blue_Prince/)) during the summer, and of course I had to try it. After like 10 minutes in, I was horrified. Like what the fuck.
 
 Next time I met the friend, I simply said, "this game, this *game*," over and over while shaking my head.
 
