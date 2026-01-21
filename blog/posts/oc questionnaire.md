@@ -3,60 +3,206 @@ title: OC Creator Questionnaire!
 tags:
   - questionnaire
 date: 2026-01-21
-draft: true
 ---
 
 Here's a questionnaire I made for people who make OCs! Note that this is for *you*, not any individual OC you have.
 
 ```
 1. A little self-introduction!
+
+
+
 2. How long have you been making OCs?
+
+
+
 3. Who was your first OC ever? (If you don't remember, answer for the earliest that you do remember.) Are they still in use? Did they go through any iterations?
+
+
+
 4. Who is your favorite OC, currently?
+
+
+
 5. Who is your newest OC as of right now?
+
+
+
 6. How many OCs do you have? If you have multiple, then do you have blatant favoritism?
+
+
+
 7. Do you create OCs with other people, or is it mostly solitary?
+
+
+
 8. Do you create your OCs for specific story(s)? What are the genre and common themes featured in your story(s)?
+
+
+
 9. Are your OCs from a fandom?
+
+
+
 10. Do your OCs live in their own universe(s)? How different is their world from ours? (If you have fandom OCs you can still answer this with the world of the franchise!)
+
+
+
 11. If you got isekai'ed into your OCs' universe (if there are multiple, pick some of the most notable), how long would you survive?
+
+
+
 12. Do most your OCs belong to a (set of) species?
+
+
+
 13. Do you draw pictures of your OCs? If so, what kind of pictures do you draw?
+
+
+
 14. Do you enjoy drawing new reference sheets?
+
+
+
 15. Do you write about your OCs? If so, what sort of text do you write?
+
+
+
 16. Aside from drawing and writing, is there anything else you're doing for your OCs? Like… making a website, perhaps?
+
+
+
 17. What's your general process in making new OCs?
+
+
+
 18. Relatedly, which comes first for you, the OC or the story setting?
+
+
+
 19. Relatedly, how do you name your OCs?
+
+
+
 20. Relatedly, do your OCs gain a life of their own during the creation process?
+
+
+
 21. Relatedly, do you focus more on the design of the OC, or their personality? Or is it an even blend, or something else?
+
+
+
 22. Do you assign your OCs birthdays? Is their calendar different from ours?
+
+
+
 23. Do you keep track of OC creation dates? Do you consider the creation date to be their birthdays?
+
+
+
 24. How do you handle OC ages? Do they age up with you, stay static, or grow within the universe?
+
+
+
 25. Are there any rules you set for yourself when making OCs? How often do you break these self-imposed rules?
+
+
+
 26. What are things you enjoy the most in OCs?
+
+
+
 27. Conversely, what are your pet peeves about OCs?
+
+
+
 28. What's the most common trope you fall into when making OCs and their stories? Do you even like these tropes?
+
+
+
 29. Conversely, do you have any trope you like but doesn't get to use it much in your OCs?
+
+
+
 30. Tell me the weirdest and wackiest piece of out-of-context OC lore you have.
+
+
+
 31. Tell me the saddest and most tearjerking piece of OC lore you have, with context if needed.
+
+
+
 32. Tell me the scariest and freakiest piece of OC lore you have, with context if needed.
+
+
+
 33. Tell me the sweetest and most wholesome piece of OC lore you have, with context if needed.
+
+
+
 34. Tell me one meta thing about your OC lore. Like scrapped / revamped stuff?
+
+
+
 35. How do you think your OCs think of you? Are you their parent, their creation god, their suffering-bringer…
+
+
+
 36. How much TRAUMA do you give your OCs!!
+
+
+
 37. Do you have a Mary Sue? Bonus points if they're your self-insert!
+
+
+
 38. Do you have a self-insert then? What role(s) do they play?
+
+
+
 39. What are your biggest influences when it comes to OC or worldbuilding? Could be media, other people's OCs, anything.
+
+
+
 40. Are you happy with these influences, or would you like to break away more?
+
+
+
 41. Do you try to break out of your comfort zone when coming up with new OCs and stories?
+
+
+
 42. How do you organize / categorize your OCs, if at all?
+
+
+
 43. Do you have any advice you would like to give to new OC creators?
+
+
+
 44. What are some boundaries you think people should have regarding other people's OCs (or things to take notice of if you create together)?
+
+
+
 45. How often do you think about your OCs, expressed as a percentage of your waking time?
+
+
+
 46. What impacts do you think your OCs had on your life?
+
+
+
 47. Do you want to become POPULAR? If you are already popular, what's the secret ingredient?? :eyes: :eyes:
+
+
+
 48. Are there any songs you think describe an OC or a story perfectly?
+
+
+
 49. Might you have a paracosm? Look it up!
+
+
+
 50. Finally, do you still recognize the word "OC" after seeing it so much?
 ```
