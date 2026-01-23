@@ -5,6 +5,9 @@ views:
       and:
         - file.folder == "posts"
         - file.ext == "md"
+    groupBy:
+      property: draft
+      direction: ASC
     order:
       - file.name
       - title
