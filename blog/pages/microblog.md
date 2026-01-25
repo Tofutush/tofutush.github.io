@@ -47,7 +47,7 @@ content:
 
 date: 2026-01-17
 
-tags: media, cains-jawbone
+tags: media
 
 content:
 
