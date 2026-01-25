@@ -3,6 +3,18 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-25
+
+tags: tir, tadlet-kingdom
+
+content:
+
+Y'know, I've always been obsessed with *logical* actions characters take, and focusing on that too much makes me disregard the logical action *characters* take — what's in-character for them to do? Humans don't always take the most logical course of action. In fact, they *rarely* do. I think, in recognizing this, I can hopefully write characters with more personalities; and also make things easier for myself.
+
+For example (this is from *Tadlet Kingdom Adventures* which has been privated for the time being) after Snowy assassinated Cloud and the Hamster police tore off a piece of her cloak, won't she ditch the cloak as soon as possible so she won't get recognized for the tear? But if that's the case, how the gang finds out that Snowy is the assassin would be a lot more convoluted (because I wrote that part not realizing the most logical action is to ditch the cloak). Also, keeping the cloak on signifies that Snowy is a dumbass, too arrogant to think the stupid hamsters would find her, and too confident in the Dog Tadlet Crown would have her back. Or maybe I'm just making excuses, who knows.
+
+---
+
 date: 2026-01-20
 
 tags: tir, sparky
