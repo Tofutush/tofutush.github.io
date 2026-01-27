@@ -3,6 +3,20 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-27
+
+tags: status
+
+content:
+
+Me: I would finish the animation today!
+
+Also me: slid on the snow, reached a hand out to hold onto a brick wall, successfully prevented myself from falling but cut my hand a tiny bit.
+
+Also me, a spoiled princess: my hand hurts I will not be drawing today.
+
+---
+
 date: 2026-01-25
 
 tags: tir, tadlet-kingdom
@@ -47,7 +61,7 @@ content:
 
 date: 2026-01-17
 
-tags: media
+tags: media, cains-jawbone
 
 content:
 
@@ -67,7 +81,7 @@ As much as I hate *Spy School*, the crown still has to go to *Mrs. Smith's Spy S
 
 date: 2026-01-16
 
-tags: ramble
+tags: ramble, blue-prince, media, playing
 
 content:
 

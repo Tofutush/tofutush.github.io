@@ -47,6 +47,13 @@ title: Microblog
 			border-color: var(--header);
 		}
 	}
+	.more-tags {
+		margin: 0;
+		& div {
+			display: grid;
+    		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		}
+	}
 	@media (prefers-color-scheme: dark) {
 		.pinned {
 			background-color: #200d14;
@@ -100,13 +107,13 @@ title: Microblog
 	}
 </style>
 <details class="pinned post" open>
-	<summary>Status <span class="date">2026-01-07</span></summary>
+	<summary>Status <span class="date">2026-01-27</span></summary>
 	<div class="content">
 		<dl>
 			<dt>Reading:</dt>
 			<dd>Jennifer Government — Max Barry</dd>
 			<dt>Playing</dt>
-			<dd>Lonely Wolf Treat by Nomnomnami</dd>
+			<dd>Lorelei and the Laser Eyes</dd>
 		</dl>
 		<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=tofutush" defer></script>
 	</div>
@@ -114,10 +121,24 @@ title: Microblog
 <details class="pinned post" open>
 	<summary>Tag filter</summary>
 	<div class="content">
-		<label><input type="radio" id="all" name="tag" checked />All</label>
-		{{ for t of microblog.tags }}
-			<label><input type="radio" id="{{ t }}" name="tag" />#{{ t }}</label>
-		{{ /for }}
+		<div>
+			<label><input type="radio" id="all" name="tag" checked />All</label>
+			<label><input type="radio" id="ramble" name="tag" />#ramble</label>
+			<label><input type="radio" id="status" name="tag" />#status</label>
+			<label><input type="radio" id="中文" name="tag" />#中文</label>
+			<label><input type="radio" id="tir" name="tag" />#tir</label>
+			<label><input type="radio" id="media" name="tag" />#media</label>
+		</div>
+		<details class="more-tags">
+			<summary>More tags</summary>
+			<div>
+				{{ for t of microblog.tags }}
+					{{ if !['ramble', 'status', '中文', 'media', 'tir'].includes(t) }}
+						<label><input type="radio" id="{{ t }}" name="tag" />#{{ t }}</label>
+					{{ /if }}
+				{{ /for }}
+			</div>
+		</details>
 	</div>
 </details>
 {{ for index, p of microblog.entries }}
