@@ -68,6 +68,13 @@
 			border-color: var(--header);
 		}
 	}
+	.more-tags {
+		margin: 0;
+		& div {
+			display: grid;
+    		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		}
+	}
 	@media (prefers-color-scheme: dark) {
 		.pinned {
 			background-color: #200d14;
@@ -116,7 +123,9 @@
 		display: none;
 	}
 	main:has(#all:checked) article,
+	main:has(#blue-prince:checked) article[class~="blue-prince"],
 	main:has(#bookworming:checked) article[class~="bookworming"],
+	main:has(#cains-jawbone:checked) article[class~="cains-jawbone"],
 	main:has(#candlelight:checked) article[class~="candlelight"],
 	main:has(#halcyon:checked) article[class~="halcyon"],
 	main:has(#harmony:checked) article[class~="harmony"],
@@ -124,9 +133,11 @@
 	main:has(#media:checked) article[class~="media"],
 	main:has(#meta:checked) article[class~="meta"],
 	main:has(#paracosming:checked) article[class~="paracosming"],
+	main:has(#playing:checked) article[class~="playing"],
 	main:has(#pumpkin:checked) article[class~="pumpkin"],
 	main:has(#ramble:checked) article[class~="ramble"],
 	main:has(#sparky:checked) article[class~="sparky"],
+	main:has(#status:checked) article[class~="status"],
 	main:has(#tadlet-kingdom:checked) article[class~="tadlet-kingdom"],
 	main:has(#tir:checked) article[class~="tir"],
 	main:has(#webdev:checked) article[class~="webdev"],
@@ -136,13 +147,13 @@
 	}
 </style>
 <details class="pinned post" open>
-	<summary>Status <span class="date">2026-01-07</span></summary>
+	<summary>Status <span class="date">2026-01-27</span></summary>
 	<div class="content">
 		<dl>
 			<dt>Reading:</dt>
 			<dd>Jennifer Government — Max Barry</dd>
 			<dt>Playing</dt>
-			<dd>Lonely Wolf Treat by Nomnomnami</dd>
+			<dd>Lorelei and the Laser Eyes</dd>
 		</dl>
 		<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=tofutush" defer></script>
 	</div>
@@ -150,42 +161,109 @@
 <details class="pinned post" open>
 	<summary>Tag filter</summary>
 	<div class="content">
-		<label><input type="radio" id="all" name="tag" checked />All</label>
-		
-			<label><input type="radio" id="bookworming" name="tag" />#bookworming</label>
-		
-			<label><input type="radio" id="candlelight" name="tag" />#candlelight</label>
-		
-			<label><input type="radio" id="halcyon" name="tag" />#halcyon</label>
-		
-			<label><input type="radio" id="harmony" name="tag" />#harmony</label>
-		
-			<label><input type="radio" id="intro" name="tag" />#intro</label>
-		
-			<label><input type="radio" id="media" name="tag" />#media</label>
-		
-			<label><input type="radio" id="meta" name="tag" />#meta</label>
-		
-			<label><input type="radio" id="paracosming" name="tag" />#paracosming</label>
-		
-			<label><input type="radio" id="pumpkin" name="tag" />#pumpkin</label>
-		
+		<div>
+			<label><input type="radio" id="all" name="tag" checked />All</label>
 			<label><input type="radio" id="ramble" name="tag" />#ramble</label>
-		
-			<label><input type="radio" id="sparky" name="tag" />#sparky</label>
-		
-			<label><input type="radio" id="tadlet-kingdom" name="tag" />#tadlet-kingdom</label>
-		
-			<label><input type="radio" id="tir" name="tag" />#tir</label>
-		
-			<label><input type="radio" id="webdev" name="tag" />#webdev</label>
-		
+			<label><input type="radio" id="status" name="tag" />#status</label>
 			<label><input type="radio" id="中文" name="tag" />#中文</label>
-		
-			<label><input type="radio" id="维语" name="tag" />#维语</label>
-		
+			<label><input type="radio" id="tir" name="tag" />#tir</label>
+			<label><input type="radio" id="media" name="tag" />#media</label>
+		</div>
+		<details class="more-tags">
+			<summary>More tags</summary>
+			<div>
+				
+					
+						<label><input type="radio" id="blue-prince" name="tag" />#blue-prince</label>
+					
+				
+					
+						<label><input type="radio" id="bookworming" name="tag" />#bookworming</label>
+					
+				
+					
+						<label><input type="radio" id="cains-jawbone" name="tag" />#cains-jawbone</label>
+					
+				
+					
+						<label><input type="radio" id="candlelight" name="tag" />#candlelight</label>
+					
+				
+					
+						<label><input type="radio" id="halcyon" name="tag" />#halcyon</label>
+					
+				
+					
+						<label><input type="radio" id="harmony" name="tag" />#harmony</label>
+					
+				
+					
+						<label><input type="radio" id="intro" name="tag" />#intro</label>
+					
+				
+					
+				
+					
+						<label><input type="radio" id="meta" name="tag" />#meta</label>
+					
+				
+					
+						<label><input type="radio" id="paracosming" name="tag" />#paracosming</label>
+					
+				
+					
+						<label><input type="radio" id="playing" name="tag" />#playing</label>
+					
+				
+					
+						<label><input type="radio" id="pumpkin" name="tag" />#pumpkin</label>
+					
+				
+					
+				
+					
+						<label><input type="radio" id="sparky" name="tag" />#sparky</label>
+					
+				
+					
+				
+					
+						<label><input type="radio" id="tadlet-kingdom" name="tag" />#tadlet-kingdom</label>
+					
+				
+					
+				
+					
+						<label><input type="radio" id="webdev" name="tag" />#webdev</label>
+					
+				
+					
+				
+					
+						<label><input type="radio" id="维语" name="tag" />#维语</label>
+					
+				
+			</div>
+		</details>
 	</div>
 </details>
+
+	<article class="post status" id="20">
+		<summary class="post-title"><a class="permalink" href="#20">@Tofutush</a> <span class="date">2026-01-27</span></summary>
+		<div class="content">
+			<p>Me: I would finish the animation today!</p>
+<p>Also me: slid on the snow, reached a hand out to hold onto a brick wall, successfully prevented myself from falling but cut my hand a tiny bit.</p>
+<p>Also me, a spoiled princess: my hand hurts I will not be drawing today.</p>
+
+		</div>
+		
+			<div class="post-tags">
+				
+					<label for="status">#status</label>
+				
+			</div>
+		
+	</article>
 
 	<article class="post tir tadlet-kingdom" id="19">
 		<summary class="post-title"><a class="permalink" href="#19">@Tofutush</a> <span class="date">2026-01-25</span></summary>
@@ -256,7 +334,7 @@
 		
 	</article>
 
-	<article class="post media" id="15">
+	<article class="post media cains-jawbone" id="15">
 		<summary class="post-title"><a class="permalink" href="#15">@Tofutush</a> <span class="date">2026-01-17</span></summary>
 		<div class="content">
 			<p>Found my old (not that old) Cain's Jawbone notes… The urge to pick it back up…</p>
@@ -264,6 +342,8 @@
 		</div>
 		
 			<div class="post-tags">
+				
+					<label for="cains-jawbone">#cains-jawbone</label>
 				
 					<label for="media">#media</label>
 				
@@ -288,7 +368,7 @@
 		
 	</article>
 
-	<article class="post ramble" id="13">
+	<article class="post ramble blue-prince media playing" id="13">
 		<summary class="post-title"><a class="permalink" href="#13">@Tofutush</a> <span class="date">2026-01-16</span></summary>
 		<div class="content">
 			<p>I've grown more emotional as I've grown older, I think? I had watched through a lot of sad stuff as a kid and I never felt a thing, but now reading <em>Swim Bird</em>, a children's book inside a video game, drove me nearly to tears.</p>
@@ -296,6 +376,12 @@
 		</div>
 		
 			<div class="post-tags">
+				
+					<label for="blue-prince">#blue-prince</label>
+				
+					<label for="media">#media</label>
+				
+					<label for="playing">#playing</label>
 				
 					<label for="ramble">#ramble</label>
 				
