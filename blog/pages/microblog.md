@@ -3,6 +3,26 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date 2026-01-27
+
+tags: media, playing, lorelei, blue-prince
+
+content:
+
+Blue Prince made me scared of dates and the number 8. Lorelei made me scared of years and the number 4.
+
+---
+
+date: 2026-01-27
+
+tags: media, playing, lorelei
+
+content:
+
+I'm already freaked half to death! This isn't even a horror game, just a puzzle game! And a good one at that. I'm definitely writing a blog post when I finish this.
+
+---
+
 date: 2026-01-27
 
 tags: status
@@ -157,7 +177,7 @@ I need to start writing down reasons why I rejected ideas. Because I keep gettin
 
 date: 2026-01-09
 
-tags: webdev
+tags: webdev, blue-prince
 
 content:
 
