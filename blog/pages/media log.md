@@ -15,6 +15,7 @@ I will log the media I enjoyed here. Only titles so the page doesn't get too mes
 
 - John le Carré ([post](/posts/2025-05-19), [post for A Perfect Spy](/posts/2025-12-09))
 - Cain's Jawbone by Torquemada
+- Wings of Fire series by Tui Sutherland
 
 ## Comics
 
@@ -27,11 +28,6 @@ I will log the media I enjoyed here. Only titles so the page doesn't get too mes
 		- [The Crow Strider AU](https://mspfa.com/?s=44153&p=1)
 		- [Herding Cats](https://archiveofourown.org/works/349720/chapters/568917)
 
-## Movies
-
-- Dying to Survive (2018)
-- Twelve Angry Men (1957)
-
 ## Games
 
 - [Type Help](https://william-rous.itch.io/type-help)
@@ -40,6 +36,13 @@ I will log the media I enjoyed here. Only titles so the page doesn't get too mes
 - [UNREAL LIFE](https://store.steampowered.com/app/1335560/UNREAL_LIFE/)
 - [三相奇谈 (Threefold Recital)](https://store.steampowered.com/app/3084280/Threefold_Recital/)
 - [Blue Prince](https://store.steampowered.com/app/1569580/Blue_Prince/) ([post](/posts/2026-01-15))
+- [Bad End Theater](https://store.steampowered.com/app/1764390/BAD_END_THEATER/)
+- [Mimpi](https://store.steampowered.com/app/332580/Mimpi/)
+
+## Movies
+
+- Dying to Survive (2018)
+- Twelve Angry Men (1957)
 
 ## Music
 
