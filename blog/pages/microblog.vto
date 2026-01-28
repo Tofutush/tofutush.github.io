@@ -131,41 +131,19 @@ title: Microblog
 	<summary>Include tags</summary>
 	<div class="content">
 		<div>
-			<label><input type="checkbox" id="all" name="tag" checked />All</label>
-			<label><input type="checkbox" id="ramble" name="tag" />#ramble</label>
-			<label><input type="checkbox" id="status" name="tag" />#status</label>
-			<label><input type="checkbox" id="中文" name="tag" />#中文</label>
-			<label><input type="checkbox" id="tir" name="tag" />#tir</label>
-			<label><input type="checkbox" id="media" name="tag" />#media</label>
+			<label><input type="radio" id="all" name="tag" checked />All</label>
+			<label><input type="radio" id="ramble" name="tag" />#ramble</label>
+			<label><input type="radio" id="status" name="tag" />#status</label>
+			<label><input type="radio" id="中文" name="tag" />#中文</label>
+			<label><input type="radio" id="tir" name="tag" />#tir</label>
+			<label><input type="radio" id="media" name="tag" />#media</label>
 		</div>
 		<details class="more-tags">
 			<summary>More tags</summary>
 			<div>
 				{{ for t of microblog.tags }}
 					{{ if !['ramble', 'status', '中文', 'media', 'tir'].includes(t) }}
-						<label><input type="checkbox" id="{{ t }}" name="tag" />#{{ t }}</label>
-					{{ /if }}
-				{{ /for }}
-			</div>
-		</details>
-	</div>
-</details>
-<details class="pinned post" open>
-	<summary>Exclude tags</summary>
-	<div class="content">
-		<div>
-			<label><input type="checkbox" id="ramble-exclude" name="tag" />#ramble</label>
-			<label><input type="checkbox" id="status-exclude" name="tag" />#status</label>
-			<label><input type="checkbox" id="中文-exclude" name="tag" />#中文</label>
-			<label><input type="checkbox" id="tir-exclude" name="tag" />#tir</label>
-			<label><input type="checkbox" id="media-exclude" name="tag" />#media</label>
-		</div>
-		<details class="more-tags">
-			<summary>More tags</summary>
-			<div>
-				{{ for t of microblog.tags }}
-					{{ if !['ramble', 'status', '中文', 'media', 'tir'].includes(t) }}
-						<label><input type="checkbox" id="{{ t }}-exclude" name="tag" />#{{ t }}</label>
+						<label><input type="radio" id="{{ t }}" name="tag" />#{{ t }}</label>
 					{{ /if }}
 				{{ /for }}
 			</div>

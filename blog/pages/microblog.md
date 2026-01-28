@@ -3,6 +3,36 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-28
+
+tags: meta, webdev
+
+content:
+
+I, like, immediately changed my mind about the checkbox and exclude tags thing. You're now back to only viewing a single tag at a time.
+
+---
+
+date: 2026-01-28
+
+tags: media, playing, lorelei
+
+content:
+
+This interrogation shit is easy; just screenshot everything!
+
+---
+
+date: 2026-01-28
+
+tags: meta, webdev
+
+content:
+
+Added a bunch of useless new features to the microblog LOL. Now you can include and exclude multiple tags, as well as jump to the last post you read — though the latter requires JS. It does not care if you actually read the posts; it just stores the number of posts there were last time you visited and take you there should there be newer posts. So if you refresh the page, the value gets overridden.
+
+---
+
 date: 2026-01-27
 
 tags: media, playing, lorelei
