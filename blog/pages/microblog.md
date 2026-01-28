@@ -9,6 +9,16 @@ tags: media, playing, lorelei
 
 content:
 
+This game also gives you no way to back out of entering passwords. You have to enter a wrong password to quit the screen. Like some humiliation ritual.
+
+---
+
+date: 2026-01-27
+
+tags: media, playing, lorelei
+
+content:
+
 Hey, I have an idea. If you make a game with those "atmospheric" background music you're legally obliged to include an option to switch to a happier track.
 
 With all seriousness though, this game doesn't even have settings to adjust volume, let alone disable background music while still allowing sound effects.
