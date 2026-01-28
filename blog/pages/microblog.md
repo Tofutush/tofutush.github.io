@@ -9,6 +9,18 @@ tags: media, playing, lorelei, blue-prince
 
 content:
 
+Great, Blue Prince ruined me, I saw "foyer" in Lorelei and got excited, thinking the hallways are all unlocked today.
+
+Spoilers: they aren't.
+
+---
+
+date: 2026-01-27
+
+tags: media, playing, lorelei, blue-prince
+
+content:
+
 Blue Prince made me scared of dates and the number 8. Lorelei made me scared of years and the number 4.
 
 That's just great. Now I'm scared of the whole calendar.
