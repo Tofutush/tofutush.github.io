@@ -11,6 +11,8 @@ content:
 
 Blue Prince made me scared of dates and the number 8. Lorelei made me scared of years and the number 4.
 
+That's just great. Now I'm scared of the whole calendar.
+
 ---
 
 date: 2026-01-27
