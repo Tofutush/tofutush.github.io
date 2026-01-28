@@ -1,90 +1,93 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="/icon.ico"/>
-	<link rel="stylesheet" href="/style.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"/>
-	<link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"/>
-	<meta name="theme-color" content="#83254f">
-	<meta property="og:title" content="Site doc: Using Github to deploy a site made with 11ty to Neocities">
-	<title>Site doc: Using Github to deploy a site made with 11ty to Neocities</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/icon.ico" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" />
+  <meta name="theme-color" content="#83254f">
+  <meta property="og:title" content="Site doc: Using Github to deploy a site made with 11ty to Neocities">
+  <title>Site doc: Using Github to deploy a site made with 11ty to Neocities</title>
 </head>
+
 <body>
-	<div id="header">
-		<div class="nav">
-			<a href="/">Home</a>
-			<a href="/tag/">Tags</a>
-			<a href="/feed.xml">Feed</a>
-			<a target="_blank" href="/The-Iron-Ragdoll/">TIR</a>
-		</div>
-	</div>
-	<main>
-		<p class="date">2025-10-12</p>
-
-    <div class="tags">
-        
-            
-        
-            
-                <a href="/tag/site-doc">#site-doc</a>
-            
-        
-            
-                <a href="/tag/webmastery">#webmastery</a>
-            
-        
+  <div id="header">
+    <div class="nav">
+      <a href="/">Home</a>
+      <a href="/tag/">Tags</a>
+      <a href="/feed.xml">Feed</a>
+      <a target="_blank" href="/The-Iron-Ragdoll/">TIR</a>
     </div>
-
-<h1>Site doc: Using Github to deploy a site made with 11ty to Neocities</h1>
-<p>Out of boredom I'm going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone's use case is exactly the same, so always make sure you know what a code is doing before copying!</p>
-<hr>
-<p>I have not clicked open the &quot;edit site&quot; button on Neocities in ages; I only open it when I want to check how much space I'm using. Whenever I make an edit to my site, I just push the commit to the main branch and Github handles the rest. Here's how I did that.</p>
-<details open><summary>Contents</summary><ul><li><a href="#git">Git</a></li><li><a href="#11ty">11ty</a></li><li><a href="#deploy-to-neocities-with-github-actions">Deploy to Neocities with Github Actions</a></li><li><a href="#deploy-to-both-neocities-and-github-pages">Deploy to both Neocities and Github Pages</a><ul><li><a href="#deploying-to-a-subdirectory">Deploying to a subdirectory</a></li></ul></li><li><a href="#other-minor-stuff">Other minor stuff</a></li></ul></details>
-<h2 id="git" tabindex="-1">Git</h2>
-<p>PetraPixel had made wonderfully-explained tutorials on a lot of these things already, so I recommend checking out their <a href="https://petrapixel.neocities.org/coding/git-tutorial" class="external-link" target="_blank">Git tutorial</a>, <a href="https://petrapixel.neocities.org/coding/npm-tutorial" class="external-link" target="_blank">NPM tutorial</a>, and <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial" class="external-link" target="_blank">11ty tutorial</a> before reading this!</p>
-<p>Git is one of the most popular <em>version control systems</em> nowadays. That means it's a tool for keeping track of older versions of your codebase so that if you screw up, you can revert back to an old version. Branches are also helpful. You can create a branch for a new part of your site, or perhaps a redesign, and if you screw up you just go back to the main branch and delete the new branch.</p>
-<p>I also have Github Desktop downloaded, which is a GUI that makes things easier. This is back when I was in China and pushing and pulling took ages and I didn't know how to configure proxies (still don't). My VPN proxies all desktop applications automatically so it made things way faster. Now I won't be needing it since VSCode has a GUI for Git too and it's not as slow as before.</p>
-<h2 id="11ty" tabindex="-1">11ty</h2>
-<p>11ty is a static site generator (SSG), meaning it takes a bunch of template files, fills in the templates, and outputs a bunch of HTML files for the browser to read.</p>
-<p>Static site generators are great for bigger sites. Suppose I want the same header and footer on every page. I can copy / paste stuff, but what if I want to update the header? I'd have to update everything! And don't even bring up iframes in front of me. They're like loading one page for the price of two. They're only good for embedding <em>another</em> website in yours, like Youtube videos, guestbooks, etc.</p>
-<p>I've also recently learned about JavaScript custom elements (components), which could be worth checking out if you don't mind a lot of client-side JS and don't want to go all SSG. But SSGs still offer greater flexibility than simply components. With 11ty, you can</p>
-<ul>
-<li>Make a layout so you have the same header and footer in every page, as well as all the <code>&lt;meta&gt;</code> tags
-<ul>
-<li>Wrap a layout inside another layout for specific categories of pages that have their own shared sections</li>
-</ul>
-</li>
-<li>Do pagination with data, which is how I made my character pages</li>
-<li>Use data for literally anything, which is how I made many little games with the same character data file</li>
-<li>Automatically convert all your images to a certain size and format</li>
-<li>Use any templating language you want</li>
-</ul>
-<p>When I started out I made my site with the Liquid templating language, but it's quite stupid to work with and now my site's too big for me to switch to something else. If I were to make a new site, I would use <a href="https://vento.js.org/" class="external-link" target="_blank">Vento</a>.</p>
-<p>Why yes, I am shilling for 11ty. If you don't use it yet, and you're thinking your site's starting to get disorganized… Scroll to the top and click on PetraPixel's tutorials!</p>
-<h2 id="deploy-to-neocities-with-github-actions" tabindex="-1">Deploy to Neocities with Github Actions</h2>
-<p>This is the good part. Because sites generated by SSGs require a build step, that is, you need to run <code>npm run build</code> and check in the <code>_site</code> folder for the actual contents of the website, it means you can't directly dump your source code and expect the site to function. Github provides a great tool for you to run these build steps on their computers called Github Actions.</p>
-<p>Before doing anything, you need to enable them in Github by going to Settings &gt; Actions &gt; General and checking &quot;Allow all actions and reusable workflows.&quot;</p>
-<p>There are many things Github Actions are capable of which I don't know because I don't use them so I don't care. But each action is a <code>.yml</code> file stored inside the <code>.github/workflows/</code> folder of your repository.</p>
-<p>Each action has a trigger, the thing that makes the action run. If you want the build to run every time you update the site, the most common trigger would be on push — whenever local changes are uploaded to the remote. You'll also want it to trigger only when it's pushed to the main branch too, or your test changes on a test branch can get published and you don't want that. So at the start of <code>build.yml</code>, there's usually this:</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
+  </div>
+  <main>
+    <p class="date">2025-10-12</p>
+    <div class="tags">
+      <a href="/tag/site-doc">#site-doc</a>
+      <a href="/tag/webmastery">#webmastery</a>
+    </div>
+    <h1>Site doc: Using Github to deploy a site made with 11ty to Neocities</h1>
+    <p>Out of boredom I'm going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone's use case is exactly the same, so always make sure you know what a code is doing before copying!</p>
+    <hr>
+    <p>I have not clicked open the &quot;edit site&quot; button on Neocities in ages; I only open it when I want to check how much space I'm using. Whenever I make an edit to my site, I just push the commit to the main branch and Github handles the rest. Here's how I did that.</p>
+    <details open>
+      <summary>Contents</summary>
+      <ul>
+        <li><a href="#git">Git</a></li>
+        <li><a href="#11ty">11ty</a></li>
+        <li><a href="#deploy-to-neocities-with-github-actions">Deploy to Neocities with Github Actions</a></li>
+        <li><a href="#deploy-to-both-neocities-and-github-pages">Deploy to both Neocities and Github Pages</a>
+          <ul>
+            <li><a href="#deploying-to-a-subdirectory">Deploying to a subdirectory</a></li>
+          </ul>
+        </li>
+        <li><a href="#other-minor-stuff">Other minor stuff</a></li>
+      </ul>
+    </details>
+    <h2 id="git" tabindex="-1">Git</h2>
+    <p>PetraPixel had made wonderfully-explained tutorials on a lot of these things already, so I recommend checking out their <a href="https://petrapixel.neocities.org/coding/git-tutorial" class="external-link" target="_blank">Git tutorial</a>, <a href="https://petrapixel.neocities.org/coding/npm-tutorial" class="external-link" target="_blank">NPM tutorial</a>, and <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial" class="external-link" target="_blank">11ty tutorial</a> before reading this!</p>
+    <p>Git is one of the most popular <em>version control systems</em> nowadays. That means it's a tool for keeping track of older versions of your codebase so that if you screw up, you can revert back to an old version. Branches are also helpful. You can create a branch for a new part of your site, or perhaps a redesign, and if you screw up you just go back to the main branch and delete the new branch.</p>
+    <p>I also have Github Desktop downloaded, which is a GUI that makes things easier. This is back when I was in China and pushing and pulling took ages and I didn't know how to configure proxies (still don't). My VPN proxies all desktop applications automatically so it made things way faster. Now I won't be needing it since VSCode has a GUI for Git too and it's not as slow as before.</p>
+    <h2 id="11ty" tabindex="-1">11ty</h2>
+    <p>11ty is a static site generator (SSG), meaning it takes a bunch of template files, fills in the templates, and outputs a bunch of HTML files for the browser to read.</p>
+    <p>Static site generators are great for bigger sites. Suppose I want the same header and footer on every page. I can copy / paste stuff, but what if I want to update the header? I'd have to update everything! And don't even bring up iframes in front of me. They're like loading one page for the price of two. They're only good for embedding <em>another</em> website in yours, like Youtube videos, guestbooks, etc.</p>
+    <p>I've also recently learned about JavaScript custom elements (components), which could be worth checking out if you don't mind a lot of client-side JS and don't want to go all SSG. But SSGs still offer greater flexibility than simply components. With 11ty, you can</p>
+    <ul>
+      <li>Make a layout so you have the same header and footer in every page, as well as all the <code>&lt;meta&gt;</code> tags <ul>
+          <li>Wrap a layout inside another layout for specific categories of pages that have their own shared sections</li>
+        </ul>
+      </li>
+      <li>Do pagination with data, which is how I made my character pages</li>
+      <li>Use data for literally anything, which is how I made many little games with the same character data file</li>
+      <li>Automatically convert all your images to a certain size and format</li>
+      <li>Use any templating language you want</li>
+    </ul>
+    <p>When I started out I made my site with the Liquid templating language, but it's quite stupid to work with and now my site's too big for me to switch to something else. If I were to make a new site, I would use <a href="https://vento.js.org/" class="external-link" target="_blank">Vento</a>.</p>
+    <p>Why yes, I am shilling for 11ty. If you don't use it yet, and you're thinking your site's starting to get disorganized… Scroll to the top and click on PetraPixel's tutorials!</p>
+    <h2 id="deploy-to-neocities-with-github-actions" tabindex="-1">Deploy to Neocities with Github Actions</h2>
+    <p>This is the good part. Because sites generated by SSGs require a build step, that is, you need to run <code>npm run build</code> and check in the <code>_site</code> folder for the actual contents of the website, it means you can't directly dump your source code and expect the site to function. Github provides a great tool for you to run these build steps on their computers called Github Actions.</p>
+    <p>Before doing anything, you need to enable them in Github by going to Settings &gt; Actions &gt; General and checking &quot;Allow all actions and reusable workflows.&quot;</p>
+    <p>There are many things Github Actions are capable of which I don't know because I don't use them so I don't care. But each action is a <code>.yml</code> file stored inside the <code>.github/workflows/</code> folder of your repository.</p>
+    <p>Each action has a trigger, the thing that makes the action run. If you want the build to run every time you update the site, the most common trigger would be on push — whenever local changes are uploaded to the remote. You'll also want it to trigger only when it's pushed to the main branch too, or your test changes on a test branch can get published and you don't want that. So at the start of <code>build.yml</code>, there's usually this:</p>
+    <pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
 <span class="token key atrule">on</span><span class="token punctuation">:</span>
   <span class="token key atrule">push</span><span class="token punctuation">:</span>
     <span class="token key atrule">branches</span><span class="token punctuation">:</span>
       <span class="token punctuation">-</span> main</code></pre>
-<p>For me, I have a stupid birthday message system (which I may write about in the future) that requires one build per day to function, which this can do too! Just add another trigger that's a schedule, and schedule it to trigger once every midnight (UTC).</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
+    <p>For me, I have a stupid birthday message system (which I may write about in the future) that requires one build per day to function, which this can do too! Just add another trigger that's a schedule, and schedule it to trigger once every midnight (UTC).</p>
+    <pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
 <span class="token key atrule">on</span><span class="token punctuation">:</span>
   <span class="token key atrule">push</span><span class="token punctuation">:</span>
     <span class="token key atrule">branches</span><span class="token punctuation">:</span>
       <span class="token punctuation">-</span> main
   <span class="token key atrule">schedule</span><span class="token punctuation">:</span>
     <span class="token punctuation">-</span> <span class="token key atrule">cron</span><span class="token punctuation">:</span> <span class="token string">'0 0 * * *'</span></code></pre>
-<p>The weird <code>cron</code> property is a code for time. I don't understand it either; I grabbed it from <a href="https://crontab.guru/every-day-at-midnight" class="external-link" target="_blank">here</a>.</p>
-<p>Before you start deploying your site to Neocities, you need to access its API. Go to Settings &gt; Manage site settings &gt; API, and generate an API key. Don't show this to anyone else! People can edit your site with this; that's the whole point. Go to your Github repository, click Settings &gt; Secrets and variables &gt; Actions. These are the secrets that Github Actions can use. Click &quot;New repository secret,&quot; name it &quot;NEOCITIES_API_KEY,&quot; and set its value to the API key you generated.</p>
-<p>The rest is copy work. Here's how your file might look, if you're deploying to Neocities.</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
+    <p>The weird <code>cron</code> property is a code for time. I don't understand it either; I grabbed it from <a href="https://crontab.guru/every-day-at-midnight" class="external-link" target="_blank">here</a>.</p>
+    <p>Before you start deploying your site to Neocities, you need to access its API. Go to Settings &gt; Manage site settings &gt; API, and generate an API key. Don't show this to anyone else! People can edit your site with this; that's the whole point. Go to your Github repository, click Settings &gt; Secrets and variables &gt; Actions. These are the secrets that Github Actions can use. Click &quot;New repository secret,&quot; name it &quot;NEOCITIES_API_KEY,&quot; and set its value to the API key you generated.</p>
+    <p>The rest is copy work. Here's how your file might look, if you're deploying to Neocities.</p>
+    <pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
 <span class="token key atrule">on</span><span class="token punctuation">:</span>
   <span class="token key atrule">push</span><span class="token punctuation">:</span>
     <span class="token key atrule">branches</span><span class="token punctuation">:</span>
@@ -115,42 +118,42 @@
           <span class="token key atrule">api_token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.NEOCITIES_API_KEY <span class="token punctuation">}</span><span class="token punctuation">}</span>
           <span class="token key atrule">cleanup</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
           <span class="token key atrule">dist_dir</span><span class="token punctuation">:</span> _site</code></pre>
-<p><code>cleanup: true</code> deletes the files that are on Neocities but not in the <code>_site</code> folder. Set this to true, or otherwise old files you've deleted will still appear on your site!</p>
-<p>There are three steps here. The first step makes the computer use Node.js. The second builds your 11ty site. Make sure you do have a script called <code>build</code> in your <code>package.json</code> file! If not, simply add this in:</p>
-<pre class="language-json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">// the "scripts" object should already exist. If not then just add it too.</span>
+    <p><code>cleanup: true</code> deletes the files that are on Neocities but not in the <code>_site</code> folder. Set this to true, or otherwise old files you've deleted will still appear on your site!</p>
+    <p>There are three steps here. The first step makes the computer use Node.js. The second builds your 11ty site. Make sure you do have a script called <code>build</code> in your <code>package.json</code> file! If not, simply add this in:</p>
+    <pre class="language-json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">// the "scripts" object should already exist. If not then just add it too.</span>
 	<span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"eleventy"</span>
 <span class="token punctuation">}</span></code></pre>
-<p>And the final step uploads everything in the <code>_site</code> folder to Neocities.</p>
-<p>It's important to not include any file that's not in the list of approved file formats, or the action fails!</p>
-<h2 id="deploy-to-both-neocities-and-github-pages" tabindex="-1">Deploy to both Neocities and Github Pages</h2>
-<p>I have my site mirrored in both these places. I just need another step in my action file to deploy it to Github Pages.</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy
+    <p>And the final step uploads everything in the <code>_site</code> folder to Neocities.</p>
+    <p>It's important to not include any file that's not in the list of approved file formats, or the action fails!</p>
+    <h2 id="deploy-to-both-neocities-and-github-pages" tabindex="-1">Deploy to both Neocities and Github Pages</h2>
+    <p>I have my site mirrored in both these places. I just need another step in my action file to deploy it to Github Pages.</p>
+    <pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy
   <span class="token key atrule">uses</span><span class="token punctuation">:</span> peaceiris/actions<span class="token punctuation">-</span>gh<span class="token punctuation">-</span>pages@v3.8.0
   <span class="token key atrule">with</span><span class="token punctuation">:</span>
     <span class="token key atrule">github_token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span>
     <span class="token key atrule">publish_dir</span><span class="token punctuation">:</span> _site
     <span class="token key atrule">publish_branch</span><span class="token punctuation">:</span> gh<span class="token punctuation">-</span>pages</code></pre>
-<p>(The <code>GITHUB_TOKEN</code> secret comes automatically.)</p>
-<p>In Github, go to Settings &gt; Pages and enable Github Pages deploying from the branch <code>gh-pages</code>. You might need to let this action run (and fail) once first before being able to select that branch.</p>
-<h3 id="deploying-to-a-subdirectory" tabindex="-1">Deploying to a subdirectory</h3>
-<p>But there's a problem! Unless your repository is named <code>tofutush.github.io</code>, Github Pages will deploy the contents of this site to a subdirectory, <code>tofutush.github.io/The-Iron-Ragdoll</code>. In this case, all of the absolute links in your site will break. You link <code>/</code> in hopes that it will take you to the home page <code>tofutush.github.io/The-Iron-Ragdoll</code>, but it would take you to <code>tofutush.github.io</code> instead. How do we solve this problem without resorting to using relative links everywhere?</p>
-<p>11ty already provides a solution. When running <code>eleventy</code>, you can pass in a <code>pathprefix</code> variable that's exactly what the <code>The-Iron-Ragdoll</code> in the URL is. So if I run <code>eleventy --pathprefix=The-Iron-Ragdoll</code>, 11ty will host your site in <code>localhost:8080/The-Iron-Ragdoll</code>.</p>
-<p>And then, we need to transform every absolute URL into <code>/The-Iron-Ragdoll/</code> too. The plugin comes straight with 11ty so you don't need to install it yourself.</p>
-<pre class="language-js"><code class="language-js"><span class="token comment">// .eleventy.js</span>
+    <p>(The <code>GITHUB_TOKEN</code> secret comes automatically.)</p>
+    <p>In Github, go to Settings &gt; Pages and enable Github Pages deploying from the branch <code>gh-pages</code>. You might need to let this action run (and fail) once first before being able to select that branch.</p>
+    <h3 id="deploying-to-a-subdirectory" tabindex="-1">Deploying to a subdirectory</h3>
+    <p>But there's a problem! Unless your repository is named <code>tofutush.github.io</code>, Github Pages will deploy the contents of this site to a subdirectory, <code>tofutush.github.io/The-Iron-Ragdoll</code>. In this case, all of the absolute links in your site will break. You link <code>/</code> in hopes that it will take you to the home page <code>tofutush.github.io/The-Iron-Ragdoll</code>, but it would take you to <code>tofutush.github.io</code> instead. How do we solve this problem without resorting to using relative links everywhere?</p>
+    <p>11ty already provides a solution. When running <code>eleventy</code>, you can pass in a <code>pathprefix</code> variable that's exactly what the <code>The-Iron-Ragdoll</code> in the URL is. So if I run <code>eleventy --pathprefix=The-Iron-Ragdoll</code>, 11ty will host your site in <code>localhost:8080/The-Iron-Ragdoll</code>.</p>
+    <p>And then, we need to transform every absolute URL into <code>/The-Iron-Ragdoll/</code> too. The plugin comes straight with 11ty so you don't need to install it yourself.</p>
+    <pre class="language-js"><code class="language-js"><span class="token comment">// .eleventy.js</span>
 
 <span class="token keyword">import</span> <span class="token punctuation">{</span> EleventyHtmlBasePlugin <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@11ty/eleventy'</span><span class="token punctuation">;</span>
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
 	eleventyConfig<span class="token punctuation">.</span><span class="token function">addPlugin</span><span class="token punctuation">(</span>EleventyHtmlBasePlugin<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p>(Add the <code>addPlugin</code> line into your config function if it exists (which is most likely). Don't create another function!)</p>
-<p>With that, you can make a new build script, one for Neocities and one for Github Pages.</p>
-<pre class="language-json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <p>(Add the <code>addPlugin</code> line into your config function if it exists (which is most likely). Don't create another function!)</p>
+    <p>With that, you can make a new build script, one for Neocities and one for Github Pages.</p>
+    <pre class="language-json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
 	<span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"eleventy --pathprefix=The-Iron-Ragdoll"</span><span class="token punctuation">,</span>
 	<span class="token property">"buildneo"</span><span class="token operator">:</span> <span class="token string">"eleventy --output=_neocities"</span>
 <span class="token punctuation">}</span></code></pre>
-<p>The <code>buildneo</code> script changes the output directory from <code>_site</code> to <code>_neocities</code> so I don't override things.</p>
-<p>This is my final action file.</p>
-<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
+    <p>The <code>buildneo</code> script changes the output directory from <code>_site</code> to <code>_neocities</code> so I don't override things.</p>
+    <p>This is my final action file.</p>
+    <pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
 <span class="token key atrule">on</span><span class="token punctuation">:</span>
   push<span class="token punctuation">:</span>
     branches<span class="token punctuation">:</span>
@@ -190,14 +193,14 @@
           api_token<span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.NEOCITIES_API_KEY <span class="token punctuation">}</span><span class="token punctuation">}</span>
           cleanup<span class="token punctuation">:</span> <span class="token boolean important">true</span>
           dist_dir<span class="token punctuation">:</span> _neocities</code></pre>
-<p>(There is a line, <code>npm run copy</code>, that copies my images from <code>_site/img</code> to <code>_neocities/img</code>. You probably don't need it!)</p>
-<p>There we go. Don't we all love this automatic shit.</p>
-<h2 id="other-minor-stuff" tabindex="-1">Other minor stuff</h2>
-<pre class="language-js"><code class="language-js">eleventyConfig<span class="token punctuation">.</span><span class="token function">setQuietMode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p>This gets rid of all the lines telling you which file had been written.</p>
-<pre class="language-sh"><code class="language-sh">eleventy <span class="token parameter variable">--serve</span> <span class="token parameter variable">--incremental</span> <span class="token parameter variable">--pathprefix</span><span class="token operator">=</span>The-Iron-Ragdoll</code></pre>
-<p>This is my serve script. The <code>--incremental</code> flag makes sure that when I change a file, only that file will be updated, instead of the entire site.</p>
-<pre class="language-js"><code class="language-js"><span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <p>(There is a line, <code>npm run copy</code>, that copies my images from <code>_site/img</code> to <code>_neocities/img</code>. You probably don't need it!)</p>
+    <p>There we go. Don't we all love this automatic shit.</p>
+    <h2 id="other-minor-stuff" tabindex="-1">Other minor stuff</h2>
+    <pre class="language-js"><code class="language-js">eleventyConfig<span class="token punctuation">.</span><span class="token function">setQuietMode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+    <p>This gets rid of all the lines telling you which file had been written.</p>
+    <pre class="language-sh"><code class="language-sh">eleventy <span class="token parameter variable">--serve</span> <span class="token parameter variable">--incremental</span> <span class="token parameter variable">--pathprefix</span><span class="token operator">=</span>The-Iron-Ragdoll</code></pre>
+    <p>This is my serve script. The <code>--incremental</code> flag makes sure that when I change a file, only that file will be updated, instead of the entire site.</p>
+    <pre class="language-js"><code class="language-js"><span class="token keyword">return</span> <span class="token punctuation">{</span>
 	<span class="token literal-property property">dir</span><span class="token operator">:</span> <span class="token punctuation">{</span>
 		<span class="token literal-property property">input</span><span class="token operator">:</span> <span class="token string">'tir'</span><span class="token punctuation">,</span>
 		<span class="token literal-property property">includes</span><span class="token operator">:</span> <span class="token string">'../_includes'</span><span class="token punctuation">,</span>
@@ -206,18 +209,14 @@
 	<span class="token punctuation">}</span><span class="token punctuation">,</span>
 	<span class="token literal-property property">passthroughFileCopy</span><span class="token operator">:</span> <span class="token boolean">true</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
-<p>This is the return object of my 11ty config function. <code>input: 'tir'</code> puts all my input files in the <code>tir</code> folder instead of at the root folder, so I can open that folder in Obsidian and it won't have too many extra folders and files I don't want to see while editing my site. If you did that though, you <em>have</em> to set <code>includes</code>, <code>layouts</code>, and <code>data</code> to the parent directory, because 11ty will still be looking at them relative to <code>tir</code>.</p>
-<p>I also separated the layouts and include files because there were too many of them.</p>
-<p>That's it, I think! I hope you find this helpful!</p>
-
-<hr/>
-
-
-<div class="prev-next">
-    <p><a href="/posts/2025-10-10.html">&lt;==</a></p>
-    <p><a href="/">Home</a></p>
-    <p><a href="/posts/2025-10-13.html">==&gt;</a></p>
-</div>
-
-	</main>
+    <p>This is the return object of my 11ty config function. <code>input: 'tir'</code> puts all my input files in the <code>tir</code> folder instead of at the root folder, so I can open that folder in Obsidian and it won't have too many extra folders and files I don't want to see while editing my site. If you did that though, you <em>have</em> to set <code>includes</code>, <code>layouts</code>, and <code>data</code> to the parent directory, because 11ty will still be looking at them relative to <code>tir</code>.</p>
+    <p>I also separated the layouts and include files because there were too many of them.</p>
+    <p>That's it, I think! I hope you find this helpful!</p>
+    <hr />
+    <div class="prev-next">
+      <p><a href="/posts/2025-10-10.html">&lt;==</a></p>
+      <p><a href="/">Home</a></p>
+      <p><a href="/posts/2025-10-13.html">==&gt;</a></p>
+    </div>
+  </main>
 </body>
