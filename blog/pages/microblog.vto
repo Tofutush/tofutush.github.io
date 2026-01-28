@@ -98,6 +98,10 @@ title: Microblog
 			text-decoration: underline;
 		}
 	}
+	.center {
+		text-align: center;
+		text-indent: 0;
+	}
 	main article {
 		display: none;
 	}
@@ -122,6 +126,7 @@ title: Microblog
 		<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=tofutush" defer></script>
 	</div>
 </details>
+<p class="center"><a id="jump">Jump to last read</a></p>
 <details class="pinned post" open>
 	<summary>Include tags</summary>
 	<div class="content">
@@ -182,4 +187,10 @@ title: Microblog
 		{{ /if }}
 	</article>
 {{ /for }}
-<p style="text-align: center; text-indent: 0;">Inspired by <a href="https://nomnomnami.com/templates/">Nomnomnami</a>!
+<p class="center">Inspired by <a href="https://nomnomnami.com/templates/">Nomnomnami</a>!
+<script>
+	let prev = localStorage.getItem('mb-loc') || 1;
+	document.querySelector('#jump').href = '#' + prev;
+	let curr = document.querySelectorAll('article.post')[0].id;
+	if (curr > prev) localStorage.setItem('mb-loc', curr);
+</script>
