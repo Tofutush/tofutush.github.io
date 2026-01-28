@@ -3,6 +3,7 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import { spoiler } from '@mdit/plugin-spoiler';
 import pinyin from "chinese-to-pinyin";
 import { VentoPlugin } from "eleventy-plugin-vento";
+import beautify from "js-beautify";
 import { DateTime } from "luxon";
 import markdownIt from "markdown-it";
 import markdownItAnchor from 'markdown-it-anchor';
@@ -10,7 +11,6 @@ import markdownItExternalLinks from "markdown-it-external-links";
 import markdownItFootnote from "markdown-it-footnote";
 import markdownItKatex from "markdown-it-katex";
 import markdownItTableOfContents from "markdown-it-table-of-contents";
-import markdownItTaskLists from 'markdown-it-task-lists';
 
 export default function (eleventyConfig) {
 	eleventyConfig.setQuietMode(true);
@@ -89,6 +89,18 @@ export default function (eleventyConfig) {
 		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}
+	});
+
+	eleventyConfig.addTransform("htmlmin", async function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let beautified = beautify.html(content, {
+				indent_size: 2,
+				preserve_newlines: false
+			});
+			return beautified;
+		}
+		// If not an HTML output, return content as-is
+		return content;
 	});
 
 	return {
