@@ -146,6 +146,30 @@
 	main:has(#维语:checked) article[class~="维语"] {
 		display: block;
 	}
+	
+	main:has(#blue-prince-exclude:checked) article[class~="blue-prince"],
+	main:has(#bookworming-exclude:checked) article[class~="bookworming"],
+	main:has(#cains-jawbone-exclude:checked) article[class~="cains-jawbone"],
+	main:has(#candlelight-exclude:checked) article[class~="candlelight"],
+	main:has(#halcyon-exclude:checked) article[class~="halcyon"],
+	main:has(#harmony-exclude:checked) article[class~="harmony"],
+	main:has(#intro-exclude:checked) article[class~="intro"],
+	main:has(#lorelei-exclude:checked) article[class~="lorelei"],
+	main:has(#media-exclude:checked) article[class~="media"],
+	main:has(#meta-exclude:checked) article[class~="meta"],
+	main:has(#paracosming-exclude:checked) article[class~="paracosming"],
+	main:has(#playing-exclude:checked) article[class~="playing"],
+	main:has(#pumpkin-exclude:checked) article[class~="pumpkin"],
+	main:has(#ramble-exclude:checked) article[class~="ramble"],
+	main:has(#sparky-exclude:checked) article[class~="sparky"],
+	main:has(#status-exclude:checked) article[class~="status"],
+	main:has(#tadlet-kingdom-exclude:checked) article[class~="tadlet-kingdom"],
+	main:has(#tir-exclude:checked) article[class~="tir"],
+	main:has(#webdev-exclude:checked) article[class~="webdev"],
+	main:has(#中文-exclude:checked) article[class~="中文"],
+	main:has(#维语-exclude:checked) article[class~="维语"] {
+		display: none;
+	}
 </style>
 <details class="pinned post" open>
 	<summary>Status <span class="date">2026-01-27</span></summary>
@@ -160,92 +184,184 @@
 	</div>
 </details>
 <details class="pinned post" open>
-	<summary>Tag filter</summary>
+	<summary>Include tags</summary>
 	<div class="content">
 		<div>
-			<label><input type="radio" id="all" name="tag" checked />All</label>
-			<label><input type="radio" id="ramble" name="tag" />#ramble</label>
-			<label><input type="radio" id="status" name="tag" />#status</label>
-			<label><input type="radio" id="中文" name="tag" />#中文</label>
-			<label><input type="radio" id="tir" name="tag" />#tir</label>
-			<label><input type="radio" id="media" name="tag" />#media</label>
+			<label><input type="checkbox" id="all" name="tag" checked />All</label>
+			<label><input type="checkbox" id="ramble" name="tag" />#ramble</label>
+			<label><input type="checkbox" id="status" name="tag" />#status</label>
+			<label><input type="checkbox" id="中文" name="tag" />#中文</label>
+			<label><input type="checkbox" id="tir" name="tag" />#tir</label>
+			<label><input type="checkbox" id="media" name="tag" />#media</label>
 		</div>
 		<details class="more-tags">
 			<summary>More tags</summary>
 			<div>
 				
 					
-						<label><input type="radio" id="blue-prince" name="tag" />#blue-prince</label>
+						<label><input type="checkbox" id="blue-prince" name="tag" />#blue-prince</label>
 					
 				
 					
-						<label><input type="radio" id="bookworming" name="tag" />#bookworming</label>
+						<label><input type="checkbox" id="bookworming" name="tag" />#bookworming</label>
 					
 				
 					
-						<label><input type="radio" id="cains-jawbone" name="tag" />#cains-jawbone</label>
+						<label><input type="checkbox" id="cains-jawbone" name="tag" />#cains-jawbone</label>
 					
 				
 					
-						<label><input type="radio" id="candlelight" name="tag" />#candlelight</label>
+						<label><input type="checkbox" id="candlelight" name="tag" />#candlelight</label>
 					
 				
 					
-						<label><input type="radio" id="halcyon" name="tag" />#halcyon</label>
+						<label><input type="checkbox" id="halcyon" name="tag" />#halcyon</label>
 					
 				
 					
-						<label><input type="radio" id="harmony" name="tag" />#harmony</label>
+						<label><input type="checkbox" id="harmony" name="tag" />#harmony</label>
 					
 				
 					
-						<label><input type="radio" id="intro" name="tag" />#intro</label>
+						<label><input type="checkbox" id="intro" name="tag" />#intro</label>
 					
 				
 					
-						<label><input type="radio" id="lorelei" name="tag" />#lorelei</label>
-					
-				
-					
-				
-					
-						<label><input type="radio" id="meta" name="tag" />#meta</label>
-					
-				
-					
-						<label><input type="radio" id="paracosming" name="tag" />#paracosming</label>
-					
-				
-					
-						<label><input type="radio" id="playing" name="tag" />#playing</label>
-					
-				
-					
-						<label><input type="radio" id="pumpkin" name="tag" />#pumpkin</label>
+						<label><input type="checkbox" id="lorelei" name="tag" />#lorelei</label>
 					
 				
 					
 				
 					
-						<label><input type="radio" id="sparky" name="tag" />#sparky</label>
+						<label><input type="checkbox" id="meta" name="tag" />#meta</label>
+					
+				
+					
+						<label><input type="checkbox" id="paracosming" name="tag" />#paracosming</label>
+					
+				
+					
+						<label><input type="checkbox" id="playing" name="tag" />#playing</label>
+					
+				
+					
+						<label><input type="checkbox" id="pumpkin" name="tag" />#pumpkin</label>
 					
 				
 					
 				
 					
-						<label><input type="radio" id="tadlet-kingdom" name="tag" />#tadlet-kingdom</label>
+						<label><input type="checkbox" id="sparky" name="tag" />#sparky</label>
 					
 				
 					
 				
 					
-						<label><input type="radio" id="webdev" name="tag" />#webdev</label>
+						<label><input type="checkbox" id="tadlet-kingdom" name="tag" />#tadlet-kingdom</label>
 					
 				
 					
 				
 					
-						<label><input type="radio" id="维语" name="tag" />#维语</label>
+						<label><input type="checkbox" id="webdev" name="tag" />#webdev</label>
+					
+				
+					
+				
+					
+						<label><input type="checkbox" id="维语" name="tag" />#维语</label>
+					
+				
+			</div>
+		</details>
+	</div>
+</details>
+<details class="pinned post" open>
+	<summary>Exclude tags</summary>
+	<div class="content">
+		<div>
+			<label><input type="checkbox" id="ramble-exclude" name="tag" />#ramble</label>
+			<label><input type="checkbox" id="status-exclude" name="tag" />#status</label>
+			<label><input type="checkbox" id="中文-exclude" name="tag" />#中文</label>
+			<label><input type="checkbox" id="tir-exclude" name="tag" />#tir</label>
+			<label><input type="checkbox" id="media-exclude" name="tag" />#media</label>
+		</div>
+		<details class="more-tags">
+			<summary>More tags</summary>
+			<div>
+				
+					
+						<label><input type="checkbox" id="blue-prince-exclude" name="tag" />#blue-prince</label>
+					
+				
+					
+						<label><input type="checkbox" id="bookworming-exclude" name="tag" />#bookworming</label>
+					
+				
+					
+						<label><input type="checkbox" id="cains-jawbone-exclude" name="tag" />#cains-jawbone</label>
+					
+				
+					
+						<label><input type="checkbox" id="candlelight-exclude" name="tag" />#candlelight</label>
+					
+				
+					
+						<label><input type="checkbox" id="halcyon-exclude" name="tag" />#halcyon</label>
+					
+				
+					
+						<label><input type="checkbox" id="harmony-exclude" name="tag" />#harmony</label>
+					
+				
+					
+						<label><input type="checkbox" id="intro-exclude" name="tag" />#intro</label>
+					
+				
+					
+						<label><input type="checkbox" id="lorelei-exclude" name="tag" />#lorelei</label>
+					
+				
+					
+				
+					
+						<label><input type="checkbox" id="meta-exclude" name="tag" />#meta</label>
+					
+				
+					
+						<label><input type="checkbox" id="paracosming-exclude" name="tag" />#paracosming</label>
+					
+				
+					
+						<label><input type="checkbox" id="playing-exclude" name="tag" />#playing</label>
+					
+				
+					
+						<label><input type="checkbox" id="pumpkin-exclude" name="tag" />#pumpkin</label>
+					
+				
+					
+				
+					
+						<label><input type="checkbox" id="sparky-exclude" name="tag" />#sparky</label>
+					
+				
+					
+				
+					
+						<label><input type="checkbox" id="tadlet-kingdom-exclude" name="tag" />#tadlet-kingdom</label>
+					
+				
+					
+				
+					
+						<label><input type="checkbox" id="webdev-exclude" name="tag" />#webdev</label>
+					
+				
+					
+				
+					
+						<label><input type="checkbox" id="维语-exclude" name="tag" />#维语</label>
 					
 				
 			</div>
