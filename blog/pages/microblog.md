@@ -5,6 +5,28 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-27
 
+tags: media, playing, lorelei
+
+content:
+
+Hey, I have an idea. If you make a game with those "atmospheric" background music you're legally obliged to include an option to switch to a happier track.
+
+With all seriousness though, this game doesn't even have settings to adjust volume, let alone disable background music while still allowing sound effects.
+
+---
+
+date: 2026-01-27
+
+tags: media, playing, lorelei, blue-prince
+
+content:
+
+Playing Lorelei made me feel so smart because I could solve a decent number of puzzles myself. Dunno if I found Blue Prince mods earlier would I feel the same about that game though…
+
+---
+
+date: 2026-01-27
+
 tags: media, playing, lorelei, blue-prince
 
 content:
