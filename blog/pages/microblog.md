@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-29
 
+tags: ramble
+
+content:
+
+My parents used to chase me around with lip balm. Now I'm applying it out of my own volition. How the tides have turned.
+
+---
+
+date: 2026-01-29
+
 tags: playing, media, lorelei
 
 content:
