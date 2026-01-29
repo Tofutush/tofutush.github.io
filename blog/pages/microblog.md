@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-28
 
+tags: ramble, wings-of-fire
+
+content:
+
+I relate more and more to Blue. I find myself wondering more and more what goes on in the lives of other people? What made them the way they are? What different experiences did they have? What would I have looked like if I grew up in their shoes? On the internet too. This guy making detailed game guides? That artist who hasn't posted in years?
+
+---
+
+date: 2026-01-28
+
 tags: meta, webdev
 
 content:
