@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-29
+
+tags: playing, media, lorelei
+
+content:
+
+Re: [[##28]]: Whoops, didn't manage to catch everything in the screenshots. Walkthrough guides still saved my ass though.
+
+---
+
 date: 2026-01-28
 
 tags: ramble, wings-of-fire
