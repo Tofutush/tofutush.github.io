@@ -259,7 +259,7 @@ I just traced an animation template recently LOL. I've never traced 3D models be
 
 60. Drop you art resources!
 
-Eh, just CSP an aliased brush.
+Eh, just CSP and an aliased brush.
 
 61. Do you prefer making fanart or original content?
 
