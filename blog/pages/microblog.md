@@ -9,7 +9,7 @@ tags: playing, media, lorelei
 
 content:
 
-Re: [[##28]]: Whoops, didn't manage to catch everything in the screenshots. Walkthrough guides still saved my ass though.
+Re: [#28](#28): Whoops, didn't manage to catch everything in the screenshots. Walkthrough guides still saved my ass though.
 
 ---
 
