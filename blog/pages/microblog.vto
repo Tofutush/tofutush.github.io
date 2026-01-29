@@ -152,7 +152,7 @@ title: Microblog
 </details>
 {{ for index, p of microblog.entries }}
 	<article class="post{{ for t of p.tags }} {{ t }}{{ /for }}" id="{{ microblog.entries.length - index }}">
-		<summary class="post-title"><a class="permalink" href="#{{ microblog.entries.length - index }}">@Tofutush</a> <span class="date">{{ p.date }}</span></summary>
+		<summary class="post-title"><a class="permalink" href="#{{ microblog.entries.length - index }}">#{{ microblog.entries.length - index }}</a> <span class="date">{{ p.date }}</span></summary>
 		<div class="content">
 			{{ p.content |> renderMD }}
 		</div>
