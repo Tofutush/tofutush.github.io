@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-31
 
+tags: ramble
+
+content:
+
+*\*Doing homework\** I cringe with every word I type… is this really my writing??
+
+---
+
+date: 2026-01-31
+
 tags: status, ramble
 
 content:
