@@ -3,6 +3,18 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-30
+
+tags: media, playing, blue-prince, lorelei
+
+content:
+
+Blue Prince: You did a great job solving these puzzles, I will give you this entire mansion with all the land around it! Three times!
+
+Lorelei: You did a great job solving these puzzles, I will give you a one-dollar bill!
+
+---
+
 date: 2026-01-29
 
 tags: ramble
