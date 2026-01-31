@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-01-31
+
+tags: status, ramble
+
+content:
+
+Someone save me and my sleep schedule…
+
+---
+
 date: 2026-01-30
 
 tags: media, playing, blue-prince, lorelei
