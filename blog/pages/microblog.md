@@ -5,6 +5,26 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-31
 
+tags: media, bookworming, wings-of-fire
+
+content:
+
+*Wings of Fire* book 16??? Gotta reread the previous arcs now! On a completely unrelated note I found my old *WoF* fanfic from like 2021. It's a seesaw between "I was a genius" and "what the fuck was I thinking."
+
+---
+
+date: 2026-01-31
+
+tags: ramble
+
+content:
+
+Past-me has a severe advantage over present-me. She always beats me to everything.
+
+---
+
+date: 2026-01-31
+
 tags: ramble
 
 content:
