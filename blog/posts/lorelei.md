@@ -27,3 +27,8 @@ But for a point in *Blue Prince*, it had those little tutorial notes in some of 
 And yeah, most of this game is opening doors. When you've opened all the doors and visited all the rooms, you're close to the end of the game. Every puzzle you solve contribute to solving the ultimate puzzle — three codes required to log in to a supercomputer.
 
 I still didn't really know what's going on in here. I read some interpretations on Steam which gave me an idea of what happened, but it still does not explain what our player character is doing here, how was she able to exist with the old woman at the same time, who was the guy on the other side of the phone… Maybe it was all a game Lorelei made for herself to reconcile with her past? No clue. Maybe I just wasn't smart enough. In *Blue Prince*, everything had a specific reason for being there — someone left the puzzle there for Simon to solve, mostly his great-uncle, his mom, Lady Auravei, and occasionally really really old royalty. But for *Lorelei*, it seems that the puzzles are just there, for the sake of being puzzles. I think the best explanation is that this game itself was made by Lorelei, who put these puzzles into this game, for us, the audience, to solve. If you look at Lorelei's art exhibits, all of them require audience participation, which was the direct opposite of Renzo, who always wanted to create art that does not require an audience.
+
+- **Did I like it?** Yes!
+- **Would I read / watch / play it again?** No.
+- **Would I grab a random stranger off the street and make them read / watch / play it?** Yes.
+- **If someone wants to read / watch / play it, would I throw myself in like a human shield to protect them from harm?** No.
