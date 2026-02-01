@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-01-31
 
+tags: tir, meta
+
+content:
+
+*\*Looking at the wrecks of the Chinese site\** What a fucking mess… Yet I cannot and *will* not remove it. Just keep it as a mess. One day I will have the motivation to work on it.
+
+---
+
+date: 2026-01-31
+
 tags: media, bookworming, wings-of-fire
 
 content:
