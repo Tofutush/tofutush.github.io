@@ -42,6 +42,14 @@ export default function (eleventyConfig) {
 		}
 	});
 
+	// dir=auto
+	function addDirAuto(md) {
+		md.renderer.rules.paragraph_open = (tokens, idx, options, env, self) => {
+			tokens[idx].attrSet("dir", "auto");
+			return self.renderToken(tokens, idx, options);
+		};
+	}
+
 	// mdit
 	eleventyConfig.setLibrary("md", markdownIt({
 		html: true,
@@ -62,7 +70,7 @@ export default function (eleventyConfig) {
 		}
 	}).use(markdownItExternalLinks, {
 		externalTarget: '_blank'
-	}).use(spoiler));
+	}).use(spoiler).use(addDirAuto));
 
 	// filters
 	eleventyConfig.addFilter('slug', slug);
@@ -76,7 +84,7 @@ export default function (eleventyConfig) {
 		linkify: true
 	}).use(markdownItExternalLinks, {
 		externalTarget: '_blank'
-	}).use(spoiler);
+	}).use(spoiler).use(addDirAuto);
 	eleventyConfig.addFilter('renderMD', function (rawString) {
 		return mdRender.render(rawString);
 	});

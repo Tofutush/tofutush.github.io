@@ -241,7 +241,7 @@
     },
     "trailing-spaces": {
       "enabled": true,
-      "two-space-line-break": false
+      "two-space-line-break": true
     },
     "add-blockquote-indentation-on-paste": {
       "enabled": true

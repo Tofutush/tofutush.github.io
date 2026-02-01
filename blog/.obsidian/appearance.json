@@ -13,7 +13,7 @@
     "blockquote"
   ],
   "interfaceFontFamily": "DIN Round Pro,霞鹜文楷",
-  "textFontFamily": "Lexend,霞鹜文楷",
+  "textFontFamily": "Lexend,霞鹜文楷,Noto Sans Arabic",
   "cssTheme": "",
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrains Mono,微软雅黑",

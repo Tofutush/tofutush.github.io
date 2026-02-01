@@ -3,6 +3,30 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-02-01
+
+tags: meta, ramble, webdev
+
+content:
+
+Below is just me writing bullshit to look cool. Have I mentioned how pretty Arabic script is? Also I might wanna learn Old Uyghur Script just for the sake of it.
+
+Also, I made some accommodations for right-to-left text. Basically added a Markdown-it plugin to forcibly add `dir="auto"` to every paragraph. And did the line-break lyrics thing! It's kind of hacky, basically I removed the text-indent on paragraphs that have a line-break in them (just assuming these are all lyrics).
+
+If I ever get good enough to write an entire blog post, that's a future concern.
+
+---
+
+date: 2026-02-01
+
+tags: status, ئۇيغۇرچە
+
+content:
+
+بۈگۈن مېنىڭ ئون توققۇزىنچى تۇغۇلغان كۈنۈم. بۇ يىل ئون توققۇز ياش!
+
+---
+
 date: 2026-01-31
 
 tags: tir, meta
@@ -239,7 +263,7 @@ Sparky would get paid in Starcorp shares, zero real money. But she sells it all 
 
 date: 2026-01-19
 
-tags: 中文, 维语
+tags: 中文, ئۇيغۇرچە
 
 content:
 
