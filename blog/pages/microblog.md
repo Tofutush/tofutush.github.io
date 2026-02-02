@@ -3,6 +3,16 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-02-02
+
+tags: media, bookworming, warriors
+
+content:
+
+Y'know, despite how much it influenced me, I don't think I ever read the *Warriors* seriously. I've barely read beyond arc 2, which is when they moved to the lake, and the majority of the main plot happened there. I did read plenty of super editions and stuff that take place in the forest. I am still significantly more used to the forest than the lake. Like the forest just feels like "*the* setting" more than the lake to me.
+
+---
+
 date: 2026-02-01
 
 tags: meta, ramble, webdev
