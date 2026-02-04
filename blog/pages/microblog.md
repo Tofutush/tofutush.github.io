@@ -9,6 +9,16 @@ tags: ramble
 
 content:
 
+Great, one of my classes uses Github Classroom so now I have to constantly sign in and out of the school and personal accounts.
+
+---
+
+date: 2026-02-04
+
+tags: ramble
+
+content:
+
 The materialism leaving my body when people tell me if I step on this tile I will fail all my classes.
 
 ---

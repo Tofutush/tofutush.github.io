@@ -1,5 +1,5 @@
 ---
-title: "Book review: Jennifer Government"
+title: "Book: Jennifer Government"
 tags:
   - bookworming
   - media
@@ -50,6 +50,17 @@ So I started to read *Jennifer Government*. Its premise is that, this is an ultr
 I've always thought I wasn't good enough of a writer to review books, but like. I'm doing it because I actually felt like I have something to say. So yeah, I'm saying them. Obviously, **spoiler alert**. There are many things I want to talk about so no blacked-out text this time.
 
 First of all, why are they named Hack and Buy? Just why?
+
+- structure
+	- short chapters
+		- multiple povs, hayleys potential
+	- everyones a wacko & stupif
+		- john
+		- jennifer
+		- billy
+		- buy & alienation
+	- worldbuilding: role of government
+	- ultimate gripe: i dont fucking care about the usa
 
 - short chapters, can be merged
 	- weird titles
