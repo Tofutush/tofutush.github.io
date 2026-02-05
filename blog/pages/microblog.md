@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-02-04
 
+tags: ramble, 中文
+
+content:
+
+先有鸡还是先有蛋？太多人分不清因果了。
+
+---
+
+date: 2026-02-04
+
 tags: ramble
 
 content:
