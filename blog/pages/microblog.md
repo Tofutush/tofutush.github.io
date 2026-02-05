@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-02-04
 
+tags: ramble
+
+content:
+
+Flipping cause-and-effect. Comparing incomparable scenarios. Fallacies to avoid.
+
+---
+
+date: 2026-02-04
+
 tags: ramble, 中文
 
 content:
