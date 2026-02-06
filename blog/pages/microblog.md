@@ -3,6 +3,26 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-02-06
+
+tags: media, playing, blue-prince
+
+content:
+
+Gym is the anti-Bedroom.
+
+---
+
+date: 2026-02-06
+
+tags: media, playing, blue-prince
+
+content:
+
+Is "never draft straight north" the Blue Prince equivalent of "never dig straight down"?
+
+---
+
 date: 2026-02-05
 
 tags: webdev
