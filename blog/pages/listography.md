@@ -108,6 +108,34 @@ Some languages have their language name written in that language which is a tiny
 - Russian
 - Yi ꆈꌠꁱꂷ
 
+## John le Carré
+
+- ~~Call for the Dead~~
+- ~~A Murder of Quality~~
+- ~~The Spy Who Came in from the Cold~~
+- ~~The Looking-Glass War~~
+- ~~A Small Town in Germany~~
+- ~~Tinker, Tailor, Soldier, Spy~~
+- ~~The Honourable Schoolboy~~
+- ~~Smiley's People~~
+- ~~The Little Drummer Girl~~
+- ~~A Perfect Spy~~
+- **The Russia House**
+- The Secret Pilgrim
+- The Night Manager
+- Our Game
+- The Tailor of Panama
+- Single & Single
+- The Constant Gardner
+- Absolute Friends
+- The Mission Song
+- A Most Wanted Man
+- Our Kind of Traitor
+- A Delicate Truth
+- A Legacy of Spies
+- Agent Running in the Field
+- Silverview
+
 ## 1999 剧情
 
 - 主线
