@@ -5,6 +5,16 @@ eleventyExcludeFromCollections: true
 
 date: 2026-02-06
 
+tags: ramble
+
+content:
+
+I was today years old when I realized you could tap on a door handle with a key first so it won't static shock you.
+
+---
+
+date: 2026-02-06
+
 tags: media, playing, blue-prince
 
 content:
