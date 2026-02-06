@@ -3,6 +3,20 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+date: 2026-02-05
+
+tags: webdev
+
+content:
+
+Finished image system overhaul! Is it more efficient now? Easier for me? Heck no. But I feel better now.
+
+Also the new system outputs all the images into one flat folder. So now this happens:
+
+![](../img/microblog%20img%20folder.png)
+
+---
+
 date: 2026-02-04
 
 tags: ramble
