@@ -43,7 +43,7 @@ Finished image system overhaul! Is it more efficient now? Easier for me? Heck no
 
 Also the new system outputs all the images into one flat folder. So now this happens:
 
-![](../img/microblog%20img%20folder.png)
+![Sorry, we had to truncate this directory to 1,000 files. 1,445 entries were omitted from the list. Latest commit info may be omitted.](../img/microblog%20img%20folder.png)
 
 ---
 
