@@ -3,6 +3,22 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
+reading: Jennifer Government — Max Barry
+
+playing: Blue Prince (again)
+
+---
+
+date: 2026-02-08
+
+tags: media, playing, blue-prince
+
+content:
+
+Great, apparently the currently released Blue Prince OST doesn't contain all the tracks and I have to *wait for the rest*.
+
+---
+
 date: 2026-02-06
 
 tags: ramble

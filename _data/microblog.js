@@ -11,8 +11,12 @@ const blocks = raw.split('---').map(b => b.trim()).filter(Boolean);
 
 const entries = [];
 
-// start from 1 bc we need to skip the frontmatter
-for (let i = 1; i < blocks.length; i++) {
+let readPlay = blocks[1].split('\n').map(b => b.trim()).filter(Boolean);
+let reading = readPlay[0].split(':')[1].trim();
+let playing = readPlay[1].split(':')[1].trim();
+
+// start from 2 bc we need to skip the frontmatter & reading/playing
+for (let i = 2; i < blocks.length; i++) {
 	const block = blocks[i];
 
 	const lines = block.split("\n").map(l => l.trim());
@@ -46,5 +50,7 @@ for (let i = 1; i < blocks.length; i++) {
 
 export default {
 	entries: entries.sort((a, b) => b.date.localeCompare(a.date)),
-	tags: [...new Set(entries.flatMap(p => p.tags))].sort()
+	tags: [...new Set(entries.flatMap(p => p.tags))].sort(),
+	reading,
+	playing
 };
