@@ -2,13 +2,13 @@
 title: About me
 ---
 
-嗨，我是吸螺壳。我喜欢猫猫。
+嗨，我是[吸螺壳](https://tilde.town/~tofutush)。我喜欢猫猫。
 
 你要喜欢[铁打洋娃娃](https://tofutush.github.io/tdyww/)的话我会爱你一辈子。
 
 ---
 
-Hi, Tofutush here. I like cats.
+Hi, [Tofutush](https://tilde.town/~tofutush) here. I like cats.
 
 If you like [The Iron Ragdoll](https://tofutush.github.io/The-Iron-Ragdoll/) I will love you.
 
