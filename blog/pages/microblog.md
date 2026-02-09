@@ -15,6 +15,16 @@ tags: ramble
 
 content:
 
+Fuck my 3-second long attention span!
+
+---
+
+date: 2026-02-09
+
+tags: ramble
+
+content:
+
 Aaarrrgghh I hate Aeon Timeline, it sucks so much ass but it's literally the only thing that can accomplish what I want.
 
 ---
