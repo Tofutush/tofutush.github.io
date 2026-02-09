@@ -9,6 +9,16 @@ playing: Blue Prince (again)
 
 ---
 
+date: 2026-02-09
+
+tags: ramble
+
+content:
+
+Aaarrrgghh I hate Aeon Timeline, it sucks so much ass but it's literally the only thing that can accomplish what I want.
+
+---
+
 date: 2026-02-08
 
 tags: media, playing, blue-prince
