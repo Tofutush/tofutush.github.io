@@ -9,6 +9,16 @@ playing: Blue Prince (again)
 
 ---
 
+date: 2026-02-10
+
+tags: ramble,
+
+content:
+
+I don't get people who put that carbon footprint stamp on their websites that show off how low-carbon their tiny and lightweight site is. Like do you know what would decrease your carbon usage even more? Deleting your site!
+
+---
+
 date: 2026-02-09
 
 tags: ramble
