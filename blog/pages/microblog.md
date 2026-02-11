@@ -11,6 +11,16 @@ playing: Blue Prince (again)
 
 date: 2026-02-11
 
+tags: ramble
+
+content:
+
+Re: [#53](#53) — You know what would help the environment even better? Offing yourself!
+
+---
+
+date: 2026-02-11
+
 tags: status
 
 content:
@@ -255,7 +265,7 @@ tags: playing, media, lorelei
 
 content:
 
-Re: [#28](#28): Whoops, didn't manage to catch everything in the screenshots. Walkthrough guides still saved my ass though.
+Re: [#28](#28) — Whoops, didn't manage to catch everything in the screenshots. Walkthrough guides still saved my ass though.
 
 ---
 
