@@ -9,6 +9,16 @@ playing: Blue Prince (again)
 
 ---
 
+date: 2026-02-11
+
+tags: status
+
+content:
+
+Sick…
+
+---
+
 date: 2026-02-10
 
 tags: ramble,
