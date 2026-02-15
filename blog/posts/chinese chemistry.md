@@ -25,7 +25,7 @@ Other than the "type indicator" part, the other part of the character indicates 
 
 If I remember correctly the chemists are also the only people with that special privilege to make new characters in the modern day. Like actually get them onto the dictionary and all that, for every new element discovered. But in the meantime I wonder what's the point of making all these new elements when none of them are going to exist for more than a millisecond or something like that. But whatever.
 
-Then comes the inorganic compounds. None of those stupidly confusing number prefixes (monoxide vs. dioxide… why not *bi*oxide?) because the numbers are literally one, two, three, etc.. To name a compound, simply take its chemical formula and read it backwards. For example, carbon monoxide ($CO$) would be "one oxygen compounded with carbon" (一氧化碳), and carbon dioxide ($CO_2$) would be "two oxygen compounded with carbon" (二氧化碳). There are, of course, exceptions[^1], like hydrogen peroxide ($H_2O_2$) being "too much oxygen compounded with hydrogen" (过氧化氢).
+Then comes the inorganic compounds. None of those stupidly confusing number prefixes (monoxide vs. dioxide… why not *bi*oxide?) because the numbers are literally one, two, three, etc.. To name a compound, simply take its chemical formula and read it backwards. For example, carbon monoxide ($CO$) would be "one oxygen compounded with carbon" (一氧化碳), and carbon dioxide ($CO_2$) would be "two oxygen compounded with carbon" (二氧化碳). There are, of course, exceptions,[^1] like hydrogen peroxide ($H_2O_2$) being "too much oxygen compounded with hydrogen" (过氧化氢).
 
 Salts are named similarly. Sodium chloride ($NaCl$) is "chlorine compounded with sodium" (氯化钠).
 

@@ -3,9 +3,19 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Jennifer Government — Max Barry
+reading: The Dragonet Prophecy — Tui Sutherland
 
 playing: Blue Prince (again)
+
+---
+
+date: 2026-02-15
+
+tags: media, bookworming
+
+content:
+
+Finally finished this godawful book. Wings of Fire time!
 
 ---
 

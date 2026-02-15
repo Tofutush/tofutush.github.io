@@ -44,7 +44,7 @@ Two of the cards, "Characters" and "World," are bigger than the rest. They simpl
 
 Meaning they will span 2 rows.
 
-In the grid, I made 10 `<a>`s that are the cards you see. Inside each `<a>` there is a `<div>` element that contains the background image and text[^1].
+In the grid, I made 10 `<a>`s that are the cards you see. Inside each `<a>` there is a `<div>` element that contains the background image and text.[^1]
 
 ## The popups
 

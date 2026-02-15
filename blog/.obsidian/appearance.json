@@ -10,7 +10,8 @@
     "font weight",
     "properties",
     "word count",
-    "blockquote"
+    "blockquote",
+    "complement"
   ],
   "interfaceFontFamily": "DIN Round Pro,霞鹜文楷",
   "textFontFamily": "Lexend,霞鹜文楷,Noto Sans Arabic",

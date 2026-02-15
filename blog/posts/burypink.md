@@ -221,7 +221,7 @@ Yes. I'm on the other one right now.
 
 54. whats your worst habit?
 
-Sleeping late,  scrolling in bed.
+Sleeping late, scrolling in bed.
 
 55. favorite vegetable?
 

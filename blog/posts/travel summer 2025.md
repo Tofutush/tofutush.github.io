@@ -39,7 +39,7 @@ There are a lot of halal restaurants in Dali, and apparently there are a lot of 
 
 We went to the Cang mountain up the cableway. We were batshit scared, especially when the carrier went past a pole and the entire thing jolted. But we came out alive. We spent a lot of time near the pond, which had crystal-clear icy cold water. We tried climbing up but after barely a minute I felt blood in my throat and Selena said to turn back too. So up we gave. There's a little store selling milk tea made with pond water and we each bought a cup. It was the best milk tea I've ever had.
 
-We also biked around Erhai Lake. We saw a little girl with her dad, learning to read. She was really cute[^1]. She's holding a stack of cards, each with a character on it. She'd take a card, show it to her dad, and ask him, "do you know how to pronounce this?" Her dad would pretend to not know, or purposefully give a wrong answer. "I don't know, is it… you?" And the girl would correct him, "no, it's pi! As in banana peel!" And her dad would say "ahh, you're so smart."
+We also biked around Erhai Lake. We saw a little girl with her dad, learning to read. She was really cute.[^1] She's holding a stack of cards, each with a character on it. She'd take a card, show it to her dad, and ask him, "do you know how to pronounce this?" Her dad would pretend to not know, or purposefully give a wrong answer. "I don't know, is it… you?" And the girl would correct him, "no, it's pi! As in banana peel!" And her dad would say "ahh, you're so smart."
 
 We also fell for a candy fruit prank. We bought something called "idiot fruit" because anyone who buys it is an idiot; it's sold specifically to tourists who've never seen it before. We ended up throwing the bag away.
 

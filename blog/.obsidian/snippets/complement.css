@@ -1,0 +1,8 @@
+.various-complements__suggestion-item {
+padding: var(--size-2-3) var(--size-4-3) !important;
+}
+.various-complements__suggestion-item::before {
+    content: '';
+    margin: 0;
+    width: 0;
+}

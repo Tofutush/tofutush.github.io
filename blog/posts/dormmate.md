@@ -9,7 +9,7 @@ tags:
 
 I wanted to write a little about the dormmate I had.
 
-She used to be from another fancy private school[^1], but transferred here at the start of 12th grade. Which is technically impossible, transferring from a private school to a public one. I don't know how she — more specifically, her parents — did that.
+She used to be from another fancy private school,[^1] but transferred here at the start of 12th grade. Which is technically impossible, transferring from a private school to a public one. I don't know how she — more specifically, her parents — did that.
 
 We also get random new dorms each school year, so just by chance, I got lumped in with her. There were supposed to be 4 people, but only 3 really stay there.
 
@@ -39,7 +39,7 @@ Km km. It is my trash can; you can follow my *one and only rule* or I could just
 
 I put the can on my table. It's mine now. Neither of you gets to use it. Actually I would've let the third girl use it anyways since *she* didn't do anything wrong, but whatever.
 
-Then came the maddening thing: she **still threw stuff into the can anyways**. **Not only behind my back, but also right in front of me, even!** She walked over to me desk, threw some shit in, muttering "I'll borrow this for a bit, thank you[^3]."
+Then came the maddening thing: she **still threw stuff into the can anyways**. **Not only behind my back, but also right in front of me, even!** She walked over to me desk, threw some shit in, muttering "I'll borrow this for a bit, thank you.[^3]"
 
 If I carved her face out, my family won't have to buy extra food for a month. That's how thick her skin is.
 

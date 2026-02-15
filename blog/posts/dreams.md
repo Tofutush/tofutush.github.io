@@ -45,7 +45,7 @@ The UFO never came up a second time. It was a huge disk, crashing into the schoo
 
 ## 4
 
-I was in a karaoke bar. I thought to myself, "now I know how to take off my pants," because the last time I was here I didn't know how. Then I saw two white cats, so I scooped them up and hailed a taxi. The first driver didn't allow pets, so I hailed a second one. My mom was on there for some reason. We were going to find someone. The driver said, "let's go to the graduate school he attends." Mom was surprised. "He's already working?" The driver lowered her voice and said, "he's the first to get red-checked[^1]!"
+I was in a karaoke bar. I thought to myself, "now I know how to take off my pants," because the last time I was here I didn't know how. Then I saw two white cats, so I scooped them up and hailed a taxi. The first driver didn't allow pets, so I hailed a second one. My mom was on there for some reason. We were going to find someone. The driver said, "let's go to the graduate school he attends." Mom was surprised. "He's already working?" The driver lowered her voice and said, "he's the first to get red-checked![^1]"
 
 ## Thoughts
 

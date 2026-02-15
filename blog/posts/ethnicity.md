@@ -12,7 +12,7 @@ We're mostly all Han. An overwhelming majority. That's ethnicity.
 
 When someone says they're a "Hunan person" or whatever, they're referring to their place of origin, a geographical divide. It usually refers to where your grandpa's grandpa[^1] had been living all these generations, but since a lot of people can't really trace it back that far (or had kept moving), maybe three or four generations would suffice.
 
-Me, for one: my mom's from Hebei and my dad's from Hunan. That makes my place of origin Hunan[^1]. I can't half-and-half that since it's not ethnicity and only ethnicity can be mixed[^2]. I grew up in Shenzhen[^3]. I had hardly ever stepped foot in Hunan; I can't speak the dialect and I can't tolerate spicy food to save my life, but no matter where I move to I'd still be *from* Hunan. (It kinda gives the same vibes as "my papa's papa is my grandpa.") On the ethnicity side, we're all Han.
+Me, for one: my mom's from Hebei and my dad's from Hunan. That makes my place of origin Hunan.[^1] I can't half-and-half that since it's not ethnicity and only ethnicity can be mixed.[^2] I grew up in Shenzhen.[^3] I had hardly ever stepped foot in Hunan; I can't speak the dialect and I can't tolerate spicy food to save my life, but no matter where I move to I'd still be *from* Hunan. (It kinda gives the same vibes as "my papa's papa is my grandpa.") On the ethnicity side, we're all Han.
 
 Geographical divides can't function as ethnic divides because there is no clearly distinct cultural identity across those province borders. Regional differences in dialects or cuisine exist, but they don't amount to separate ethnic identities; and current province borders do not reflect those regional divides enough.
 
