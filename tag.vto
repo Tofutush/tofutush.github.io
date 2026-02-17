@@ -4,7 +4,7 @@ title: Tags
 ---
 <h1>Tags</h1>
 <ul>
-	{{ for t of Object.keys(collections).sort() }}
+	{{ for t of Object.keys(collections).sort((a, b) => collections[b].length - collections[a].length) }}
 		{{ if t != 'pages' && t != 'posts' && t != 'all' }}
 			<li><a href="{{ t }}">{{ t }}</a> ({{ collections[t].length }})</li>
 		{{ /if }}

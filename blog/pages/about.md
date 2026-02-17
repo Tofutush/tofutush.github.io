@@ -2,6 +2,8 @@
 title: About me
 ---
 
+[Places I'm at!](https://tilde.town/~tofutush)
+
 嗨，我是[吸螺壳](https://tilde.town/~tofutush)。我喜欢猫猫。
 
 你要喜欢[铁打洋娃娃](https://tofutush.github.io/tdyww/)的话我会爱你一辈子。
