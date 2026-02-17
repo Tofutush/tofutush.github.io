@@ -2,7 +2,7 @@
 title: "Game: Lorelei and the Laser Eyes"
 tags:
   - media
-  - screenaging
+  - playing
 date: 2026-01-31
 ---
 

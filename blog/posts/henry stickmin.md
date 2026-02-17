@@ -3,7 +3,7 @@ date: 2025-08-13
 title: "Game: Henry Stickmin"
 tags:
   - media
-  - screenaging
+  - playing
 ---
 
 Choose-your-own-adventure game where failing is even more fun than succeeding. I was playing those old Flash games on 4399 since elementary school. The Henry Stickmin Collection, released a lot later, was also great; though some routes in Completing the Mission weren't as fun and felt rushed. My favorite game is Fleeing the Complex, favorite route Presumed Dead, favorite track Complex Waltz.

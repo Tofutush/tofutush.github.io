@@ -71,7 +71,7 @@ Aaarrrgghh I hate Aeon Timeline, it sucks so much ass but it's literally the onl
 
 date: 2026-02-08
 
-tags: media, screenaging, blue-prince
+tags: media, playing, blue-prince
 
 content:
 
@@ -91,7 +91,7 @@ I was today years old when I realized you could tap on a door handle with a key 
 
 date: 2026-02-06
 
-tags: media, screenaging, blue-prince
+tags: media, playing, blue-prince
 
 content:
 
@@ -101,7 +101,7 @@ Gym is the anti-Bedroom.
 
 date: 2026-02-06
 
-tags: media, screenaging, blue-prince
+tags: media, playing, blue-prince
 
 content:
 
@@ -249,7 +249,7 @@ Someone save me and my sleep schedule…
 
 date: 2026-01-30
 
-tags: media, screenaging, blue-prince, lorelei
+tags: media, playing, blue-prince, lorelei
 
 content:
 
@@ -271,7 +271,7 @@ My parents used to chase me around with lip balm. Now I'm applying it out of my 
 
 date: 2026-01-29
 
-tags: screenaging, media, lorelei
+tags: playing, media, lorelei
 
 content:
 
@@ -301,7 +301,7 @@ I, like, immediately changed my mind about the checkbox and exclude tags thing. 
 
 date: 2026-01-28
 
-tags: media, screenaging, lorelei
+tags: media, playing, lorelei
 
 content:
 
@@ -321,7 +321,7 @@ Added a bunch of useless new features to the microblog LOL. Now you can include 
 
 date: 2026-01-27
 
-tags: media, screenaging, lorelei
+tags: media, playing, lorelei
 
 content:
 
@@ -331,7 +331,7 @@ This game also gives you no way to back out of entering passwords. You have to e
 
 date: 2026-01-27
 
-tags: media, screenaging, lorelei
+tags: media, playing, lorelei
 
 content:
 
@@ -343,7 +343,7 @@ With all seriousness though, this game doesn't even have settings to adjust volu
 
 date: 2026-01-27
 
-tags: media, screenaging, lorelei, blue-prince
+tags: media, playing, lorelei, blue-prince
 
 content:
 
@@ -353,7 +353,7 @@ Playing Lorelei made me feel so smart because I could solve a decent number of p
 
 date: 2026-01-27
 
-tags: media, screenaging, lorelei, blue-prince
+tags: media, playing, lorelei, blue-prince
 
 content:
 
@@ -365,7 +365,7 @@ Spoilers: they aren't.
 
 date: 2026-01-27
 
-tags: media, screenaging, lorelei, blue-prince
+tags: media, playing, lorelei, blue-prince
 
 content:
 
@@ -377,7 +377,7 @@ That's just great. Now I'm scared of the whole calendar.
 
 date: 2026-01-27
 
-tags: media, screenaging, lorelei
+tags: media, playing, lorelei
 
 content:
 
@@ -463,7 +463,7 @@ As much as I hate *Spy School*, the crown still has to go to *Mrs. Smith's Spy S
 
 date: 2026-01-16
 
-tags: ramble, blue-prince, media, screenaging
+tags: ramble, blue-prince, media, playing
 
 content:
 

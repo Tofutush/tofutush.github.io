@@ -2,7 +2,7 @@
 title: Blue Prince is a great game
 tags:
   - media
-  - screenaging
+  - playing
 date: 2026-01-05
 ---
 
