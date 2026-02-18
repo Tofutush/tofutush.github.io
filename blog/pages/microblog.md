@@ -3,9 +3,36 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Dragonet Prophecy — Tui Sutherland
+reading: The Lost Heir — Tui Sutherland
 
 playing: Blue Prince (again)
+
+---
+
+date: 2026-02-18
+
+tags: ramble
+
+content:
+
+Roses are dead,  
+Violence is due;  
+You wouldn't want me,  
+And neither I you.
+
+— Something insane I wrote at 1 AM
+
+---
+
+date: 2026-02-18
+
+tags: ramble
+
+content:
+
+Me when things work: HAKCER
+
+Me when things don't work: teacher teacher help (tearful cat meme)
 
 ---
 
