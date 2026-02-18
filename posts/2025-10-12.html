@@ -46,27 +46,27 @@
         <li><a href="#other-minor-stuff">Other minor stuff</a></li>
       </ul>
     </details>
-    <h2 id="git" tabindex="-1">Git</h2>
-    <p dir="auto">PetraPixel had made wonderfully-explained tutorials on a lot of these things already, so I recommend checking out their <a href="https://petrapixel.neocities.org/coding/git-tutorial" class="external-link" target="_blank">Git tutorial</a>, <a href="https://petrapixel.neocities.org/coding/npm-tutorial" class="external-link" target="_blank">NPM tutorial</a>, and <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial" class="external-link" target="_blank">11ty tutorial</a> before reading this!</p>
-    <p dir="auto">Git is one of the most popular <em>version control systems</em> nowadays. That means it's a tool for keeping track of older versions of your codebase so that if you screw up, you can revert back to an old version. Branches are also helpful. You can create a branch for a new part of your site, or perhaps a redesign, and if you screw up you just go back to the main branch and delete the new branch.</p>
+    <h2 id="git" tabindex="-1" dir="auto">Git</h2>
+    <p dir="auto">PetraPixel had made wonderfully-explained tutorials on a lot of these things already, so I recommend checking out their <a href="https://petrapixel.neocities.org/coding/git-tutorial" class="external-link" target="_blank" dir="auto">Git tutorial</a>, <a href="https://petrapixel.neocities.org/coding/npm-tutorial" class="external-link" target="_blank" dir="auto">NPM tutorial</a>, and <a href="https://petrapixel.neocities.org/coding/eleventy-tutorial" class="external-link" target="_blank" dir="auto">11ty tutorial</a> before reading this!</p>
+    <p dir="auto">Git is one of the most popular <em dir="auto">version control systems</em> nowadays. That means it's a tool for keeping track of older versions of your codebase so that if you screw up, you can revert back to an old version. Branches are also helpful. You can create a branch for a new part of your site, or perhaps a redesign, and if you screw up you just go back to the main branch and delete the new branch.</p>
     <p dir="auto">I also have Github Desktop downloaded, which is a GUI that makes things easier. This is back when I was in China and pushing and pulling took ages and I didn't know how to configure proxies (still don't). My VPN proxies all desktop applications automatically so it made things way faster. Now I won't be needing it since VSCode has a GUI for Git too and it's not as slow as before.</p>
-    <h2 id="11ty" tabindex="-1">11ty</h2>
+    <h2 id="11ty" tabindex="-1" dir="auto">11ty</h2>
     <p dir="auto">11ty is a static site generator (SSG), meaning it takes a bunch of template files, fills in the templates, and outputs a bunch of HTML files for the browser to read.</p>
-    <p dir="auto">Static site generators are great for bigger sites. Suppose I want the same header and footer on every page. I can copy / paste stuff, but what if I want to update the header? I'd have to update everything! And don't even bring up iframes in front of me. They're like loading one page for the price of two. They're only good for embedding <em>another</em> website in yours, like Youtube videos, guestbooks, etc.</p>
+    <p dir="auto">Static site generators are great for bigger sites. Suppose I want the same header and footer on every page. I can copy / paste stuff, but what if I want to update the header? I'd have to update everything! And don't even bring up iframes in front of me. They're like loading one page for the price of two. They're only good for embedding <em dir="auto">another</em> website in yours, like Youtube videos, guestbooks, etc.</p>
     <p dir="auto">I've also recently learned about JavaScript custom elements (components), which could be worth checking out if you don't mind a lot of client-side JS and don't want to go all SSG. But SSGs still offer greater flexibility than simply components. With 11ty, you can</p>
-    <ul>
-      <li>Make a layout so you have the same header and footer in every page, as well as all the <code>&lt;meta&gt;</code> tags <ul>
-          <li>Wrap a layout inside another layout for specific categories of pages that have their own shared sections</li>
+    <ul dir="auto">
+      <li dir="auto">Make a layout so you have the same header and footer in every page, as well as all the <code>&lt;meta&gt;</code> tags <ul dir="auto">
+          <li dir="auto">Wrap a layout inside another layout for specific categories of pages that have their own shared sections</li>
         </ul>
       </li>
-      <li>Do pagination with data, which is how I made my character pages</li>
-      <li>Use data for literally anything, which is how I made many little games with the same character data file</li>
-      <li>Automatically convert all your images to a certain size and format</li>
-      <li>Use any templating language you want</li>
+      <li dir="auto">Do pagination with data, which is how I made my character pages</li>
+      <li dir="auto">Use data for literally anything, which is how I made many little games with the same character data file</li>
+      <li dir="auto">Automatically convert all your images to a certain size and format</li>
+      <li dir="auto">Use any templating language you want</li>
     </ul>
-    <p dir="auto">When I started out I made my site with the Liquid templating language, but it's quite stupid to work with and now my site's too big for me to switch to something else. If I were to make a new site, I would use <a href="https://vento.js.org/" class="external-link" target="_blank">Vento</a>.</p>
+    <p dir="auto">When I started out I made my site with the Liquid templating language, but it's quite stupid to work with and now my site's too big for me to switch to something else. If I were to make a new site, I would use <a href="https://vento.js.org/" class="external-link" target="_blank" dir="auto">Vento</a>.</p>
     <p dir="auto">Why yes, I am shilling for 11ty. If you don't use it yet, and you're thinking your site's starting to get disorganized… Scroll to the top and click on PetraPixel's tutorials!</p>
-    <h2 id="deploy-to-neocities-with-github-actions" tabindex="-1">Deploy to Neocities with Github Actions</h2>
+    <h2 id="deploy-to-neocities-with-github-actions" tabindex="-1" dir="auto">Deploy to Neocities with Github Actions</h2>
     <p dir="auto">This is the good part. Because sites generated by SSGs require a build step, that is, you need to run <code>npm run build</code> and check in the <code>_site</code> folder for the actual contents of the website, it means you can't directly dump your source code and expect the site to function. Github provides a great tool for you to run these build steps on their computers called Github Actions.</p>
     <p dir="auto">Before doing anything, you need to enable them in Github by going to Settings &gt; Actions &gt; General and checking &quot;Allow all actions and reusable workflows.&quot;</p>
     <p dir="auto">There are many things Github Actions are capable of which I don't know because I don't use them so I don't care. But each action is a <code>.yml</code> file stored inside the <code>.github/workflows/</code> folder of your repository.</p>
@@ -84,7 +84,7 @@
       <span class="token punctuation">-</span> main
   <span class="token key atrule">schedule</span><span class="token punctuation">:</span>
     <span class="token punctuation">-</span> <span class="token key atrule">cron</span><span class="token punctuation">:</span> <span class="token string">'0 0 * * *'</span></code></pre>
-    <p dir="auto">The weird <code>cron</code> property is a code for time. I don't understand it either; I grabbed it from <a href="https://crontab.guru/every-day-at-midnight" class="external-link" target="_blank">here</a>.</p>
+    <p dir="auto">The weird <code>cron</code> property is a code for time. I don't understand it either; I grabbed it from <a href="https://crontab.guru/every-day-at-midnight" class="external-link" target="_blank" dir="auto">here</a>.</p>
     <p dir="auto">Before you start deploying your site to Neocities, you need to access its API. Go to Settings &gt; Manage site settings &gt; API, and generate an API key. Don't show this to anyone else! People can edit your site with this; that's the whole point. Go to your Github repository, click Settings &gt; Secrets and variables &gt; Actions. These are the secrets that Github Actions can use. Click &quot;New repository secret,&quot; name it &quot;NEOCITIES_API_KEY,&quot; and set its value to the API key you generated.</p>
     <p dir="auto">The rest is copy work. Here's how your file might look, if you're deploying to Neocities.</p>
     <pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Build Eleventy
@@ -125,7 +125,7 @@
 <span class="token punctuation">}</span></code></pre>
     <p dir="auto">And the final step uploads everything in the <code>_site</code> folder to Neocities.</p>
     <p dir="auto">It's important to not include any file that's not in the list of approved file formats, or the action fails!</p>
-    <h2 id="deploy-to-both-neocities-and-github-pages" tabindex="-1">Deploy to both Neocities and Github Pages</h2>
+    <h2 id="deploy-to-both-neocities-and-github-pages" tabindex="-1" dir="auto">Deploy to both Neocities and Github Pages</h2>
     <p dir="auto">I have my site mirrored in both these places. I just need another step in my action file to deploy it to Github Pages.</p>
     <pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy
   <span class="token key atrule">uses</span><span class="token punctuation">:</span> peaceiris/actions<span class="token punctuation">-</span>gh<span class="token punctuation">-</span>pages@v3.8.0
@@ -135,7 +135,7 @@
     <span class="token key atrule">publish_branch</span><span class="token punctuation">:</span> gh<span class="token punctuation">-</span>pages</code></pre>
     <p dir="auto">(The <code>GITHUB_TOKEN</code> secret comes automatically.)</p>
     <p dir="auto">In Github, go to Settings &gt; Pages and enable Github Pages deploying from the branch <code>gh-pages</code>. You might need to let this action run (and fail) once first before being able to select that branch.</p>
-    <h3 id="deploying-to-a-subdirectory" tabindex="-1">Deploying to a subdirectory</h3>
+    <h3 id="deploying-to-a-subdirectory" tabindex="-1" dir="auto">Deploying to a subdirectory</h3>
     <p dir="auto">But there's a problem! Unless your repository is named <code>tofutush.github.io</code>, Github Pages will deploy the contents of this site to a subdirectory, <code>tofutush.github.io/The-Iron-Ragdoll</code>. In this case, all of the absolute links in your site will break. You link <code>/</code> in hopes that it will take you to the home page <code>tofutush.github.io/The-Iron-Ragdoll</code>, but it would take you to <code>tofutush.github.io</code> instead. How do we solve this problem without resorting to using relative links everywhere?</p>
     <p dir="auto">11ty already provides a solution. When running <code>eleventy</code>, you can pass in a <code>pathprefix</code> variable that's exactly what the <code>The-Iron-Ragdoll</code> in the URL is. So if I run <code>eleventy --pathprefix=The-Iron-Ragdoll</code>, 11ty will host your site in <code>localhost:8080/The-Iron-Ragdoll</code>.</p>
     <p dir="auto">And then, we need to transform every absolute URL into <code>/The-Iron-Ragdoll/</code> too. The plugin comes straight with 11ty so you don't need to install it yourself.</p>
@@ -195,7 +195,7 @@
           dist_dir<span class="token punctuation">:</span> _neocities</code></pre>
     <p dir="auto">(There is a line, <code>npm run copy</code>, that copies my images from <code>_site/img</code> to <code>_neocities/img</code>. You probably don't need it!)</p>
     <p dir="auto">There we go. Don't we all love this automatic shit.</p>
-    <h2 id="other-minor-stuff" tabindex="-1">Other minor stuff</h2>
+    <h2 id="other-minor-stuff" tabindex="-1" dir="auto">Other minor stuff</h2>
     <pre class="language-js"><code class="language-js">eleventyConfig<span class="token punctuation">.</span><span class="token function">setQuietMode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
     <p dir="auto">This gets rid of all the lines telling you which file had been written.</p>
     <pre class="language-sh"><code class="language-sh">eleventy <span class="token parameter variable">--serve</span> <span class="token parameter variable">--incremental</span> <span class="token parameter variable">--pathprefix</span><span class="token operator">=</span>The-Iron-Ragdoll</code></pre>
@@ -209,7 +209,7 @@
 	<span class="token punctuation">}</span><span class="token punctuation">,</span>
 	<span class="token literal-property property">passthroughFileCopy</span><span class="token operator">:</span> <span class="token boolean">true</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
-    <p dir="auto">This is the return object of my 11ty config function. <code>input: 'tir'</code> puts all my input files in the <code>tir</code> folder instead of at the root folder, so I can open that folder in Obsidian and it won't have too many extra folders and files I don't want to see while editing my site. If you did that though, you <em>have</em> to set <code>includes</code>, <code>layouts</code>, and <code>data</code> to the parent directory, because 11ty will still be looking at them relative to <code>tir</code>.</p>
+    <p dir="auto">This is the return object of my 11ty config function. <code>input: 'tir'</code> puts all my input files in the <code>tir</code> folder instead of at the root folder, so I can open that folder in Obsidian and it won't have too many extra folders and files I don't want to see while editing my site. If you did that though, you <em dir="auto">have</em> to set <code>includes</code>, <code>layouts</code>, and <code>data</code> to the parent directory, because 11ty will still be looking at them relative to <code>tir</code>.</p>
     <p dir="auto">I also separated the layouts and include files because there were too many of them.</p>
     <p dir="auto">That's it, I think! I hope you find this helpful!</p>
     <hr />

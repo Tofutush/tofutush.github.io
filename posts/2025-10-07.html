@@ -31,7 +31,7 @@
     <h1>Site doc: characters popping up when hovered</h1>
     <p dir="auto">Out of boredom I'm going to write about how I did some of the stuff I did on my site. You can reference this and I hope this can help you, but remember that not everyone's use case is exactly the same, so always make sure you know what a code is doing before copying!</p>
     <hr>
-    <p dir="auto">If you go to the index page of my <a href="https://tofutush.github.io/The-Iron-Ragdoll/" class="external-link" target="_blank">TIR site</a> you will find a grid of cards with characters drawn on them, that will pop up when you hover over them.</p>
+    <p dir="auto">If you go to the index page of my <a href="https://tofutush.github.io/The-Iron-Ragdoll/" class="external-link" target="_blank" dir="auto">TIR site</a> you will find a grid of cards with characters drawn on them, that will pop up when you hover over them.</p>
     <details open>
       <summary>Contents</summary>
       <ul>
@@ -41,8 +41,8 @@
         <li><a href="#responsiveness">Responsiveness</a></li>
       </ul>
     </details>
-    <h2 id="the-grid-itself" tabindex="-1">The grid itself</h2>
-    <p dir="auto"><a href="https://cssgridgarden.com/" class="external-link" target="_blank">Grid Garden</a> is a fantastic resource for learning CSS grids. The grid part is fairly simple. Just a regular old grid.</p>
+    <h2 id="the-grid-itself" tabindex="-1" dir="auto">The grid itself</h2>
+    <p dir="auto"><a href="https://cssgridgarden.com/" class="external-link" target="_blank" dir="auto">Grid Garden</a> is a fantastic resource for learning CSS grids. The grid part is fairly simple. Just a regular old grid.</p>
     <pre class="language-css"><code class="language-css"><span class="token selector">.grid</span> <span class="token punctuation">{</span>
 	<span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
 	<span class="token property">grid-template-columns</span><span class="token punctuation">:</span> <span class="token function">repeat</span><span class="token punctuation">(</span>auto-fill<span class="token punctuation">,</span> <span class="token function">minmax</span><span class="token punctuation">(</span>250px<span class="token punctuation">,</span> 1fr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -51,7 +51,7 @@
 	<span class="token property">margin</span><span class="token punctuation">:</span> 2em 0<span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
     <p dir="auto">The <code>minmax(250px, 1fr)</code> means that each individual column will be <code>1fr</code> (one fraction) wide, which means every column will be the same width. But if they're smaller than 250px in width, they will reduce the number of columns until they're bigger than 250px again. This makes the two columns collapse into one on smaller screens.</p>
-    <p dir="auto">The <code>auto-fill</code> bears no difference to its alternative, <code>auto-fit</code> here, but <a href="https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/" class="external-link" target="_blank">this article</a> explains their differences well.</p>
+    <p dir="auto">The <code>auto-fill</code> bears no difference to its alternative, <code>auto-fit</code> here, but <a href="https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/" class="external-link" target="_blank" dir="auto">this article</a> explains their differences well.</p>
     <p dir="auto"><code>grid-auto-rows</code> makes sure each row is <code>1fr</code> no matter how many rows there are.</p>
     <p dir="auto">Two of the cards, &quot;Characters&quot; and &quot;World,&quot; are bigger than the rest. They simply have the <code>big</code> class.</p>
     <pre class="language-css"><code class="language-css"><span class="token selector">.big</span> <span class="token punctuation">{</span>
@@ -59,7 +59,7 @@
 <span class="token punctuation">}</span></code></pre>
     <p dir="auto">Meaning they will span 2 rows.</p>
     <p dir="auto">In the grid, I made 10 <code>&lt;a&gt;</code>s that are the cards you see. Inside each <code>&lt;a&gt;</code> there is a <code>&lt;div&gt;</code> element that contains the background image and text.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
-    <h2 id="the-popups" tabindex="-1">The popups</h2>
+    <h2 id="the-popups" tabindex="-1" dir="auto">The popups</h2>
     <p dir="auto">I put the character art as background images on the <code>&lt;div&gt;</code>s. Here are the pictures:</p>
     <p dir="auto"><img src="../img/sparky%20pop.png" alt="sparky pop"></p>
     <p dir="auto"><img src="../img/cosmo%20pop.png" alt="cosmo pop"></p>
@@ -79,26 +79,26 @@
 	<span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span>
 	<span class="token property">image-rendering</span><span class="token punctuation">:</span> pixelated<span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-    <p dir="auto"><code>image-rendering: pixelated</code> stops the browser from blurring pixel art. <code>background-position: center</code> centers the background horizontally, and the <code>calc(var(--font-size) * 3)</code> after it lowers it vertically by a certain amount. You see why I included the font size <a href="#responsiveness">in a later section</a>.</p>
+    <p dir="auto"><code>image-rendering: pixelated</code> stops the browser from blurring pixel art. <code>background-position: center</code> centers the background horizontally, and the <code>calc(var(--font-size) * 3)</code> after it lowers it vertically by a certain amount. You see why I included the font size <a href="#responsiveness" dir="auto">in a later section</a>.</p>
     <p dir="auto">For the big cards, I lowered them further by 10px for some reason. It took tweaking and trying.</p>
     <pre class="language-css"><code class="language-css"><span class="token selector">.big .card</span> <span class="token punctuation">{</span>
 	<span class="token property">background-position</span><span class="token punctuation">:</span> center <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">var</span><span class="token punctuation">(</span>--font-size<span class="token punctuation">)</span> * 3 + 10px<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
     <p dir="auto">On hover, I simply set the vertical background position to 0 (<code>center 0</code>).</p>
     <p dir="auto">For the big cards, there was a problem. There was a little gap between the bottom of the character and the bottom border of the card, which I hate. So I'm tweaking and trying again, ending up with <code>center calc(var(--font-size) / -4 + 20px)</code>.</p>
-    <h2 id="animation" tabindex="-1">Animation</h2>
+    <h2 id="animation" tabindex="-1" dir="auto">Animation</h2>
     <p dir="auto">The good old <code>transition</code>. In Chrome DevTools, there is a handy little bezier curve tool — just click the little symbol next to a <code>cubic-bezier(…)</code> CSS function. Here's mine.</p>
     <p dir="auto"><img src="../img/popup%20bezier.png" alt="popup bezier"></p>
     <p dir="auto">You can see that my animation makes them go overboard a little before returning back to the target value. This is what made them bounce.</p>
     <pre class="language-css"><code class="language-css"><span class="token selector">.card</span> <span class="token punctuation">{</span>
 	<span class="token property">transition</span><span class="token punctuation">:</span> all .3s <span class="token function">cubic-bezier</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 1<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 1.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-    <h2 id="responsiveness" tabindex="-1">Responsiveness</h2>
+    <h2 id="responsiveness" tabindex="-1" dir="auto">Responsiveness</h2>
     <p dir="auto">If I had used pixel values for my offsets, they wouldn't have been mobile-friendly. That's why I used my <code>--font-size</code> variable.</p>
     <p dir="auto">The value of the variable is this: <code>clamp(16px, 0.75rem + 0.8vw, 24px)</code>.</p>
     <p dir="auto">It's called &quot;fluid typography,&quot; meaning font size changing with screen size. It grows on bigger screens and shrinks on smaller ones!</p>
     <p dir="auto">The <code>clamp</code> function clamps the middle value (<code>0.75rem + 0.8vw</code>) between a minimum (16px) and a maximum (24px); and with <code>vw</code> (viewport width), the middle value changes with screen width.</p>
-    <p dir="auto">I didn't write the damn thing myself; it looks horrifying. I used a nice tool <a href="https://clamp.font-size.app/" class="external-link" target="_blank">here</a>.</p>
+    <p dir="auto">I didn't write the damn thing myself; it looks horrifying. I used a nice tool <a href="https://clamp.font-size.app/" class="external-link" target="_blank" dir="auto">here</a>.</p>
     <p dir="auto">By using this variable in calculating the background offset, I get to make it responsive. I also calculate the heading sizes based on this variable so all the text shrinks and grows properly!</p>
     <hr class="footnotes-sep">
     <section class="footnotes">
