@@ -44,9 +44,13 @@ export default function (eleventyConfig) {
 
 	// dir=auto
 	function addDirAuto(md) {
-		md.renderer.rules.paragraph_open = (tokens, idx, options, env, self) => {
-			tokens[idx].attrSet("dir", "auto");
-			return self.renderToken(tokens, idx, options);
+		const defaultRender = md.renderer.renderToken.bind(md.renderer);
+		md.renderer.renderToken = function (tokens, idx, options) {
+			const token = tokens[idx];
+			if (token.nesting === 1) { // opening tags only
+				token.attrSet("dir", "auto");
+			}
+			return defaultRender(tokens, idx, options);
 		};
 	}
 
