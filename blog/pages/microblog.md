@@ -15,6 +15,18 @@ tags: ramble
 
 content:
 
+Gaaahh why do I have to change my 4-year plan *again*!
+
+3-year plan, more like. But still. Why are there so many restrictions!
+
+---
+
+date: 2026-02-18
+
+tags: ramble
+
+content:
+
 Roses are dead,  
 Violence is due;  
 You wouldn't want me,  
