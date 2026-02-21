@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Lost Heir — Tui Sutherland
+reading: The Hidden Kingdom — Tui Sutherland
 
 playing: Sudoku
 
