@@ -5,7 +5,17 @@ eleventyExcludeFromCollections: true
 
 reading: The Lost Heir — Tui Sutherland
 
-playing: Blue Prince (again)
+playing: Sudoku
+
+---
+
+date: 2026-02-20
+
+tags: media, playing, blue-prince
+
+content:
+
+Whoo hoo, all trophies obtained! Got so lucky on dare mode, very easy set of dares. Of course, modding the game to hell helped LOL.
 
 ---
 
