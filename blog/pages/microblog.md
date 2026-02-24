@@ -9,6 +9,16 @@ playing: Sudoku
 
 ---
 
+date: 2026-02-24
+
+tags: ramble
+
+content:
+
+We need to kill all Chinese-American (*and* Chinese-Canadian, AND Chinese-British) authors *now*, and kill *me* too while we're at it because I have no more will left to live after reading whatever the fuck this is.
+
+---
+
 date: 2026-02-20
 
 tags: media, playing, blue-prince
