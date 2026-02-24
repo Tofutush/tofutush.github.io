@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Hidden Kingdom — Tui Sutherland
+reading: The Dark Secret — Tui Sutherland
 
 playing: Sudoku
 
