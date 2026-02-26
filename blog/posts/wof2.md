@@ -21,4 +21,6 @@ Well, there goes the naming pattern. But I guess "Turtle" isn't a good word to p
 
 ## 10. Darkness of Dragons (Qibli)
 
+Heh. Guess where my [self-insert](https://tofutush.neocities.org/characters/qibli/)'s name came from.
+
 ## Legends 1: Darkstalker

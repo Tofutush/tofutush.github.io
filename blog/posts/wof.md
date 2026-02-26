@@ -29,8 +29,6 @@ The setup for this book is also great. You make a premise, five dragonets ending
 
 Clay's personal arc is great. One good thing about all these books is that they always manage to develop characters alongside the plot. Characters actually drive the plot here, but there are still a significant amount of external events that they react to. It's like the perfect blend of character-driven and plot-driven. Clay goes through a general arc of thinking he needs to be violent and find the monster inside him that drove him to attack the other eggs at hatching. But in the end we learn from the MudWings that it was a normal thing for MudWings to do — Clay was helping his hatching get out. And the book ends on him learning to be kind — or rather embracing the kind side of him after being told for his whole life that he's a violent monster — in a world full of violence.
 
-You have to know one thing though, Peril was an adult while Clay was a kid. Granted, there's only a couple years between them, and Peril basically has the maturity of a kid, but still.
-
 I loved the scene where he played the tune of *The Dragonets Are Coming* and all the prisoners sang with them. That was great.
 
 ## 2. The Lost Heir (Tsunami)
@@ -57,9 +55,19 @@ Also Scarlet's arena is still haunting them in the scene where Glory disguised h
 
 ## 4. The Dark Secret (Starflight)
 
-Also, maybe I'm really just aroace, but every single instance of romance in this series is downright horrible. Clay and Peril was just Peril being a yandere; Tsunami and Riptide was just because everyone else was so wacko that Riptide seemed like the most reasonable option; Glory and Deathbringer was… was some sort of immediate enemies-to-lovers where they didn't stay as enemies for more than a couple minutes;[^4] and Starflight and Sunny was also just stupid. I won't comment further because well, if other people liked them then other people were probably more normal than I am. (I'm not done though! There is more romance in future books to shit on!)
+Had I ever mentioned that the POV arrangement is perfect for each character to get their own spotlight while at the same time progressing the main overarching plot? One of my favorite things about this series is how the character development ties into the main plot and both progress and develop each other. Or maybe I just read too many horrible books (and shows (looking at you *Hazbin Hotel*)) where the characters act completely stupid and out-of-character in service of the plot. But anyways now we get on the NightWing island with Starflight.
+
+Though we do get a lot of crucial main plot info from this book, I don't think the character development was that good. Starflight spends half the book whining over Sunny, which is horrible enough on its own without whatever the fuck is going on with him and Fatespeaker. The "highlight" for him would probably only be near the end where he made a decision to let Glory go back while he went on gathering the NightWings.
+
+The peak here was how queen Battlewinner died crouching in front of Glory, as if she was bowing to her. That was easily the peakest moment in the arc. Glory becoming queen of the NightWings is also some really warranted plot point, regardless of how "overpowered" Glory might seem, especially since she just became the RainWing queen last book. It's more about the NightWings, how they always reinforced their image of superiority to both other tribes and themselves, now being forced to bow to a dragon they considered inferior to them in every way. And I'm not sugarcoating Glory just because I like her; I don't even like her that much (Sunny > Clay > Glory > Starflight > Tsunami since no one asked), but her path to power is paved so naturally and meaningfully that you can all but root for her.
+
+This book is also the most we get out of the alternate dragonets. And well, I do have a problem here. Why were they horrible to each other while the real dragonets were super good friends? What made them different? Was it *just* because Clay was a bigwings? I don't think that's enough of a reason, plus we don't know if Ochre was a bigwings or not. I know the alternates were pretty much just foils but they're a little too one-dimensional. If they just hate each other for no reason, then the real dragonets love each other for no reason as well.
+
+Also, maybe I'm really just aroace, but every single instance of romance in this series is downright horrible. Clay and Peril was just Peril being a yandere; Tsunami and Riptide was just because everyone else was so wacko that Riptide seemed like the most reasonable option; Glory and Deathbringer was… was some sort of love-on-first-sight-on-the-opposite-ends-of-the-battlefield or some shit;[^4] and Starflight and Sunny was also just stupid stupid. Also the first three are all adult-child in this arc. I won't comment further because well, if other people liked them then other people were probably more normal than I am. (I'm not done though! There is more romance in future books to shit on!)
 
 ## 5. The Brightest Night (Sunny)
+
+Maybe some would argue that some random SandWing that just appeared in the last book becoming queen is too much of a stretch, just as how Glory becoming the queen of both RainWings and NightWings is a stretch. But well, even if Thorn only appeared in the last book, she appeared quite early into the book itself. Also, starting from the moment we met Blaze in book 3 (or from the very very start if you Know Your Tropes) it is extremely obvious that none of the three princesses would be queen.
 
 ## Legend 2: Dragonslayer
 

@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Dark Secret — Tui Sutherland
+reading: The Brightest Night — Tui Sutherland
 
 playing: Sudoku
 
