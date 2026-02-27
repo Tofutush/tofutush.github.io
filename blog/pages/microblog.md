@@ -9,6 +9,16 @@ playing: Myst
 
 ---
 
+date: 2026-02-27
+
+tags: ramble, watching, media, heathers
+
+content:
+
+"You're gonna die at 3 p.m." — maybe the problem is you let kids free too early so they actually have time and energy to do shit.
+
+---
+
 date: 2026-02-24
 
 tags: ramble
