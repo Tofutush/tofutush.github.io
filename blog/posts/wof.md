@@ -39,6 +39,10 @@ Also, I love how they showed the consequences of the dragonets' actions in Scarl
 
 Whirlpool and Moray's ass-kissing is pretty funny though, if only reality weren't more exaggerated than fiction.
 
+Also, not to dick-ride Whirlpool, but his teaching method legit works better than Riptide's. It's really hard to learn a language with Riptide's Duolingo-style teaching; it takes a ton of time and dedication. But Whirlpool immerses Tsunami in the language by reading her the entire book (Coral's writing may not be the best in the world but she must have great editors). The best option is to stick Tsunami in the Deep Palace and not allow her to surface. In a couple years, she'd be speaking Aquatic like a native. But well evidently she doesn't have time for that, but maybe one day she will.
+
+Speaking of Aquatic, why *didn't* Webs teach her that? Surely she cannot communicate with other dragons under the cave since there are none, and another language is a handy tool to have, especially as it's essential for underwater communication. This is one of the minor plot points sacrificed for the plot, but honestly I'm fine with that. And maybe a lot of people who speaks English better than their family's language can relate a lot.
+
 ## 3. The Hidden Kingdom (Glory)
 
 Really good. Great.
