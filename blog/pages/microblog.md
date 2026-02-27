@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 
 reading: The Brightest Night — Tui Sutherland
 
-playing: Sudoku
+playing: Myst
 
 ---
 
