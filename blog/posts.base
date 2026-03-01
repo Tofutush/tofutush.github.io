@@ -14,15 +14,19 @@ views:
       - tags
       - date
       - draft
+      - file.size
     sort:
+      - property: file.size
+        direction: DESC
       - property: date
         direction: DESC
     columnSize:
       file.name: 13
-      note.title: 477
-      note.tags: 251
+      note.title: 582
+      note.tags: 303
       note.date: 116
       note.draft: 20
+      file.size: 101
   - type: table
     name: Drafts
     filters:

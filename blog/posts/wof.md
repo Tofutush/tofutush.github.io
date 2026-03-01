@@ -63,7 +63,7 @@ Had I ever mentioned that the POV arrangement is perfect for each character to g
 
 Though we do get a lot of crucial main plot info from this book, I don't think the character development was that good. Starflight spends half the book whining over Sunny, which is horrible enough on its own without whatever the fuck is going on with him and Fatespeaker. The "highlight" for him would probably only be near the end where he made a decision to let Glory go back while he went on gathering the NightWings.
 
-The peak here was how queen Battlewinner died crouching in front of Glory, as if she was bowing to her. That was easily the peakest moment in the arc. Glory becoming queen of the NightWings is also some really warranted plot point, regardless of how "overpowered" Glory might seem, especially since she just became the RainWing queen last book. It's more about the NightWings, how they always reinforced their image of superiority to both other tribes and themselves, now being forced to bow to a dragon they considered inferior to them in every way. And I'm not sugarcoating Glory just because I like her; I don't even like her that much (Sunny > Clay > Glory > Starflight > Tsunami since no one asked), but her path to power is paved so naturally and meaningfully that you can all but root for her.
+The peak here was how queen Battlewinner died crouching in front of Glory, as if she was bowing to her. That was easily the peakest moment in the arc. Glory becoming queen of the NightWings is also some really warranted plot point, regardless of how "overpowered" Glory might seem, especially since she just became the RainWing queen last book. It's more about the NightWings, how they always reinforced their image of superiority to both other tribes and themselves, now being forced to bow to a dragon they considered inferior to them in every way. And I'm not sugarcoating Glory just because I like her; I don't even like her that much (Sunny > Clay > Glory > Tsunami > Starflight since no one asked), but her path to power is paved so naturally and meaningfully that you can all but root for her.
 
 This book is also the most we get out of the alternate dragonets. And well, I do have a problem here. Why were they horrible to each other while the real dragonets were super good friends? What made them different? Was it *just* because Clay was a bigwings? I don't think that's enough of a reason, plus we don't know if Ochre was a bigwings or not. I know the alternates were pretty much just foils but they're a little too one-dimensional. If they just hate each other for no reason, then the real dragonets love each other for no reason as well.
 
@@ -77,7 +77,11 @@ Also, maybe I'm really just aroace, but every single instance of romance in this
 
 ## 5. The Brightest Night (Sunny)
 
-Maybe some would argue that some random SandWing that just appeared in the last book becoming queen is too much of a stretch, just as how Glory becoming the queen of both RainWings and NightWings is a stretch. But well, even if Thorn only appeared in the last book, she appeared quite early into the book itself. Also, starting from the moment we met Blaze in book 3 (or from the very very start if you Know Your Tropes) it is extremely obvious that none of the three princesses would be queen.
+I didn't like this book nearly as much, especially since the first bit was quite boring. And it feels like the author is being tug-of-war'ed between having Sunny do extraordinary things to advance the plot and having her stay in character. But I loved Sunny as a character so okay.
+
+Maybe some would argue that some random SandWing that just appeared in the last book becoming queen is too much of a stretch, just as how Glory becoming the queen of both RainWings and NightWings is a stretch. But well, even if Thorn only appeared in the last book, she appeared quite early into the book itself. Also, starting from the moment we met Blaze in book 3 (or from the very very start if you Know Your Tropes) it is extremely obvious that none of the three princesses would be queen. So who else, if not the one SandWing who has proven herself to be a good leader before we even saw her face?
+
+Anyways, solid conclusion of an amazing arc, and Clay saved everyone again.
 
 ---
 
@@ -85,7 +89,9 @@ I was going to do a ranking but I found that too hard. There are things I loved 
 
 ## Legend 2: Dragonslayer
 
-I put this here because it's related to the first arc despite being the second *Legend*.
+I put this here because it's related to the first arc despite being the second *Legend*. It's about the humans who killed Queen Oasis.
+
+This was published in 2020, after book 13 and before 14, and you can clearly see the style difference when coming straight from book 5, published in 2014. First of all, why is there so much capitalization? I get it, Wren is screamy and loud, but you were capable of writing Tsunami without this much capitalization. I would say that the author is capable of portraying screamy and loud dialog without overusing capitalization; the current dialog is loud enough if the capitals were switched to italics or just simply normal lowercases. But she insisted on using a ton of them anyways.
 
 [^1]: I feel like the only two kinds of book reviews I do are either bashing on the book or praising the book to heaven and either way it involves talking about everything in it.
 [^2]: The curse of writing a book too good and writing it too well for the target audience?
