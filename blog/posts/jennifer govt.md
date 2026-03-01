@@ -80,7 +80,7 @@ I'm not even saying this kind of workaholism is unrealistic. My mom was such a p
 
 It's *1984* all over again. Am I supposed to root for Jennifer? Am I supposed to be sympathetic to any of these idiots? Am I supposed to believe the system is bad, that people like John would take over if we reach such a state? The only thing I felt bad about was Hayley's death and it's not even because she died, it's because of her wasted character-development potential.
 
-A side note, what even is the role of the government in this world? I wouldn't be surprised if all they do is handle name changes every day. In the book though they look an awful lot like the FBI. Girl do I simply the idea that most of the government is gone but only the FBI remains! You cannot escape the FBI!
+A side note, what even is the role of the government in this world? I wouldn't be surprised if all they do is handle name changes every day. In the book though they look an awful lot like the FBI. Girl do I simply love the idea that most of the government is gone but only the FBI remains! You cannot escape the FBI!
 
 ---
 
