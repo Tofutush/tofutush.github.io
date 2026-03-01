@@ -3,7 +3,7 @@ title: Wings of Fire, Arc 3
 tags:
   - bookworming
   - media
-date: 2026-02-22
+date: 2026-02-23
 draft: true
 ---
 
