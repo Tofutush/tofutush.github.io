@@ -11,6 +11,24 @@ playing: Myst
 
 date: 2026-03-02
 
+tags: tir, goose
+
+Little scene idea: Goose tearing her head open at the Gambit Spy Ring, goes out to the break room or whatever, walks up to the chess set and pockets 6 different pieces to take back into her office, leaving the set unplayable.
+
+---
+
+date: 2026-03-02
+
+tags: tir, goose, sky
+
+The Poker Spies thing is what made Sky; the Gambit Five thing is what made Goose. Ironically, happened later than the former.
+
+Maybe one of goose's motivations includes being salty that her apprentice earned honorary retirement before she did.
+
+---
+
+date: 2026-03-02
+
 tags: status, media, playing, blue-prince
 
 content:
