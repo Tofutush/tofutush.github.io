@@ -9,6 +9,16 @@ playing: Myst
 
 ---
 
+date: 2026-03-02
+
+tags: status, media, playing, blue-prince
+
+content:
+
+I've grown a liking for Blue Prince speedrun videos. Very relaxing somehow… Not nice that they're usually 2 hours long though.
+
+---
+
 date: 2026-03-01
 
 tags: ramble
