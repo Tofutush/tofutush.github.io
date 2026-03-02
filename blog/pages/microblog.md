@@ -9,6 +9,16 @@ playing: Myst
 
 ---
 
+date: 2026-03-01
+
+tags: ramble
+
+content:
+
+You see, one of my IRL friends reposted something over which, should he have been just an online stranger, I would've blocked him. I really don't want to converse with him over why I block people over that though. I'm just gonna ignore that.
+
+---
+
 date: 2026-02-27
 
 tags: ramble, watching, media, heathers
