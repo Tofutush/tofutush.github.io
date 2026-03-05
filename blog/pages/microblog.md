@@ -9,6 +9,16 @@ playing: Myst
 
 ---
 
+date: 2026-03-05
+
+tags: ramble
+
+content:
+
+I cracked the mystery. The reason why I don't like engaging in American media is because I read *Homestuck*, and afterwards any American media (or most media, really) turned underwhelming in comparison.
+
+---
+
 date: 2026-03-02
 
 tags: tir, goose
