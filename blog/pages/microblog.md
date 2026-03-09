@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Brightest Night — Tui Sutherland
+reading: Dragonslayer — Tui Sutherland
 
 playing: Disco Elysium (again, after like two years)
 
