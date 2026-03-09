@@ -9,6 +9,16 @@ playing: Myst
 
 ---
 
+date: 2026-03-08
+
+tags: ramble
+
+content:
+
+Fuuuuck, I'm trying to add a shitton of books about Soviet intelligence into my collect-digital-dust list again but most are only available in Russian…
+
+---
+
 date: 2026-03-05
 
 tags: ramble
