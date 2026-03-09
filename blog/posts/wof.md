@@ -103,7 +103,7 @@ Leaf was quite stupid but I'm more interested in Rowan. If she could train Leaf 
 
 Violet and Daffodil's bickering is boring to sludge through. Their arguments don't even have any meaning behind them like the prophecy dragonets'; it's just them going "nuh-uh" and "yeah-huh" back and forth constantly.
 
-I think ultimately my biggest gripe is… the author should not have involved humans. Just keep them as scavengers; the dragon world is good enough. This also comes up double-fold in the third arc. And involving humans is dangerously close to the "these two groups of creatures (one group genocided the other group) just need to understand each other more" flavor of fantasy racism, because last time I checked humans weren't biting dragons' heads off.
+I think ultimately my biggest gripe is… the author should not have involved humans. Just keep them as scavengers; the dragon world is good enough. This also comes up double-fold in the third arc. And involving humans is dangerously close to the "these two groups of creatures (one group genocided the other group by the way) just need to understand each other more" flavor of fantasy racism, because last time I checked humans weren't biting dragons' heads off. Or maybe from the dragons' perspective it's an advocacy for vegetarianism, which I don't like either because I don't like vegetarianism. But from the humans' perspective, no excuses. Don't make friends with giant dragons who literally eat you.
 
 [^1]: I feel like the only two kinds of book reviews I do are either bashing on the book or praising the book to heaven and either way it involves talking about everything in it.
 [^2]: The curse of writing a book too good and writing it too well for the target audience?
