@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 
 reading: The Brightest Night — Tui Sutherland
 
-playing: Myst
+playing: Disco Elysium (again, after like two years)
 
 ---
 
