@@ -12,103 +12,7 @@ title: Listography
 - Cain's Jawbone by Torquemada
 - Wings of Fire series by Tui Sutherland
 
-#### Comics
-
-- Dav Pilkey
-	- *Captain Underpants* (I counted these as comics to make the grouping more tidy)
-	- *Dog Man*
-	- *Cat Kid Comic Club*
-- [Homestuck](https://homestuck.com)
-	- Fanworks
-		- [The Crow Strider AU](https://mspfa.com/?s=44153&p=1)
-		- [Herding Cats](https://archiveofourown.org/works/349720/chapters/568917)
-
-### Games
-
-- [Type Help](https://william-rous.itch.io/type-help)
-- [Henry Stickmin](https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/) ([post](/posts/2025-08-13))
-- [Framed](https://store.steampowered.com/app/322450/FRAMED_Collection/)
-- [UNREAL LIFE](https://store.steampowered.com/app/1335560/UNREAL_LIFE/)
-- [三相奇谈 (Threefold Recital)](https://store.steampowered.com/app/3084280/Threefold_Recital/)
-- [Blue Prince](https://store.steampowered.com/app/1569580/Blue_Prince/) ([post](/posts/2026-01-15))
-- [Bad End Theater](https://store.steampowered.com/app/1764390/BAD_END_THEATER/)
-- [Mimpi](https://store.steampowered.com/app/332580/Mimpi/)
-
-### Movies
-
-- Dying to Survive (2018)
-- Twelve Angry Men (1957)
-
-### Music
-
-- [PhemieC](https://phemiec.bandcamp.com/)
-	- Especially their Homestuck fansongs [Songs for Sad Trolls](https://phemiec.bandcamp.com/album/songs-for-sad-trolls) and [Songs for a Doomed Timeline](https://phemiec.bandcamp.com/album/songs-for-a-doomed-timeline), as well as [Bleed Black and White](https://youtu.be/yA_9poj0dqM?si=2oammrEocJTssjCD)
-- Any My Little Pony song
-
-## Travel
-
-List of travel destinations that I have gone to, or want to go! Listed in no particular order; wishlisted for no particular reason other than a simple desire to just *go*.
-
-It would be a long while before I'd actually get to travel anywhere but well, it's good to have one of these stuff here.
-
-Legend
-
-- ~~means have went~~
-- means want to go
-
----
-
-- China
-	- ~~Shenzhen~~: I live here. (Not anymore.) 0/10 don't recommend. Rains whenever you want to go out and the sun comes out only when you're at home. Humidity can reach 90%. Home to the worst high school in all of human existence.
-	- ~~Hong Kong~~: Never really as a tourist, just there to do stuff like get vaccines
-	- ~~Hunan~~: Never really as a tourist, just there to visit my dad's hometown. 0/10 new years suck and nothing is ever not spicy and they never give red packets more than 500 yuan so what's the point
-	- ~~Hebei~~: Never really as a tourist, just there to visit my mom's hometown. 10/10 my aunts make great food
-	- Yunnan
-		- ~~Kunming~~
-		- ~~Dali~~
-		- Lijiang
-		- Shangri-la
-	- Xinjiang (11/10 if you ignore the aridness and the bugs and the horse poop)
-		- ~~North~~
-			- ~~Ürümchi~~
-			- ~~Altay~~
-			- ~~Ili~~
-		- South
-			- Qeshqer
-			- Aqsu
-			- Xoten
-	- Inner Mongolia
-	- Tibet (better before I get old)
-	- Qinghai
-- ~~United States~~
-	- ~~The west coast, mostly.~~
-	- Actually I want to revisit most western national parks because I forgot most of them. It was a decade ago!
-- Mongolia
-	- Ulaanbaatar
-	- Anywhere that's far away from Ulaanbaatar
-- Uzbekistan
-- North Korea (no I'm not joking)
-- Mexico
-- Cuba
-- The Baltics
-	- Lithuania
-	- Latvia
-	- Estonia
-
-## Languages
-
-I have a bad habit of wanting to learn any language I come across, despite obviously not having the actual mental capacity for that.
-
-Some languages have their language name written in that language which is a tiny indicator of how much I know said language.
-
-- Uyghurche ۇيغۇرچە (current)
-- Ozbekcha
-- French Français (ditched for now)
-- Latvian
-- Russian
-- Yi ꆈꌠꁱꂷ
-
-## John le Carré
+#### John le Carré
 
 - ~~Call for the Dead~~
 - ~~A Murder of Quality~~
@@ -136,7 +40,29 @@ Some languages have their language name written in that language which is a tiny
 - Agent Running in the Field
 - Silverview
 
-## 1999 剧情
+#### Comics
+
+- Dav Pilkey
+	- *Captain Underpants* (I counted these as comics to make the grouping more tidy)
+	- *Dog Man*
+	- *Cat Kid Comic Club*
+- [Homestuck](https://homestuck.com)
+	- Fanworks
+		- [The Crow Strider AU](https://mspfa.com/?s=44153&p=1)
+		- [Herding Cats](https://archiveofourown.org/works/349720/chapters/568917)
+
+### Games
+
+- [Type Help](https://william-rous.itch.io/type-help)
+- [Henry Stickmin](https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/) ([post](/posts/2025-08-13))
+- [Framed](https://store.steampowered.com/app/322450/FRAMED_Collection/)
+- [UNREAL LIFE](https://store.steampowered.com/app/1335560/UNREAL_LIFE/)
+- [三相奇谈 (Threefold Recital)](https://store.steampowered.com/app/3084280/Threefold_Recital/)
+- [Blue Prince](https://store.steampowered.com/app/1569580/Blue_Prince/) ([post](/posts/2026-01-15))
+- [Bad End Theater](https://store.steampowered.com/app/1764390/BAD_END_THEATER/)
+- [Mimpi](https://store.steampowered.com/app/332580/Mimpi/)
+
+#### 1999 剧情
 
 - 主线
 	1. 序章 此即明日
@@ -163,21 +89,11 @@ Some languages have their language name written in that language which is a tiny
 	8. 孤独之歌
 		- ~~首映~~
 		- 重温
-	9. 忧郁的热带
-		- ~~首映~~
-		- 重温
-	10. 疯癫与文明
-		- ~~首映~~
-		- 重温
-	11. 复乐园
-		- ~~首映~~
-		- 重温
+	9. ~~忧郁的热带~~
+	10. ~~疯癫与文明~~
+	11. ~~复乐园~~
 	12. 行于漫漫长路上
-		- 首映
-		- 重温
 	13. 远征记
-		- 首映
-		- 重温
 - 活动
 	- ~~雷米特杯失窃案~~
 	- ~~绿湖噩梦~~
@@ -268,3 +184,78 @@ Some languages have their language name written in that language which is a tiny
 	- 玛蒂尔达·交接日
 	- 莫莉德尔·在高山下
 	- 深蓝什么时候交出柏林轶事！！
+
+### Movies
+
+- Dying to Survive (2018)
+- Twelve Angry Men (1957)
+
+### Music
+
+- [PhemieC](https://phemiec.bandcamp.com/)
+	- Especially their Homestuck fansongs [Songs for Sad Trolls](https://phemiec.bandcamp.com/album/songs-for-sad-trolls) and [Songs for a Doomed Timeline](https://phemiec.bandcamp.com/album/songs-for-a-doomed-timeline), as well as [Bleed Black and White](https://youtu.be/yA_9poj0dqM?si=2oammrEocJTssjCD)
+- Any My Little Pony song
+
+## Travel
+
+List of travel destinations that I have gone to, or want to go! Listed in no particular order; wishlisted for no particular reason other than a simple desire to just *go*.
+
+It would be a long while before I'd actually get to travel anywhere but well, it's good to have one of these stuff here.
+
+Legend
+
+- ~~means have went~~
+- means want to go
+
+---
+
+- China
+	- ~~Shenzhen~~: I live here. (Not anymore.) 0/10 don't recommend. Rains whenever you want to go out and the sun comes out only when you're at home. Humidity can reach 90%. Home to the worst high school in all of human existence.
+	- ~~Hong Kong~~: Never really as a tourist, just there to do stuff like get vaccines
+	- ~~Hunan~~: Never really as a tourist, just there to visit my dad's hometown. 0/10 new years suck and nothing is ever not spicy and they never give red packets more than 500 yuan so what's the point
+	- ~~Hebei~~: Never really as a tourist, just there to visit my mom's hometown. 10/10 my aunts make great food
+	- Yunnan
+		- ~~Kunming~~
+		- ~~Dali~~
+		- Lijiang
+		- Shangri-la
+	- Xinjiang (11/10 if you ignore the aridness and the bugs and the horse poop)
+		- ~~North~~
+			- ~~Ürümchi~~
+			- ~~Altay~~
+			- ~~Ili~~
+		- South
+			- Qeshqer
+			- Aqsu
+			- Xoten
+	- Inner Mongolia
+	- Tibet (better before I get old)
+	- Qinghai
+- ~~United States~~
+	- ~~The west coast, mostly.~~
+	- Actually I want to revisit most western national parks because I forgot most of them. It was a decade ago!
+- Mongolia
+	- Ulaanbaatar
+	- Anywhere that's far away from Ulaanbaatar
+- Uzbekistan
+- North Korea (no I'm not joking)
+- Mexico
+- Cuba
+- The Baltics
+	- Lithuania
+	- Latvia
+	- Estonia
+
+## Languages
+
+I have a bad habit of wanting to learn any language I come across, despite obviously not having the actual mental capacity for that.
+
+Some languages have their language name written in that language which is a tiny indicator of how much I know said language.
+
+- Uyghurche ۇيغۇرچە (current)
+- Ozbekcha
+- French Français (ditched for now)
+- Latvian
+- Russian
+- Yi ꆈꌠꁱꂷ
+
