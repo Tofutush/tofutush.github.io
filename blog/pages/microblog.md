@@ -9,6 +9,16 @@ playing: Disco Elysium (again, after like two years)
 
 ---
 
+date: 2026-03-11
+
+tags: ramble
+
+content:
+
+I saw the light. I realized one common theme in dystopian stories, about most of the people in the world being stupid and useless. They're very simply also just inverting the cause and effect. They think the people are exploited because they're stupid, but in reality they are stupid because they are exploited. Their material conditions ensured their stupidity, not the other way around.
+
+---
+
 date: 2026-03-08
 
 tags: ramble
