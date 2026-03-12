@@ -1,0 +1,30 @@
+.markdown-preview-view h2,
+.cm-header-2
+{
+  color: var(--color-red);
+text-decoration: underline;
+}
+
+.markdown-preview-view h3,
+.cm-header-3
+{
+  color: var(--color-orange);
+}
+
+.markdown-preview-view h4,
+.cm-header-4
+{
+  color: var(--color-yellow);
+}
+
+.markdown-preview-view h5,
+.cm-header-5
+{
+  color: var(--color-green);
+}
+
+.markdown-preview-view h6,
+.cm-header-6
+{
+  color: var(--color-blue);
+}
