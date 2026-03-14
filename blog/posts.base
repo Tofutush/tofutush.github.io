@@ -1,10 +1,5 @@
-formulas:
-  Link: link(file, note["title"])
 summaries:
   Filled: values.filter(!value.isType("null")).length
-properties:
-  formula.Link:
-    displayName: Title
 views:
   - type: table
     name: Posts
@@ -16,7 +11,8 @@ views:
       property: draft
       direction: ASC
     order:
-      - formula.Link
+      - file.name
+      - title
       - tags
       - date
       - draft
@@ -27,7 +23,8 @@ views:
       - property: file.size
         direction: DESC
     columnSize:
-      formula.Link: 379
+      file.name: -82
+      note.title: 314
       note.tags: 303
       note.date: 116
       note.draft: 20
