@@ -3,8 +3,7 @@ title: Wings of Fire!
 tags:
   - bookworming
   - media
-date: 2026-02-21
-draft: true
+date: 2026-03-14
 ---
 
 I thought I heard that book 15 was the last book. Apparently either I was wrong or the author wanted to cash back in on this series. But regardless, *Wings of Fire* is getting book 16!
@@ -89,13 +88,17 @@ I was going to do a ranking but I found that too hard. There are things I loved 
 
 ## Legend 2: Dragonslayer
 
-I put this here because it's related to the first arc despite being the second *Legend*. It's about the humans who killed Queen Oasis.
+I put this here because it's related to the first arc despite being the second *Legend*. It's about the humans who killed Queen Oasis. And boy do I have *problems* with it.
 
 This was published in 2020, after book 13 and before 14, and you can clearly see the style difference when coming straight from book 5, published in 2014. First of all, why is there so much capitalization? I get it, Wren is screamy and loud, but you were capable of writing Tsunami without this much capitalization. I would say that the author is capable of portraying screamy and loud dialog without overusing capitalization; the current dialog is loud enough if the capitals were switched to italics or just simply normal lowercases. But she insisted on using a ton of them anyways.
 
 If I'm quite honest, it was a little boring. Or maybe I'm just burnt out from bingeing the first five, but this book hadn't managed to hook my attention as much. The characters feel uninteresting, and the human settlements are also just kinda weird.
 
-So Talisman is some sort of theocratic dictatorship of the dragonmancers… I can stand that. But Heath is somehow the lord of Valor? The guy who led a bunch of dragons home and got it burned down? You'd think they'd have grabbed the tail barb and stabbed him with it! In no way would a normal-ass person think Heath is a hero. I know the reasoning is that as someone who killed a dragon (at least they think he did), he is strong and powerful, and also he has treasure; but y'know the association is always because killing a dragon protects your home from them. They did the exact opposite of that. Honestly I think the crime started when none of the three burglars died in the encounter with Queen Oasis.
+So Talisman is some sort of theocratic dictatorship of the dragonmancers… I can stand that, but if their apprentices keep dying, then why do people still think a dragonmancer apprentice is an honorable job? You know, when most of them die, you'd think people would stop sending their kids over. Does your kid becoming an apprentice even get you on any good standing with the dragonmancers? I have to assume so, otherwise the people would appear way too stupid.
+
+And Heath is somehow the lord of Valor? The guy who led a bunch of dragons home and got it burned down? You'd think they'd have grabbed the tail barb and stabbed him with it! In no way would a normal-ass person think Heath is a hero. I know the reasoning is that as someone who killed a dragon (at least they think he did), he is strong and powerful, and also he has treasure; but y'know the association is always because killing a dragon protects your home from them. They did the exact opposite of that. He doesn't even *spend* the treasure. I don't think power is a treasure leaderboard and people automatically respect you if you have a stash of it, you know. Honestly I think the crime started when none of the three burglars died in the encounter with Queen Oasis.
+
+In addition, *what* is the general perception of treasure smugglers in this world? Why is Heath regarded as a super rich hero with his stolen treasure, but the dragonmancers smuggling treasure is supposed to make us think badly of them?
 
 The characters… Wren, dear, I know you're mad at your village and you're right to do so, but in a world where dragons eat humans, I don't think siding with dragons is the best choice. You literally only really met one dragon, a lone dragonet without a mother; that's not enough for you to decide that dragons are just better than humans! Where's the Glory energy? Would Glory have sided with the NightWings because she was mad at the RainWings and also she grew up with Starflight?
 
@@ -105,7 +108,9 @@ Violet and Daffodil's bickering is boring to sludge through. Their arguments don
 
 The really good thing about this book though, was how it all lined up with the dragons' arc. The scavenger Scarlet ate when Clay and Tsunami first encountered her was Mushroom. The ones Tsunami and Starflight fought were Rowan, Raspberry, and the two other guys there. The scavenger Clay helped up the cliff was Leaf. (The chapter ending there was annoying though, since we already know Clay was merely helping the scavenger. Same with the chapter ending when Stonemover told Sunny the prophecy wasn't real, because we already know that. It would've way better ended when he told her NightWings don't have powers anymore, because we don't technically know that at that point.[^5]) And we get the scavengers' perspective from the encounter with Sunny.
 
-I think ultimately my biggest gripe is… the author should not have involved humans. Just keep them as scavengers; the dragon world is good enough. This also comes up double-fold in the third arc. And involving humans is dangerously close to the "these two groups of creatures (one group genocided the other group by the way) just need to understand each other more" flavor of fantasy racism, because last time I checked humans weren't biting dragons' heads off. Or maybe from the dragons' perspective it's an advocacy for vegetarianism, which I don't like either because I don't like vegetarianism. But from the humans' perspective, no excuses. Don't make friends with giant dragons who literally eat you. Ultimately the main purpose of this book was to pave the grounds for Wren and Sky's appearance in Arc 3, where they should not have appeared at all.
+I think ultimately my biggest gripe is… the author should not have involved humans. Just keep them as scavengers; the dragon world is good enough. This also comes up double-fold in the third arc. The message the author gives out is how humans and dragons should understand and communicate with each other, rather than hating and wanting to kill each other, yet ironically the book ends on Sky terrorizing not one, not three, but *two* human settlements. I see, so the way to facilitate connection between humans and dragons is to prove the humans right that dragons are dangerous and scary.
+
+This is just the "these two groups of creatures (one group genocided the other group by the way) just need to understand each other more" flavor of fantasy racism, because last time I checked humans weren't biting dragons' heads off. Or maybe from the dragons' perspective it's an advocacy for vegetarianism, which I don't like either because I don't like vegetarianism. But from the humans' perspective, no excuses. Don't make friends with giant dragons who literally eat you. Ultimately the main purpose of this book was to pave the grounds for Wren and Sky's appearance in Arc 3, where they should not have appeared at all. The only thing enjoyable about it was seeing the same scenes we saw in Arc 1 play out in the humans' perspective.
 
 [^1]: I feel like the only two kinds of book reviews I do are either bashing on the book or praising the book to heaven and either way it involves talking about everything in it.
 [^2]: The curse of writing a book too good and writing it too well for the target audience?
