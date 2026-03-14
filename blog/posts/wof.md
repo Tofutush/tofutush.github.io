@@ -102,6 +102,8 @@ In addition, *what* is the general perception of treasure smugglers in this worl
 
 The characters… Wren, dear, I know you're mad at your village and you're right to do so, but in a world where dragons eat humans, I don't think siding with dragons is the best choice. You literally only really met one dragon, a lone dragonet without a mother; that's not enough for you to decide that dragons are just better than humans! Where's the Glory energy? Would Glory have sided with the NightWings because she was mad at the RainWings and also she grew up with Starflight?
 
+And speaking of, how did Sky even know how to speak Dragon? He grew up alongside Wren!
+
 Leaf was quite stupid but I'm more interested in Rowan. If she could train Leaf into such a strong warrior… where did *she* learn her fighting from? Just from practicing with her friends and figuring shit out?
 
 Violet and Daffodil's bickering is boring to sludge through. Their arguments don't even have any meaning behind them like the prophecy dragonets'; it's just them going "nuh-uh" and "yeah-huh" back and forth constantly.
