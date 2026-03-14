@@ -3,9 +3,19 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Dragonslayer — Tui Sutherland
+reading: Moon Rising — Tui Sutherland
 
 playing: Disco Elysium (again, after like two years)
+
+---
+
+date: 2026-03-13
+
+tags: status
+
+content:
+
+Great, the spring break hasn't even started and I already cut my hand. very funny.
 
 ---
 
