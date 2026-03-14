@@ -9,6 +9,16 @@ playing: Disco Elysium (again, after like two years)
 
 ---
 
+date: 2026-03-14
+
+tags: ramble
+
+content:
+
+All research paper PDFs should be obliged to have tables of contents embedded in the file.
+
+---
+
 date: 2026-03-13
 
 tags: status
