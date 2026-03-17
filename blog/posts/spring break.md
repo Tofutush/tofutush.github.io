@@ -6,7 +6,7 @@ date: 2026-03-15
 draft: true
 ---
 
-*Or, watch me struggle to live.*
+*Or, watch me struggle not to kill myself.*
 
 Spring break. I really don't know whether other schools routinely chase kids out their dorms, but this time instead of staying at my friend's house again I chose to stay in the dorm for an additional fee. I don't want to bother my friend too much with my bullshit.
 
@@ -35,3 +35,9 @@ After making lunch, it was raining. Thank fuck I no longer need to go outside.
 I am also stuck worrying about my academic plan. Firstly, there's a class I can only register for if I have a certain number of credits. And that was a thing I forgot to consider — *after* this semester, I would have enough credits, but while I register for next semester's courses, the current semester is still in progress, meaning I don't *actually* have the credits I'm currently taking.
 
 I emailed advising, but since it's spring break, they would only answer afterwards. The wait is painful. Maybe I should go ask on Reddit.
+
+For dinner, I originally planned to make broccoli but I forgot to bring down the pot so I can't blanch it. So I went for onions again. Then I realized I forgot the plate again but at that point I had already cut the onion so I just went back and grabbed the plate.
+
+Someone replied to my Reddit post and told me I can indeed register for that course. Phew.
+
+I've been cracking my neck a lot but I'm suddenly very scared of accidentally killing myself doing that. Fuck.
