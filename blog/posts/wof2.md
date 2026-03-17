@@ -11,6 +11,8 @@ Part 2 of my review of the entire Wings of Fire series. Same rules apply, **spoi
 
 ## 6. Moon Rising (Moonwatcher)
 
+I was a bit worried there, about bringing the NightWing powers back immediately after saying they don't exist. Random ideas to further plot territory, but the author executed it extremely well (which is why I think she had this in mind way before.)
+
 ## 7. Winter Turning (Winter)
 
 ## 8. Escaping Peril (Peril)

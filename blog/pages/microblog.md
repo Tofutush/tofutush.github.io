@@ -9,6 +9,18 @@ playing: Disco Elysium (again, after like two years)
 
 ---
 
+date: 2026-03-17
+
+tags: ramble
+
+content:
+
+Coach bots on chess.com: you're amazing! Wonderful move!
+
+Me: I have literally no idea what I'm doing.
+
+---
+
 date: 2026-03-14
 
 tags: ramble

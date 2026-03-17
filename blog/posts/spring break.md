@@ -41,3 +41,7 @@ For dinner, I originally planned to make broccoli but I forgot to bring down the
 Someone replied to my Reddit post and told me I can indeed register for that course. Phew.
 
 I've been cracking my neck a lot but I'm suddenly very scared of accidentally killing myself doing that. Fuck.
+
+---
+
+Day 4, broccoli day. I didn't blanch them enough, because turns out the blanching is the part where you cook them, and putting them in the pan later is just symbolical. And I didn't cook them enough there. But thankfully it wasn't unedible.
