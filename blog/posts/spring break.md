@@ -45,3 +45,7 @@ I've been cracking my neck a lot but I'm suddenly very scared of accidentally ki
 ---
 
 Day 4, broccoli day. I didn't blanch them enough, because turns out the blanching is the part where you cook them, and putting them in the pan later is just symbolical. And I didn't cook them enough there. But thankfully it wasn't inedible.
+
+---
+
+Day 5, I tried something very incredibly innovative and daring. A sandwich! I fried two eggs and put them between two pieces of bread. Very nice.
