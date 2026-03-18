@@ -13,6 +13,14 @@ Part 2 of my review of the entire Wings of Fire series. Same rules apply, **spoi
 
 I was a bit worried there, about bringing the NightWing powers back immediately after saying they don't exist. Random ideas to further plot territory, but the author executed it extremely well (which is why I think she had this in mind way before.)
 
+One gripe I had was that I realized the author was literally just telling us about the characterization. Not Moon's mind-reading, but Qibli's observations that Moon got secondhand. Most of Moon's mind-reading still only shows us things about the characters, but Qibli would make an extremely smart and to-the-point observation and Moon would hear that. *Carnelian is insecure; Winter thinks he's not worth a lot to his family*, Qibli thinks, and Moon hears. Darkstalker too. *Qibli is desperate,* he thinks, and Moon hears, and we read. It's more subtle, because putting the words "Winter thinks he's not worth a lot to his family" on the text would make any editor scream at you, but doing it in this roundabout way is seemingly fine. It's not completely obnoxious, though, as it does characterize Qibli as smart and observative, but it gets to a point.
+
+What I really like about Moon's mind-reading, though, is that aside from portraying their thoughts as italicized dialog, she also senses vague things, like Sora's mud ritual, and abstract arms dealing abstract physics with thoughts, especially with how Flame's thoughts dragged her down and Darkstalker pulling her out of it. This is something that truly cannot be expressed to its fullest if not within a pure text medium. I may actually be curious about how the comic books handled this, but I take one more look at the ugly-ass pictures and I don't want to.
+
+I also relate to Moon a lot, regretfully. The anxiety of thinking people won't like you is all too real. Too bad the book, despite trying to the entire time, failed to convince me that everyone thinks the same way and are too busy worrying about how others think of them to really think about others. I mean. I think about others a lot. How does their life look like. What made them that way. Like Blue. But I guess, I don't judge them a lot? I do judge some people admittedly. Well.
+
+As for the main plot. Great. Layers of intents and schemes; it's like every students has an agenda. First Sora wanted to kill Icicle, but then she wasn't the dragon conspiring with Scarlet; Icicle was. Onyx is also plotting stuff of her own, though in this book it's only foreshadowed. Flame would also go ahead to cause shit later; all of these are already hinted at right here.
+
 ## 7. Winter Turning (Winter)
 
 ## 8. Escaping Peril (Peril)
