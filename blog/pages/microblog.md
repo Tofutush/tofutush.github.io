@@ -3,9 +3,19 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Moon Rising — Tui Sutherland
+reading: Winter Turning — Tui Sutherland
 
-playing: Disco Elysium (again, after like two years)
+playing: Chants of Sennaar
+
+---
+
+date: 2026-03-20
+
+tags: media, playing, chants-of-sennaar
+
+content:
+
+Decidedly I think Myst and Disco Elysium were both better off if I just watched playthrough videos. Finally starting Chants of Sennaar and I feel really smart! I could guess all the glyphs so far.
 
 ---
 

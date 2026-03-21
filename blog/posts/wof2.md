@@ -23,6 +23,8 @@ As for the main plot. Great. Layers of intents and schemes; it's like every stud
 
 ## 7. Winter Turning (Winter)
 
+Okay so Hailstorm wasn't even captured in battle… He was captured while sneaking into the Sky Kingdom looking for scavengers. And the dragons still want him back bad. Perks of being the favorite child?
+
 ## 8. Escaping Peril (Peril)
 
 ## 9. Talons of Power (Turtle)
