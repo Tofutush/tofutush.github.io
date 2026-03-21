@@ -2,13 +2,12 @@
 title: Spring break survival
 tags:
   - diary
-date: 2026-03-15
-draft: true
+date: 2026-03-21
 ---
 
-*Or, watch me struggle not to kill myself.*
+*Or, watch me struggle not to poison, stab, or otherwise murder myself.*
 
-Spring break. I really don't know whether other schools routinely chase kids out their dorms, but this time instead of staying at my friend's house again I chose to stay in the dorm for an additional fee. I don't want to bother my friend too much with my bullshit.
+Spring break. I really don't know whether other schools routinely kick kids out their dorms, but this time instead of staying at my friend's house again I chose to stay in the dorm for an additional fee. I don't want to bother my friend too much with my bullshit.
 
 But no matter what I do, it seems that bullshit ensues. On day 0, the break hasn't even started, I cut my finger with that godawful sharp new knife. And I didn't even get to cut the meat because I took it out the freezer too late.
 
@@ -49,3 +48,17 @@ Day 4, broccoli day. I didn't blanch them enough, because turns out the blanchin
 ---
 
 Day 5, I tried something very incredibly innovative and daring. A sandwich! I fried two eggs and put them between two pieces of bread. Very nice.
+
+---
+
+Day 6, I met up with a friend from high school in DC. We went to this pho place said to be the best pho in DC, and they aren't wrong. Not that I had been to any other pho restaurants in DC, but it was good. Or maybe I just hadn't had proper food in so long that anything remotely good would make me this happy.
+
+Afterwards, I found out I still had quite a bit of time, so we went to the National Museum of the American Indian. We only got to see one floor though (the fourth), and while it was informative, the language was super whitewashy, with a lot of passive voice when describing atrocities done to the native people, never directly pointing out the perpetrators. When I first saw the line "often broken, sometimes coerced, treaties still define mutual obligations between the United States and Indian Nations" I knew the entire exhibit was going to be full of that. But it was still a good visit, I guess.
+
+---
+
+Day 7. I started rationing my eggs to avoid another grocery trip, but I had just enough to make it to the end with half an onion to spare. However, I broke a fucking egg at lunch. The first time in my entire life I broke an egg. I have been cracking many, many eggs, and while not always perfectly, I had never accidentally broken one before. Rolled off the counter onto the floor The first time that occurs I happen to be on a ration. Very funny. I fried some broccoli in addition to the onions to make up for the loss.
+
+---
+
+Day 8. Victory is in sight. I went through the day fine, except that at dinner, some parts of the eggs are even burnt but there was one really raw juicy chunk near the end? How?? I hate any egg that's not mildly overcooked. That sucked. But my friends are coming back tomorrow! The cafeteria is also opening tomorrow and I will be the first to be there.
