@@ -25,6 +25,10 @@ As for the main plot. Great. Layers of intents and schemes; it's like every stud
 
 Okay so Hailstorm wasn't even captured in battle… He was captured while sneaking into the Sky Kingdom looking for scavengers. And the dragons still want him back bad. Perks of being the favorite child?
 
+Also, the ranking wall must either be huge, or there aren't that many dragons in the aristocracy. But the Ice Palace is *beautiful*, with the blue glowy walls with snowflakes in them, and the gift of light sounds lovely.
+
+I feel like this book spends more time setting things up for later than actually doing stuff, since *technically* Hailstorm's whole thing was a tangent and also just an intro to the dragon-changing magic, but Winter's personal development is great. He grapples with his feelings for Moon and learns to work with dragons from other tribes, and grows to unlearn what he had been taught as an IceWing. His whole "ugh I hate NightWings! Wait but I love Moon ugh" thing does get a little annoying though, but that's fine.
+
 ## 8. Escaping Peril (Peril)
 
 ## 9. Talons of Power (Turtle)

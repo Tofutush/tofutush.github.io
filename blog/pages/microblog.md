@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Winter Turning — Tui Sutherland
+reading: Escaping Peril — Tui Sutherland
 
 playing: Chants of Sennaar
 
