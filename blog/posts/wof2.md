@@ -31,6 +31,8 @@ I feel like this book spends more time setting things up for later than actually
 
 ## 8. Escaping Peril (Peril)
 
+Peril finally resolves things with Scarlet. Speaking of, despite this arc mainly being about Darkstalker, it does spend quite a bit of time doing other stuff, like the Hailstorm thing and the Scarlet thing. But they all have important personal development and set things up for the main plot. The important thing here is that Peril is finally free of Scarlet and can be the dragon she chooses to be, instead of who Scarlet wants her to be.
+
 ## 9. Talons of Power (Turtle)
 
 Well, there goes the naming pattern. But I guess "Turtle" isn't a good word to put in any book title.
