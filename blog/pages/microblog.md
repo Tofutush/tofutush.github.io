@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 
 reading: Escaping Peril — Tui Sutherland
 
-playing: Chants of Sennaar
+playing: Stardew Valley
 
 ---
 

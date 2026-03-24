@@ -8,11 +8,13 @@ title: Listography
 
 ### Books
 
-- John le Carré ([post](/posts/2025-05-19), [post for A Perfect Spy](/posts/2025-12-09))
 - Cain's Jawbone by Torquemada
 - Wings of Fire series by Tui Sutherland
+	- [Arc 1](/posts/2026-03-14)
 
 #### John le Carré
+
+([First post](/posts/2025-05-19))
 
 - ~~Call for the Dead~~
 - ~~A Murder of Quality~~
@@ -23,7 +25,7 @@ title: Listography
 - ~~The Honourable Schoolboy~~
 - ~~Smiley's People~~
 - ~~The Little Drummer Girl~~
-- ~~A Perfect Spy~~
+- ~~[A Perfect Spy](/posts/2025-12-09)~~
 - **The Russia House**
 - The Secret Pilgrim
 - The Night Manager
@@ -258,4 +260,3 @@ Some languages have their language name written in that language which is a tiny
 - Latvian
 - Russian
 - Yi ꆈꌠꁱꂷ
-
