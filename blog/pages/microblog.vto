@@ -140,13 +140,14 @@ title: Microblog
 			<label><input type="radio" id="status" name="tag" />#status</label>
 			<label><input type="radio" id="中文" name="tag" />#中文</label>
 			<label><input type="radio" id="tir" name="tag" />#tir</label>
+			<label><input type="radio" id="sandstorm" name="tag" />#sandstorm</label>
 			<label><input type="radio" id="media" name="tag" />#media</label>
 		</section>
 		<details class="more-tags">
 			<summary>More tags</summary>
 			<section>
 				{{ for t of microblog.tags }}
-					{{ if !['ramble', 'status', '中文', 'media', 'tir'].includes(t) }}
+					{{ if !['ramble', 'status', '中文', 'media', 'tir', 'sandstorm'].includes(t) }}
 						<label><input type="radio" id="{{ t }}" name="tag" />#{{ t }}</label>
 					{{ /if }}
 				{{ /for }}
