@@ -29,6 +29,8 @@ Also, the ranking wall must either be huge, or there aren't that many dragons in
 
 I feel like this book spends more time setting things up for later than actually doing stuff, since *technically* Hailstorm's whole thing was a tangent and also just an intro to the dragon-changing magic, but Winter's personal development is great. He grapples with his feelings for Moon and learns to work with dragons from other tribes, and grows to unlearn what he had been taught as an IceWing. His whole "ugh I hate NightWings! Wait but I love Moon ugh" thing does get a little annoying though, but that's fine.
 
+The effects of trying on the Pyrite spell, how Winter now feels the appeal of being a SkyWing now that he had experienced being one, is presented far more naturally than (at least in my memory) Blue. Winter was literally experiencing another tribe's dragon's thoughts, even for just a short while, and that challenged the notion of IceWing supremacy he had been taught since birth.
+
 ## 8. Escaping Peril (Peril)
 
 Peril finally resolves things with Scarlet. Speaking of, despite this arc mainly being about Darkstalker, it does spend quite a bit of time doing other stuff, like the Hailstorm thing and the Scarlet thing. But they all have important personal development and set things up for the main plot. The important thing here is that Peril is finally free of Scarlet and can be the dragon she chooses to be, instead of who Scarlet wants her to be.
