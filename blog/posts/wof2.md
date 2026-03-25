@@ -35,6 +35,12 @@ The effects of trying on the Pyrite spell, how Winter now feels the appeal of be
 
 Peril finally resolves things with Scarlet. Speaking of, despite this arc mainly being about Darkstalker, it does spend quite a bit of time doing other stuff, like the Hailstorm thing and the Scarlet thing. But they all have important personal development and set things up for the main plot. The important thing here is that Peril is finally free of Scarlet and can be the dragon she chooses to be, instead of who Scarlet wants her to be.
 
+The conclusion with Scarlet is perfect. Peril frees herself from her, and aid Ruby while doing so, but Ruby gets to claim the throne in the proper manner too. She forgave Peril now that she knew she didn't kill Tourmaline, and understood her situation after Scarlet threatened to make Cliff another Peril.
+
+And I like when Peril had her memories of Clay wiped, it was the memory of her new friend Turtle that helped her stay (a little) sane. But ultimately though it was still Clay that fundamentally changed her, the way Cliff changed Ruby. Also proving how it wasn't her firescales that made her dangerous, it was her loyalty to Scarlet, as even without her firescales, she was still a danger to other dragons as long as she worked for Scarlet.
+
+I don't remember whether the MudWing in Ruby's guards and how Chameleon found Darkstalker's scroll was mentioned later, though.
+
 ## 9. Talons of Power (Turtle)
 
 Well, there goes the naming pattern. But I guess "Turtle" isn't a good word to put in any book title.

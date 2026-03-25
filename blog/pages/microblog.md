@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Escaping Peril — Tui Sutherland
+reading: Talons of Power — Tui Sutherland
 
 playing: Stardew Valley
 
