@@ -3,14 +3,12 @@ layout: layout.vto
 title: Home
 ---
 
-<h1>Pages</h1>
-<ul>
+<section class="pages">
 	{{ for p of collections.pages |> sortPages }}
-		<li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
+		<a href="{{ p.url }}">{{ p.data.title }}</a>
 	{{ /for }}
-</ul>
+</section>
 
-<h1>Blog</h1>
 <div class="grid">
 	{{ for p of collections.posts |> sortPosts }}
 		<span class="date">{{ p.data.date |> formatDate }}</span>
