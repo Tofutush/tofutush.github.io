@@ -177,6 +177,7 @@
       main:has(#playing:checked) article[class~="playing"],
       main:has(#pumpkin:checked) article[class~="pumpkin"],
       main:has(#ramble:checked) article[class~="ramble"],
+      main:has(#sandstorm:checked) article[class~="sandstorm"],
       main:has(#sky:checked) article[class~="sky"],
       main:has(#sparky:checked) article[class~="sparky"],
       main:has(#status:checked) article[class~="status"],
@@ -208,6 +209,7 @@
       main:has(#playing-exclude:checked) article[class~="playing"],
       main:has(#pumpkin-exclude:checked) article[class~="pumpkin"],
       main:has(#ramble-exclude:checked) article[class~="ramble"],
+      main:has(#sandstorm-exclude:checked) article[class~="sandstorm"],
       main:has(#sky-exclude:checked) article[class~="sky"],
       main:has(#sparky-exclude:checked) article[class~="sparky"],
       main:has(#status-exclude:checked) article[class~="status"],
@@ -248,6 +250,7 @@
           <label><input type="radio" id="status" name="tag" />#status</label>
           <label><input type="radio" id="中文" name="tag" />#中文</label>
           <label><input type="radio" id="tir" name="tag" />#tir</label>
+          <label><input type="radio" id="sandstorm" name="tag" />#sandstorm</label>
           <label><input type="radio" id="media" name="tag" />#media</label>
         </section>
         <details class="more-tags">
@@ -280,6 +283,17 @@
         </details>
       </section>
     </details>
+    <article class="post sandstorm" id="75">
+      <section class="post-title"><a class="permalink" href="#75">#75</a> <span class="date">2026-03-24</span></section>
+      <section class="content">
+        <p dir="auto"><img src="../img/sandstorm-2026-03-24.png" alt=""></p>
+        <p dir="auto"><img src="../img/samdstorm-2026-03-24%202.png" alt=""></p>
+        <p dir="auto"><img src="../img/sandstorm-2026-03-24%203.png" alt=""></p>
+      </section>
+      <section class="post-tags">
+        <label for="sandstorm">#sandstorm</label>
+      </section>
+    </article>
     <article class="post media playing chants-of-sennaar" id="74">
       <section class="post-title"><a class="permalink" href="#74">#74</a> <span class="date">2026-03-20</span></section>
       <section class="content">
@@ -1048,13 +1062,14 @@
         <label for="meta">#meta</label>
       </section>
     </article>
-    <p class="center">Inspired by <a href="https://nomnomnami.com/templates/">Nomnomnami</a>! <script>
-        let prev = localStorage.getItem('mb-loc') || 1;
-        document.querySelector('#jump').href = '#' + prev;
-        let curr = document.querySelectorAll('article.post')[0].id;
-        if (curr > prev) localStorage.setItem('mb-loc', curr);
-      </script>
-      <hr />
+    <p class="center">Inspired by <a href="https://nomnomnami.com/templates/">Nomnomnami</a>!</p>
+    <script>
+      let prev = localStorage.getItem('mb-loc') || 1;
+      document.querySelector('#jump').href = '#' + prev;
+      let curr = document.querySelectorAll('article.post')[0].id;
+      if (curr > prev) localStorage.setItem('mb-loc', curr);
+    </script>
+    <hr />
     <p><a href="/">Home</a></p>
   </main>
 </body>
