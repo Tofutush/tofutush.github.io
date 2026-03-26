@@ -9,6 +9,16 @@ playing: Stardew Valley
 
 ---
 
+date: 2026-03-26
+
+tags: ramble
+
+content:
+
+Just figured out to change the terminal cursor from a block to a line. Whoever likes using the block must be a super warrior. Respects.
+
+---
+
 date: 2026-03-24
 
 tags: sandstorm
