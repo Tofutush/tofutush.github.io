@@ -12,7 +12,7 @@ I'm bilingual, in case you haven't noticed.
 
 I learned English when I went to school in the US for a year when I was 8. I don't even remember learning it; I got put in a classful of English speakers and then at the end of the year I just could speak it now.
 
-There was this one ABC kid who was like two grades older than me, and would sometimes help me when he was free. I remember him helping me with my math homework one time. He was desperately searching for the Chinese word for "area," but blanked on it, and asked me "you know what area means, right?" I was like yeah. Circumference. I bet he thought I was stupid.
+There was this one ABC kid who was like two grades older than me, and would sometimes help me when he was free. I remember him helping me with my math homework one time. He was desperately searching for the Chinese word for "area," but blanked on it, and asked me "you know what area means, right?" I was like yeah. Circumference. I bet he thought I was stupid. Not that I'm not, but at least I can calculate the area of a rectangle.
 
 And since I was there for a calendar year, not a school year, I attended the second half of second grade and the third half of third grade. In third grade they started teaching cursive. They started from the lowercase letters, of course; and in the later half of the year they started on the capitals, and by then I was long gone. To this day I still can't write capital cursive letters, LOL.
 

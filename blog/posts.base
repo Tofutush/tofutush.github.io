@@ -22,7 +22,7 @@ views:
         direction: DESC
     columnSize:
       file.name: -82
-      note.title: 314
+      note.title: 332
       note.tags: 303
       note.date: 116
       note.draft: 20
