@@ -18,6 +18,8 @@ And since I was there for a calendar year, not a school year, I attended the sec
 
 The teacher made my classmates each write me a page of goodbyes and stapled all of them into a book. I may or may not still have it.
 
+When I got back to China, I kept it up by reading a lot of English books. Mostly *Warriors*, and other children's fiction. They're usually written in the past tense, so now I'm still more used to talking in the past tense rather than the present.
+
 But anyways, all that is to say, remember that ABC kid who couldn't remember what the Chinese for "area" was? He knew what the Chinese for "area" was; that's for sure. But if you showed him the English word "area" and asked him for its Chinese translation, he would blank out. I would too. I find it hard to translate between the two, even when a sentence and its other language equivalent would've been perfectly understandable when presented to me alone.
 
 I don't know how common exactly is this, but I know there are four (4) people who are like this and by my flawless induction it means all bilingual people are like this. And with a quick Google search, it seems that it's pretty much understood that being bilingual does not mean you can translate between two languages.
@@ -26,7 +28,7 @@ It takes practice. When I was reading *Wings of Fire*, I got a copy of a Chinese
 
 But the question now becomes: if someone learns a language Duolingo-style (i.e. translating every sentence and every word into their native language), would they be able to translate well? Or would they fail to become fluent at all? I have no fucking idea LOL and I just reminded myself I hadn't done my Anki flashcards today yet. BRB.
 
-Anyways. When I got back to China, my parents took full advantage of my language skills and got me to do a ton of stuff like public speaking competitions, debates, model UN shit. Ultimately all of them are a colossal waste of time.
+Anyways. When I got back to China, my parents took full advantage of my language skills and got me to do a ton of stuff like public speaking competitions, debates, model UN shit. Ultimately all of them were a colossal waste of time.
 
 Take debate for example. My parents got me to do English debates because they knew I could never beat anyone in Chinese ones but I have a marginal advantage in a room full of ESLs. But what could I possibly have to say about an issue I don't care about? The sides are randomly assigned too, so how can I argue for something I don't even agree with?
 
