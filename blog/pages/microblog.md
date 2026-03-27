@@ -452,7 +452,7 @@ tags: ramble
 
 content:
 
-*\*Doing homework\** I cringe with every word I type… is this really my writing??
+*\*Doing homework*\* I cringe with every word I type… is this really my writing??
 
 ---
 
