@@ -3,8 +3,7 @@ title: Being bilingual (and more)
 tags:
   - ramble
   - diary
-date: 2026-03-09
-draft: true
+date: 2026-03-26
 ---
 
 (This post grew to be way longer and more ranty than I expected LOL, hence the added diary tag. That tag is for talking about anything I actually did IRL, no matter how far ago. Also parts of it sounds a bit negative, but I assure you most of my feelings when writing this post is positive. Consider the negative parts catharsis.)
@@ -68,7 +67,7 @@ There was also an individual interview thing where they ask you how you learned 
 
 The only impressive thing I saw there was that the music was played in real-time. There was a guy at the keyboard piano, playing whatever fits the mood and switching tunes seamlessly. That was super cool.
 
-But anyways. Do you know what my parents should've had me do, instead of all these shitfuckery? *Simultaneous interpretation*. That shit sounds so fucking cool. Sit next to a diplomat whispering the words of the other diplomat into their ear. One wrong word and I start a war. One kind lie and I avert a crisis. Of course actually doing diplomatic interpretation would be too much of a fantasy, but many many skills surrounding interpretation are also amazing to have. You have to listen, translate, and speak all at the same time. Right now, I couldn't understand anything if two people are talking to me at the same time. Imagine if I had the training. That would be epic. I would be so cool. Or maybe I would whine and give up. That sounds more like me. But I can imagine.
+But anyways. Do you know what my parents should've had me do, instead of all these shitfuckery? *Simultaneous interpretation*. That shit sounds so fucking cool. Sit next to a diplomat whispering the words of the other diplomat into their ear. One wrong word and I start a war. One kind lie and I avert a crisis. Of course actually doing diplomatic interpretation would be too much of a fantasy, but many many skills surrounding interpretation are also amazing to have. You have to listen, translate, and speak all at the same time. Right now, I couldn't understand anything if two people are talking to me at the same time. Imagine if I had the training. That would be epic. I would be *so cool*. Or maybe I would whine and give up. That sounds more like me. But I can imagine.
 
 Of course, it's never too late to start, but I'm lazy and by writing this blog post I'm already procrastinating on my homework LOL.
 
