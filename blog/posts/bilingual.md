@@ -1,5 +1,5 @@
 ---
-title: Being bilingual (and more)
+title: Being bilingual (and associated shitfuckery)
 tags:
   - ramble
   - diary
