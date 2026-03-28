@@ -45,6 +45,20 @@ I don't remember whether the MudWing in Ruby's guards and how Chameleon found Da
 
 Well, there goes the naming pattern. But I guess "Turtle" isn't a good word to put in any book title.
 
+This book is my favorite out of the five. I find it hard to rank the other four but this one is definitely at the top. Not only is Turtle relatable, this book also actually advanced the main Darkstalker plot for once.
+
+First off we see the defining moment in Turtle's life, when he failed to find Snapper and that resulted in his little sisters dying. He gave up writing because he realized he would never be the hero the stories described. He's a failure, and he wouldn't even try to be anything else.
+
+Until he went to Jade Mountain. You could say his bravery, at least initially, was only circumstantial. He got put on the spot as the only animus that Darkstalker could not yet control, and the only dragon that Darkstalker could not even see. But he did take the first step, by following Peril out. And then when he got to the Deep Palace, he found out the truth, that he couldn't have found Snapper anyways because she was away. It wasn't his fault. The defining moment of his life reversed.
+
+There are so many epic scenes in this book. Or maybe just two, IDK, but I loved the scene where Turtle revealed his animus powers to Anemone, casting an array of spells to free her from Darkstalker and turn the dagger to sand, as Anemone watched in astonishment. I mean, just imagine the scene from Anemone's perspective. And when he threw the stick to Anemone. "A thousand futures must've appeared in his mind" (paraphrased), and then it was gone in a second as Anemone caught the stick, and Turtle had traded away his safety and invisibility for a chance at defeating Darkstalker.
+
+Also have I mentioned that the author is really good? Maybe about a billion times but by making Turtle a stupid cowardly bundle of kelp, she solved a lot of questions involving "hey why didn't Turtle simply use his magic to solve this problem." Also, animus powers are way too OP anyways. Putting stuff like that in a story is quite risky, but she pulled it off simply amazingly. First she made the animus lose a bit of their soul every time a spell is cast. A somewhat abstract but ultimately compelling price. Then that sparked the whole debate about how power corrupts.
+
+And then there's Darkstalker, the ultimate Mary Sue. Animus, strong mind-reading and prophecy powers, made himself invincible and immortal. How could they defeat such an overpowered dragon? To be revealed in the next book, LOL.
+
+Also, remember when Darkstalker said "SandWings didn't have that much treasure in our time, they must've looted the old Night Kingdom after we left?" Gee, I wonder if it's because both you and the IceWings were giving them piles of treasure so you could fight in their territory.
+
 ## 10. Darkness of Dragons (Qibli)
 
 Heh. Guess where my [self-insert](https://tofutush.neocities.org/characters/qibli/)'s name came from.
