@@ -3,9 +3,21 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Talons of Power — Tui Sutherland
+reading: Darkness of Dragons — Tui Sutherland
 
 playing: Stardew Valley
+
+---
+
+date: 2026-03-30
+
+tags: ramble
+
+content:
+
+So many books, so little time to read…
+
+Let's see, I gotta finish the Wings of Fire reread and then read book 16, and then there's the spy non-fiction that I need to take notes while reading, and then there's the tons of spy novels, other people's OC fics, and then there's random books I found that I want to read just to find out how bad they are and give myself mental damage…
 
 ---
 
