@@ -63,4 +63,6 @@ Also, remember when Darkstalker said "SandWings didn't have that much treasure i
 
 Heh. Guess where my [self-insert](https://tofutush.neocities.org/characters/qibli/)'s name came from.
 
+The beginning of the book with Winter tagging along Qibli actually evoked a bit of *The Brightest Night* in that it's a little awkward and forced. So for most of the first part, Qibli was there going through life-and-death circumstances while Winter just tagged along.
+
 ## Legends 1: Darkstalker
