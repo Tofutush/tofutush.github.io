@@ -3,6 +3,7 @@ title: Weird dreams I had
 date: 2025-04-21
 tags:
   - diary
+  - dreaming
 ---
 
 [[toc]]
