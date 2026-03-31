@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Darkness of Dragons — Tui Sutherland
+reading: Darkstalker — Tui Sutherland
 
 playing: Stardew Valley
 
