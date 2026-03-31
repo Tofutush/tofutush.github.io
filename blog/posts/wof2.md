@@ -65,4 +65,10 @@ Heh. Guess where my [self-insert](https://tofutush.neocities.org/characters/qibl
 
 The beginning of the book with Winter tagging along Qibli actually evoked a bit of *The Brightest Night* in that it's a little awkward and forced. So for most of the first part, Qibli was there going through life-and-death circumstances while Winter just tagged along.
 
+Qibli and Winter's mooning over Moon is actually one of the more entertaining romantic subplots in the entire series. The best one, I'd even argue. These two should stop looking at Moon and then looking at each other going "oh no he likes Moon too" and just start a polycule. No actually leave Moon out of it. Just Qibli and Winter, they should date.
+
+But what I really liked about this book was how Qibli was not so different from Darkstalker. It's a little similar to *The Dangerous Gift* when Snowfall found her thoughts similar to Wasp's. The book was filled with Qibli thinking about what he could've done if he had animus magic, believing that *he* won't turn evil, that *he* can always do good things with it. He longs for power and to be loved, not knowing that he already has both.
+
+And in the end, they defeated Darkstalker with his own magic, by the RainWing enchanted to be insignificant in his eyes and who had just learnt to write, with a spell written on Chameleon's chunk of Darkstalker's scroll. The conclusion was perfect, Darkstalker, without his powers, starting over as a dragonet again, with his mother. They get to live a new, normal life as mother and son. And every plot point builds up to this moment: Moon's prophecy (and arguably being Qibli and Winter's only will to live), Winter rescuing Foeslayer, Qibli's wits, Turtle's magic, Peril burning the scroll, Chameleon's greed also counts, and Kinkajou being Kinkajou. Perfect conclusion to an absolutely peak arc.
+
 ## Legends 1: Darkstalker
