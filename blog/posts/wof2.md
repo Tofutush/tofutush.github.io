@@ -72,3 +72,5 @@ But what I really liked about this book was how Qibli was not so different from 
 And in the end, they defeated Darkstalker with his own magic, by the RainWing enchanted to be insignificant in his eyes and who had just learnt to write, with a spell written on Chameleon's chunk of Darkstalker's scroll. The conclusion was perfect, Darkstalker, without his powers, starting over as a dragonet again, with his mother. They get to live a new, normal life as mother and son. And every plot point builds up to this moment: Moon's prophecy (and arguably being Qibli and Winter's only will to live), Winter rescuing Foeslayer, Qibli's wits, Turtle's magic, Peril burning the scroll, Chameleon's greed also counts, and Kinkajou being Kinkajou. Perfect conclusion to an absolutely peak arc.
 
 ## Legends 1: Darkstalker
+
+Indigo made me feel weird. I like her character in itself, the mischievous dragon with a disregard for authority, but she's a commoner living in the palace surrounded by royalty. You'd think she'd be really careful so she doesn't get her head cut off, instead of goofing around annoying the queen and future queen.
