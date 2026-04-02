@@ -9,6 +9,16 @@ playing: Is This Seat Taken? (AKA Catering to People's Demands on Public Transpo
 
 ---
 
+date: 2026-04-02
+
+tags: media, playing, is-this-seat-taken
+
+content:
+
+Amazing. These little shapes can sleep standing.
+
+---
+
 date: 2026-03-30
 
 tags: ramble
