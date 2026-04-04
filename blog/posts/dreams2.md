@@ -2,7 +2,6 @@
 title: Another weird dream
 tags:
   - diary
-  - dreaming
 date: 2026-03-30
 ---
 
