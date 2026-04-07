@@ -9,6 +9,14 @@ playing: Is This Seat Taken? (AKA Catering to People's Demands on Public Transpo
 
 ---
 
+date: 2026-04-07
+
+tags: status
+
+It's been like four days in a row I didn't sleep properly… My surroundings don't feel real.
+
+---
+
 date: 2026-04-02
 
 tags: media, playing, is-this-seat-taken
