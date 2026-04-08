@@ -9,6 +9,16 @@ playing: Is This Seat Taken? (AKA Catering to People's Demands on Public Transpo
 
 ---
 
+date: 2026-04-08
+
+tags: ramble
+
+content:
+
+Least Dangerous Writing App: if you stop for more than 5 seconds, the previous content you wrote freezes and you can't edit them anymore until you finish the whole book. If you start a new paragraph or chapter the same thing happens. Prevents rewrite death trap but still allows you to fix typos. Also you can't click to move your cursor.
+
+---
+
 date: 2026-04-07
 
 tags: status
