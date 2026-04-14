@@ -5,7 +5,17 @@ eleventyExcludeFromCollections: true
 
 reading: Darkstalker — Tui Sutherland
 
-playing: Is This Seat Taken? (AKA Catering to People's Demands on Public Transport the Game)
+playing: Nothing at the moment
+
+---
+
+date: 2026-04-14
+
+tags: ramble
+
+content:
+
+Went to read something else for a while but it's back to Darkstalker time!
 
 ---
 
