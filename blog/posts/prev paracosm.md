@@ -10,7 +10,7 @@ I've had paracosms long before I knew what paracosms were. I couldn't remember m
 
 Basically, it's very Homestuck-pilled. LOL. Of course. So it's basically about these stick people going to school and doing shenanigans. They're mostly based on me and my classmates, with one signature character from their name being written on their otherwise empty faces, and I squish strokes around to represent emotion. It's very genius, actually. Here's an example.
 
-![](../ming.png)
+![](../img/ming.png)
 
 *(Ming is happy! Versus Ming being sad.)*
 
