@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: Darkstalker — Tui Sutherland
+reading: The Lost Continent — Tui Sutherland
 
 playing: Nothing at the moment
 
