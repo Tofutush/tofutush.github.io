@@ -3,9 +3,19 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Lost Continent — Tui Sutherland
+reading: The Hive Queen — Tui Sutherland
 
 playing: Nothing at the moment
+
+---
+
+date: 2026-04-29
+
+tags: ramble
+
+content:
+
+Reverse engineering professor, out of context: "There's a bomb for everyone!!!"
 
 ---
 
