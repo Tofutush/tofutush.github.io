@@ -35,7 +35,7 @@ Oh and the Librarian has some insane pain tolerance. Pain enough to drive Wasp o
 
 I forgot Clearsight's letter existed. It's still one of the sweetest things I've ever read.
 
-I gave this book a 4.75 on StoryGraph just for the little bit of stuff I disliked about it, but it was still a very peak book.
+I gave this book a 4.75 on StoryGraph just for the little bit of stuff I disliked about it, mostly the flamesilk policy thing, but it was still a very peak book.
 
 ## 12. The Hive Queen (Cricket)
 
