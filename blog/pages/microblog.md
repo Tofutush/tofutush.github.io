@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 
 reading: The Hive Queen — Tui Sutherland
 
-playing: Nothing at the moment
+playing: The Case of the Golden Idol
 
 ---
 
