@@ -5,7 +5,17 @@ eleventyExcludeFromCollections: true
 
 reading: The Hive Queen — Tui Sutherland
 
-playing: The Case of the Golden Idol
+playing: The Rise of the Golden Idol
+
+---
+
+date: 2026-05-06
+
+tags: status
+
+content:
+
+Counting down the days till freedom… Anyway Case of the Golden Idol was really fun (though towards the end I was crutching on walkthroughs).
 
 ---
 
