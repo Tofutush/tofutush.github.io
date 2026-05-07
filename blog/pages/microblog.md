@@ -3,9 +3,19 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Hive Queen — Tui Sutherland
+reading: The Poison Jungle — Tui Sutherland
 
 playing: The Rise of the Golden Idol
+
+---
+
+date: 2026-05-07
+
+tags: ramble
+
+content:
+
+The days look never-ending and the roads are all too long… But I shall persevere…
 
 ---
 
