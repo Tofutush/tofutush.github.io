@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Poison Jungle — Tui Sutherland
+reading: The Dangerous Gift — Tui Sutherland
 
 playing: The Rise of the Golden Idol
 
