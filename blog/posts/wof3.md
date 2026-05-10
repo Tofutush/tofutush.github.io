@@ -61,6 +61,30 @@ Because you see, I have a lot of problems with Wasp's mind control. I've already
 
 If I had a penny every time there's a dragon tribe who live in a forest and whom many dragons have misconceptions about and who have some secret ability which not many other dragons know about in WoF, I'd have two pennies. LeafWings are like the murderous, stabby RainWings.
 
+And like, LeafWings just struck me as… not as outstanding as the nine other tribes. I can't even seriously explain why, but reading about them was just a bore. So you have two tribes, one murderous and stabby, the other gentle and nice. You have the power to communicate with plants, and make them grow faster. Leafspeak was also just a weird power. What exactly can you do? Communicate with plants, alright, but can you command them? When making them grow faster, is that a part of the commanding, or something else entirely? Because communicating certainly doesn't entail making them do things they can't do on their own, but we did see Sundew telling the breath of evil to grow. It's all so weird.
+
+And I just could not bring myself to care about leafspeak, especially after the author laundered scavengers so much. Oh hey NightWing mind-readers sensed that scavengers have emotions! They're smart and we can't eat them no more! Okay now LeafWing leafspeakers also sensed that plants have emotions. Let's just eat nothing now and starve. It's quite jarring how the same grace extended towards scavengers is nowhere present when it comes to these plants. Leafspeakers could *literally* communicate with plants! The plants' dialog is presented in words, not just vague emotions that mind-readers could get from scavengers, but no one is saying "plants aren't food! Stop eating them!" now. I reiterate my point that the whole fiasco with scavengers shouldn't have existed in the first place. To dragons, scavengers should be no different from other prey. Like what even is the point in scavenger-dragon relations. What message is the author trying to give?? It's not even vegetarianism because other prey is still fair game!
+
+And the Poison Jungle. If there's any tribe that could find coexistence with the plants, no matter how dangerous, it's the LeafWings, the literal plant tribe. But they were constantly fighting the Jungle. Even with their leafspeak. I get it, they eat dragons, but like again, I don't believe that even the LeafWings with their leafspeak couldn't manage to do *something* about them other than avoiding them.
+
+I know I had just said something along the lines of "don't make friends with dragons who literally eat you" when reviewing *Dragonslayer*, but in this case I'm sure there is no single LeafWing that are like "all LeafWings are terrible! Dragon traps are clearly better!"
+
+I get that it frames the LeafWings' struggle since the Tree Wars way better if they'd been living very hazardously ever since, but making the hazard a bunch of plants is just… Ugh I don't like it. I don't like it at all. Especially considering, how did the plants even adapt themselves to dragons? In the fifty years when LeafWings were living here? Or before? Who had lived there before then??
+
+And then the final villain is the plant itself? Sequoia and Hawthorn are the real villains because they gave the plant to Wasp? Eating the plant gives you control powers, but breathing in the smoke or getting injected by… someone who… ate the plant… This entire thing is just so incoherent. I don't fucking know what's going on anymore.
+
+The scene where Hawthorn, controlled by the plant, talked to Sundew et al. is also really cringe villain monologue bullshit, and the white eyes thing is just briefly explained that it's some scientific shitfuckery involving second-hand control… Urgh I don't want to think about it too much.
+
+And why didn't the breath of evil grow itself out in all these years with Hawthorn's leafspeak? When did he modify the strain to only work on HiveWings? It has to be before giving it to Wasp, right? But when they first found the plant described in the legend of the hive, why didn't they wipe them all out? Why didn't they wipe them all out *after* they found out about Wasp's mind control, but rather only sent one dragon to "quarantine" them and never checked up on him for fifty years? UURRGHH all of it is to make sure the current version of the plot works and paint Sequoia as the other side in "both sides bad" so we can teach Sundew to victim-blame!
+
+Like, I think I can imagine how this happened. So Sequoia and Hawthorn discover the breath of evil. Wow, this looks like the dangerous mind-control plant the legend told us about! Let's destroy it! One of them says. Wait, let's give it to Wasp instead and see if we can control *her*, the other says. But wait! Let's take a precaution and modify it to only work on HiveWings. Don't want *us* getting all controlled now do we? Good idea! So they sneak it in Wasp's food and she finds her new power over her subjects. Wow that didn't turn out so great, Hawthorn says. Should we destroy the plant now? Fuck no, you go study them, Sequoia says. So Hawthorn eats it and gets controlled himself too, and for fifty years Sequoia just forgets about him, the one singular dragon guarding the most dangerous plant in all of Pantala.
+
+Ummmm it still makes no sense.
+
+A big part of Sundew's development is learning to stop blaming the entire HiveWing tribe, and to blame the actual villains instead, who are Wasp, and Sequoia and Hawthorn since they gave the plant to Wasp in the first place. I do not like this message. So like essentially you're telling me the LeafWings fucked themselves over by giving Wasp the mind-control powers and so they deserved the genocide or something?
+
+Also if Sundew had dated Willow for this long and still don't know why Willow isn't mad all the time like her, she should leave Willow the fuck alone.
+
 ## 14. The Dangerous Gift (Snowfall)
 
 ## 15. The Flames of Hope (Luna)
