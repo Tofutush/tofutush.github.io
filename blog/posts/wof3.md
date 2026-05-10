@@ -81,10 +81,16 @@ Like, I think I can imagine how this happened. So Sequoia and Hawthorn discover 
 
 Ummmm it still makes no sense.
 
-A big part of Sundew's development is learning to stop blaming the entire HiveWing tribe, and to blame the actual villains instead, who are Wasp, and Sequoia and Hawthorn since they gave the plant to Wasp in the first place. I do not like this message. So like essentially you're telling me the LeafWings fucked themselves over by giving Wasp the mind-control powers and so they deserved the genocide or something?
+A big part of Sundew's development is learning to stop blaming the entire HiveWing tribe, and to blame the actual villains instead, who are Wasp, and Sequoia and Hawthorn since they gave the plant to Wasp in the first place. I do not like this message. So like essentially you're telling me the LeafWings fucked themselves over by giving Wasp the mind-control powers and so they deserved the genocide or something? I guess it makes a little sense if you frame it as "the LeafWings made a mistake and got the HiveWings all mind-controlled so now they have to right a wrong," but like. I would've liked it a lot more if the LeafWings didn't literally get genocided.
 
 Also if Sundew had dated Willow for this long and still don't know why Willow isn't mad all the time like her, she should leave Willow the fuck alone.
 
 ## 14. The Dangerous Gift (Snowfall)
+
+My favorite book in the entire series. Flanked between the shipwrecks that are books 13 and 15, I do feel like maybe I only think it's good by comparison. But nonetheless, it *is* good, though a reread gave me a clearer understanding.
+
+First of all the Ice Kingdom is *beautiful*. Every time I think about the snowflakes in the walls, the gift of light (whose light globes in my mind have many different colors), and the tranquil serenity of the ice walls that appear to be glowing blue… suffice to say it's the prettiest kingdom in Pyrrhia. And Pantala for that matter.
+
+And then we have Snowfall, the youngest queen in IceWing history, still recovering from grief at her mother's death, thinks she doesn't deserve to be queen, with a brain full of paranoia, constantly thinking Darkstalker would be back and other tribes want to attack them. The capital letters were also kind of excessive. Like, I get it, just replace them with italics or leave them be; they're shouty enough on their own!
 
 ## 15. The Flames of Hope (Luna)
