@@ -91,7 +91,7 @@ Also if Sundew had dated Willow for this long and still don't know why Willow is
 
 ## 14. The Dangerous Gift (Snowfall)
 
-My favorite book in the entire series. Flanked between the shipwrecks that are books 13 and 15, I do feel like maybe I only think it's good by comparison. But nonetheless, it *is* good, though a reread gave me a clearer understanding.
+My favorite book in the entire series. Flanked between the shipwrecks that are books 13 and 15, I do feel like maybe I only think it's good by comparison. But nonetheless, it *is* good, though a reread gave me a clearer understanding, though it was indeed also more underwhelming. I may reconsider its ranking. Maybe *Talons of Power* was better.
 
 First of all the Ice Kingdom is *beautiful*. Every time I think about the snowflakes in the walls, the gift of light (whose light globes in my mind have many different colors), and the tranquil serenity of the ice walls that appear to be glowing blue… suffice to say it's the prettiest kingdom in Pyrrhia. And Pantala for that matter.
 
@@ -100,5 +100,13 @@ And then we have Snowfall, the youngest queen in IceWing history, still recoveri
 The portrayal of pre-character-development Snowfall was just a bit over the top. A little too on the nose. "The strange dragons look nothing like us! They must be evil!" is just kind of silly to see a character think literally that. Also, I think I've complained about similar things in the Arc 1 review about NightWings, but this book kind of did a similar thing with xenophobia where it's teaching kids to be nice to people even if they don't look exactly like you, but is too far-fetched from how reality functions. It all boils down to a reversal of cause and effect. Xenophobic mindsets does not lead to the mistreatment of other people, in Snowfall's case the Pantalan refugees, and in Wasp's case, SilkWings and LeafWings; it is created to justify the fact, which clearly does not happen in the book, whether it's the refugees in the present or Wasp and her mother of the past. *However*, it all worked out (only in the present scenario) because and only because the other dragons are mostly very welcoming and accepting towards the Pantalans. It's just Snowfall herself and Snowfall alone, being a little bitch about it, and eventually learning to stop bitching through the magic ring.
 
 The ring was also an excellent plot device. Not only does it inform us of what's going on in Pantala right now as the main protagonist is in Pyrrhia, it also helps Snowfall's character development with every vision it gives her. Being too inconsiderate of the refugees? Look at Atala, and how tired and scared she was while flying over the ocean. Look at how many dragons they left behind, and how dangerous Pantala is right now.
+
+Anything involving Sky and the scavengers is crap shit but the book is good enough to make up. The peak occurs when Snowfall returned to the Ice Kingdom, saw the vision about why Jerboa III decided to get rid of animus magic, experiencing Jerboa's gradual loss of her soul, and how Jerboa III finally freed herself, and how she finally decided that animus magic was too dangerous to exist. (She did say "current animus dragons" in her spell though, so new ones could still be born…) Although these two chapters were great, on a reread I noticed how a bit plot-devicey Jerboa's decision was, ending animus magic right as they needed to solve Pantala's problems.
+
+And then Snowfall destroys centuries of IceWing tradition, with the breaking down of the Ice Wall and the ranking wall, but my favorite was actually the crown. By making whoever wears it hate NightWings, it actually represents IceWing tradition more than the other two gifts, and Snowfall put an end to this century-old feud by destroying the crown.
+
+And finally, we see Glacier affirming that she was proud of Snowfall, and that she was the right choice to be queen.
+
+So yeah, demoted. *Talons of Power* is my favorite. But this book is still good, which proves that the author *can* write and there is *no excuse* for whatever clusterfuck is the next one!
 
 ## 15. The Flames of Hope (Luna)
