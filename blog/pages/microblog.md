@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Dangerous Gift — Tui Sutherland
+reading: The Flames of Hope — Tui Sutherland
 
 playing: The Rise of the Golden Idol
 
