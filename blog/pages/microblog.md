@@ -3,9 +3,9 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Flames of Hope — Tui Sutherland
+reading: The Winglets Quartet — Tui Sutherland
 
-playing: The Rise of the Golden Idol
+playing: Nothing at the moment
 
 ---
 
