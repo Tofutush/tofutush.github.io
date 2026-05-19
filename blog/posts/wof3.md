@@ -110,3 +110,27 @@ And finally, we see Glacier affirming that she was proud of Snowfall, and that s
 So yeah, demoted. *Talons of Power* is my favorite. But this book is still good, which proves that the author *can* write and there is *no excuse* for whatever clusterfuck is the next one!
 
 ## 15. The Flames of Hope (Luna)
+
+On a reread, this one made more sense than I remembered (compared to the previous one, which wasn't as good as I remembered). But it still doesn't make sense!!!
+
+So it all came down to this. The plant had mind-control powers, but it was all Cottonmouth and Lizard all along. They were the ones controlling the insects and stuff when the dragons first arrived. The plant wasn't interested in anything other than spreading.
+
+When Luna dreamvisited Swordtail, she touched him and all, but it was established that you couldn't do that, with Scarlet trying and failing to claw Glory.
+
+And then there's this whole thing with Lizard / Freedom and Cottonmouth… and where do I even start. I genuinely don't know. I'll just make a couple comparisons to previous arcs and show why this book was not as good as the others.
+
+Cottonmouth was similar to Darkstalker in the sense that they were very, very old villains that had terrified dragons for centuries. But Darkstalker's villainy was way more well-established, and we didn't even fucking know who Cottonmouth was before this book. It came out of fucking nowhere. Up until this point we were all led to believe that the plant was the villain and all that, and now it's just like, surprise, it's actually some human from the times of the Scorching with a dragon he kidnapped and was somehow fused with the mind of the plant and their minds lived on for five thousand years. Like what.
+
+And for Lizard / Freedom's arc. It was similar to Clay's arc, both dealing with the violent nature of dragons. But Clay's arc was way more deserved. He had been told by the guardians that he was supposed to be violent, and they actually had evidence to back it up, that being Clay "attacking" the other eggs when he hatched. And then Clay goes out right into Scarlet's arena to witness tons of actual violence. But he learned to be kind in such a violent world, to embrace the soft side of himself, by showing kindness to Peril when everyone else thought her a monster. Damn, just talking about it made me nostalgic for those good times again. Maybe I'll read it again. As for Freedom? She was told by Cottonmouth that all dragons are violent and apathetic and whatnot, and she desperately wanted another dragon's memories to see it for herself. Luna cherry-picked memories of other dragons to try to convince Lizard that dragons are actually all very kind and loving actually so yeah it's bad that you don't get to be as happy as them but why won't you be *normal* like that too? That's basically the gist of it, really. That was all I could take away. Like, just for Pineapple's memories, he literally just venom-in-the-faced Wasp not long ago, and he must've partaken in the invasion of the NightWing island too. Instead all we got was him being all sappy with Jambu. (Not to mention he must've been one of the dragons to hear about the missing RainWings and do nothing about it.) Seriously.
+
+Like really, what the fuck is going on and what the fuck is the point now.
+
+That is really all I wanted to say about the problems with this book. Just one minor detail. This quote is about Cricket's dad, Malachite, who was taken away from her before she was even born.
+
+> He adjusted his spectacles in exactly the way Cricket always did.
+
+That is literally not how genetics work! You cannot inherit glasses-adjusting postures! What is happening!
+
+It's like Starflight and Mastermind, when Morrowseer heard Starflight mumbling about scientific experiments and stuff, he was immediately like "I know you're Mastermind's son." Like no, I don't think a penchant for science is genetic. The only way they would've "inherited" these traits is if they grew up with this parent, which neither Cricket nor Starflight did!
+
+## Winglets
