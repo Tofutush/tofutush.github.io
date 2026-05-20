@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Winglets Quartet — Tui Sutherland
+reading: The Hybrid Prince — Tui Sutherland
 
 playing: Nothing at the moment
 

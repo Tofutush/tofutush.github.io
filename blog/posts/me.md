@@ -2,7 +2,7 @@
 title: What makes me me?
 tags:
   - ramble
-date: 2026-03-24
+date: 2026-05-21
 draft: true
 ---
 
@@ -23,3 +23,23 @@ But coding? I think it's the feeling that everything is certain. You run the sam
 I think I hate traveling because I have to tug a bunch of heavy luggage, and also I would certainly have to leave some things behind. Digital things can be stored in a tiny disk that's easy to carry around. Things. Physical possessions. Physicality. Maybe that's what I hate. The realization that I'm a little human being with my two hundred little bones in my little body, a little engine pumping blood up and down. How devastating it is that I have thoughts and feelings and opinions. A miracle, albeit a scary one. What made me this way? How did this little brain come to exist in this little skull? I don't like it. Maybe I had forfeited all earthly, mortal, transient desires in pursuit of furry porn or something. I don't even like furry porn. But I think it embodies all that is immortal and universal, and hopefully only digital.
 
 Like, if I had a chance to plug my brain into a computer that frees me of my body and allows me to roam in the digital world, I'd probably gladly accept the chance, you know? I don't even like the internet. Most of the interactions I got from there were negative. But again, earthly possessions. Three-hundred-page-long hardcover books. As much as I love them, I couldn't take them any-fucking-where and they just end up in the trash someday. But I could have an entire library in my phone. You know?
+
+I feel like I have a weird aversion to anything that makes me happy. Whenever I'm too happy, I start feeling guilty and then not happy anymore, for one reason or another, but mostly either for spending too much time or money. I know stuff like "oh but you need some rest sometimes, not everyone can be productive 24/7" and that's the problem. I'm *never* productive! I only ever do other shit and then feel bad about not being productive while continuing to be not productive.
+
+And slowly I start associating everything I like with guilt until nothing makes me happy anymore. The acrylic stands I ordered of my characters? Too much money. And you scratched them, putting them in your bag. And you don't even know what to do with them. They're just sitting there. Never buy them again. The cross-stitching kit? Too much money *and* time. You're not even gonna finish it. I just bought some fridge magnets of my favorite Blue Prince room thumbnails and I think I'm already starting to regret them. They're just gonna sit on the fridge collecting dust for the next year while I'm away again. What even is the point? Snacks? I would just eat them all in one sitting, hurt my stomach, and feel guilty about it. Last night, we went to a store, and my parents were buying all sorts of things they wanted (mostly dried fruit. Like ewww.) and asking me what I wanted. I literally wanted nothing. I look around and I'm like, these are boring and stupid and who wants to spend time here. Was I always like this?
+
+I got something good? I didn't deserve it. Just luck. Got something bad? That's because I suck. It's just on par with my level.
+
+So my question is. What made me this way? Like really. Why do some people like art, some like music, some like video games, some like furry porn, some like all of them, and some like none of these things? What made them different? Why do some people like blue and some like orange? Why do I hate fun and beat myself up over anything that makes me happy, and then proceed to do nothing about it anyways? Why does any good thing that happens to me makes me feel so much existential dread until I feel like crying? I mean, a psychologist would probably boil everything down to childhood and family and whatnot, but I'm not a psychologist and I think all psychologists are nuts and my parents clearly think I'm also nuts for being sad when I have no reason to.
+
+Again, I wish my brain could be serialized into data, and every piece of it could be taken out, examined, and overwritten. I could save it and run it again, and it would behave exactly as I want it to behave. If not, I'd just edit it again.
+
+I also have this great, great aversion to anything I hate. You can clearly tell the difference, because for things I like, I beat myself up for indulging in them but continue to do so anyways. But for things I hate, I just avoid them no matter the cost. Like exercise.
+
+Back in like fifth grade, I had swimming lessons every Thursday. I hated it. I hate the cold water, the coach yelling at me, I hate every single aspect of it. I would glance at the clock every five minutes, praying that it would end soon. I dreaded Thursdays. And then I would simply start skipping them. I would say I need to go to the restroom, and then get changed and leave, waiting for my dad's car. I thought about drowning myself in the deep end of the pool. That would sure show them. Eventually they gave up and stopped making me go. But for years afterwards, realizing that today was Thursday would still give me a familiar twinge in my heart, as if something bad is about to happen soon. I think that feeling only wore off when I got to high school.
+
+And calligraphy. They sent me to calligraphy classes. I also hated that. I didn't see the point. When I don't see the point in something, that was a sure sign of me about to avoid it. There are a lot of things I don't see the point in. Why are we like this. Anyways. I also avoided that class like the plague, trying all sorts of gimmicks to avoid going. Now my handwriting is shit but I really don't know if it would be any better if I had continued going.
+
+But why am I like this? Why can't I be just a little stronger, a little more daring to go out of my comfort zone? I'm such a little princess. Maybe that's why I suck and would never accomplish anything. But the question remains. *Why* am I a little princess? Maybe my parents spoiled me too much?
+
+IDK, I feel like I should publish this and stop letting it sit in my drafts forever. This has to be one of the most personal posts I've written, but I needed to put this to paper. Who knows, maybe some of you feel similar. Or maybe some of you like furry porn.
