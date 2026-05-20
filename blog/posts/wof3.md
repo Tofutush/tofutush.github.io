@@ -3,8 +3,7 @@ title: Wings of Fire, Arc 3
 tags:
   - bookworming
   - media
-date: 2026-02-23
-draft: true
+date: 2026-05-20
 ---
 
 Part 3 of my review of the entire Wings of Fire series. Same rules apply, **spoilers ahead**!
@@ -115,7 +114,7 @@ On a reread, this one made more sense than I remembered (compared to the previou
 
 So it all came down to this. The plant had mind-control powers, but it was all Cottonmouth and Lizard all along. They were the ones controlling the insects and stuff when the dragons first arrived. The plant wasn't interested in anything other than spreading.
 
-When Luna dreamvisited Swordtail, she touched him and all, but it was established that you couldn't do that, with Scarlet trying and failing to claw Glory.
+When Luna dreamvisited Swordtail, she touched him and all, but it was established that you couldn't do that, with Scarlet trying and failing to claw Glory. Also, blue SeaWing blood? SeaWing blood had literally never been stated as blue. Only IceWing's, stated since book 1.
 
 And then there's this whole thing with Lizard / Freedom and Cottonmouth… and where do I even start. I genuinely don't know. I'll just make a couple comparisons to previous arcs and show why this book was not as good as the others.
 
@@ -123,9 +122,13 @@ Cottonmouth was similar to Darkstalker in the sense that they were very, very ol
 
 And for Lizard / Freedom's arc. It was similar to Clay's arc, both dealing with the violent nature of dragons. But Clay's arc was way more deserved. He had been told by the guardians that he was supposed to be violent, and they actually had evidence to back it up, that being Clay "attacking" the other eggs when he hatched. And then Clay goes out right into Scarlet's arena to witness tons of actual violence. But he learned to be kind in such a violent world, to embrace the soft side of himself, by showing kindness to Peril when everyone else thought her a monster. Damn, just talking about it made me nostalgic for those good times again. Maybe I'll read it again. As for Freedom? She was told by Cottonmouth that all dragons are violent and apathetic and whatnot, and she desperately wanted another dragon's memories to see it for herself. Luna cherry-picked memories of other dragons to try to convince Lizard that dragons are actually all very kind and loving actually so yeah it's bad that you don't get to be as happy as them but why won't you be *normal* like that too? That's basically the gist of it, really. That was all I could take away. Like, just for Pineapple's memories, he literally just venom-in-the-faced Wasp not long ago, and he must've partaken in the invasion of the NightWing island too. Instead all we got was him being all sappy with Jambu. (Not to mention he must've been one of the dragons to hear about the missing RainWings and do nothing about it.) Seriously.
 
+And the "how do we feel about HiveWings" problem got resolved, and the answer is "we don't know yet" or something like that. I think that's good enough. At least the book isn't pushing for forgiveness immediately. But Swordtail said something like, "most of these HiveWings just want to go home to their families" like they're not evil yeah, but like. Home? Families? Some of us don't *have* fancy little Hive houses and families to return to!
+
 Like really, what the fuck is going on and what the fuck is the point now.
 
-That is really all I wanted to say about the problems with this book. Just one minor detail. This quote is about Cricket's dad, Malachite, who was taken away from her before she was even born.
+That is really all I wanted to say about the problems with this book. There are more small things, like how the fuck did they get ambushed on an island when Luna also had antennae, or how did Moon get inside the mindspace and communicate with mind-reading if it's a one-way thing (would make more sense if she could watch Luna and Pineapple in the mindspace but not talk to them, since neither Luna nor Pineapple could read minds so they couldn't hear *her*).
+
+Just one more minor detail. This quote is about Cricket's dad, Malachite, who was taken away from her before she was even born.
 
 > He adjusted his spectacles in exactly the way Cricket always did.
 
@@ -133,4 +136,8 @@ That is literally not how genetics work! You cannot inherit glasses-adjusting po
 
 It's like Starflight and Mastermind, when Morrowseer heard Starflight mumbling about scientific experiments and stuff, he was immediately like "I know you're Mastermind's son." Like no, I don't think a penchant for science is genetic. The only way they would've "inherited" these traits is if they grew up with this parent, which neither Cricket nor Starflight did!
 
-## Winglets
+Some things I liked. I love how Luna pictures scenes like tapestries. Truly an artist. And I like how the new kingdom is LeafSilk Kingdom. Finally not an ethnostate! Well Glory's rainforest also had two tribes but they're still separated into two villages.
+
+What confirmed that book 16 was not planned was how in the epilogue, there was no teaser for the next arc. Arc 1 ended on them planning Jade Mountain Academy (wow, good memories) and talking about admitting "the dragon whose mother hid her in the rainforest." Arc 2 ended on Moon and Qibli visiting Jerboa's hut and seeing Luna. Arc 3 had nothing. So Arc 4 wasn't planned.
+
+So. After Winglets it's book 16 time. Damn!
