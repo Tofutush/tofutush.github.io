@@ -3,7 +3,7 @@ permalink: false
 eleventyExcludeFromCollections: true
 ---
 
-reading: The Hybrid Prince — Tui Sutherland
+reading: Nothing at the moment
 
 playing: Nothing at the moment
 

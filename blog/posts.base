@@ -18,8 +18,6 @@ views:
       - draft
       - file.size
     sort:
-      - property: file.size
-        direction: DESC
       - property: date
         direction: DESC
     columnSize:
