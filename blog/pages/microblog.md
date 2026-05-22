@@ -9,6 +9,16 @@ playing: Nothing at the moment
 
 ---
 
+date: 2026-05-22
+
+tags: ramble
+
+content:
+
+I think I hate fancy food when it's prepared like, fancily. Can't you just make normal food. It does not have to be shaped like a swan or a fish. That makes it look so… inedible.
+
+---
+
 date: 2026-05-07
 
 tags: ramble
