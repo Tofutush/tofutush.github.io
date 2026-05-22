@@ -3,7 +3,6 @@ title: What makes me me?
 tags:
   - ramble
 date: 2026-05-22
-draft: true
 ---
 
 Welcome to part I-lost-count of Tofu's identity crisis. Today we will ponder, why is Tofu Tofu?
@@ -42,4 +41,4 @@ And calligraphy. They sent me to calligraphy classes. I also hated that. I didn'
 
 But why am I like this? Why can't I be just a little stronger, a little more daring to go out of my comfort zone? I'm such a little princess. Maybe that's why I suck and would never accomplish anything. But the question remains. *Why* am I a little princess? Maybe my parents spoiled me too much?
 
-IDK, I feel like I should publish this and stop letting it sit in my drafts forever. This has to be one of the most personal posts I've written, but I needed to put this to paper. Who knows, maybe some of you feel similar. Or maybe some of you like furry porn.
+IDK, I feel like I should publish this and stop letting it sit in my drafts forever. This has to be one of the most personal posts I've written, but I needed to put this to paper. Publish it and be done. Who knows, maybe some of you feel similar. Or maybe some of you like furry porn.
