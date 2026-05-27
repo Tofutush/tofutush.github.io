@@ -8,6 +8,22 @@ Previous posts about dreams: [2025-04-21](/posts/2025-04-21), [2026-03-30](/post
 
 [[toc]]
 
+## 2026-05-27
+
+First part involved a bit about going to a movie, getting a thick volume of book that went with the movie, the second book had a way bigger font than the first.
+
+But the core of the dream was this fictional world that was plagued by three different types of deadly rains. Blue Rain, Red Rain, and Green Rain. Green Rain was the most deadly, but I forgot what exactly Blue Rain and Green Rain did. Red Rain followed you wherever you go, so you can't just get out of its range; you have to wait for it to stop. But other than that, for now the people in the world don't know of any negative effects of Red Rain. Blue Rain was the most common, Green Rain the least.
+
+Sometimes I was a player or reader, experiencing fictional media that took place here; sometimes I was literally inside the world.
+
+At one point I got stuck in an elevator. I called for help and was saved.
+
+At one point I found a catalogue of media surrounding the world, the most prominent being the original author's comics, and a series of fancomics made by a fan, which are heeded as canon.
+
+The Blue Rain happened many times while I dreamed, and the Red Rain once, right before I woke up. They could both be fended off with an umbrella. The Green Rain happened during the protagonist (not me)'s backstory, where her village got flooded with green flood, her cat drowned in two panels, and her little house elevated high above the ground with a new rhombus-shaped hole near the bottom.
+
+I do wonder if I could make use of this idea. Would be helpful if I remembered what Blue Rain and Green Rain actually did!
+
 ## 2026-05-01
 
 I forgot the first part. Usually when I forget too much I just don't write it down, but come to think of that maybe I should write them down anyways.
