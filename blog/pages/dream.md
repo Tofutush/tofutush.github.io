@@ -22,7 +22,7 @@ At one point I found a catalogue of media surrounding the world, the most promin
 
 The Blue Rain happened many times while I dreamed, and the Red Rain once, right before I woke up. They could both be fended off with an umbrella. The Green Rain happened during the protagonist (not me)'s backstory, where her village got flooded with green flood, her cat drowned in two panels, and her little house elevated high above the ground with a new rhombus-shaped hole near the bottom.
 
-I do wonder if I could make use of this idea. Would be helpful if I remembered what Blue Rain and Green Rain actually did!
+I do wonder if I could make use of this idea. Would be helpful if I remembered what Blue Rain and Green Rain actually did! If you, dear reader, got inspiration off of this, then please do make use of it.
 
 ## 2026-05-01
 
