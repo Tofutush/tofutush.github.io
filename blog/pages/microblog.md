@@ -9,6 +9,16 @@ playing: Nothing at the moment
 
 ---
 
+date: 2026-05-27
+
+tags: ramble
+
+content:
+
+I think I finally remembered why I hadn't been on the 32-bit cafe forum in a while. Well, time to leave for good.
+
+---
+
 date: 2026-05-22
 
 tags: ramble
