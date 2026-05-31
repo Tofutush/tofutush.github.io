@@ -229,6 +229,10 @@ pre[class*="language-"] {
 	text-indent: 0;
 }
 
+.footnote-item:target {
+	outline: 1px dashed var(--link);
+}
+
 .pages {
 	display: flex;
 	gap: 1em;
