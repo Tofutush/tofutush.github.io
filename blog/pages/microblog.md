@@ -9,6 +9,16 @@ playing: Nothing at the moment
 
 ---
 
+date: 2026-06-04
+
+tags: ramble
+
+content:
+
+I just came up with the perfect fake name for myself if there ever comes a situation where I needed a human-sounding fake name and Skipper Tofutush won't cut it. I'll be Qili Wang. Qili is just the Chinese pinyin for Qibli, and Wang is my maternal surname. I'm loving it already. I'm such a genius.
+
+---
+
 date: 2026-05-27
 
 tags: ramble
