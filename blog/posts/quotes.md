@@ -18,6 +18,10 @@ Here are some quotes from my parents.
 
 — Mom, a little drunk.
 
+> Look at all the students lining up at the bus stop! College students these days. It's just a few minutes' walk and they're still waiting for the bus! So lazy!
+
+— Dad, on the way to his car.
+
 > Your politics grade sucked so bad, yet you still got an A. That just proves the effectiveness of Marxism and Socialism!
 >
 > Me: That just means everybody's grade sucked.
