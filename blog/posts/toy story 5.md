@@ -3,6 +3,7 @@ title: Dad still loves Toy Story
 tags:
   - diary
 date: 2026-06-19
+draft:
 ---
 
 We went to watch *Toy Story 5* today. Dad's suggestion.
