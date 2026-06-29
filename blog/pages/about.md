@@ -2,7 +2,7 @@
 title: About me
 ---
 
-[Places I'm at!](https://tilde.town/~tofutush)
+[Places I'm at!](https://tofutush.leprd.space/links/)
 
 嗨，我是[黑帮老大](https://tilde.town/~tofutush)（她）。我喜欢猫猫。
 
