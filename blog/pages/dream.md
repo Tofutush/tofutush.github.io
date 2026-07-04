@@ -8,6 +8,12 @@ Previous posts about dreams: [2025-04-21](/posts/2025-04-21), [2026-03-30](/post
 
 [[toc]]
 
+## 2026-07-04
+
+Argh, so last night I dreamt that I was watching this *really* good movie. It had spies, mafia gangs, betrayal, all that bag, and it had a lot of yellow in its promotional materials, like police tape.
+
+And then I woke up and realized the movie did not exist in real life! How disappointing!!
+
 ## 2026-05-27
 
 First part involved a bit about going to a movie, getting a thick volume of book that went with the movie, the second book had a way bigger font than the first.
