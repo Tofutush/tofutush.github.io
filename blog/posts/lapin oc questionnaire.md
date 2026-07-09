@@ -12,113 +12,113 @@ From [here](https://www.valentinely.cc/oc-questionnaire)!
 
 Tofutush!
 
-1. How long have you been creating OCs?
+2. How long have you been creating OCs?
 
 Since at least fourth grade. I used to make a ton of Warriors OCs, MLP OCs… basically any OC of a media I like.
 
-2. Where do you keep all the info on your OCs? In a notebook? On a website? Do you share your OC profiles or stories with anyone?
+3. Where do you keep all the info on your OCs? In a notebook? On a website? Do you share your OC profiles or stories with anyone?
 
 \*Points to header bar* My glorious TIR website.
 
-3. Do you consider yourself primarily a writer, artist, role-player, or something else?
+4. Do you consider yourself primarily a writer, artist, role-player, or something else?
 
 Artist primarily. Writer less so, but I do need to write out info about them — that's unavoidable, but it's just a bunch of 流水账. I *am* however in the trenches of writing a novel. And I don't role-play.
 
-4. What first inspired you to start making characters?
+5. What first inspired you to start making characters?
 
 Gee. It has to be MLP though it kinda just… I just do it. I don't know why.
 
-5. What piece of media or fictional world has influenced your OCs the most?
+6. What piece of media or fictional world has influenced your OCs the most?
 
 *Siiiiiigh*. Homestuck. Other than that, basically anything I ever came across. MLP, Warriors, Wings of Fire, Umineko for a more recent example (I haven't even finished it).
 
-6. Which creator, professional or not, inspires you most?
+7. Which creator, professional or not, inspires you most?
 
 [Kolo](https://numbersstory.com) for one. Dav Pilkey definitely. I'm not gonna list the people that made me create out of spite, though.
 
-7. How many OCs do you estimate you have?
+8. How many OCs do you estimate you have?
 
 103 on site. Some minor ones here and there. As for major important ones, perhaps just a dozen.
 
-8. What genre do you enjoy creating in most? What genre do you rarely create in?
+9. What genre do you enjoy creating in most? What genre do you rarely create in?
 
 I would *say* espionage but I suck at coming up with smart stories like that. I mean, there's probably a reason most good espionage authors all worked in intelligence agencies, no?
 
 I rarely do romance. Maybe I'm just aroace in denial but it's just kind of boring to me.
 
-9. What is your favorite character archetype?
+10. What is your favorite character archetype?
 
 Probably asshole with a heart of gold.
 
-10. What character trope are you tired of seeing?
+11. What character trope are you tired of seeing?
 
 Goofy villains. More specifically I think it's *incompetent* villains. And mom friends. It's always a girl acting like a mom to her peers.
 
-11. What trope do you avoid?
+12. What trope do you avoid?
 
 The chosen one. Divine right of kings ass shit.
 
-12. What trope or archetype do you not have and want to create?
+13. What trope or archetype do you not have and want to create?
 
 Repeated double-crossings! Face-heel-face-heel— I rarely have even just one of them!
 
-13. What shipping trope can you never resist? What shipping trope is not your cup of tea?
+14. What shipping trope can you never resist? What shipping trope is not your cup of tea?
 
 Ah, I don't think there is one. Maybe doomed stuff I'd accept, since they're gonna end up apart. I mean, if it helps, I really like the dynamic between Darkstalker and Clearsight. Also Madoka and Homura. Anything else is probably not my cup of tea.
 
-14. What emotion do you enjoy exploring most?
+15. What emotion do you enjoy exploring most?
 
 Paranoia, and how it eats away at your mind.
 
-15. What emotion is hardest for you to write?
+16. What emotion is hardest for you to write?
 
 Any one of them I think LOL. I just suck at writing.
 
-16. What is your opinion on dark themes and characters?
+17. What is your opinion on dark themes and characters?
 
 I guess a lot of my themes are pretty dark. I think I'm just so used to it I can't really tell whether something's considered "dark," you know? I do think that if someone prides themselves on creating dark themes and characters they're just kind of edgy, not in a bad way but rather in a "creating dark themes for the sake of creating dark themes" way. It's just that I wouldn't go out of my way to tag my stuff as "dark themes galore here!" if you get what I mean. They're just themes. Besides, a lot of "dark themes" happen IRL on a daily basis — if someone's life is indeed all MLP style sunshine and rainbows (but even MLP deals with heavy topics sometimes), I envy them — what, then, is the boundary between dark and not-dark?
 
-17. What design aesthetic best describes your tastes? What design aesthetic do you dislike?
+18. What design aesthetic best describes your tastes? What design aesthetic do you dislike?
 
 I guess those violent shit with a cartoonishly cute style, if that's a thing. I don't think there's an art aesthetic I dislike enough to name, but I *will* say that I can't bear to watch Jojo for more than a couple seconds when coming across short videos featuring it.
 
-18. What charm point/moe point do you often include in your OC designs?
+19. What charm point/moe point do you often include in your OC designs?
 
 Their giant-ass eyes I suppose.
 
-19. Explain your OC process: do you design characters visually before writing them? Do your characters tend to change significantly over time?
+20. Explain your OC process: do you design characters visually before writing them? Do your characters tend to change significantly over time?
 
 It depends! Sometimes I have a concept first and struggle to design it; sometimes I have a design I can't find a home for (usually because the design was retired from a scrapped concept).
 
-20. How often do you redesign OCs?
+21. How often do you redesign OCs?
 
 Rarely. Lightningtail went through many iterations but I don't consider it redesigning. Just designing for another media.
 
-21. Do you keep character references organized? What tools, apps, or websites do you utilize to help keep you organized?
+22. Do you keep character references organized? What tools, apps, or websites do you utilize to help keep you organized?
 
 For the references I *have*, they're all [neatly tucked](https://tofutush.neocities.org/gallery/collections/#references) onto my website! As for *drawing* refs for characters, that's another story.
 
-22. Do you listen to music while creating?
+23. Do you listen to music while creating?
 
 If I remember to open it.
 
-23. Link a song or album you associate with your OC/story.
+24. Link a song or album you associate with your OC/story.
 
 [Babylon - Dirt Poor Robins](https://youtu.be/Vg5163AJkwk?si=pC0VAWhrRxBu1anD) for [Kismet and his doubles](https://tofutush.neocities.org/stories/project-kismet/)!
 
-24. What is one thing all your characters seem to have in common?
+25. What is one thing all your characters seem to have in common?
 
 Huge-ass eyes, basically same face… yeah. Most of them also have the same black hair color.
 
-25. What is something you hope people feel when they see your work?
+26. What is something you hope people feel when they see your work?
 
 The desire to worship me as their god and accept me as the dictator of the universe.
 
-26. What kind of people do you think are drawn to your characters and stories?
+27. What kind of people do you think are drawn to your characters and stories?
 
 \*Hands the mike over* Explain yourselves.
 
-27. What keeps you creating OCs?
+28. What keeps you creating OCs?
 
 Whenever I get new ideas, also sunk cost fallacy not wanting to let all my effort and time go to waste. I know the second one is a fallacy, but I'm just really scared one day of not feeling attached anymore, you know?
 
