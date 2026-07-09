@@ -4,7 +4,6 @@ tags:
   - questionnaire
   - tir
 date: 2026-07-09
-draft: true
 ---
 
 From [here](https://www.valentinely.cc/oc-questionnaire)!
@@ -31,13 +30,11 @@ Gee. It has to be MLP though it kinda just… I just do it. I don't know why.
 
 5. What piece of media or fictional world has influenced your OCs the most?
 
-*Siiiiiigh*. Homestuck.
-
-Other than that, basically anything I ever came across. MLP, Warriors, Wings of Fire, Umineko for a more recent example (I haven't even finished it).
+*Siiiiiigh*. Homestuck. Other than that, basically anything I ever came across. MLP, Warriors, Wings of Fire, Umineko for a more recent example (I haven't even finished it).
 
 6. Which creator, professional or not, inspires you most?
 
-[Kolo](https://numbersstory.com) for one. Dav Pilkey definitely.
+[Kolo](https://numbersstory.com) for one. Dav Pilkey definitely. I'm not gonna list the people that made me create out of spite, though.
 
 7. How many OCs do you estimate you have?
 
@@ -51,13 +48,19 @@ I rarely do romance. Maybe I'm just aroace in denial but it's just kind of borin
 
 9. What is your favorite character archetype?
 
+Probably asshole with a heart of gold.
+
 10. What character trope are you tired of seeing?
+
+Goofy villains. More specifically I think it's *incompetent* villains. And mom friends. It's always a girl acting like a mom to her peers.
 
 11. What trope do you avoid?
 
+The chosen one. Divine right of kings ass shit.
+
 12. What trope or archetype do you not have and want to create?
 
-Repeated double-crossings! I rarely have even just one of them!
+Repeated double-crossings! Face-heel-face-heel— I rarely have even just one of them!
 
 13. What shipping trope can you never resist? What shipping trope is not your cup of tea?
 
@@ -65,7 +68,7 @@ Ah, I don't think there is one. Maybe doomed stuff I'd accept, since they're gon
 
 14. What emotion do you enjoy exploring most?
 
-Paranoia.
+Paranoia, and how it eats away at your mind.
 
 15. What emotion is hardest for you to write?
 
@@ -73,7 +76,7 @@ Any one of them I think LOL. I just suck at writing.
 
 16. What is your opinion on dark themes and characters?
 
-I guess a lot of my themes are pretty dark. I think I'm just so used to it I can't really tell whether something's considered "dark," you know? I do think that if someone prides themselves on creating dark themes and characters they're just kind of edgy, but not in a bad way, it's just that I wouldn't tag my stuff as "dark themes galore here!" if you get what I mean. They're just themes. Besides, a lot of "dark themes" happen IRL on a daily basis — if someone's life is indeed all MLP style sunshine and rainbows (but even MLP deals with heavy topics sometimes), I envy them — what, then, is the boundary between dark and not-dark?
+I guess a lot of my themes are pretty dark. I think I'm just so used to it I can't really tell whether something's considered "dark," you know? I do think that if someone prides themselves on creating dark themes and characters they're just kind of edgy, not in a bad way but rather in a "creating dark themes for the sake of creating dark themes" way. It's just that I wouldn't go out of my way to tag my stuff as "dark themes galore here!" if you get what I mean. They're just themes. Besides, a lot of "dark themes" happen IRL on a daily basis — if someone's life is indeed all MLP style sunshine and rainbows (but even MLP deals with heavy topics sometimes), I envy them — what, then, is the boundary between dark and not-dark?
 
 17. What design aesthetic best describes your tastes? What design aesthetic do you dislike?
 
@@ -85,7 +88,7 @@ Their giant-ass eyes I suppose.
 
 19. Explain your OC process: do you design characters visually before writing them? Do your characters tend to change significantly over time?
 
-It depends! Sometimes I have a concept first and struggle to design it; sometimes I have a design I can't find a home for (sometimes because the design was retired from a scrapped concept).
+It depends! Sometimes I have a concept first and struggle to design it; sometimes I have a design I can't find a home for (usually because the design was retired from a scrapped concept).
 
 20. How often do you redesign OCs?
 
@@ -139,6 +142,8 @@ That's a hard question. Probably [Goose](https://tofutush.neocities.org/characte
 
 5. Which OC was easiest to create?
 
+Um, easy in what way? But regardless, probably Sparky, especially right after her troll iteration.
+
 6. Which OC was hardest to create?
 
 I don't think I really had one.
@@ -153,9 +158,15 @@ Hmmm I don't think there is one.
 
 9. Which OC is your favorite to draw? Which is the hardest to draw?
 
+Many of them are quite easy: Goose, for one. Willow. Harmony. I've been avidly avoiding drawing Starry because of how hard she is to draw for me, but anyone with a braid is also hard (Jackalope, Orchid, especially Moonflower).
+
 10. Which OC is your favorite to write? Which is the hardest to write?
 
+Haha. They're all hard to write because I can't write.
+
 11. Which OC would you trust with your deepest secret?
+
+Sugarcane. She'd take it to the grave (as long as the secret isn't an admission of treachery). Any of the five Gambit Spies also work. Not Nightsun though he'd sell that shit. And Harmony because she'd tell it to someone else if she got all emotional and think they deserve to know.
 
 12. Which OC absolutely cannot be trusted?
 
@@ -167,11 +178,19 @@ Qibli, considering she's my literal self-insert. I'm not a murderer though.
 
 14. Which OC was born from anger?
 
+I don't think there is one. They're all born from inspiration.
+
 15. Which OC was born from sadness?
+
+Ditto.
 
 16. Which OC exists because there was something you wanted to see in fiction but could not find?
 
+Probably Harmony and Sugarcane. A magic academy type shit but it's espionage and actually it's a lot like a normal school but it's for indoctrinating children because why else would there be a spy school in the first place? Also a little bit of anger at the Series That Shall Not Be Named but let's not talk about it.
+
 17. Choose an OC. What fate are they doomed to repeat?
+
+Pumpkin. He's doomed to be pushed around and used by other people.
 
 18. If all your OCs met in one room, what would happen?
 
@@ -179,55 +198,105 @@ The end of the Cold War and the start of the hot World War.
 
 ## PART III: YOUR FAVORITE OC
 
+For these questions, I chose [Goose](https://tofutush.neocities.org/characters/goose/).
+
 1. What is your favorite OC's full name? Do they have nicknames?
+
+I haven't given her a full name yet and it doesn't really matter anyways. She has a code name "Cheesecake," given by Jackalope of the Guardian Moose.
 
 2. Describe their appearance. What is their voice like?
 
+Looks like a square-dancing grandmama, gives off an aura that gives you chills. She can probably make a wide range of sounds from cuteish sounding to absolutely terrifying.
+
 3. What is their occupation?
+
+An officer of the Ministry of State Security.
 
 4. What is their most distinctive feature?
 
+Her ~~huge-ass boobs~~ hair tied up in a bun.
+
 5. What first impression do people get from them?
+
+Depends on how she wants them to feel. For prisoners, for example, sheer terror. For colleagues, friendly and easygoing but not to be crossed.
 
 6. What is their greatest flaw?
 
+~~Back pain from boobs too big~~ Paranoia and trust issues.
+
 7. What is something they secretly wish people understood about them?
+
+That she doesn't know why she is this way either. That she used to just be a normal girl.
 
 8. How would their best friend describe them?
 
+Pumpkin would describe her as friendly and hard-working.
+
 9. What event shaped them most?
+
+Halcyon's arrest and the subsequent reveal that Pumpkin had also been spying for him. Completely shattered her trust. Oh and also when shortly after that, she found out that the woman of whom Paperweight spent his entire career trying to prove the innocence was actually not innocent at all.
 
 10. What secret are they keeping?
 
+Hmmm I don't think there is one. Maybe I should add one. I have an alarming lack of secrets in here despite trying to make it about espionage.
+
 11. Who is most important to them?
+
+Pumpkin, perhaps. She think he's truly dead, and I haven't thought as far to consider whether they would meet again.
 
 12. What qualities attract them to someone? What qualities immediately repel them?
 
+Usefulness. Use*less*ness.
+
 13. What would break their heart?
+
+Nothing. Not anymore. It's been broken already (see question 9).
 
 14. What is a skill they're unexpectedly good at?
 
+Torturing people.
+
 15. What is something they're terrible at?
+
+Trusting people.
 
 16. What song reminds you most of this OC?
 
+[苍蝇（The Fly） - ilem](https://www.bilibili.com/video/BV1p5411879s).
+
 17. Which animal represents them best?
+
+Goose!
 
 18. If they had a signature scent, what would it be?
 
+The… smell of blood, I guess?
+
 19. If they were turned into a doll or figurine, what accessories would be included?
+
+MSS hat! And gloves. I guess the belt and coat can be made to be take-offable.
 
 20. Oh no! Your OC magically turned into a dish. What kind of food did they turn into?
 
+A plate of jelly, like her soul.
+
 21. What would their social media account look like?
+
+Default profile picture, empty feed (or set to private).
 
 22. Which fictional character from an existing IP would they absolutely hate?
 
+Any character that betrays people, I suppose.
+
 23. Why do you love this OC?
+
+Because I'm terminally beyond hope.
 
 ## PART IV:LET'S DIG DEEPER
 
 1. Pick a few of your favorite OCs. What do they all have in common? What do you think that reveals about you?
+
+Most of them have black hair. I guess that means I like black hair.
 
 2. Which OC is most misunderstood by your friends & followers? Why do you think others interpret them differently than you intended?
 
@@ -242,6 +311,8 @@ They'd probably think I never had friends…? And never touched grass and never 
 To answer this question, I'd need a better understanding of myself, which I don't have.
 
 5. What recurring wound appears throughout your cast? Abandonment, loneliness, duty, failure, etc.? Why do you think that wound appears so often?
+
+Hmm for the main 4 (Sparky, Qibli, Sky, Firecrackers) and Harmony and Sugarcane, they all grew up to be apart and even opposed to their old friends. I think that's just a development I like a lot.
 
 6. Pick an OC story or universe of yours. What question is this story trying to answer?
 
