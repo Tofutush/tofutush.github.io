@@ -3,6 +3,7 @@ title: 《海猫鸣泣之时》出题篇
 tags:
   - media
   - playing
+  - 中文
 date: 2026-07-21
 ---
 
