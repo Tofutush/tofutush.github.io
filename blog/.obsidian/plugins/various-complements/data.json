@@ -4,7 +4,7 @@
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
   "minFuzzyMatchScore": 0.5,
-  "matchingWithoutEmoji": true,
+  "matchingWithoutEmoji": false,
   "treatAccentDiacriticsAsAlphabeticCharacters": true,
   "treatUnderscoreAsPartOfWord": false,
   "maxNumberOfSuggestions": 5,
@@ -15,6 +15,7 @@
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
   "disableSuggestionsInMathBlock": false,
+  "disableSuggestionsInCodeBlock": false,
   "insertSpaceAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "patternsToSuppressTrigger": [
@@ -36,6 +37,8 @@
       }
     ],
     "select with custom alias": [],
+    "select with custom alias and add to aliases": [],
+    "select with query alias": [],
     "up": [
       {
         "modifiers": [],
@@ -70,6 +73,7 @@
   "currentVaultMinNumberOfCharacters": 0,
   "includeCurrentVaultPathPrefixPatterns": "",
   "excludeCurrentVaultPathPrefixPatterns": "_\ncss/\nfun/\ngallery/\nimg/\njs/\nnode_modules/\nfonts/",
+  "excludeCurrentVaultPathGlobPatterns": [],
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "excludeCurrentVaultWordPatterns": [],
   "enableCustomDictionaryComplement": false,
@@ -82,7 +86,13 @@
   "displayedTextSuffix": " => ...",
   "enableInternalLinkComplement": false,
   "suggestInternalLinkWithAlias": false,
+  "preserveFirstLetterCaseOnInternalLink": false,
   "excludeInternalLinkPathPrefixPatterns": "",
+  "excludeInternalLinkPathGlobPatterns": [],
+  "excludeSelfInternalLink": false,
+  "excludeExistingInActiveFileInternalLinks": false,
+  "excludeUnresolvedInternalLinks": false,
+  "excludeInternalLinksInCode": false,
   "updateInternalLinksOnSave": true,
   "insertAliasTransformedFromDisplayedInternalLink": {
     "enabled": false,
@@ -90,12 +100,18 @@
     "after": ""
   },
   "frontMatterKeyForExclusionInternalLink": "",
+  "tagsForExclusionInternalLink": [],
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
+  "currentFileMinNumberOfCharactersForTrigger": 0,
+  "currentVaultMinNumberOfCharactersForTrigger": 0,
+  "customDictionaryMinNumberOfCharactersForTrigger": 0,
+  "internalLinkMinNumberOfCharactersForTrigger": 0,
   "intelligentSuggestionPrioritization": {
     "enabled": true,
     "historyFilePath": "",
+    "prettyPrintHistoryFile": false,
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
