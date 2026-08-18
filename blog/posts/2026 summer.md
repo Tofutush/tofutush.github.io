@@ -70,6 +70,6 @@ And there's this EXTEREMELY FAT cat in a grocery store!!!
 
 ![](../img/572396a5fdf53411bd9f9a7b01eec52a.jpg)
 
-And after that, home we went. It was a great but tiring trip! I have learned my lesson that I simply can't be away from home and running around for long. Also I finished Umineko in the middle of it. T'was peak.
+And after that, home we went. It was a great but tiring trip! I have learned my lesson that I simply can't be away from home and running around for long, and the endless kawap after polo after kawap for meals was not something I could get used to. Also I finished Umineko in the middle of it. T'was peak.
 
 [^1]: Still decided to go with the conventional spelling LOL.
