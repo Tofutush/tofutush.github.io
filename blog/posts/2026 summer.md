@@ -3,7 +3,6 @@ title: "Travel blog: summer 2026"
 tags:
   - diary
 date: 2026-08-19
-draft: true
 ---
 
 We went to Xinjiang again! Yes, again. Last year we went to the north. This year to the south.
@@ -48,7 +47,7 @@ We also went to the Small Knife Museum where it seems you can skirt the definiti
 
 ![](../img/2026%20summer%208.png)
 
-For context, this knife was made to be a giant small knife. It's the same overall shape and process as all the other Yëngisar small knives. Took like 10 people.
+For context, this knife was *made* to be a giant small knife. It's the same overall shape and process as all the other Yëngisar small knives. Took like 10 people.
 
 Yëngisar was also famous for its pottery. At first I thought the 7th generation pottery master Abdurehim Memetmin had artfully named his son, the 8th generation, Memetmin Abdurehim, but then I realized either I or the poster got the formatting a bit wrong. Would be funny if someone actually named their kid like that though.
 
