@@ -8,6 +8,14 @@ Previous posts about dreams: [2025-04-21](/posts/2025-04-21), [2026-03-30](/post
 
 [[toc]]
 
+## 2026-09-01
+
+We got a brain operation that involved slicing horizontally through our brains, but leaving a small bit unsliced so the two parts are still attached, and just leaving it in our heads like that. Says this procedure will revert us back to who we were in 2025, so we could live in 2027 with only memories up to 2025 (who would even *want* this? what does this accomplish?). So after the operation, we helped some of our other friends shoot themselves in the mouth. Then I left with two friends of mine. At this point, I had started to feel a weird sensation in my head whenever I talked, or thought too hard, but I didn't tell that to anyone. Friend 1 wanted to buy a shitty art kit with shitty art on it and I convinced her not to. Then we went to a shopping mall and started playing in those rotating teacup things, and that was when I told my friends that after the… brain surgery… I now have this weird feeling in my brain whenever I talked or thought to hard.
+
+And then I woke up, feeling that exact feeling in my head. It flared up a couple more times, but stopped after the alarm rung and I got up. What was that about?
+
+I feel like I have a basis on why I dreamt this dream! Because in the August recap blog I wrote about the MRI and brain scan. I neglected to mention that the brain scan's results didn't come out before I left China (even though they *said* it would be out the next day). I didn't say it because I know for sure that it *must* be out now, and since my parents didn't say anything about it it must've been all good; but I think the thing just lodged itself on the back of my mind. Also the MRI said there was a bit of inflammation in my brain, which was nothing to be concerned about, but also might've contributed to this dream. What I'm concerned about was the weird sensation, because *that* part was obviously "you felt this IRL while sleeping so your dream self explained it in a weird way," but I don't know why my head decided to do that! Sometimes I get the same feeling in my forehead if there's a sharp object dangling in front of my eyes, but in that case the sensation *is* in the forehead, but in the dream and after I woke up I could clearly feel that the sensation is *inside* my brain. So weird.
+
 ## 2026-07-04
 
 Argh, so last night I dreamt that I was watching this *really* good movie. It had spies, mafia gangs, betrayal, all that bag, and it had a lot of yellow in its promotional materials, like police tape.
