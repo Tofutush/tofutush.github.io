@@ -20,6 +20,6 @@ I also had a Zompist-inspired word generator that was originally in Python and u
 
 Actually now that I think about it, why do I still have to copy-paste the generator results into Obsidian? Why can't I just write a shortcode and have 11ty automate *that*? In that case, if I decide to, say, change the class name of tooltips one day IDK, I can just update the shortcode, and all instances of the output can be updated. Gonna go do that now, BRB!
 
-Okay, done that. I'd keep the separate HTML file though, because I need it still for the dictionary. Also I kept the old, already-generated text because I got too lazy to replace them.
+Okay, done that. I'd keep the separate HTML file though, because I need it still for the dictionary. Also I kept the old, already-generated text because I got too lazy to replace them. If that becomes necessary.
 
 [^1]: Sorry if they would've preferred the title remain uncapitalized… I couldn't bear it. Also I didn't know whether to capitalize the "is" or not.
