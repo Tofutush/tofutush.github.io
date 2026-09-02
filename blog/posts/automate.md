@@ -2,14 +2,24 @@
 title: I love automating my shit
 tags:
   - ramble
-date: 2026-09-01
-draft: true
+  - webmastery
+date: 2026-09-02
 ---
 
-This is inspired by Nomnomnami's post [Hand-Coding is Just More Fun for Me](https://nomnomnami.com/blog/posts/2026/08-19-hand-coding-is-just-more-fun-for-me).[^1] The post was an interesting perspective because I'm completely the opposite! And it wasn't just really really opposite, which was the interesting part. Nami says that hand-coding stuff gives them more control, and they're more likely to overlook mistakes when the process is automatic (Gray, 2026??? save me). For me, the end result is exactly the same: I also want control and want to minimize mistakes. But I feel like automating stuff gives me more control and I am far, far more likely to make mistakes if I hand-code things.
+This is inspired by Nomnomnami's post [Hand-Coding is Just More Fun for Me](https://nomnomnami.com/blog/posts/2026/08-19-hand-coding-is-just-more-fun-for-me).[^1] The post was an interesting perspective because I'm completely the opposite! And it wasn't just really really opposite, which was the interesting part. Nami says that hand-coding stuff gives them more control, and they're more likely to overlook mistakes when the process is automatic (Gray, 2026) (??? save me). For me, the end result is exactly the same: I also want control and want to minimize mistakes. But I feel like automating stuff gives me more control and I am far, far more likely to make mistakes if I hand-code things.
 
-- gallery
-- changelog
-- ruby & span gen
+So now I have an excuse to ramble about how parts of my website are generated!
+
+Take the gallery. Whenever I draw a picture featuring some of my own characters, the picture needs to be added in the main gallery page and each individual character page, and if the character has a gallery subpage, it also needs to be added to the subpage and one picture has to be deleted to keep the total number 10; and if this picture makes a character's picture count 11, a gallery subpage has to be created. Oh and if the picture is a fullbody or a pagedoll, it would also have to be put on the character page. If it's an icon, it would have to be updated in like a billion other pages too. It would be impossible to do all of this without automation. Like, I could imagine myself being discouraged from updating a character's profile picture because of how much non-drawing work I'd have to do! And a big thing is, these features weren't planned from the start. I only thought to add them because my automation made adding these features easy! I used to have a statistics page (got rid of it for being annoying now) where I have stats like "total number of pictures," "average character count," stuff like that. That wouldn't have been possible without my trusty gallery JSON file which is the central place I log all my art. It's that one file full of data that gets filtered, sorted, reused in many different places on the website, and with that, any update in the file results in corresponding updates *everywhere*, without my having to do it manually.
+
+Take the changelog as a counterexample. I decided against using JSON for the changelog, but rather just a Markdown file, so I can edit it in Obsidian without opening VSCode. And I used to port all old logs to another page like [Kolo](https://numbersstory.com), where like June updates get moved at the start of August, and July updates get moved at the start of September, etc.. But then I got rid of that system simply because I often forget to move the old logs. Now I just move an entire year's old logs away at the start of a new year. I'm less likely to forget yearly stuff since a year change is a bigger deal than a month change.
+
+And just yesterday I wrote myself a little helper file for generating stuff related to my conlang. There are two main parts: Bauhinian text, and Latin text that needs English hover translations. For Bauhinian text, typing all the Bopomofo out was really annoying because I have to constantly switch between the Bopomofo keyboard and normal Chinese keyboard, and *some* of the characters just aren't on Sogou's Bopomofo keyboard so I have to go copy-paste them. Annoying. And for Latin, constantly typing a shitton of `<span class="tooltip"><span class="tooltip-text">` was also really annoying. So why not generate them? They're all repetitive anyways. For Bauhinian, I can have a lookup table to convert Latin to Bopomofo. This way I don't have to constantly switch and copy-paste. And I can just parse some markup to know where to put the `<ruby>` and `<rt>` tags. Same for the Latin tooltips. That one was even simpler and can be done with just a regular expression. So convenient. One crucial reason I did this was because… I was honestly avoiding writing any example sentences because of how much effort — and TIME! — it takes. Time! How did I not mention that till now. Time. I'm an impatient gal.
+
+I also had a Zompist-inspired word generator that was originally in Python and used on the command line, and I decided to put these tools in one place together so I made Deepseek convert it to JS and put that on the same HTML file as the ruby and tooltip generators.
+
+Actually now that I think about it, why do I still have to copy-paste the generator results into Obsidian? Why can't I just write a shortcode and have 11ty automate *that*? In that case, if I decide to, say, change the class name of tooltips one day IDK, I can just update the shortcode, and all instances of the output can be updated. Gonna go do that now, BRB!
+
+Okay, done that. I'd keep the separate HTML file though, because I need it still for the dictionary. Also I kept the old, already-generated text because I got too lazy to replace them.
 
 [^1]: Sorry if they would've preferred the title remain uncapitalized… I couldn't bear it. Also I didn't know whether to capitalize the "is" or not.
