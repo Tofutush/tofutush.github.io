@@ -56,14 +56,14 @@ title: Listography
 ### Games
 
 - [Type Help](https://william-rous.itch.io/type-help)
-- [Henry Stickmin](https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/) ([post](/posts/2025-08-13))
+- [Henry Stickmin](https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/)
 - [Framed](https://store.steampowered.com/app/322450/FRAMED_Collection/)
 - [UNREAL LIFE](https://store.steampowered.com/app/1335560/UNREAL_LIFE/)
 - [三相奇谈 (Threefold Recital)](https://store.steampowered.com/app/3084280/Threefold_Recital/)
-- [Blue Prince](https://store.steampowered.com/app/1569580/Blue_Prince/) ([post](/posts/2026-01-15))
+- [Blue Prince](https://store.steampowered.com/app/1569580/Blue_Prince/)
 - [Bad End Theater](https://store.steampowered.com/app/1764390/BAD_END_THEATER/)
 - [Mimpi](https://store.steampowered.com/app/332580/Mimpi/) (and the second game Mimpi Dreams)
-- Umineko When They Cry ([Question arcs](/posts/2026-07-21))
+- Umineko When They Cry
 
 #### 1999 剧情
 
