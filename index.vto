@@ -12,21 +12,17 @@ title: Home
 {{ for index, year of collections.posts |> groupByYear }}
 	{{ if index == 0 }}
 		<h2>{{ year[0] }}</h2>
+	{{ else }}
+		<details class="year">
+			<summary><h2>{{ year[0] }}</h2></summary>
+	{{ /if }}
 		<div class="grid">
 			{{ for p of year[1] |> sortPosts }}
 				<span class="date">{{ p.data.date |> formatDate }}</span>
 				<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
 			{{ /for }}
 		</div>
-	{{ else }}
-		<details class="year">
-			<summary><h2>{{ year[0] }}</h2></summary>
-			<div class="grid">
-				{{ for p of year[1] |> sortPosts }}
-					<span class="date">{{ p.data.date |> formatDate }}</span>
-					<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
-				{{ /for }}
-			</div>
+	{{ if index != 0}}
 		</details>
 	{{ /if }}
 {{ /for }}
