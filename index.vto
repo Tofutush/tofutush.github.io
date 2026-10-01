@@ -9,12 +9,26 @@ title: Home
 	{{ /for }}
 	<a href="https://tofutush.leprd.space/microblog/">Microblog</a>
 </section>
-
-<div class="grid">
-	{{ for p of collections.posts |> sortPosts }}
-		<span class="date">{{ p.data.date |> formatDate }}</span>
-		<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
-	{{ /for }}
-</div>
+{{ for index, year of collections.posts |> groupByYear }}
+	{{ if index == 0 }}
+		<h2>{{ year[0] }}</h2>
+		<div class="grid">
+			{{ for p of year[1] |> sortPosts }}
+				<span class="date">{{ p.data.date |> formatDate }}</span>
+				<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
+			{{ /for }}
+		</div>
+	{{ else }}
+		<details class="year">
+			<summary><h2>{{ year[0] }}</h2></summary>
+			<div class="grid">
+				{{ for p of year[1] |> sortPosts }}
+					<span class="date">{{ p.data.date |> formatDate }}</span>
+					<span><a href="{{ p.url }}">{{ p.data.title }}</a></span>
+				{{ /for }}
+			</div>
+		</details>
+	{{ /if }}
+{{ /for }}
 
 <p><a href="/The-Iron-Ragdoll">The Iron Ragdoll</a>, my paracosm!</p>

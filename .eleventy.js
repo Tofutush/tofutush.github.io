@@ -81,6 +81,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter('formatDate', date => DateTime.fromJSDate(date, { zone: 'UTC' }).toISODate());
 	eleventyConfig.addFilter('sortPosts', arr => arr.sort((a, b) => b.data.date - a.data.date));
 	eleventyConfig.addFilter('sortPages', arr => arr.sort((a, b) => a.data.title - b.data.title));
+	eleventyConfig.addFilter('groupByYear', arr => [...new Set(arr.map(p => p.data.date.getFullYear()))].sort((a, b) => b - a).map(y => [y, arr.filter(p => p.data.date.getFullYear() == y)]));
 
 	const mdRender = new markdownIt({
 		html: true,
