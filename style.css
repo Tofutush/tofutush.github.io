@@ -179,6 +179,20 @@ details {
 		line-height: 2;
 		user-select: none;
 	}
+
+	&.year {
+		margin: 1em 0;
+
+		&>summary {
+			&::marker {
+				font-size: var(--font-size-h2);
+			}
+
+			&>h2 {
+				display: inline;
+			}
+		}
+	}
 }
 
 ul {
