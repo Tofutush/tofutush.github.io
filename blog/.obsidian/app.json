@@ -9,5 +9,6 @@
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
   "readableLineLength": true,
-  "attachmentFolderPath": "img"
+  "attachmentFolderPath": "img",
+  "settingsPopoutWindow": false
 }

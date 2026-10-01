@@ -1,6 +1,6 @@
 {
   "accentColor": "#e56b6f",
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "folder tree",
     "justify",
@@ -14,7 +14,7 @@
     "heading colors"
   ],
   "interfaceFontFamily": "DIN Round Pro,霞鹜文楷,Noto Sans Arabic",
-  "textFontFamily": "Lexend,霞鹜文楷,Noto Sans Arabic",
+  "textFontFamily": "JetBrains Mono,霞鹜文楷,Noto Sans Arabic",
   "cssTheme": "",
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrains Mono,微软雅黑",
