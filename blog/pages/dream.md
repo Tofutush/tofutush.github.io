@@ -8,11 +8,21 @@ Previous posts about dreams: [2025-04-21](/posts/2025-04-21), [2026-03-30](/post
 
 [[toc]]
 
+## 2026-10-09
+
+This is a weird one. I barely remember most of it because I need to binge-read 12 papers today so I didn't write it down ASAP but I keep getting distracted from reading the papers so here I am.
+
+There was a lot of fighting. Dangerous fighting. Suspiciously Minecraft looking mobs and shit. I was with allies. I don't know where I put my phone. A good chunk of the dream was just us going around trying to defeat them. Danger.
+
+The interesting part came a bit later, when I was nearly awake. I realized that we had a goal, and it was survival, but not attained through killing all the monsters because more and more keep coming. There is a mystery behind all this to unravel. Some realization that makes *everything* make sense. We've been trying to figure it out but it was too hard, and over time just forgot that it was supposed to be our primary objective. So I dashed around the building with fear in my heart (fear was in my heart the entire dream), and then I thought of a place that may be the answer, I went to that place, and I still couldn't get it. I wasn't even sure if it was the right place. It looked like a fucking skating rink and the monsters were closing in on me.
+
+That was it. This dream really demonstrated how fucking frustrating dreams can be. I want to know the realization! The ultimate secret of the universe! Hell I bet that didn't even exist in the first place.
+
 ## 2026-09-02
 
 Another super weird dream! This time I dreamt that my parents keep locking me in a room with nothing to do (no electroooonics) every day for hours on end and I just toss and turn around on the bed all crazy and they wouldn't relent. One day I managed to escape and run outside, but I couldn't buy anything to eat or drink because I don't have my phone. Then my parents caught up to me and berated me for ruining the business meeting so now they couldn't get the deal, because apparently every day they were meeting clients and stuff in the living room which was why I had to be locked up inside, and today the clients saw me run outside (presumably in pajamas).
 
-And then I was at this place that felt like an office with its decor. I spent some time going up and down the floors. I went outside and it's like a beach or something and there are a lot of people playing. A giant inflatable figure dropped a cat onto the sand inn front of me. I tried looking up the lyrics of *Black* (which was stupid because the 'lyrics" are just "make her a member of the Midnight Crew" repeated over and over), but found that I needed to connect to a VPN first, and I did, and then the narrator said "you can groom a kid with that!" And then I was back in a room inside the office-like building, except this time it was more like a dorm. A friend was drawing. I was talking to her. At one point she got up to open the window, saying frustratingly "the west side is all wind, this side it's so stuffy and hot." There was indeed no wind coming in from the window at all and the outside (it looked like a wetland)'s plants and stuff were completely still.
+And then I was at this place that felt like an office with its decor. I spent some time going up and down the floors. I went outside and it's like a beach or something and there are a lot of people playing. A giant inflatable figure dropped a cat onto the sand inn front of me. I tried looking up the lyrics of *Black* (which was stupid because the "lyrics" are just "make her a member of the Midnight Crew" repeated over and over), but found that I needed to connect to a VPN first, and I did, and then the narrator said "you can groom a kid with that!" And then I was back in a room inside the office-like building, except this time it was more like a dorm. A friend was drawing. I was talking to her. At one point she got up to open the window, saying frustratingly "the west side is all wind, this side it's so stuffy and hot." There was indeed no wind coming in from the window at all and the outside (it looked like a wetland)'s plants and stuff were completely still.
 
 ## 2026-09-01
 
