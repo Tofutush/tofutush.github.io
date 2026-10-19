@@ -27,25 +27,3 @@ views:
       note.date: 116
       note.draft: 20
       file.size: 94
-  - type: table
-    name: Drafts
-    filters:
-      and:
-        - file.folder == "posts"
-        - file.ext == "md"
-        - draft == true
-    order:
-      - file.name
-      - title
-      - tags
-      - date
-      - draft
-    sort:
-      - property: date
-        direction: DESC
-    columnSize:
-      file.name: 13
-      note.title: 477
-      note.tags: 251
-      note.date: 116
-      note.draft: 20

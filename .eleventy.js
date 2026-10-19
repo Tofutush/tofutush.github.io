@@ -47,7 +47,7 @@ export default function (eleventyConfig) {
 		const defaultRender = md.renderer.renderToken.bind(md.renderer);
 		md.renderer.renderToken = function (tokens, idx, options) {
 			const token = tokens[idx];
-			if (token.nesting === 1) { // opening tags only
+			if (token.nesting === 1 && token.block == true) { // opening tags only
 				token.attrSet("dir", "auto");
 			}
 			return defaultRender(tokens, idx, options);
