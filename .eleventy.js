@@ -11,6 +11,7 @@ import markdownItExternalLinks from "markdown-it-external-links";
 import markdownItFootnote from "markdown-it-footnote";
 import markdownItKatex from "markdown-it-katex";
 import markdownItTableOfContents from "markdown-it-table-of-contents";
+import markdownitTableWrap from "markdown-it-table-wrap";
 
 export default function (eleventyConfig) {
 	eleventyConfig.setQuietMode(true);
@@ -59,22 +60,26 @@ export default function (eleventyConfig) {
 		html: true,
 		breaks: true,
 		linkify: true
-	}).use(markdownItFootnote).use(markdownItKatex, {
-		"throwOnError": false,
-		"errorColor": " #cc0000"
-	}).use(markdownItAnchor, {
-		slugify: slug
-	}).use(markdownItTableOfContents, {
-		includeLevel: [2, 3, 4],
-		transformContainerOpen: () => {
-			return '<details open><summary>Contents</summary>';
-		},
-		transformContainerClose: () => {
-			return '</details>';
-		}
-	}).use(markdownItExternalLinks, {
-		externalTarget: '_blank'
-	}).use(spoiler).use(addDirAuto));
+	})
+		.use(markdownItFootnote)
+		.use(markdownItKatex, {
+			"throwOnError": false,
+			"errorColor": " #cc0000"
+		})
+		.use(markdownItAnchor, { slugify: slug })
+		.use(markdownItTableOfContents, {
+			includeLevel: [2, 3, 4],
+			transformContainerOpen: () => {
+				return '<details open><summary>Contents</summary>';
+			},
+			transformContainerClose: () => {
+				return '</details>';
+			}
+		})
+		.use(markdownItExternalLinks, { externalTarget: '_blank' })
+		.use(spoiler)
+		.use(addDirAuto)
+		.use(markdownitTableWrap));
 
 	// filters
 	eleventyConfig.addFilter('slug', slug);

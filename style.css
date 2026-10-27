@@ -177,6 +177,25 @@ img {
 	margin: 1em;
 }
 
+.table-responsive {
+	width: 100%;
+	overflow-x: auto;
+	margin: 2rem 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: max-content;
+	border-collapse: collapse;
+	margin: 1em auto;
+
+	td,
+	th {
+		border: 1px solid var(--text);
+		padding: .3rem .5rem;
+	}
+}
+
 details {
 	margin: 1em 0 1em 1em;
 
