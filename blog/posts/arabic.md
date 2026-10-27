@@ -3,8 +3,7 @@ title: Quick guide to the Arabic script (lite)
 tags:
   - ئۇيغۇرچە
   - resource
-date: 2026-10-25
-draft: true
+date: 2026-10-27
 ---
 <style>table td,.ug { font-size: var(--font-size-h1); }</style>
 
@@ -35,7 +34,7 @@ There are some basic shapes where all the letters in the shape function similarl
 
 ### B, P, T, N
 
-Okay these two are similar enough I put them into the same section. Just slightly different in that ن is more round, while ب is flatter.
+Just slightly different in that ن is more round, while ب is flatter.
 
 Letters that look like ب include: پ (P) and ت (T). One with more dots, one with dots at the top.
 
@@ -197,7 +196,7 @@ When writing, it's nice to take extra care to smush the spikes closer together a
 | A    | ـا    |        |         | ا        |
 | L    | ـل    | ـلـ    | لـ      | ل        |
 
-Both of these are long lines! How do I tell them apart? Fear not. The A does not have a medial or final form. This means it never connects to the next letter. While the L always does! So look:
+Both of these are long lines! How do I tell them apart? Fear not. The A does not have an initial or medial form. This means it never connects to the next letter. While the L always does! So look:
 
 <span class="ug">ئاي — لي</span>
 
@@ -207,7 +206,7 @@ Note that for LA, these two are combined into one: لا.
 
 | Name | Final | Medial | Initial | Isolated |
 | ---- | ----- | ------ | ------- | -------- |
-| L    | ـلا   |        |         | لا       |
+| LA   | ـلا   |        |         | لا       |
 
 Despite the isolated form looking like it's written as one stroke, I think in handwriting you write it more similar to the final form, as two strokes.
 
